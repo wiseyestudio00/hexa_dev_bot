@@ -1,22 +1,28 @@
 import os
 import json
+import datetime
 from pathlib import Path
 from discord.ext import commands
 import discord
 import chart
 
+import functools
+
+def push_github(commit_message):
+    os.system("git add .")
+    os.system(f"git commit -m \"{commit_message}\"")
+    os.system("git push")
+
+
 BOT = commands.Bot("/")
+
 
 @BOT.command(help="Check in a chart.")
 async def checkin(ctx, path):
     await chart.checkin(ctx, path)
-
-    os.system("git add .")
-    os.system(f"git commit -m \"added {path}\"")
-    os.system("git push")
-
     with open("log.txt", "a") as log:
-        log.write(f"{ctx.author.name}上傳了{path}")
+        log.write(f"{datetime.datetime.now()}：{ctx.author.name} 上傳了 {path}")
+    push_github(f"{datetime.datetime.now()}：{ctx.author.name} 上傳了 {path}")
 
 
 @BOT.command()
@@ -50,9 +56,22 @@ async def tree(ctx, path=None):
 
     await ctx.send(f"```\n{text}\n```")
 
+
 @BOT.command(help="delete the path")
 async def delete(ctx, path):
-    pass
+    path = Path(path)
+
+    if not path.exists():
+        await ctx.send("路徑不存在！")
+
+    for child in path.glob('*'):
+        if child.is_file():
+            child.unlink()
+        else:
+            rm_tree(child)
+    pth.rmdir()
+
+    push_github(f"{datetime.datetime().now()}：{ctx.author.name} 刪除了 {path}")
 
 
 @BOT.event
