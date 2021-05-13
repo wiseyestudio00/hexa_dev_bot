@@ -36,23 +36,19 @@ def get_checkin_fail_embed(description):
 
 
 async def checkin(ctx, path):
-    if ctx.message.channel:
-        # todo: return message
-        pass
-    
     attachments = ctx.message.attachments
 
     if len(attachments) == 0:
         emb = get_checkin_fail_embed("請附加譜面！")
         await ctx.send(embed=emb)
-        return
+        return False
 
     chart_file = attachments[0]
 
     if not is_in_chart_format(chart_file.filename):
         emb = get_checkin_fail_embed("譜面的名字要是chart.[名字].txt！")
         await ctx.send(embed=emb)
-        return
+        return False
     
     content_bytes = await chart_file.read()
     chart_text = content_bytes.decode("utf-8")
@@ -66,7 +62,7 @@ async def checkin(ctx, path):
         else:
             fail_emb = get_checkin_fail_embed("你不能新增檔案夾！")
             await ctx.send(embed = fail_emb)
-            return
+            return False
  
     path = Path(get_charts_path(f"{path}/{chart_file.filename}"))
     path.write_text(chart_text)
@@ -75,6 +71,7 @@ async def checkin(ctx, path):
         f"{ctx.author.name}上傳了{path}")
 
     await ctx.send(embed=success_embed)
+    return True
 
 
 def get_checkout_success_embed(description):
@@ -97,7 +94,7 @@ async def checkout(ctx, path):
     if not target_path.exists():
         emb = get_checkout_fail_embed("路徑不存在！")
         await ctx.send(embed=emb)
-        return
+        return False
 
     charts = []
     names = ""
@@ -119,7 +116,7 @@ async def checkout(ctx, path):
 
     success_emb = get_checkout_success_embed(names)
     await ctx.send(files=charts, embed=success_emb)
-
+    return True
 
 def get_delete_success_emb(description):
     return discord.Embed(
@@ -141,13 +138,13 @@ async def delete(ctx, path):
     if not path.exists():
         fail_emb = get_delete_fail_emb("路徑不存在！")
         await ctx.send(embed=fail_emb)
-        return
+        return False
 
     if path.is_file():
         child.unlink()
         success_emb = get_delete_success_emb(f"你刪除了{path}")
         await ctx.send(embed=success_emb)
-        return
+        return False
 
     # todo: if the user wants to delete a directory
     # only authroize user can do that
@@ -161,6 +158,8 @@ async def delete(ctx, path):
 
         success_emb = get_delete_success_emb(f"你刪除了{path}")
         await ctx.send(embed=success_emb)
+        return True
     else:
         fail_emb = get_delete_fail_emb("你不能刪除檔案夾！")
         await ctx.send(embed=fail_emb)
+        return False
