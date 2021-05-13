@@ -6,7 +6,9 @@ from discord.ext import commands
 import discord
 import chart
 
-import functools
+from authorize import user_is_authorized
+from tree import DisplayablePath
+
 
 def push_github(commit_message):
     with open("log.txt", "a") as log:
@@ -17,13 +19,11 @@ def push_github(commit_message):
 
 
 TOKEN = ""
-AUTHORIZED_USERS = []
 
 with open("setting.json") as setting:
     text = setting.read()
     json_data = json.loads(text)
     TOKEN = json_data["token"]
-    AUTHORIZED_USERS = json_data["authorized"]
 
 BOT = commands.Bot("/")
 
@@ -40,28 +40,18 @@ async def checkout(ctx, path):
 
 
 @BOT.command(help="View the files")
-async def tree(ctx, path=None):
-    def list_files(startpath):
-        result = ""
-        for root, dirs, files in os.walk(startpath):
-            level = root.replace(startpath, '').count(os.sep)
-            indent = ' ' * 4 * (level)
-            result += f'{indent}{os.path.basename(root)}/\n'
-            subindent = ' ' * 4 * (level + 1)
-            for f in files:
-                if f.startswith("."):
-                    continue
-                result += f"{subindent}{f}\n"
-        return result
+async def tree(ctx, path=""):
+    paths = DisplayablePath.make_tree(Path(f"{os.getcwd()}/charts/{path}"))
     
-    if path is None:
-        path = ""
-
-    text = list_files(f"{os.getcwd()}/charts/{path}")
-    
-    if text == "":
+    """
+    if len(paths) == 0:
         await ctx.send("這個路徑沒有譜面！")
         return
+    """
+    text = ""
+
+    for path in paths:
+        text += path.displayable() + "\n"
 
     await ctx.send(f"```\n{text}\n```")
 
@@ -74,10 +64,14 @@ async def delete(ctx, path):
 
 @BOT.event
 async def on_message(message):
-    if message.author.id != BOT.user.id:
-        print(message.author.id)
-        print(message.author.name)
-        await message.channel.send(message.author.name)
-        await BOT.process_commands(message)
+    if message.author.id == BOT.user.id:
+        return
+
+    if not user_is_authorized(message.author.id) \
+        and message.guild == None:
+        await message.channel.send("你只能在伺服器裡使用我！")
+        return
+
+    await BOT.process_commands(message)
 
 BOT.run(TOKEN)

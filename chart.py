@@ -1,6 +1,7 @@
 import discord
 from datetime import datetime
 from pathlib import Path
+from authorize import user_is_authorized
 
 
 def get_charts_path(path):
@@ -57,7 +58,16 @@ async def checkin(ctx, path):
     chart_text = content_bytes.decode("utf-8")
 
     directory = Path(get_charts_path(path))
-    directory.mkdir(parents=True, exist_ok=True)
+
+    # todo: only authorized users can make directory
+    if not directory.exists():
+        if user_is_authorized(ctx.message.author.id):
+            directory.mkdir(parents=True, exist_ok=True)
+        else:
+            fail_emb = get_checkin_fail_embed("你不能新增檔案夾！")
+            await ctx.send(embed = fail_emb)
+            return
+ 
     path = Path(get_charts_path(f"{path}/{chart_file.filename}"))
     path.write_text(chart_text)
 
@@ -130,15 +140,27 @@ async def delete(ctx, path):
 
     if not path.exists():
         fail_emb = get_delete_fail_emb("路徑不存在！")
-        await ctx.send(emb=fail_emb)
+        await ctx.send(embed=fail_emb)
         return
 
-    for child in path.glob('*'):
-        if child.is_file():
-            child.unlink()
-        else:
-            rm_tree(child)
-    path.rmdir()
+    if path.is_file():
+        child.unlink()
+        success_emb = get_delete_success_emb(f"你刪除了{path}")
+        await ctx.send(embed=success_emb)
+        return
 
-    success_emb = get_delete_success_emb(f"你刪除了{path}")
-    await ctx.send(emb=success_emb)
+    # todo: if the user wants to delete a directory
+    # only authroize user can do that
+    if user_is_authorized(ctx.message.author.id):
+        for child in path.glob('*'):
+            if child.is_file():
+                child.unlink()
+            else:
+                rm_tree(child)
+        path.rmdir()
+
+        success_emb = get_delete_success_emb(f"你刪除了{path}")
+        await ctx.send(embed=success_emb)
+    else:
+        fail_emb = get_delete_fail_emb("你不能刪除檔案夾！")
+        await ctx.send(embed=fail_emb)
