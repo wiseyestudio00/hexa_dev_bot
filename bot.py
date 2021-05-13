@@ -13,7 +13,7 @@ def push_github(commit_message):
     os.system(f"git commit -m \"{commit_message}\"")
     os.system("git push")
     with open("log.txt", "a") as log:
-        log.write(f"{datetime.datetime.now()}：{ctx.author.name} 上傳了 {path}")
+        log.write(commit_message)
 
 
 BOT = commands.Bot("/")
