@@ -109,3 +109,17 @@ async def checkout(ctx, path):
 
     success_emb = get_checkout_success_embed(names)
     await ctx.send(files=charts, embed=success_emb)
+
+
+async def delete(ctx, path):
+    path = Path(get_charts_path(path))
+
+    if not path.exists():
+        await ctx.send("路徑不存在！")
+
+    for child in path.glob('*'):
+        if child.is_file():
+            child.unlink()
+        else:
+            rm_tree(child)
+    path.rmdir()
