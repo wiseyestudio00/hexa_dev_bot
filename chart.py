@@ -16,7 +16,7 @@ def is_in_chart_format(filename):
     return True
 
 
-def get_checkout_success_embed(description):
+def get_checkin_success_embed(description):
     result = discord.Embed(
         title="譜面上傳成功！",
         description=description,
@@ -25,7 +25,7 @@ def get_checkout_success_embed(description):
     return result
 
 
-def get_checkout_fail_embed(description):
+def get_checkin_fail_embed(description):
     result = discord.Embed(
         title="譜面上傳失敗",
         description=description,
@@ -42,14 +42,14 @@ async def checkin(ctx, path):
     attachments = ctx.message.attachments
 
     if len(attachments) == 0:
-        emb = get_checkout_fail_embed("請附加譜面！")
+        emb = get_checkin_fail_embed("請附加譜面！")
         await ctx.send(embed=emb)
         return
 
     chart_file = attachments[0]
 
     if not is_in_chart_format(chart_file.filename):
-        emb = get_checkout_fail_embed("譜面的名字要是chart.[名字].txt！")
+        emb = get_checkin_fail_embed("譜面的名字要是chart.[名字].txt！")
         await ctx.send(embed=emb)
         return
     
@@ -61,7 +61,7 @@ async def checkin(ctx, path):
     path = Path(get_charts_path(f"{path}/{chart_file.filename}"))
     path.write_text(chart_text)
 
-    success_embed = get_checkout_success_embed(
+    success_embed = get_checkin_success_embed(
         f"{ctx.author.name}上傳了{path}")
 
     await ctx.send(embed=success_embed)
@@ -111,11 +111,27 @@ async def checkout(ctx, path):
     await ctx.send(files=charts, embed=success_emb)
 
 
+def get_delete_success_emb(description):
+    return discord.Embed(
+        title="刪除成功！",
+        description=description,
+        color=discord.Color.red())
+
+
+def get_delete_fail_emb(description):
+    return discord.Embed(
+        title="刪除失敗！",
+        description=description,
+        color=discord.Color.red())
+
+
 async def delete(ctx, path):
     path = Path(get_charts_path(path))
 
     if not path.exists():
-        await ctx.send("路徑不存在！")
+        fail_emb = get_delete_fail_emb("路徑不存在！")
+        await ctx.send(emb=fail_emb)
+        return
 
     for child in path.glob('*'):
         if child.is_file():
@@ -123,3 +139,6 @@ async def delete(ctx, path):
         else:
             rm_tree(child)
     path.rmdir()
+
+    success_emb = get_delete_success_emb(f"你刪除了{path}")
+    await ctx.send(emb=success_emb)
