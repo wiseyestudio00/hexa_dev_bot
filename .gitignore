@@ -129,4 +129,4 @@ dmypy.json
 .pyre/
 
 setting.json
-.DS_Store
+*.DS_Store

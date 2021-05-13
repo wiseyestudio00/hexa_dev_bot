@@ -9,12 +9,21 @@ import chart
 import functools
 
 def push_github(commit_message):
+    with open("log.txt", "a") as log:
+        log.write(commit_message)
     os.system("git add .")
     os.system(f"git commit -m \"{commit_message}\"")
     os.system("git push")
-    with open("log.txt", "a") as log:
-        log.write(commit_message)
 
+
+TOKEN = ""
+AUTHORIZED_USERS = []
+
+with open("setting.json") as setting:
+    text = setting.read()
+    json_data = json.loads(text)
+    TOKEN = json_data["token"]
+    AUTHORIZED_USERS = json_data["authorized"]
 
 BOT = commands.Bot("/")
 
@@ -65,11 +74,10 @@ async def delete(ctx, path):
 
 @BOT.event
 async def on_message(message):
-    await BOT.process_commands(message)
+    if message.author.id != BOT.user.id:
+        print(message.author.id)
+        print(message.author.name)
+        await message.channel.send(message.author.name)
+        await BOT.process_commands(message)
 
-
-with open("setting.json") as setting:
-    text = setting.read()
-    json_data = json.loads(text)
-    token = json_data["token"]
-    BOT.run(token)
+BOT.run(TOKEN)
