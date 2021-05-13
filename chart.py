@@ -16,7 +16,7 @@ def is_in_chart_format(filename):
     return True
 
 
-def get_checkin_success_embed(description):
+def get_checkout_success_embed(description):
     result = discord.Embed(
         title="譜面上傳成功！",
         description=description,
@@ -25,7 +25,7 @@ def get_checkin_success_embed(description):
     return result
 
 
-def get_checkin_fail_embed(description):
+def get_checkout_fail_embed(description):
     result = discord.Embed(
         title="譜面上傳失敗",
         description=description,
@@ -42,14 +42,14 @@ async def checkin(ctx, path):
     attachments = ctx.message.attachments
 
     if len(attachments) == 0:
-        emb = get_checkin_fail_embed("請附加譜面！")
+        emb = get_checkout_fail_embed("請附加譜面！")
         await ctx.send(embed=emb)
         return
 
     chart_file = attachments[0]
 
     if not is_in_chart_format(chart_file.filename):
-        emb = get_checkin_fail_embed("譜面的名字要是chart.[名字].txt！")
+        emb = get_checkout_fail_embed("譜面的名字要是chart.[名字].txt！")
         await ctx.send(embed=emb)
         return
     
@@ -61,20 +61,20 @@ async def checkin(ctx, path):
     path = Path(get_charts_path(f"{path}/{chart_file.filename}"))
     path.write_text(chart_text)
 
-    success_embed = get_checkin_success_embed(
+    success_embed = get_checkout_success_embed(
         f"{ctx.author.name}上傳了{path}")
 
     await ctx.send(embed=success_embed)
 
 
-def get_checkin_success_embed(description):
+def get_checkout_success_embed(description):
     return discord.Embed(
         title="取出成功！",
         description=description,
         color=discord.Color.blue())
 
 
-def get_checkin_fail_embed(description):
+def get_checkout_fail_embed(description):
     return discord.Embed(
         title="取出失敗！",
         description=description,
@@ -85,7 +85,7 @@ async def checkout(ctx, path):
     target_path = Path(get_charts_path(path))
 
     if not target_path.exists():
-        emb = get_checkin_fail_embed("路徑不存在！")
+        emb = get_checkout_fail_embed("路徑不存在！")
         await ctx.send(embed=emb)
         return
 
@@ -107,5 +107,5 @@ async def checkout(ctx, path):
                     chart,
                     filename=chart.name.replace(str(target_path), "")))
 
-    success_emb = get_checkin_success_embed(names)
+    success_emb = get_checkout_success_embed(names)
     await ctx.send(files=charts, embed=success_emb)
