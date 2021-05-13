@@ -1,0 +1,179 @@
+前奏 1
+主歌 33
+副歌a 97
+間奏 129
+副歌b 161
+副歌c 193
+
+
+
+
+
+n short rb 1
+n short rb 5
+n short rc 9
+n short rc 13
+
+n short lt 17
+n short lt 21
+n short lc 25
+n short lc 29
+
+
+n short rb 34
+n short rb 36
+n short rb 38
+n short rb 40
+n short lc 42
+n short lc 44
+n short lc 46
+n short lc 48
+
+n short rc 50
+n short rc 52
+n short rc 54
+n short rc 56
+n short lb 58
+n short lb 60
+n short lb 62
+
+a changecamera angle 65 16 0 0 30 easeinoutsine
+
+
+n long rc 65 67
+n long lb 69 71
+n long rt 73 75
+n long lc 77 79
+
+
+
+n short rc 81
+n short rc 82
+n short rc 83
+n short lb 85
+n short lb 86
+n short lb 87
+
+a changecamera angle 93 3 0 0 -30 easeinoutSine
+
+n short rt 89
+n short rt 90
+n short rt 91
+
+
+
+
+副歌1
+a changecamera position 97 2 0 0 0.25 easeoutsine
+a changecamera position 99 2 0 0 -0.25 easeinsine
+a changecamera position 101 2 0 0 0.25 easeoutsine
+a changecamera position 103 2 0 0 -0.25 easeinsine
+a changecamera position 105 2 0 0 0.25 easeoutsine
+a changecamera position 107 2 0 0 -0.25 easeinsine
+a changecamera position 109 2 0 0 0.25 easeoutsine
+a changecamera position 111 2 0 0 -0.25 easeinsine
+
+a changecamera position 113 2 0 0 0.25 easeoutsine
+a changecamera position 115 2 0 0 -0.25 easeinsine
+a changecamera position 117 2 0 0 0.25 easeoutsine
+a changecamera position 119 2 0 0 -0.25 easeinsine
+a changecamera position 121 2 0 0 0.25 easeoutsine
+a changecamera position 123 2 0 0 -0.25 easeinsine
+a changecamera position 125 2 0 0 0.25 easeoutsine
+a changecamera position 127 2 0 0 -0.25 easeinsine
+
+
+n long rb 97 99
+n long lc 101 103
+n long rt 105 107
+n long lb 109 111
+n long lc 113 115
+n long rb 117 119
+n long lb 121 123
+n short rt 125
+
+
+間奏
+n short lc 129
+n short lc 133
+n short lb 137
+n short lb 141
+
+n short rc 145
+n short rc 149
+n short rt 153
+n short rt 157
+
+
+副歌2
+
+a changecamera position 161 2 0 0 0.25 easeoutsine
+a changecamera position 163 2 0 0 -0.25 easeinsine
+
+a changecamera position 165 2 0 0 0.25 easeoutsine
+a changecamera position 167 2 0 0 -0.25 easeinsine
+
+a changecamera position 169 2 0 0 0.25 easeoutsine
+a changecamera position 171 2 0 0 -0.25 easeinsine
+
+a changecamera position 173 2 0 0 0.25 easeoutsine
+a changecamera position 175 2 0 0 -0.25 easeinsine
+
+
+a changecamera position 177 2 0 0 0.25 easeoutsine
+a changecamera position 179 2 0 0 -0.25 easeinsine
+
+a changecamera position 181 2 0 0 0.25 easeoutsine
+a changecamera position 183 2 0 0 -0.25 easeinsine
+
+a changecamera position 185 2 0 0 0.25 easeoutsine
+a changecamera position 187 2 0 0 -0.25 easeinsine
+
+a changecamera position 189 2 0 0 0.25 easeoutsine
+a changecamera position 191 2 0 0 -0.25 easeinsine
+
+
+
+n long lb 161 163
+n long rc 165 167
+n long lt 169 171
+n long rb 173 175
+n long rc 177 179
+n long lb 181 183
+n long rb 185 187
+n short lt 189
+
+
+
+
+
+
+
+
+副歌3
+
+a changecamera angle 193 4 0 0 11 easeOutSine
+a changecamera angle 197 4 0 0 11 easeOutSine
+a changecamera angle 201 4 0 0 11 easeOutSine
+a changecamera angle 205 4 0 0 12 easeOutSine
+
+n short rc 193
+n short rc 195
+n short lc 197
+n short lc 199
+n short rt 201
+n short rt 203
+n short lb 205
+n short lb 207
+
+a changecamera angle 209 4 0 0 11 easeOutSine
+a changecamera angle 213 4 0 0 11 easeOutSine
+a changecamera angle 217 4 0 0 11 easeOutSine
+
+n short rc 209
+n short rc 211
+n short lc 213
+n short lc 215
+n short rt 217
+a changecamera angle 221 4 0 0 12 easeOutSine
+n long rc 221 225

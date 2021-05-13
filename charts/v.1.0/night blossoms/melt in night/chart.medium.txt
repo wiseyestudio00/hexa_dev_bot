@@ -1,0 +1,442 @@
+前奏 1
+主歌 33
+副歌a 97
+間奏 129
+副歌b 161
+副歌c 193
+
+
+
+
+
+a changecamera angle 1 16 0 0 60 easeinoutsine
+a changecamera angle 17 16 0 0 -60 easeinoutsine
+
+
+n short rc 1
+n short rc 3
+n short rb 5
+n short rb 7
+n short lb 9
+n short lb 11
+n long lb 13 16
+
+n short rc 17
+n short rc 19
+n short lb 21
+n short lb 23
+n short rt 25
+n short rt 27
+n long lc 29 32
+
+
+
+n short lb 33
+n short rc 34
+n short lc 35
+n short rc 36
+n short lt 37
+n short rc 38
+n short lb 39
+n short rc 40
+
+a changecamera angle 41 4 0 0 15 easeinoutsine
+n long rt 41 44
+a changecamera angle 45 4 0 0 -15 easeinoutsine
+n long lc 45 48
+
+n short rb 49
+n short lc 50
+n short rc 51
+n short lc 52
+
+n short rt 53
+n short lc 54
+n short rb 55
+n short lc 56
+a changecamera angle 57 4 0 0 -15 easeinoutsine
+n long lt 57 60
+a changecamera angle 61 4 0 0 15 easeinoutsine
+n long rc 61 64
+
+
+
+a changecamera angle 65 8 0 0 -90 easeinoutsine
+
+a changecamera angle 73 2 0 0 10 easeinoutsine
+a changecamera position 73 0.5 0 0 0.25 easeoutsine
+a changecamera position 73.5 1.5 0 0 -0.25 easeinsine
+a changecamera angle 75 2 0 0 10 easeinoutsine
+a changecamera position 75 0.5 0 0 0.25 easeoutsine
+a changecamera position 75.5 1.5 0 0 -0.25 easeinsine
+a changecamera angle 77 2 0 0 10 easeinoutsine
+a changecamera position 77 0.5 0 0 0.25 easeoutsine
+a changecamera position 77.5 1.5 0 0 -0.25 easeinsine
+
+n long rc 65 66
+n long lt 67 68
+n long rb 69 70
+n long lc 71 72
+
+n long rb 73 74
+n long lt 75 76
+n long lb 77 78
+n short lc 79
+n short lb 80
+
+
+a changecamera position 81 0.25 0 0 -0.5 easeOutCubic
+a changecamera position 81.25 0.75 0 0 0.25 easeOutCubic
+a changecamera position 82 0.25 0 0 -0.5 easeOutCubic
+a changecamera position 82.25 0.75 0 0 0.25 easeOutCubic
+a changecamera position 83 2 0 0 0.5 easeOutCubic
+a changecamera position 85 0.25 0 0 -0.5 easeOutCubic
+a changecamera position 85.25 0.75 0 0 0.25 easeOutCubic
+a changecamera position 86 0.25 0 0 -0.5 easeOutCubic
+a changecamera position 86.25 0.75 0 0 0.25 easeOutCubic
+a changecamera position 87 2 0 0 0.5 easeOutCubic
+
+n short lt 81
+n short rb 82
+n long lc lb 83 84
+n short rb 85
+n short lt 86
+n long lc lb 87 88
+
+
+a changecamera angle 89 4 0 0 30 easeinSine
+a changecamera angle 93 3 0 0 30 easeoutSine
+
+n short rb 89
+n short rb 90
+n short lc 91
+n short lc 92
+n long lb 93 96
+
+
+
+
+副歌1
+a changecamera position 97 2 0 0 0.25 easeoutsine
+a changecamera position 99 2 0 0 -0.25 easeinsine
+a changecamera angle 97 4 0 0 15 easeOutSine
+
+a changecamera position 101 2 0 0 0.25 easeoutsine
+a changecamera position 103 2 0 0 -0.25 easeinsine
+a changecamera angle 101 4 0 0 15 easeOutSine
+
+a changecamera position 105 2 0 0 0.25 easeoutsine
+a changecamera position 107 2 0 0 -0.25 easeinsine
+a changecamera angle 105 4 0 0 15 easeOutSine
+
+a changecamera position 109 2 0 0 0.25 easeoutsine
+a changecamera position 111 2 0 0 -0.25 easeinsine
+a changecamera angle 109 3 0 0 15 easeOutSine
+
+
+a changecamera position 113 2 0 0 0.25 easeoutsine
+a changecamera position 115 2 0 0 -0.25 easeinsine
+a changecamera angle 113 4 0 0 -15 easeOutSine
+
+a changecamera position 117 2 0 0 0.25 easeoutsine
+a changecamera position 119 2 0 0 -0.25 easeinsine
+a changecamera angle 117 4 0 0 -15 easeOutSine
+
+a changecamera position 121 2 0 0 0.25 easeoutsine
+a changecamera position 123 2 0 0 -0.25 easeinsine
+a changecamera angle 121 4 0 0 -15 easeOutSine
+
+a changecamera position 125 2 0 0 0.25 easeoutsine
+a changecamera position 127 2 0 0 -0.25 easeinsine
+a changecamera angle 125 3 0 0 -15 easeOutSine
+
+
+
+n short rc 97.5
+n short rc 98
+n short lb 98.5
+n short rc 99
+n short lb 99.5
+n short rb 100
+n short rc 100.5
+
+n short rc 101.5
+n short rc 102
+n short lb 102.5
+n short rc 103
+n short lb 103.5
+n short rb 104
+n short rc 104.5
+
+n swipe out lb 106
+n swipe out rc 107
+n swipe out rb 108
+
+n short rt lb 109
+n short lb 110
+n short rt 111
+n short lc 111.5
+n short rc 112
+
+
+
+
+
+n short lb 113.5
+n short lb 114
+n short rc 114.5
+n short lb 115
+n short rc 115.5
+n short rb 116
+n short lb 116.5
+
+
+n short lb 117.5
+n short lb 118
+n short rc 118.5
+n short lb 119
+n short rc 119.5
+n short rb 120
+n short lb 120.5
+
+
+
+
+n short lc 122.5
+n short lc 123
+n short rc 123.5
+n short lb 124
+n long rb 124.5 127
+
+
+
+
+
+間奏
+
+
+a changecamera angle 129 16 0 0 60 easeinoutsine
+a changecamera angle 145 16 0 0 -60 easeinoutsine
+
+
+n short rc 129
+n short rb 131
+n short lb 133
+n short lc 135
+n short lt 137
+n short rt 139
+n short rc 141
+n short rb 143
+
+n short rc 145
+n short rt 147
+n short lt 149
+n short lc 151
+n short lb 153
+n short rb 155
+n long rc 157 160
+
+
+副歌2
+
+a changecamera position 161 2 0 0 0.25 easeoutsine
+a changecamera position 163 2 0 0 -0.25 easeinsine
+a changecamera angle 161 4 0 0 15 easeOutSine
+
+a changecamera position 165 2 0 0 0.25 easeoutsine
+a changecamera position 167 2 0 0 -0.25 easeinsine
+a changecamera angle 165 4 0 0 15 easeOutSine
+
+a changecamera position 169 2 0 0 0.25 easeoutsine
+a changecamera position 171 2 0 0 -0.25 easeinsine
+a changecamera angle 169 4 0 0 15 easeOutSine
+
+a changecamera position 173 2 0 0 0.25 easeoutsine
+a changecamera position 175 2 0 0 -0.25 easeinsine
+a changecamera angle 173 3 0 0 15 easeOutSine
+
+
+a changecamera position 177 2 0 0 0.25 easeoutsine
+a changecamera position 179 2 0 0 -0.25 easeinsine
+a changecamera angle 177 4 0 0 -15 easeOutSine
+
+a changecamera position 181 2 0 0 0.25 easeoutsine
+a changecamera position 183 2 0 0 -0.25 easeinsine
+a changecamera angle 181 4 0 0 -15 easeOutSine
+
+a changecamera position 185 2 0 0 0.25 easeoutsine
+a changecamera position 187 2 0 0 -0.25 easeinsine
+a changecamera angle 185 4 0 0 -15 easeOutSine
+
+a changecamera position 189 2 0 0 0.25 easeoutsine
+a changecamera position 191 2 0 0 -0.25 easeinsine
+a changecamera angle 189 3 0 0 -15 easeOutSine
+
+
+
+n short lc 161.5
+n short lc 162
+n short rt 162.5
+n short lc 163
+n short rt 163.5
+n short lt 164
+n short lc 164.5
+
+n short lc 165.5
+n short lc 166
+n short rt 166.5
+n short lc 167
+n short rt 167.5
+n short lt 168
+n short lc 168.5
+
+n swipe out rt 170
+n swipe out lc 171
+n swipe out lt 172
+
+n short rt lb 173
+n short rt 174
+n short lb 175
+n short rc 175.5
+n short lc 176
+
+
+
+
+
+n short rt 177.5
+n short rt 178
+n short lc 178.5
+n short rt 179
+n short lc 179.5
+n short lt 180
+n short rt 180.5
+
+
+n short rt 181.5
+n short rt 182
+n short lc 182.5
+n short rt 183
+n short lc 183.5
+n short lt 184
+n short rt 184.5
+
+
+
+
+n short rt 186.5
+n short rt 187
+n short lb 187.5
+n short rc 188
+n long rb 188.5 192
+
+
+
+
+
+
+
+
+副歌3
+a changecamera position 193 2 0 0 0.25 easeoutsine
+a changecamera position 195 2 0 0 -0.25 easeinsine
+a changecamera angle 193 4 0 0 15 easeOutSine
+
+a changecamera position 197 2 0 0 0.25 easeoutsine
+a changecamera position 199 2 0 0 -0.25 easeinsine
+a changecamera angle 197 4 0 0 -15 easeOutSine
+
+a changecamera position 201 2 0 0 0.25 easeoutsine
+a changecamera position 203 2 0 0 -0.25 easeinsine
+a changecamera angle 201 4 0 0 15 easeOutSine
+
+a changecamera position 205 2 0 0 0.25 easeoutsine
+a changecamera position 207 2 0 0 -0.25 easeinsine
+a changecamera angle 205 4 0 0 -15 easeOutSine
+
+
+
+
+
+
+n swipe out rc 193
+n catch lc 193.5
+n catch lc 194
+n catch lc 194.5
+n catch rt 195
+n catch rt 195.5
+n catch rt 196
+n catch rt 196.5
+
+n swipe out lc 197
+n catch rc 197.5
+n catch rc 198
+n catch rc 198.5
+n catch lb 199
+n catch lb 199.5
+n catch lb 200
+n catch lb 200.5
+
+n swipe out rc 201
+n catch lc 201.5
+n catch lc 202
+n catch lc 202.5
+n catch rt 203
+n catch rt 203.5
+n catch rt 204
+n catch rt 204.5
+
+n swipe out lc 205
+n catch rt 205
+n catch rt 205.5
+n catch rt 206
+
+n short rb lb 207
+
+n short lb rb 208
+
+a changecamera position 209 2 0 0 0.25 easeoutsine
+a changecamera position 211 2 0 0 -0.25 easeinsine
+a changecamera angle 209 4 0 0 15 easeOutSine
+
+a changecamera position 213 2 0 0 0.25 easeoutsine
+a changecamera position 215 2 0 0 -0.25 easeinsine
+a changecamera angle 213 4 0 0 -15 easeOutSine
+
+a changecamera position 217 2 0 0 0.25 easeoutsine
+a changecamera position 219 2 0 0 -0.25 easeinsine
+a changecamera angle 217 4 0 0 15 easeOutSine
+
+
+
+n swipe out rt 209
+n catch lc 209.5
+n catch lc 210
+n catch lc 210.5
+n catch rb 211
+n catch rb 211.5
+n catch rb 212
+n catch rb 212.5
+
+n swipe out lt 213
+n catch rc 213.5
+n catch rc 213.75
+n catch rc 214
+n catch rc 214.5
+n catch lb 215
+n catch lb 215.5
+n catch lb 215.75
+n catch lb 216.5
+
+n swipe out rc 217
+n catch lb 217
+n catch lb 217.25
+n catch lb 217.5
+
+n short rc 218.5
+n short lc 219
+n short rb 219.5
+
+n short lb 220.5
+a changecamera angle 221 4 0 0 -15 easeOutSine
+n long lc rb 221 225

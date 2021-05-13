@@ -1,0 +1,296 @@
+n short rc 0
+n short rc 4
+n short rc 8
+n short rc 12
+a changecamera angle 14 1.5 0 0 60 easeinoutsine
+n short lb 16
+n short lb 20
+n short lb 24
+n short lb 28
+a changecamera angle 30 1.5 0 0 -60 easeinoutsine
+
+n long rb 32 33
+n short lb 33
+
+n long rc 34 35
+n short lc 35
+
+n long lt 36 37
+n short rt 37
+
+n long lc 38 39
+n short rc 39
+
+
+
+n long rb 40 41
+n short lt 41
+
+n long rc 42 43
+n short lc 43
+
+n long lb 44 45
+n short rt 45
+
+n long lc 46 47
+n short rc 47
+
+
+
+n long rt 48 49
+n short lt 48
+n short lt 49
+
+n long rc 50 51
+n short lc 50
+n short lc 51
+
+n long lb 52 53
+n short rb 52
+n short rb 53
+
+n long lc 54 55
+n short rc 54
+n short rc 55
+
+
+
+n long rt 56 57
+n short lb 56
+n short lb 57
+
+n long rc 58 59
+n short lc 58
+n short lc 59
+
+n long lt 60 61
+n short rb 60
+n short rb 61
+
+n short rc lc 62
+n swipe in rb lb 63
+
+a changecamera angle 63 2 30 0 0 easeinoutsine
+a changecamera position 63 1.5 0 0 2 easeinoutsine
+
+n short rb 64
+n short rb 64.5
+n long rb 65 67
+
+n swipe in lb 66
+n swipe out lb 67
+
+n short lb 68
+n short lb 68.5
+n long lb 69 71
+
+n swipe in rb 70
+n swipe out rb 71
+
+n long rb 72 73
+n long lb 73 74
+n long rb 74 75
+n long lb 75 77
+
+n swipe out rb 76
+n swipe in rb 77
+n swipe out rb lb 78
+
+a changecamera angle 78 1.5 -60 0 0 easeinoutsine
+
+n short lt 80
+n short lt 80.5
+n long lt 81 83
+
+n swipe out rt 82
+n swipe in rt 83
+
+n short rt 84
+n short rt 84.5
+n long rt 85 87
+
+n swipe out lt 86
+n swipe in lt 87
+
+n long lt 88 89
+n long rt 89 90
+n long lt 90 91
+n long rt 91 93
+
+n swipe in lt 92
+n swipe out lt 93
+n swipe in rt lt 94
+
+a changecamera angle 94 1 30 0 0 easeinoutsine
+a changecamera position 94 1 0 0 -2 easeinoutsine
+
+a changecolor trial 95 0 0_0_0_0 rc lc easeinoutsine
+a changecolor trial 95.5 0 0_0_0_145 rc lc easeinoutsine
+
+a changecamera angle 96 15 0 0 90 linear
+
+n short rb 96
+n short rb 96.5
+n short rb 97
+
+n short lb 98
+n short lb 98.5
+n short lb 99
+
+n short rt 100
+n short rt 100.5
+n short rt 101
+
+n short lc 102
+n short lc 102.5
+n short lc 103
+
+n long lt 104 105.5
+n short rb 104
+n catch rb 105
+n catch rb 105.5
+
+n long lt 106 107.5
+n short rb 106
+n catch rb 107
+n catch rb 107.5
+
+n catch lb rt 108
+n swipe out rt lb 109
+n short lb rt 110
+n swipe in rt lb 111
+
+a changecamera angle 112 12 0 0 -90 linear
+
+n short lt 112
+n short lt 112.5
+n short lt 113
+
+n short lc 114
+n short lc 114.5
+n short lc 115
+
+n short rt 116
+n short rt 116.5
+n short rt 117
+
+n short lb 118
+n short lb 118.5
+n short lb 119
+
+n long lc 120 121.5
+n short rc 120
+n catch rc 121
+n catch rc 121.5
+
+n long lc 122 123.5
+n short rc 122
+n catch rc 123
+n catch rc 123.5
+
+n long lb rt 124 127
+n swipe out rt lb 128
+
+a changecamera angle 128 6 0 0 720 easeinoutsine
+a changecamera position 128 3 0 0 -25 linear
+a changecamera position 131 3 0 0 25 linear
+
+n short rb 136
+n short lb 137
+n short rb 138
+n short lb 139
+n short rc 140
+n short lc 141
+n short rc 142
+n short lc 143
+
+
+n long lt 144 147
+n short rb 144
+n swipe in rb 145
+n short rb 146
+n swipe out rb 147
+
+n long rt 148 151
+n short lb 148
+n swipe in lb 149
+n short lb 150
+n swipe out lb 151
+
+n long lc 152 155
+n short rc 152
+n swipe out rc 153
+n short rc 154
+n swipe in rc 155
+
+n long rc 156 159
+n short lc 156
+n swipe out lc 157
+n short lc 158
+n swipe in lc 159
+
+n short lb 160
+n swipe in lb 161
+n short lb 162
+n swipe out lb 163
+n catch rt 160
+n catch rt 161
+n catch rt 162
+n catch rt 163
+
+n short rb 164
+n swipe in rb 165
+n short rb 166
+n swipe out rb 167
+n catch lt 164
+n catch lt 165
+n catch lt 166
+n catch lt 167
+
+n short lc 168
+n swipe out lc 169
+n short lc 170
+n swipe in lc 171
+n catch rc 168
+n catch rc 169
+n catch rc 170
+n catch rc 171
+
+n short rc 172
+n swipe out rc 173
+n short rc 174
+n swipe in rc 175
+n catch lc 172
+n catch lc 173
+n catch lc 174
+n catch lc 175
+
+n short rb 176
+n short rb 176.5
+n swipe in rb 177
+
+n short lc 178
+n short lc 178.5
+n swipe in lc 179
+
+
+n short rc 180
+n short rc 180.5
+n swipe in rc 181
+
+n short lb 182
+n short lb 182.5
+n swipe in lb 183
+
+n short rt 184
+n short rt 184.5
+n short lt 185
+n short lt 185.5
+n short rc 186
+n short rc 186.5
+n short lc 187
+n short lc 187.5
+
+n compound lb rb 188 191 12
+a changecamera position 191 7 0 0 -100 linear
+

@@ -1,0 +1,199 @@
+
+n short rt 0
+n short rc 2
+n short rb 4
+n short lb 6
+n short lc 8
+n short lt 10
+n short rt 12
+n short rt lt 14
+
+n short lt 16
+n short lc 18
+n short lb 20
+n short rb 22
+n short rc 24
+n short rt 26
+n short lt 28
+n short lt rt 30
+
+n short rc 32
+n short rb 34
+n short lb 36
+n short lc 38
+n short lt 40
+n short rt 42
+n short rc 44
+n short rc lc 46
+
+n short lc 48
+n short lb 50
+n short rb 52
+n short rc 54
+n short rt 56
+n short lt 58
+n short lc 60
+n short rc lc 62
+
+n long rc 64 68
+n long lb 68 72
+n long rb 72 76
+n long lc 76 80
+n long rc 80 84
+n long lt 84 88
+n long rt 88 92
+n long lc 92 96
+
+n long rc 96 98
+n short lb 98
+n long lc 100 102
+n short rb 102
+n long rc 104 106
+n short lb 106
+n long lc 108 110
+n short rb 110
+
+n short rc 112
+n short rc 114
+n short lc 116
+n short lc 118
+
+n short rb 120
+n short lb 122
+n long rc lc 124 126
+
+n short rc 128
+n short rb lb 132
+n short lc 136
+n short rb lb 140
+n short rc 144
+n short rt lt 148
+n short lc 152
+n short rt lt 156
+
+n short rc 160
+n short rc lb 162
+n short rc 164
+n short rc lb 166
+n short lc 168
+n short lc rb 170
+n short lc 172
+n short lc rb 174
+
+n short rc 176
+n short rb 178
+n short lb 180
+n short lc 182
+n short lt 184
+n short rt 186
+n compound lc rc 188 191 4
+
+n long rb 192 200
+n long lt 200 208
+n long rt 208 216
+n long lb 216 224
+
+n long rc 224 232
+n long lc 232 240
+n long rc 240 248
+n long lc 248 256
+n short lb 228
+n short lb 230
+n short rb 236
+n short rb 238
+n short lb 242
+n short lb 244
+n short lb 246
+n short rb 250
+n short rb 252
+n short rb 254
+
+n short rc 256
+n short rc 258
+n short rb 260
+n short rb 262
+n short lb 264
+n short lb 266
+n short lc 268
+n short lc 270
+n short lt 272
+n short lt 274
+n short rt 276
+n short rt 278
+n short rc 280
+n short lc 282
+n short rb 284
+n short rb lb 286
+
+n short lc 288
+n short lc 290
+n short lb 292
+n short lb 294
+n short rb 296
+n short rb 298
+n short rc 300
+n short rc 302
+n short rt 304
+n short rt 306
+n short lt 308
+n short lt 310
+n short lc 312
+n short rc 314
+n short lb 316
+n short rb lb 318
+
+n short rt 320
+n short rc 322
+n short rb 324
+n short rb lb 326
+n short lb 328
+n short lc 330
+n short lt 332
+n short lt rt 334
+n short lt 336
+n short lc 338
+n short lb 340
+n short lb rb 342
+n short rb 344
+n short rc 346
+n short rt 348
+n short rt lt 350
+
+n short rt 352
+n short rt lb 354
+n short rc 356
+n short rc lc 358
+n short rb 360
+n short rb lt 362
+n short lb 364
+n short lb rt 366
+n short lc 368
+n short lc rc 370
+n short lt 372
+n short lt rb 374
+n short rc lc 376
+n short rc lc 378
+n long rc lc 380 384
+
+n short rb 392
+n short lb 396
+n short lc 400
+n short lt 404
+n short rt 408
+n short rc lc 412
+
+n long rc 416 424
+n long lb 424 432
+n long rb 432 440
+n long lt 440 448
+
+
+
+
+
+
+
+
+
+
+

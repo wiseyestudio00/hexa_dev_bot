@@ -1,0 +1,1382 @@
+//DEFINING STAGE POSITIONS
+//original(classichexagon): 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
+/define stageposition reflectedclassichexagon -1.35,2.35,0 0,0,300 -2.7,0,0 0,0,180 -1.35,-2.35,0 0,0,60 1.35,-2.35,0 0,0,120 2.7,0,0 0,0,0 1.35,2.35,0 0,0,240
+define stageposition reflectlcrc 1.35,2.35,0 0,0,240 -2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
+define stageposition reflectlcrc_rotatelcrc 1.35,2.35,0 0,0,240 -2.7,0,0 0,0,0 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 2.7,0,0 0,0,180 -1.35,2.35,0 0,0,300
+define stageposition reversereflectlcrc 1.35,2.35,0 0,0,240 2.7,0,0 0,0,0 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,180 -1.35,2.35,0 0,0,300
+/define stageposition reflectlbrt -1.35,-2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 1.35,2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
+/define stageposition reflectltrb 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 -1.35,2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 1.35,-2.35,0 0,0,300
+                        
+/define stageposition reflectlcrb1 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 -1.35,-2.35,0 0,0,60 -1.35,-2.35,0 0,0,60 -1.35,-2.35,0 0,0,60 -1.35,2.35,0 0,0,300
+/define stageposition reflectlcrb2 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 -2.7,0,0 0,0,0 -1.35,-2.35,0 0,0,60 1.35,-2.35,0 0,0,120 -1.35,2.35,0 0,0,300
+
+/define stageposition reflectlcrb_rtlc1 2.7,0,0 0,0,180 2.7,0,0 0,0,180 -2.7,0,0 0,0,0 -1.35,-2.35,0 0,0,60 2.7,0,0 0,0,180 -1.35,2.35,0 0,0,300
+/define stageposition reflectlcrb_rtlc2 1.35,-2.35,0 0,0,120 2.7,0,0 0,0,180 -2.7,0,0 0,0,0 -1.35,-2.35,0 0,0,60 1.35,2.35,0 0,0,240 -1.35,2.35,0 0,0,300
+
+/define stageposition reflectlcrb_rtlc_lclb1 1.35,-2.35,0 0,0,120 2.7,0,0 0,0,180 -2.7,0,0 0,0,0 1.35,2.35,0 0,0,60 -1.35,-2.35,0 0,0,240 -1.35,2.35,0 0,0,300
+/define stageposition reflectlcrb_rtlc_lclb2 1.35,-2.35,0 0,0,120 2.7,0,0 0,0,180 -2.7,0,0 0,0,0 1.35,2.35,0 0,0,240 -1.35,-2.35,0 0,0,60 -1.35,2.35,0 0,0,300
+
+//can be use only when reflectlcrb is in use
+/define stageposition reflectedlcrb_lbbounce 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 -2.7,0,0 0,0,0 -1.5,-2.6098075,0 0,0,60 1.35,-2.35,0 0,0,120 -1.35,2.35,0 0,0,300
+
+//can be use only when reflectrtrb is in use
+/define stageposition reflectedrtrb_rtrb_rcbounce 1.35,-2.35,0 0,0,120 3.0,0,0 0,0,180 -2.7,0,0 0,0,0 -1.35,-2.35,0 0,0,60 1.35,2.35,0 0,0,240 -1.35,2.35,0 0,0,300
+
+define stageposition rtzoom 1.35,2.35,1.5 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
+define stageposition lczoom 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,1.5 0,0,0 -1.35,2.35,0 0,0,300
+
+define stageposition narrowing 0.9,1.56667,-1 0,0,240 1.8,0,-1 0,0,180 0.9,-1.56667,-1 0,0,120 -0.9,-1.56667,-1 0,0,60 -1.8,0,-1 0,0,0 -0.9,1.56667,-1 0,0,300
+								 
+//can be use only when classichexagon is in use
+define stageposition rtbounce 1.5,2.6098075,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
+define stageposition rcbounce 1.35,2.35,0 0,0,240 3.0,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
+define stageposition rbbounce 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.5,-2.6098075,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
+define stageposition lbbounce 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.5,-2.6098075,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
+define stageposition lcbounce 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -3.0,0,0 0,0,0 -1.35,2.35,0 0,0,300
+define stageposition ltbounce 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.5,2.6098075,0 0,0,300
+
+
+//欸X！colourchange欸！嗚呼！這可以用嗎？
+a changecolor Trial 1 0.5 0_0_0_0 lc rc EaseOutSine
+a changecolor Trial 1.5 0.5 0_0_0_145 lc rc EaseInSine
+a changecolor Trial 17 0.5 0_0_0_0 lc rc EaseOutSine
+a changecolor Trial 17.5 0.5 0_0_0_145 lc rc EaseInSine
+
+//STAGE POSITION CHANGES
+//Reflected Gimmick
+a changestage reflectlcrc 1 1 easeOutSine
+a changestage reflectlcrc_rotatelcrc 2 0 easeOutSine
+
+a changestage reversereflectlcrc 17 1 easeOutSine
+a changestage classichexagon 18 0 easeOutSine
+
+//hold bounce
+
+a changestage rcbounce 47 0.5 easeOutQuart
+a changestage classichexagon 47.5 0.5 easeInSine
+a changestage rcbounce 48 0.5 easeOutQuart
+a changestage classichexagon 48.5 0.5 easeInSine
+a changestage rtbounce 49 0.5 easeOutQuart
+a changestage classichexagon 49.5 0.5 easeInSine
+a changestage rtbounce 50 0.5 easeOutQuart
+a changestage classichexagon 50.5 0.5 easeInSine
+
+a changestage rbbounce 51 0.5 easeOutQuart
+a changestage classichexagon 51.5 0.5 easeInSine
+a changestage rbbounce 52 0.5 easeOutQuart
+a changestage classichexagon 52.5 0.5 easeInSine
+a changestage lbbounce 53 0.5 easeOutQuart
+a changestage classichexagon 53.5 0.5 easeInSine
+a changestage lbbounce 54 0.5 easeOutQuart
+a changestage classichexagon 54.5 0.5 easeInSine
+
+a changestage rtzoom 66.5625 0 Linear
+a changestage classichexagon 66.563 0.5 easeInSine
+a changestage lczoom 82 0.25 easeOutSine
+a changestage classichexagon 82.25 0.25 easeInSine
+
+//swipe down bounce
+a changestage lbbounce 67.5 0.5 easeOutQuart
+a changestage classichexagon 68 0.5 easeInSine
+a changestage lbbounce 68.5 0.5 easeOutQuart
+a changestage classichexagon 69 0.5 easeInSine
+a changestage lbbounce 69.5 0.5 easeOutQuart
+a changestage classichexagon 70 0.5 easeInSine
+
+//Swap rt and lc(REMOVED)
+//a changestage reflectlcrb_rtlc1 82.0 0.25 linear
+//a changestage reflectlcrb_rtlc2 82.25 0.25 linear
+
+//swipe down bounce
+a changestage rcbounce 83.5 0.5 easeOutQuart
+a changestage classichexagon 84 0.5 easeInSine
+a changestage rcbounce 84.5 0.5 easeOutQuart
+a changestage classichexagon 85 0.5 easeInSine
+a changestage rcbounce 85.5 0.5 easeOutQuart
+a changestage classichexagon 86 0.5 easeInSine
+a changestage rcbounce 86.5 0.5 easeOutQuart
+a changestage classichexagon 87 0.5 easeInSine
+
+a changestage rbbounce 195.5 0.5 easeOutQuart
+a changestage classichexagon 196 0.5 easeInSine
+a changestage rbbounce 196.5 0.5 easeOutQuart
+a changestage classichexagon 197 0.5 easeInSine
+a changestage rbbounce 197.5 0.5 easeOutQuart
+a changestage classichexagon 198 0.5 easeInSine
+
+a changestage rbbounce 211.5 0.5 easeOutQuart
+a changestage classichexagon 212 0.5 easeInSine
+a changestage rbbounce 212.5 0.5 easeOutQuart
+a changestage classichexagon 213 0.5 easeInSine
+a changestage rbbounce 213.5 0.5 easeOutQuart
+a changestage classichexagon 214 0.5 easeInSine
+
+//narrowing
+a changestage narrowing 275 3 Linear
+a changestage classichexagon 279 0.5 easeOutSine
+
+a changestage narrowing 291 3 Linear
+a changestage classichexagon 294 0.5 easeOutSine
+
+
+//CAMERA POSITION CHANGES
+//swipe in zoom out
+a changecamera position 1 0.5 0 0 -1.5 easeOutSine
+a changecamera position 1.5 0.5 0 0 1.5 easeInSine
+
+//swipe out zoom in
+a changecamera position 3 0.5 0 0 0.5 easeOutSine
+a changecamera position 3.5 0.5 0 0 -0.5 easeInSine
+
+//camera move to lb and rb
+a changecamera position 5 1 0.15 0.2598075 0 easeOutCubic
+a changecamera position 6 1 -0.15 -0.2598075 0 easeInSine
+
+a changecamera position 7 1 0.15 0.2598075 0 easeOutCubic
+a changecamera position 8 1 -0.15 -0.2598075 0 easeInSine
+
+a changecamera position 9 1 -0.15 0.2598075 0 easeOutCubic
+a changecamera position 10 1 0.15 -0.2598075 0 easeInSine
+
+a changecamera position 11 1 -0.15 0.2598075 0 easeOutCubic
+a changecamera position 12 1 0.15 -0.2598075 0 easeInSine
+
+a changecamera position 13 1 0.15 0.2598075 0 easeOutCubic
+a changecamera position 14 1 -0.15 -0.2598075 0 easeOutCubic
+
+a changecamera position 17 0.5 0 0 -1.5 easeOutSine
+a changecamera position 17.5 0.5 0 0 1.5 easeInSine
+
+a changecamera position 19.0 0.5 0 0 0.5 easeOutSine
+a changecamera position 19.5 0.5 0 0 -0.5 easeInSine
+
+a changecamera position 21 1 -0.15 0.2598075 0 easeOutSine
+a changecamera position 22 1 0.15 -0.2598075 0 easeOutSine
+
+a changecamera position 23 1 -0.3 0 0 easeOutSine
+a changecamera position 24 1 0.3 0 0 easeOutSine
+
+a changecamera position 25 1 -0.15 -0.2598075 0 easeOutSine
+a changecamera position 26 1 0.15 0.2598075 0 easeOutSine
+
+
+//zoom in and out
+a changecamera position 27.0 0.5 0 0 -0.5 easeOutSine
+a changecamera position 27.5 0.5 0 0 0.5 easeInSine
+
+a changecamera position 28.0 0.5 0 0 0.75 easeOutSine
+a changecamera position 28.5 0.5 0 0 -0.75 easeInSine
+
+
+a changecamera position 29.0 0.5 0 0 -0.75 easeOutSine
+a changecamera position 29.5 0.5 0 0 0.75 easeInSine
+
+a changecamera position 30.0 0.5 0 0 0.25 easeOutSine
+a changecamera position 30.5 0.5 0 0 -0.25 easeInSine
+
+
+//floating effect 
+a changecamera angle 31 16 0 0 60 easeInOutCubic
+
+a changecamera position 31.0 1 0.2 0 0 easeInOutSine
+a changecamera position 32.0 2 -0.4 0 0 easeInOutSine
+a changecamera position 34.0 1 0.2 0 0 easeInOutSine
+
+a changecamera position 35.0 1 -0.2 0 0 easeInOutSine
+a changecamera position 36.0 2 0.4 0 0 easeInOutSine
+a changecamera position 38.0 1 -0.2 0 0 easeInOutSine
+
+a changecamera position 39.0 1 0 0.2 0 easeInOutSine
+a changecamera position 40.0 2 0 -0.4 0 easeInOutSine
+a changecamera position 42.0 1 0 0.2 0 easeInOutSine
+
+a changecamera position 43.0 1 0 -0.2 0 easeInOutSine
+a changecamera position 44.0 2 0 0.4 0 easeInOutSine
+a changecamera position 46.0 1 0 -0.2 0 easeInOutSine
+
+
+//focus to one lane x 4 and return to original camera position
+a changecamera position 54.5 1 -0.5 0 0 easeOutQuart
+a changecamera position 55.5 1 1 0 0 easeOutQuart
+a changecamera position 56.5 1 -0.75 -0.433013 0 easeOutQuart
+a changecamera position 57.5 1 0.5 0.866026 0 easeOutQuart
+a changecamera position 58.5 1 -0.125 -0.2165065 0 easeOutQuart
+
+//zoom in and out
+a changecamera position 59 1 -0.125 -0.2165065 -0.5 easeOutQuart
+a changecamera position 60 1 0 0 1 easeOutQuart
+a changecamera position 61 0.5 0 0 -5 easeOutQuad
+a changecamera position 61.5 0.5 0 0 4.5 easeInSine
+
+//swipe in out to move camera 
+a changecamera position 72 0.5 0.075 0.12990375 0 easeOutSine
+a changecamera position 72.5 0.5 -0.125 -0.21650625 0 easeOutSine
+a changecamera position 73 0.5 0.05 0.0866025 0 easeOutSine
+
+a changecamera position 75 0.5 0.075 0.12990375 0 easeOutSine
+a changecamera position 75.5 0.5 -0.125 -0.21650625 0 easeOutSine
+a changecamera position 76 0.5 0.05 0.0866025 0 easeOutSine
+
+a changecamera position 87.5 0.5 -0.15 0 0 easeOutSine
+a changecamera position 88 0.5 0.25 -0 0 easeOutSine
+a changecamera position 88.5 0.5 -0.1 0 0 easeOutSine
+
+a changecamera position 91 0.5 -0.15 0 0 easeOutSine
+a changecamera position 91.5 0.5 0.25 0 0 easeOutSine
+a changecamera position 92 0.5 -0.1 0 0 easeOutSine
+
+
+//"reflected" pump
+a changecamera position 95.0 0.5 0 0 -0.5 easeOutSine
+a changecamera position 95.5 0.5 0 0 0.5 easeInSine
+
+
+//nudge left right left
+a changecamera position 104 1 0.25 0.433013 0 easeOutSine
+a changecamera position 105 1 -0.5 -0.866026 0 easeOutSine
+a changecamera position 106 1 0.25 0.433013 0 easeOutSine
+
+//camera bounce down
+a changecamera position 107 0.5 -0.433013 0.25 0 easeOutSine
+a changecamera position 107.5 0.5 0.433013 -0.25 0 easeInSine
+a changecamera position 108 0.5 -0.433013 0.25 0 easeOutSine
+a changecamera position 108.5 0.5 0.433013 -0.25 0 easeInSine
+a changecamera position 109 0.5 -0.433013 0.25 0 easeOutSine
+a changecamera position 109.5 0.5 0.433013 -0.25 0 easeInSine
+
+
+//nudge right left right
+a changecamera position 120 1 0.25 0.433013 0 easeOutSine
+a changecamera position 121 1 -0.5 -0.866026 0 easeOutSine
+a changecamera position 122 1 0.25 0.433013 0 easeOutSine
+
+//camera bounce down
+a changecamera position 123 0.5 0.433013 -0.25 0 easeOutSine
+a changecamera position 123.5 0.5 -0.433013 0.25 0 easeInSine
+a changecamera position 124 0.5 0.433013 -0.25 0 easeOutSine
+a changecamera position 124.5 0.5 -0.433013 0.25 0 easeInSine
+a changecamera position 125 0.5 0.433013 -0.25 0 easeOutSine
+a changecamera position 125.5 0.5 -0.433013 0.25 0 easeInSine
+
+
+//kick sound screen pump effect
+a changecamera position 159 0.125 0 0 0.25 easeOutSine
+a changecamera position 159.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 160 0.125 0 0 0.25 easeOutSine
+a changecamera position 160.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 161 0.125 0 0 0.25 easeOutSine
+a changecamera position 161.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 162 0.125 0 0 0.25 easeOutSine
+a changecamera position 162.25 0.5 0 0 -0.25 easeInOutQuad
+
+a changecamera position 163 0.125 0 0 0.25 easeOutSine
+a changecamera position 163.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 164 0.125 0 0 0.25 easeOutSine
+a changecamera position 164.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 165 0.125 0 0 0.25 easeOutSine
+a changecamera position 165.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 166 0.125 0 0 0.25 easeOutSine
+a changecamera position 166.25 0.5 0 0 -0.25 easeInOutQuad
+
+a changecamera position 167 0.125 0 0 0.25 easeOutSine
+a changecamera position 167.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 168 0.125 0 0 0.25 easeOutSine
+a changecamera position 168.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 169 0.125 0 0 0.25 easeOutSine
+a changecamera position 169.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 170 0.125 0 0 0.25 easeOutSine
+a changecamera position 170.25 0.5 0 0 -0.25 easeInOutQuad
+
+a changecamera position 171 0.125 0 0 0.25 easeOutSine
+a changecamera position 171.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 172 0.125 0 0 0.25 easeOutSine
+a changecamera position 172.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 173 0.125 0 0 0.25 easeOutSine
+a changecamera position 173.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 174 0.125 0 0 0.25 easeOutSine
+a changecamera position 174.25 0.5 0 0 -0.25 easeInOutQuad
+
+a changecamera position 175 0.125 0 0 0.25 easeOutSine
+a changecamera position 175.25 0.5 0 0 -0.25 easeInOutQuad
+
+
+a changecamera position 176 0.125 0 0 0.25 easeOutSine
+a changecamera position 176.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 177 0.125 0 0 0.25 easeOutSine
+a changecamera position 177.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 178 0.125 0 0 0.25 easeOutSine
+a changecamera position 178.25 0.5 0 0 -0.25 easeInOutQuad
+
+
+a changecamera position 179 0.125 0 0 0.25 easeOutSine
+a changecamera position 179.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 180 0.125 0 0 0.25 easeOutSine
+a changecamera position 180.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 181 0.125 0 0 0.25 easeOutSine
+a changecamera position 181.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 182 0.125 0 0 0.25 easeOutSine
+a changecamera position 182.25 0.5 0 0 -0.25 easeInOutQuad
+
+a changecamera position 183 0.125 0 0 0.25 easeOutSine
+a changecamera position 183.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 184 0.125 0 0 0.25 easeOutSine
+a changecamera position 184.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 185 0.125 0 0 0.25 easeOutSine
+a changecamera position 185.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 186 0.125 0 0 0.25 easeOutSine
+a changecamera position 186.25 0.5 0 0 -0.25 easeInOutQuad
+
+//stutter zoom
+a changecamera position 187 0 0 0 -0.2 Linear
+a changecamera position 187.5 0 0 0 -0.2 Linear
+a changecamera position 188 0 0 0 -0.2 Linear
+a changecamera position 188.5 0 0 0 -0.2 Linear
+a changecamera position 189 0 0 0 -0.2 Linear
+a changecamera position 189.5 0 0 0 -0.2 Linear
+a changecamera position 190 1 0 0 +1.2 easeOutCubic
+
+//kick sound screen pump effect
+a changecamera position 191 0.125 0 0 0.25 easeOutSine
+a changecamera position 191.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 192 0.125 0 0 0.25 easeOutSine
+a changecamera position 192.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 193 0.125 0 0 0.25 easeOutSine
+a changecamera position 193.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 194 0.125 0 0 0.25 easeOutSine
+a changecamera position 194.25 0.5 0 0 -0.25 easeInOutQuad
+
+a changecamera position 195 0.125 0 0 0.25 easeOutSine
+a changecamera position 195.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 196 0.125 0 0 0.25 easeOutSine
+a changecamera position 196.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 197 0.125 0 0 0.25 easeOutSine
+a changecamera position 197.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 198 0.125 0 0 0.25 easeOutSine
+a changecamera position 198.25 0.5 0 0 -0.25 easeInOutQuad
+
+a changecamera position 199 0.125 0 0 0.25 easeOutSine
+a changecamera position 199.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 200 0.125 0 0 0.25 easeOutSine
+a changecamera position 200.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 201 0.125 0 0 0.25 easeOutSine
+a changecamera position 201.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 202 0.125 0 0 0.25 easeOutSine
+a changecamera position 202.25 0.5 0 0 -0.25 easeInOutQuad
+
+a changecamera position 203 0.125 0 0 0.25 easeOutSine
+a changecamera position 203.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 204 0.125 0 0 0.25 easeOutSine
+a changecamera position 204.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 205 0.125 0 0 0.25 easeOutSine
+a changecamera position 205.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 206 0.125 0 0 0.25 easeOutSine
+a changecamera position 206.25 0.5 0 0 -0.25 easeInOutQuad
+
+a changecamera position 207 0.125 0 0 0.25 easeOutSine
+a changecamera position 207.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 208 0.125 0 0 0.25 easeOutSine
+a changecamera position 208.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 209 0.125 0 0 0.25 easeOutSine
+a changecamera position 209.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 210 0.125 0 0 0.25 easeOutSine
+a changecamera position 210.25 0.5 0 0 -0.25 easeInOutQuad
+
+a changecamera position 211 0.125 0 0 0.25 easeOutSine
+a changecamera position 211.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 212 0.125 0 0 0.25 easeOutSine
+a changecamera position 212.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 213 0.125 0 0 0.25 easeOutSine
+a changecamera position 213.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 214 0.125 0 0 0.25 easeOutSine
+a changecamera position 214.25 0.25 0 0 -0.25 easeInOutQuad
+
+//focus to one lane x 8
+a changecamera position 214.5 1 -0.5 0 0 easeOutQuart
+a changecamera position 215.5 1 1 0 0 easeOutQuart
+a changecamera position 216.5 1 -0.75 -0.433013 0 easeOutQuart
+a changecamera position 217.5 1 0.5 0.866026 0 easeOutQuart
+
+a changecamera position 218.5 1 -0.72 -0.433013 0 easeOutQuart
+a changecamera position 219.5 1 0.25 -0.433013 0 easeOutQuart
+a changecamera position 220.5 1 0.5 0 0 easeOutQuart
+a changecamera position 221.5 1 0.25 0.433013 0 easeOutQuart
+
+//parallax? and stutter zoom
+a changecamera position 223 0 -1 -0.5 -3 Linear
+a changecamera position 224 0 1 0 0 Linear
+a changecamera position 225 0 0 1 0 Linear
+a changecamera position 226 0 -1 0 0 Linear
+a changecamera position 227 0 0.5 -0.5 0 Linear
+
+a changecamera position 227.5 0 0 0 0.5 Linear
+a changecamera position 227.75 0 0 0 0.5 Linear
+a changecamera position 228 0 0 0 1 Linear
+a changecamera position 228.5 0 0 0 1 Linear
+a changecamera position 229 0.5 0 0 1 EaseOutSine
+
+//zoom in, catch and swipe part 
+a changecamera position 229.5 0.5 0 -0 -1 EaseInSine
+a changecamera position 231 0.5 0 0 1 EaseOutSine
+a changecamera position 238 0.5 0 0 -1 EaseOutSine
+
+//screen pump effect
+a changecamera position 239 0.125 0 0 0.25 easeOutSine
+a changecamera position 239.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 241 0.125 0 0 0.25 easeOutSine
+a changecamera position 241.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 243 0.125 0 0 0.25 easeOutSine
+a changecamera position 243.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 245.5 0.125 0 0 0.25 easeOutSine
+a changecamera position 245.75 0.25 0 0 -0.125 easeInOutQuad
+a changecamera position 246 0.125 0 0 0.25 easeOutSine
+a changecamera position 246.25 0.5 0 0 -0.375 easeInOutQuad
+
+a changecamera position 247 0.125 0 0 0.25 easeOutSine
+a changecamera position 247.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 249 0.125 0 0 0.25 easeOutSine
+a changecamera position 249.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 250 0.125 0 0 0.25 easeOutSine
+a changecamera position 250.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 251 0.125 0 0 0.25 easeOutSine
+a changecamera position 251.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 253 0.125 0 0 0.25 easeOutSine
+a changecamera position 253.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 254 0.125 0 0 0.25 easeOutSine
+a changecamera position 254.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 255 0.125 0 0 0.25 easeOutSine
+a changecamera position 255.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 257 0.125 0 0 0.25 easeOutSine
+a changecamera position 257.25 0.5 0 0 -0.25 easeInOutQuad
+
+a changecamera position 259 0.125 0 0 0.25 easeOutSine
+a changecamera position 259.25 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 259.75 0.125 0 0 0.25 easeOutSine
+a changecamera position 260.0 0.5 0 0 -0.25 easeInOutQuad
+a changecamera position 260.5 0.125 0 0 0.25 easeOutSine
+a changecamera position 260.75 0.5 0 0 -0.25 easeInOutQuad
+
+//"reflected" pump 
+a changecamera position 263.0 0.5 0 0 -0.5 easeOutSine
+a changecamera position 263.5 0.5 0 0 0.5 easeInSine
+
+//nudge left right 
+a changecamera position 272 1 0.5 0 0 easeOutSine
+a changecamera position 273 1 -1 0 0 easeOutSine
+a changecamera position 274 1 0.5 0 0 easeOutSine
+
+//inward bounce
+a changecamera position 275.0 0.5 0 0 -0.5 easeOutSine
+a changecamera position 275.5 0.5 0 0 0.5 easeInSine
+a changecamera position 276.0 0.5 0 0 -0.5 easeOutSine
+a changecamera position 276.5 0.5 0 0 0.5 easeInSine
+a changecamera position 277.0 0.5 0 0 -0.5 easeOutSine
+a changecamera position 277.5 0.5 0 0 0.5 easeInSine
+
+//narrowing stutter zoom
+a changecamera position 278.25 0 0 0 0.2 EaseOutSine
+a changecamera position 278.5 0 0 0 0.2 EaseOutSine
+a changecamera position 278.75 0 0 0 0.2 EaseOutSine
+a changecamera position 279 0 0 0 -0.6 EaseOutSine
+
+//nudge left right
+a changecamera position 288 1 -0.5 0 0 easeOutSine
+a changecamera position 289 1 1 0 0 easeOutSine
+a changecamera position 290 1 -0.5 0 0 easeOutSine
+
+//inward bounce
+a changecamera position 291.0 0.5 0 0 -0.5 easeOutSine
+a changecamera position 291.5 0.5 0 0 0.5 easeInSine
+a changecamera position 292.0 0.5 0 0 -0.5 easeOutSine
+a changecamera position 292.5 0.5 0 0 0.5 easeInSine
+a changecamera position 293.0 0.5 0 0 -0.5 easeOutSine
+a changecamera position 293.5 0.5 0 0 0.5 easeInSine
+
+
+
+//CAMERA ANGLE CHANGES
+
+//“もう我慢できない”shake 
+a changecamera angle 5.5 0.5 0 0 2 easeInSine
+a changecamera angle 6.0 0.5 0 0 -4 easeInOutSine
+a changecamera angle 6.5 0.5 0 0 2 easeOutSine
+
+//chorus
+a changecamera angle 63.125 1.75 0 0 -90 easeOutQuad
+a changecamera angle 71 1 0 0 30 easeInOutSine
+a changecamera angle 73 2 0 0 -60 easeInOutSine
+a changecamera angle 76.5 2 0 0 60 easeInOutSine
+
+a changecamera angle 79.125 1.75 0 0 90 easeOutQuad
+a changecamera angle 87 1 0 0 -30 easeInOutSine
+a changecamera angle 89 2 0 0 60 easeInOutSine
+a changecamera angle 92.5 2 0 0 -60 easeInOutSine
+
+//chorus2 sway
+a changecamera angle 95 1 0 0 1.5 easeInOutSine
+a changecamera angle 96 1 0 0 -3 easeInOutSine
+a changecamera angle 97 1 0 0 3 easeInOutSine
+a changecamera angle 98 1 0 0 -3 easeInOutSine
+a changecamera angle 99 1 0 0 3 easeInOutSine
+a changecamera angle 100 1 0 0 -3 easeInOutSine
+a changecamera angle 101 1 0 0 3 easeInOutSine
+a changecamera angle 102 1 0 0 -3 easeInOutSine
+a changecamera angle 103 1 0 0 3 easeInOutSine
+a changecamera angle 104 1 0 0 -3 easeInOutSine
+a changecamera angle 105 1 0 0 3 easeInOutSine
+a changecamera angle 106 1 0 0 -3 easeInOutSine
+a changecamera angle 107 1 0 0 3 easeInOutSine
+a changecamera angle 108 1 0 0 -3 easeInOutSine
+a changecamera angle 109 1 0 0 1.5 easeInOutSine
+a changecamera angle 110 1 0 0 180 EaseOutSine
+
+a changecamera angle 111 1 0 0 -1.5 easeInOutSine
+a changecamera angle 112 1 0 0 3 easeInOutSine
+a changecamera angle 113 1 0 0 -3 easeInOutSine
+a changecamera angle 114 1 0 0 3 easeInOutSine
+a changecamera angle 115 1 0 0 -3 easeInOutSine
+a changecamera angle 116 1 0 0 3 easeInOutSine
+a changecamera angle 117 1 0 0 -3 easeInOutSine
+a changecamera angle 118 1 0 0 3 easeInOutSine
+a changecamera angle 119 1 0 0 -3 easeInOutSine
+a changecamera angle 120 1 0 0 3 easeInOutSine
+a changecamera angle 121 1 0 0 -3 easeInOutSine
+a changecamera angle 122 1 0 0 3 easeInOutSine
+a changecamera angle 123 1 0 0 -3 easeInOutSine
+a changecamera angle 124 1 0 0 +3 easeInOutSine
+a changecamera angle 125 1 0 0 -1.5 easeInOutSine
+a changecamera angle 126.125 3.875 0 0 -660 easeOutSine
+
+/a changecamera position 155 1.5 0 -0.519615 0 easeInOutSine
+/a changecamera position 156.5 1.5 0 0.519615 0 easeInOutSine
+a changecamera angle 155 1.5 0 0 30 easeInSine
+a changecamera angle 156.5 1.5 0 0 30 easeOutSine
+
+//upbeat?? part
+a changecamera angle 159.5 1 0 0 -10 easeOutSine
+a changecamera angle 160.5 1 0 0 10 easeOutSine
+a changecamera angle 161.5 1 0 0 -10 easeOutSine
+a changecamera angle 162.5 1 0 0 10 easeOutSine
+
+a changecamera angle 163.5 1 0 0 10 easeOutSine
+a changecamera angle 164.5 1 0 0 -10 easeOutSine
+a changecamera angle 165.5 1 0 0 10 easeOutSine
+a changecamera angle 166.5 1 0 0 -10 easeOutSine
+
+a changecamera angle 167.5 1 0 0 -10 easeOutSine
+a changecamera angle 168.5 1 0 0 10 easeOutSine
+a changecamera angle 169.5 1 0 0 -10 easeOutSine
+a changecamera angle 170.5 1 0 0 10 easeOutSine
+
+a changecamera angle 171.5 1 0 0 10 easeOutSine
+a changecamera angle 172.5 1 0 0 -10 easeOutSine
+a changecamera angle 173.5 1 0 0 10 easeOutSine
+a changecamera angle 174.5 1 0 0 -10 easeOutSine
+
+
+a changecamera angle 177.5 1 0 0 10 easeOutSine
+a changecamera angle 178.5 1 0 0 -10 easeOutSine
+
+a changecamera angle 179.5 1 0 0 -10 easeOutSine
+a changecamera angle 180.5 1 0 0 10 easeOutSine
+a changecamera angle 181.5 1 0 0 -10 easeOutSine
+a changecamera angle 182.5 1 0 0 10 easeOutSine
+
+a changecamera angle 183.5 1 0 0 10 easeOutSine
+a changecamera angle 184.5 1 0 0 -10 easeOutSine
+a changecamera angle 185.5 1 0 0 10 easeOutSine
+a changecamera angle 186.5 0.5 0 0 -5 easeOutSine
+
+
+//stutter
+a changecamera angle 187 0 0 0 -2.5 Linear
+a changecamera angle 187.5 0 0 0 -2.5 Linear
+a changecamera angle 188 0 0 0 -2.5 Linear
+a changecamera angle 188.5 0 0 0 -2.5 Linear
+a changecamera angle 189 0 0 0 -2.5 Linear
+a changecamera angle 189.5 0 0 0 -2.5 Linear
+a changecamera angle 190 0.5 0 0 +30 easeOutSine
+a changecamera angle 190.5 0.5 0 0 -20 easeInOutSine
+
+//turn 30deg every measure
+a changecamera angle 194 1 0 0 +30 easeInOutSine
+a changecamera angle 198 1 0 0 +30 easeInOutSine
+a changecamera angle 200.5 1 0 0 +10 easeInOutSine
+a changecamera angle 201.5 1 0 0 +10 easeInOutSine
+a changecamera angle 202.5 1 0 0 +10 easeInOutSine
+
+a changecamera angle 206 1 0 0 -30 easeOutSine
+a changecamera angle 210 1 0 0 -30 easeInOutSine
+//a changecamera angle 214 0.5 0 0 -10 easeInOutSine
+//a changecamera angle 214.5 0.5 0 0 10 easeInOutSine
+a changecamera angle 218 1 0 0 -30 easeInOutSine
+
+//parallax
+a changecamera angle 223 0 5 5 -30 Linear
+a changecamera angle 224 0 -10 0 0 Linear
+a changecamera angle 225 0 0 -10 0 Linear
+a changecamera angle 226 0 10 0 0 Linear
+a changecamera angle 227 0 -5 5 0 Linear
+
+a changecamera angle 228 0 0 0 30 Linear
+a changecamera angle 228.5 0 0 0 0 Linear
+a changecamera angle 229 0 0 0 0 Linear
+
+//rotaeno(x
+a changecamera angle 231 1 0 0 -5 EaseInOutSine
+a changecamera angle 232 2 0 0 7.5 EaseInOutSine
+a changecamera angle 234 2 0 0 7.5 EaseInOutSine
+a changecamera angle 236 2 0 0 -7.5 EaseInOutSine
+a changecamera angle 238 0.5 0 0 -2.5 EaseInOutSine
+
+//
+a changecamera angle 244 3 0 0 -60 easeInOutSine
+a changecamera angle 256.5 2 0 0 60 easeInOutSine
+
+
+//chorus sway
+a changecamera angle 263 1 0 0 1.5 easeInOutSine
+a changecamera angle 264 1 0 0 -3 easeInOutSine
+a changecamera angle 265 1 0 0 3 easeInOutSine
+a changecamera angle 266 1 0 0 -3 easeInOutSine
+a changecamera angle 267 1 0 0 3 easeInOutSine
+a changecamera angle 268 1 0 0 -3 easeInOutSine
+a changecamera angle 269 1 0 0 3 easeInOutSine
+a changecamera angle 270 1 0 0 -3 easeInOutSine
+a changecamera angle 271 1 0 0 3 easeInOutSine
+a changecamera angle 272 1 0 0 -3 easeInOutSine
+a changecamera angle 273 1 0 0 3 easeInOutSine
+a changecamera angle 274 1 0 0 -3 easeInOutSine
+a changecamera angle 275 1 0 0 3 easeInOutSine
+a changecamera angle 276 1 0 0 -3 easeInOutSine
+a changecamera angle 277 1 0 0 1.5 easeInOutSine
+
+a changecamera angle 279 1 0 0 -1.5 easeInOutSine
+a changecamera angle 280 1 0 0 3 easeInOutSine
+a changecamera angle 281 1 0 0 -3 easeInOutSine
+a changecamera angle 282 1 0 0 3 easeInOutSine
+a changecamera angle 283 1 0 0 -3 easeInOutSine
+a changecamera angle 284 1 0 0 3 easeInOutSine
+a changecamera angle 285 1 0 0 -3 easeInOutSine
+a changecamera angle 286 1 0 0 3 easeInOutSine
+a changecamera angle 287 1 0 0 -3 easeInOutSine
+a changecamera angle 288 1 0 0 3 easeInOutSine
+a changecamera angle 289 1 0 0 -3 easeInOutSine
+a changecamera angle 290 1 0 0 3 easeInOutSine
+a changecamera angle 291 1 0 0 -3 easeInOutSine
+a changecamera angle 292 1 0 0 +3 easeInOutSine
+a changecamera angle 293 1 0 0 -1.5 easeInOutSine
+
+
+//ACTUAL CHART
+n catch rc lc 0
+n catch rc lc 0.5
+n swipe in rc lc 1
+n swipe out rc lc 3
+
+//part1
+n short rt 4.5
+n swipe in rt 5
+n swipe in rt 7
+n catch lb 4.5
+n catch lb 5
+n catch lb 5.5
+n catch lb 5.75
+n catch lb 6.25
+n catch lb 6.75
+
+n short lt 8.5
+n swipe in lt 9
+n swipe in lt 11
+n catch rb 8.5
+n catch rb 9
+n catch rb 9.5
+n catch rb 9.75
+n catch rb 10.25
+n catch rb 10.75
+n catch rb 11.5
+
+n short rt 12.5
+n swipe in rt 13
+n swipe out rt 14
+n long rt 15 15.5
+n catch lb 12.5
+n catch lb 13
+n catch lb 13.5
+n catch lb 13.75
+n catch lb 14.25
+n catch lb 14.75
+
+//hihat trill
+n catch lc rc 16
+n catch lc rc 16.0625
+n catch lc rc 16.125
+
+n catch lc rc 16.5
+n catch lc rc 16.5625
+n catch lc rc 16.625
+
+//part 1 
+n swipe in rc lc 17
+n swipe out rc lc 19
+
+n short lt 20.5
+n swipe in lt 21
+n swipe in lc 23
+n swipe in lb 25
+n catch rb 20.5
+n catch rb 21
+n catch rb 21.5
+n catch rb 21.75
+n catch rc 22.25
+n catch rc 22.75
+n catch rc 23.5
+n catch rt 24
+n catch rt 24.5
+n catch rt 25
+
+n short lb rt 26.5
+n swipe in lb rt 27
+n swipe out lc rc 28
+n swipe in lt rb 29
+n long rb 30 31
+
+
+//bridge part(cw-rotating 60 deg from 31 to 47)
+n long lt 31 33.5
+n short lc 34
+n long lb 34.5 37
+n short lb 37.5
+n short lc 38
+n short lt 38.5
+//half-turn
+n short lt 39
+n short rt 39.333333
+n long rc 39.666666 41
+
+n swipe out rc 41.5
+
+n short rc 43.5
+n short rt 44
+n short rt 44.25
+n short lt 44.75
+n short lt 45.5
+n short rt 46
+n short rc 46.5
+
+n catch rb 31.5
+n catch rb 32
+n catch rb 32.5
+n catch rb 33
+n catch rb 33.5
+n catch rb 34
+
+n catch rb 35
+n catch rb 35.5
+n catch rb 36
+n catch rb 36.5
+n catch rb 37
+n catch rb 37.5
+n catch rb 38
+
+n catch rb 40
+n catch rb 40.5
+n catch rb 41
+n catch rb 41.5
+n catch rb 42.5
+n catch rb 43
+n catch rb 43.5
+
+n catch rb 45
+n catch rb 46
+
+n catch rb 47
+n catch rb 47.5
+n catch rb 48
+n catch rb 48.5
+n catch rb 49
+n catch rb 49.5
+n catch rb 50
+
+n long rc 47 47.5
+n long rc 48 48.5
+n long rt 49 49.5
+n long rt 50 50.5
+
+n catch lt 51
+n catch lt 51.5
+n catch lt 52
+n catch lt 52.5
+n catch lt 53
+n catch lt 53.5
+n catch lt 54
+n catch lt 54.5
+
+n long rb 51 51.5
+n long rb 52 52.5
+n long lb 53 53.5
+n long lb 54 54.5
+
+n short lc 55
+n catch lc 55.333333
+n catch lc 55.666666
+n short rc 56
+n catch rc 56.333333
+n catch rc 56.666666
+n short lb 57
+n catch lb 57.333333
+n catch lb 57.666666
+n short rt 58
+n catch rt 58.333333
+n catch rt 58.666666
+
+n swipe in lt rb 59
+n swipe out rt lb 60
+n swipe in lc rc 61
+n catch lc rc 61.25
+n catch lc rc 61.5
+n catch lc rc 61.75
+n catch lc rc 62
+
+n catch lb rt 62.5
+n swipe out lt rb 63
+
+//chorus
+n long rb 64 66
+n short rt 64.5
+n short lt 65
+n short lc 65.5
+n short lb 66
+
+n long lc 67 68
+n swipe out lb 67.5
+n long rb 68 69
+n swipe out lb 68.5
+n long lc 69 70
+n swipe out lb 69.5
+n short rb 70
+
+n swipe in lb rt 71
+
+n long lc 71.5 74.5
+n swipe out lb 72
+n swipe in lb 72.5
+n swipe out lb 73
+
+n long rb 74.5 76
+n swipe out lb 75
+n swipe in lb 75.5
+n swipe out lb 76
+
+n catch lb 76.5
+n catch rb 76.666666
+n catch lb 76.833333
+n catch rb 77
+n catch lb 77.25
+n catch rb 77.5
+n catch lb 77.75
+n catch rb 78
+
+n swipe in rb 78.5
+n swipe out rb lt 79
+
+n long rb 80 82
+n short lc 80.5
+n short lt 81
+n short rt 81.5
+n short rc 82
+
+n long rt 83 84
+n swipe out rc 83.5
+n long rb 84 85
+n swipe out rc 84.5
+n long rt 85 86
+n swipe out rc 85.5
+n long rb 86 87
+n swipe out rc 86.5
+
+n long rt 87 89
+n swipe out rc 87.5
+n swipe in rc 88
+n swipe out rc 88.5
+
+n long rb 90.5 92
+n swipe out rc 91
+n swipe in rc 91.5
+n swipe out rc 92
+
+n catch rc 92.5
+n catch rb 92.666666
+n catch rc 92.833333
+n catch rb 93
+n catch rc 93.25
+n catch rb 93.5
+n catch rc 93.75
+n catch rb 94
+
+n short rt lb 94.5
+n swipe in rt lb 95
+
+n long rc 97 98.75
+n long rt 99 100.5
+n long lt 101 102.75
+n long rt 103 103.5
+
+n short rb 96.5
+n short rb 97
+n short lb 97.5
+n short lb 97.75
+n short lc 98.25
+n long lc 98.75 100
+
+n short lc 100.5
+n short lc 101
+n short lb 101.5
+n short lb 101.75
+n short rb 102.25
+n long rb 102.75 103.5
+
+n catch lb 104
+n catch lb 104.25
+n catch lb 104.5
+n catch lb 104.75
+n catch lb 105
+n catch lb 105.5
+n catch lb 106
+n catch lb 106.5
+
+n swipe in rt 104
+n swipe out rt 105
+n swipe in rt 106
+
+
+n swipe in lt 107
+n short rb 107
+n swipe in lc 108
+n short rc 108
+n swipe in lt 109
+n short rb 109
+n swipe out rc lc 110
+
+//2nd chorus
+n long lt 113 114.75
+n long rt 115 116.5
+n long rc 117 118.75
+n long rt 119 119.5
+
+n short lc 112.5
+n short lc 113
+n short lb 113.5
+n short lb 113.75
+n short rb 114.25
+n long rb 114.75 116
+
+n short rb 116.5
+n short rb 117
+n short lb 117.5
+n short lb 117.75
+n short lc 118.25
+n long lc 118.75 119.5
+
+n catch lb 120
+n catch lb 120.25
+n catch lb 120.5
+n catch lb 120.75
+n catch lb 121
+n catch lb 121.5
+n catch lb 122
+n catch lb 122.5
+
+n swipe in rt 120
+n swipe out rt 121
+n swipe in rt 122
+
+n swipe in rc 123
+n short lc 123
+n short lb 123.5
+n swipe in rb 124
+n short lt 124
+n short rt 124.5
+n swipe in rc 125
+n short lc 125
+n short lb 125.5
+n swipe out lt rb 126
+
+n long lc 131 135
+n long lb 133 135
+
+n short lt 135.5
+n short lb 136
+n long lc 136.5 138
+n swipe in rb 137
+
+n short rb 138.5
+n short lc 139
+n long lb 139.5 140
+n swipe in lt 140
+
+n short lb rb 141
+n short lc lt 142
+
+n long lb 143 145
+n short lc 143.5
+n short lt 144
+n short lt 144.5
+
+n long lc 145 146
+n short lb 145.5
+n short rb 146
+
+n short rt 147
+n short rc 147.5
+n short lt 148
+n short rb 148.5
+n short lc 149
+n short lb 149.5
+
+n long lt 150 152.5
+n long lc 151 152.5
+n long lc lb 153 154.5
+n long lb 155 158
+n long rb 155 158
+
+//upbeat part
+n short rb 158.5
+
+n short lb 159
+n swipe in rc 159.5
+n short lb 160
+n swipe in rt 160.5
+n short lb 161
+n swipe in rc 161.5
+n short lb 162
+n swipe in rt 162.5
+
+n short lb 163
+n swipe out rc 163.5
+n short lb 164
+n swipe out rt 164.5
+n short lb 165
+n swipe out rc 165.5
+n short lb 166
+n swipe out rt 166.5
+
+n short lb 167
+n swipe in rc 167.5
+n short lb 168
+n swipe in rt 168.5
+n short lb 169
+n swipe in rc 169.5
+n short lb 170
+n swipe in rt 170.5
+
+n short lb 171
+n swipe out rc 171.5
+n short lb 172
+n swipe out rt 172.5
+n short lb 173
+n swipe out rc 173.5
+n short lb 174
+n swipe out rt 174.5
+
+n long lb 175 177
+
+n short rb 176
+n short rb 176.5
+n short rb 177
+
+n swipe in lc 177.5
+n short rb 178
+n swipe in lt 178.5
+
+n short rb 179
+n swipe out lc 179.5
+n short rb 180
+n swipe out lt 180.5
+n short rb 181
+n swipe out lc 181.5
+n short rb 182
+n swipe out lt 182.5
+
+n short rb 183
+n swipe in lc 183.5
+n short rb 184
+n swipe in lt 184.5
+n short rb 185
+n swipe in lc 185.5
+n short rb 186
+n swipe in lt 186.5
+
+
+n catch rc lc 187
+n catch rc lc 187.5
+n catch rc lc 188
+n catch rc lc 188.5
+n catch rc lc 189
+n catch rc lc 189.5
+n swipe out rc lc 190
+
+n short rt 191
+n long rt 191.5 194
+n short lt 192
+n short lc 192.5
+n short lb 193
+n short lc 193.5
+n swipe out lt 194
+
+n long rc 195 196
+n swipe out rb 195.5
+n long lb 196 197
+n swipe out rb 196.5
+n long rc 197 198
+n swipe out rb 197.5
+n swipe in lb 198
+
+n catch lb rc 199
+n catch lc rt 199.333333
+n long lt 199.666667 202.5
+
+n swipe out rb 200.5
+n swipe out rb 201.5
+n swipe out rb 202.5
+
+n long rb 203.5 204.75
+n short rc 204
+n short rc 204.25
+n long rt 204.75 205.5
+n short lc 205.5
+
+n swipe in lt 206
+
+n short lc 207
+n long lc 207.5 210
+n short lt 208
+n short rt 208.5
+n short rc 209
+n short rt 209.5
+n swipe out lt 210
+
+n long lb 211 212
+n swipe out rb 211.5
+n long rc 212 213
+n swipe out rb 212.5
+n long lb 213 214
+n swipe out rb 213.5
+n swipe in rc 214
+
+n short lc 215.00000
+n short lc 215.33333
+n short lc 215.66667
+n short rc 216.00000
+n short rc 216.33333
+n short rc 216.66667
+n short lb 217.00000
+n short lb 217.33333
+n short lb 217.66667
+n short rt 218.00000
+n short rt 218.33333
+n short rt 218.66667
+
+n short lc 219.00000
+n short lc 219.33333
+n short lc 219.66667
+n short lb 220.00000
+n short lb 220.33333
+n short lb 220.66667
+n short rb 221.00000
+n short rb 221.33333
+n short rb 221.66667
+n short rc 222.00000
+n short rc 222.33333
+n short rc 222.66667
+
+n catch rc lc 230
+n catch rc lc 230.5
+n swipe out rc lc 231
+
+n swipe in rc 232
+n swipe out rc 232.5
+n swipe in rc 233
+n swipe in rc 234
+n swipe out rc 234.5
+n swipe in rc 235
+n swipe out rc 235.5
+n swipe in rc 236
+n swipe out rc 236.25
+n swipe out rc 237
+
+n catch lc 232
+n catch lc 232.5
+n catch lc 233
+n catch lc 233.5
+n catch lc 234
+n catch lc 234.5
+n catch lc 235
+n catch lc 235.5
+n catch lc 236
+n catch lc 236.5
+n catch lc 237
+n catch lc 237.5
+n swipe in rc lc 238
+
+n long lb 239 241
+n long rc 241 243
+n long lt 243.25 246
+
+n short rb 239
+n short rb 239.5
+n short rc 240
+n short rt 240.5
+
+n short lb 241.5
+n short lc 242
+n short lc 242.25
+n short lt 242.75
+
+n short rt 243
+n short rc 243.75
+n short rb 244.25
+
+n catch rb 244.5
+n catch rb 244.66667
+n catch rb 244.83333
+n catch rb 245
+n catch rb 245.25
+n catch rb 245.5
+n catch rb 245.75
+n catch rb 246
+
+n swipe in rb lt 246.5
+
+n long lb 247 249
+n short rt 249
+n swipe in rt 250
+n long lb 251.25 254.5
+
+n short lc 247
+n short lc 247.5
+n short lt 248
+n short lt 248.5
+
+n catch rc 249.25
+n catch rc 249.75
+n short rb 250.5
+n short lb 251
+
+n swipe in lc 251.75
+n catch lt 252.25
+n swipe in lt 252.75
+n catch rt 253.25
+n swipe in rt 253.75
+
+n long rt 254.5 255.75
+
+n catch lb 255
+n catch lb 255.25
+n swipe in lb 255.75
+
+n swipe out lt rb 256.5
+
+n short rb lt 258.5
+
+n long rc lc 259 259.5
+n long rb lt 259.75 260.25
+n short rt lb 260.5
+n catch rt lb 260.625
+n catch rt lb 260.75
+n catch rt lb 260.825
+n catch rt lb 261
+n catch rt lb 261.5
+
+n short rc lc 262
+n short rc lc 262.5
+n swipe in rc lc 263
+n short rb 264
+n short rb 265
+n short rb 266
+n short rc 267
+n short rc 268
+n short rt 269
+n short rt 270
+n short rc 271
+
+n short lb 264
+n short lb 264.5
+n short lb 265
+n short lc 265.5
+n short lc 265.75
+n short lt 266.25
+n long lt 266.75 268
+
+n short lt 268.5
+n short lt 269
+n short lc 269.5
+n short lc 269.75
+n short lb 270.25
+n long lb 270.75 271.5
+
+n short lb 272.25
+n short rb 272.5
+n short lb 272.75
+
+n short lb 273.5
+n short lc 274.5
+
+n swipe in rc 272
+n swipe out rc 273
+n swipe in rc 274
+
+n swipe in rt lb 275
+n swipe in lt rb 276
+n swipe in rt lb 277
+n short rb lt 278
+
+n catch lc rc 278.25
+n catch lc rc 278.5
+n catch lc rc 278.75
+
+n swipe out lb rt 279
+n short 280
+n short lb 281
+n short lb 282
+n short lc 283
+n short lc 284
+n short lt 285
+n short lt 286
+n short lc 287
+
+n short lb rb 280
+n short rb 280.5
+n short rb 281
+n short rc 281.5
+n short rc 281.75
+n short rt 282.25
+n long rt 282.75 284
+
+n short rt 284.5
+n short rt 285
+n short rc 285.5
+n short rc 285.75
+n short rb 286.25
+n long rb 286.75 287.5
+
+n short rb 288.25
+n short lb 288.5
+n short rb 288.75
+
+n short rb 289.5
+n short rc 290.5
+
+n swipe in lc 288
+n swipe out lc 289
+n swipe in lc 290
+
+n swipe in lt rb 291
+n short lc rc 291.5
+n swipe in rt lb 292
+n short lc rc 292.5
+n swipe in lt rb 293
+n short lc rc 293.5
+n swipe out lb rt 294
+n swipe out lt 295
+n swipe out lt 295.5
+

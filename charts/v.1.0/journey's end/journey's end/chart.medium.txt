@@ -1,0 +1,519 @@
+n long rb 0 5.5
+n long lb 6 11.5
+n long rc 12 17.5
+n long lc 18 23
+n short rb 23
+
+n long lt rt 24 29.5
+n short lc 30
+n short rb 31.5
+n short rc 33
+n short lb 34.5
+n short rc 36
+n short lc 37.5
+n long lb rb 39 44.5
+
+n short lc 45
+n short lb 46
+n short rb 47
+n long rc 48 51.5
+n short rb 52
+n short lb 53
+n long lc 54 57.5
+n short rb 58
+n short lb 59
+n long rt 60 63
+n swipe out lb 63
+n long lt 66 69
+n swipe out rb 69
+
+first journey
+
+n long rb 72 73.5
+n short lb 73.5
+n long lb 75 76.5
+n short rb 76.5
+n long rc 78 79.5
+n short lb 79.5
+n long lc 81 82.5
+n short rb 82.5
+n short rc 84
+n short lb 85
+n short rb 86
+n short lc 87
+n short lb 88
+n short rb 89
+n short rc 90
+n short rb 91
+n short lb 92
+n short lc 93
+n short rb 94
+n short lb 95
+
+n long lc 96 97.5
+n short rb 97.5
+n long rb 99 100.5
+n short lb 100.5
+n long lb 102 103.5
+n short rb 103.5
+n long rc 105 106.5
+n short lb 106.5
+n short lc 108
+n short lb 109
+n short rb 110
+n short rc 111
+n short lb 112
+n short rb 113
+n short lc 114
+n short rb 115
+n short lb 116
+n short rc 117
+n short rb 118
+n short lb 119
+
+n long lc 120 121.5
+n short rb 121.5
+n long rb 123 124.5
+n short lb 124.5
+n long rb 126 127.5
+n short lb 127.5
+n long lc 129 130.5
+n short rb 130.5
+n long rb lc 132 133.5
+n long lb rc 135 136.5
+n long rc lc 138 139.5
+n long rb lb 141 142.5
+
+n short lc rb 144
+n short lb 145
+n short rb 146
+n short lb rc 147
+n short rb 148
+n short lb 149
+n long lt 150 151.5
+n short rc 150
+n short rb 151.5
+n long rt 153 154
+n short lc 153
+n short lb 154
+n long lb 155 167
+n long rb 156 167
+
+bit crushed drum
+
+n short lb 168
+n swipe in rc 171
+n short lb 174
+n swipe out rc 177
+n short rb 180
+n swipe in lc 183
+n short rb 186
+n swipe out lc 189
+n short lb 192
+n swipe in rc 195
+n short lc 198
+n swipe out rb 201
+n short rb 204
+n swipe in lc 207
+n short rc 210
+n swipe out lb 213
+
+strings add in
+
+n short rc 216
+n catch rb 216.5
+n short lb 217.5
+n short lc 219
+n catch lb 219.5
+n short rb 220.5
+n short lb 222
+n catch rb 222.5
+n short rc 223.5
+n short rb 225
+n catch lb 225.5
+n short lc 226.5
+n short rb 228
+n catch rc 228.5
+n short lb 229.5
+n short lb 231
+n catch lc 231.5
+n short rb 232.5
+n short rc 234
+n catch rb 234.5
+n short lc 235.5
+
+eight bit lead
+n long rb 237 238.5
+n short lb 239
+n long rc 240 243.5
+n short lc 244
+n short lb 245
+n long rb 246 248
+n short lb 248
+n long lb 249 251
+n short rb 251
+n long lc 252 254
+n short lb 254
+n long rc 255 257
+n short rb 257
+n short rt lb 258
+n short lt rb 261
+
+second jouney
+
+n long rc 264 265.5
+n short lc 264
+n short lb 265.5
+n long lc 267 268.5
+n short rc 267
+n short rb 268.5
+n long lb 270 271.5
+n short rb 270
+n short rc 271.5
+n long rb 273 274.5
+n short lb 273
+n short lc 274.5
+n long rt 276 287.5
+n short lc 276
+n short lb 277
+n short rb 278
+n swipe in lb 279
+n short rb 282
+n short lb 283
+n short lc 284
+n swipe out lb 285
+
+n long lc 288 289.5
+n short rc 288
+n short rb 289.5
+n long rc 291 292.5
+n short lc 291
+n short lb 292.5
+n long rb 294 295.5
+n short lb 294
+n short lc 295.5
+n long lb 297 298.5
+n short rb 297
+n short rc 298.5
+n long lt 300 311.5
+n short rc 300
+n short rb 301
+n short lb 302
+n swipe in rb 303
+n short lb 306
+n short rb 307
+n short rc 308
+n swipe out rb 309
+
+n long lc 312 313.5
+n short rb 312
+n short rc 313.5
+n long rb 315 316.5
+n short lc 315
+n short lt 316.5
+n long lb 318 319.5
+n short rc 318
+n short rt 319.5
+n long rc 321 322.5
+n short lb 321
+n short lc 322.5
+
+n long lt 324 329.5
+n short rb 324
+n short lb 325.5
+n short rb 327
+n short rc 328.5
+n long rt 330 335.5
+n short lb 330
+n short rb 331.5
+n short lb 333
+n short lc 334.5
+
+n long lc 336 341.5
+n catch rc 336
+n catch rb 337
+n catch lb 338
+n catch rc 339
+n catch rb 340
+n catch lb 341
+n long rc 342 343.5
+n short lb 343.5
+n long lc 345 347
+n short rb 347
+n long rc lb 348 350.5
+n long lc rb 351 357
+
+endroll
+
+n long lc 360 365.5
+n long lb 366 371.5
+n long rb 372 377.5
+n long rc 378 383.5
+n long lb 384 386.5
+n catch rc 387
+n catch rb 387.5
+n catch lb 388
+n catch rb 388.5
+n catch lb 389
+n catch lc 389.5
+n long lb 390 392.5
+n catch lc 393
+n catch lb 393.5
+n catch rb 394
+n catch lb 394.5
+n catch rb 395
+n catch rc 395.5
+n long lb 396 401.5
+n long rb 402 407.5
+n short lb 408
+
+
+stage my frigging god
+
+a changecamera position 0 6 0 0 0.5 easeoutsine
+a changecamera position 6 6 0 0 -0.5 easeinsine
+a changecamera position 12 6 0 0 0.5 easeoutsine
+a changecamera position 18 6 0 0 -0.5 easeinsine
+
+a changecamera angle 0 6 0 0 3.25 easeinoutsine
+a changecamera angle 6 6 0 0 -3.25 easeinoutsine
+a changecamera angle 12 6 0 0 -3.25 easeinoutsine
+a changecamera angle 18 6 0 0 3.25 easeinoutsine
+
+a changecamera position 24 6 0 -0.325 0 easeinsine
+a changecamera position 36 3 0 0 0.25 easeoutsine
+a changecamera position 39 6 0 0.325 -0.25 easeoutsine
+
+a changecamera angle 30 3 0 1.5 0 easeoutsine
+a changecamera angle 33 3 0 -1.5 0 easeoutsine
+
+a changecamera angle 48 6 0 -2 0 easeoutsine
+a changecamera angle 54 6 0 2 0 easeoutsine
+
+a changecamera angle 60 3 0 0 3.25 easeinsine
+a changecamera angle 63 3 0 0 -3.25 easeoutsine
+a changecamera angle 66 3 0 0 -3.25 easeinsine
+a changecamera angle 69 3 0 0 3.25 easeoutsine
+
+a changecamera position 60 3 0 0 0.25 easeinsine
+a changecamera position 66 3 0 0 -0.25 easeinsine
+
+
+first journey
+
+a changecamera angle 72 1.5 0 0 7.5 easeoutquad
+a changecamera angle 75 1.5 0 0 -7.5 easeoutquad
+a changecamera angle 78 1.5 0 0 7.5 easeoutquad
+a changecamera angle 81 1.5 0 0 -7.5 easeoutquad
+
+a changecamera angle 73.5 1.5 0 0 7.5 easeinquad
+a changecamera angle 76.5 1.5 0 0 -7.5 easeinquad
+a changecamera angle 79.5 1.5 0 0 7.5 easeinquad
+a changecamera angle 82.5 1.5 0 0 -7.5 easeinquad
+
+a changecamera angle 84 3 0 0 7.5 easeoutsine
+a changecamera angle 87 3 0 0 7.5 easeoutsine
+a changecamera angle 90 3 0 0 -7.5 easeoutsine
+a changecamera angle 93 3 0 0 -7.5 easeoutsine
+
+a changecamera angle 85.5 1.5 0 0 2.5 easeoutsine
+a changecamera angle 88.5 1.5 0 0 2.5 easeoutsine
+a changecamera angle 91.5 1.5 0 0 -2.5 easeoutsine
+a changecamera angle 94.5 1.5 0 0 -2.5 easeoutsine
+
+a changecamera angle 96 1.5 0 0 -7.5 easeoutquad
+a changecamera angle 99 1.5 0 0 7.5 easeoutquad
+a changecamera angle 102 1.5 0 0 -7.5 easeoutquad
+a changecamera angle 105 1.5 0 0 7.5 easeoutquad
+
+a changecamera angle 97.5 1.5 0 0 -7.5 easeinquad
+a changecamera angle 100.5 1.5 0 0 7.5 easeinquad
+a changecamera angle 103.5 1.5 0 0 -7.5 easeinquad
+a changecamera angle 106.5 1.5 0 0 7.5 easeinquad
+
+a changecamera angle 108 1.5 0 0 -5 easeoutsine
+a changecamera angle 111 1.5 0 0 -5 easeoutsine
+a changecamera angle 114 1.5 0 0 5 easeoutsine
+a changecamera angle 117 1.5 0 0 5 easeoutsine
+
+a changecamera angle 109.5 1.5 0 0 -2.5 easeinsine
+a changecamera angle 112.5 1.5 0 0 -2.5 easeinsine
+a changecamera angle 115.5 1.5 0 0 2.5 easeinsine
+a changecamera angle 118.5 1.5 0 0 2.5 easeinsine
+
+a changecamera angle 120 1.5 0 0 -7.5 easeoutquad
+a changecamera angle 123 1.5 0 0 7.5 easeoutquad
+a changecamera angle 126 1.5 0 0 7.5 easeoutquad
+a changecamera angle 129 1.5 0 0 -7.5 easeoutquad
+
+a changecamera angle 121.5 1.5 0 0 -7.5 easeinquad
+a changecamera angle 124.5 1.5 0 0 7.5 easeinquad
+a changecamera angle 127.5 1.5 0 0 7.5 easeinquad
+a changecamera angle 130.5 1.5 0 0 -7.5 easeinquad
+
+a changecamera position 132 1.5 0.125 0.125 0 easeoutsine
+a changecamera position 133.5 1.5 -0.125 -0.125 0 easeoutsine
+a changecamera position 135 1.5 -0.125 0.125 0 easeoutsine
+a changecamera position 136.5 1.5 0.125 -0.125 0 easeoutsine
+a changecamera position 138 1.5 0 0 0.25 easeoutsine
+a changecamera position 139.5 1.5 0 0 -0.25 easeoutsine
+a changecamera position 141 1.5 0 0.25 0 easeoutsine
+a changecamera position 142.5 1.5 0 -0.25 0 easeoutsine
+
+a changecamera angle 144 3 0 0 -7.5 easeoutsine
+a changecamera angle 147 3 0 0 7.5 easeoutsine
+a changecamera angle 150 3 0 0 7.5 easeoutsine
+a changecamera angle 153 3 0 0 -7.5 easeoutsine
+
+a changecamera position 156 6 0 0 0.5 easeinsine
+a changecamera position 162 6 0 0 -0.5 easeinsine
+
+bitcrushed drums
+
+a changecamera position 168 0.5 0 0 0.125 easeoutquart
+a changecamera position 168.5 0.5 0 0 -0.125 easeinquad
+a changecamera position 171 0.5 0 0 0.1875 easeoutquart
+a changecamera position 171.5 0.5 0 0 -0.1875 easeinquad
+a changecamera position 174 0.5 0 0 0.125 easeoutquart
+a changecamera position 174.5 0.5 0 0 -0.125 easeinquad
+a changecamera position 177 0.5 0 0 0.1875 easeoutquart
+a changecamera position 177.5 0.5 0 0 -0.1875 easeinquad
+a changecamera position 180 0.5 0 0 0.125 easeoutquart
+a changecamera position 180.5 0.5 0 0 -0.125 easeinquad
+a changecamera position 183 0.5 0 0 0.1875 easeoutquart
+a changecamera position 183.5 0.5 0 0 -0.1875 easeinquad
+a changecamera position 186 0.5 0 0 0.125 easeoutquart
+a changecamera position 186.5 0.5 0 0 -0.125 easeinquad
+a changecamera position 189 0.5 0 0 0.1875 easeoutquart
+a changecamera position 189.5 0.5 0 0 -0.1875 easeinquad
+
+a changecamera position 192 0.5 0 0 0.125 easeoutquart
+a changecamera position 192.5 0.5 0 0 -0.125 easeinquad
+a changecamera position 195 0.5 0 0 0.1875 easeoutquart
+a changecamera position 195.5 0.5 0 0 -0.1875 easeinquad
+a changecamera position 198 0.5 0 0 0.125 easeoutquart
+a changecamera position 198.5 0.5 0 0 -0.125 easeinquad
+a changecamera position 201 0.5 0 0 0.1875 easeoutquart
+a changecamera position 201.5 0.5 0 0 -0.1875 easeinquad
+a changecamera position 204 0.5 0 0 0.125 easeoutquart
+a changecamera position 204.5 0.5 0 0 -0.125 easeinquad
+a changecamera position 207 0.5 0 0 0.1875 easeoutquart
+a changecamera position 207.5 0.5 0 0 -0.1875 easeinquad
+a changecamera position 210 0.5 0 0 0.125 easeoutquart
+a changecamera position 210.5 0.5 0 0 -0.125 easeinquad
+a changecamera position 213 0.5 0 0 0.1875 easeoutquart
+a changecamera position 213.5 0.5 0 0 -0.1875 easeinquad
+
+a changecamera angle 168 3 0 0 7.5 easeoutquad
+a changecamera angle 171 3 0 0 7.5 easeoutquad
+a changecamera angle 174 3 0 0 -7.5 easeoutquad
+a changecamera angle 177 3 0 0 -7.5 easeoutquad
+a changecamera angle 180 3 0 0 -7.5 easeoutquad
+a changecamera angle 183 3 0 0 -7.5 easeoutquad
+a changecamera angle 186 3 0 0 7.5 easeoutquad
+a changecamera angle 189 3 0 0 7.5 easeoutquad
+
+a changecamera angle 192 3 0 0 -7.5 easeoutquad
+a changecamera angle 195 3 0 0 7.5 easeoutquad
+a changecamera angle 198 3 0 0 7.5 easeoutquad
+a changecamera angle 201 3 0 0 -7.5 easeoutquad
+a changecamera angle 204 3 0 0 -7.5 easeoutquad
+a changecamera angle 207 3 0 0 7.5 easeoutquad
+a changecamera angle 210 3 0 0 7.5 easeoutquad
+a changecamera angle 213 3 0 0 -7.5 easeoutquad
+
+strings add in
+
+a changecamera angle 216 1.5 0 1.5 1.5 easeoutsine
+a changecamera angle 219 1.5 0 -1.5 -1.5 easeoutsine
+a changecamera angle 222 1.5 0 -1.5 -1.5 easeoutsine
+a changecamera angle 225 1.5 0 1.5 1.5 easeoutsine
+a changecamera angle 228 1.5 0 -1.5 -2 easeoutsine
+a changecamera angle 231 1.5 0 1.5 2 easeoutsine
+a changecamera angle 234 1.5 0 1.5 2 easeoutsine
+a changecamera angle 237 1.5 0 -1.5 -2 easeoutsine
+
+a changecamera position 240 6 0 0 0.5 easeoutsine
+a changecamera position 246 3 0 0 -0.25 easeoutsine
+a changecamera position 249 3 0 0 -0.25 easeoutsine
+a changecamera position 252 3 0 0 -0.25 easeoutsine
+a changecamera position 255 3 0 0 -0.25 easeoutsine
+a changecamera position 258 3 0 0 0.25 easeoutquart
+a changecamera position 261 3 0 0 0.25 easeoutquart
+
+a changecamera angle 246 3 0 0 3.25 easeoutsine
+a changecamera angle 249 3 0 0 -3.25 easeoutsine
+a changecamera angle 252 3 0 0 -3.25 easeoutsine
+a changecamera angle 255 3 0 0 3.25 easeoutsine
+a changecamera angle 258 3 0 0 5 easeoutsine
+a changecamera angle 261 3 0 0 -5 easeoutsine
+
+second journey
+
+a changecamera angle 264 1.5 0 -0.75 -3.25 easeoutquad
+a changecamera angle 265.5 1.5 0 -0.75 0 easeinquad
+a changecamera angle 267 1.5 0 0.75 3.25 easeoutquad
+a changecamera angle 268.5 1.5 0 0.75 0 easeinquad
+a changecamera angle 270 1.5 0 0 3.25 easeoutquad
+a changecamera angle 271.5 1.5 0 0.75 0 easeinquad
+a changecamera angle 273 1.5 0 0 -3.25 easeoutquad
+a changecamera angle 274.5 1.5 0 -0.75 0 easeinquad
+
+a changecamera position 276 6 -0.125 -0.25 0.25 easeoutsine
+a changecamera position 282 6 0.125 0.25 -0.25 easeoutsine
+
+a changecamera angle 288 1.5 0 0.75 -3.25 easeoutquad
+a changecamera angle 289.5 1.5 0 0.75 0 easeinquad
+a changecamera angle 291 1.5 0 -0.75 3.25 easeoutquad
+a changecamera angle 292.5 1.5 0 -0.75 0 easeinquad
+a changecamera angle 294 1.5 0 0 3.25 easeoutquad
+a changecamera angle 295.5 1.5 0 -0.75 0 easeinquad
+a changecamera angle 297 1.5 0 0 -3.25 easeoutquad
+a changecamera angle 298.5 1.5 0 0.75 0 easeinquad
+
+a changecamera position 300 6 0.125 -0.25 0.25 easeoutsine
+a changecamera position 306 6 -0.125 0.25 -0.25 easeoutsine
+
+a changecamera angle 312 1.5 0.5 0.5 -3.25 easeoutquad
+a changecamera angle 313.5 1.5 -0.5 -0.5 0 easeinquad
+a changecamera angle 315 1.5 0.5 -0.5 3.25 easeoutquad
+a changecamera angle 316.5 1.5 -0.5 0.5 0 easeinquad
+a changecamera angle 318 1.5 0.5 0.5 3.25 easeoutquad
+a changecamera angle 319.5 1.5 -0.5 -0.5 0 easeinquad
+a changecamera angle 321 1.5 0.5 -0.5 -3.25 easeoutquad
+a changecamera angle 322.5 1.5 -0.5 0.5 0 easeinquad
+
+a changecamera position 324 6 0.125 -0.25 0.25 easeoutsine
+a changecamera position 330 6 -0.125 0.25 -0.25 easeoutsine
+
+a changecamera angle 336 3 0 1.5 0 easeoutsine
+a changecamera angle 339 3 0 -1.5 0 easeoutsine
+a changecamera angle 342 3 0 -1.5 0 easeoutsine
+a changecamera angle 345 3 0 1.5 0 easeoutsine
+
+a changecamera position 348 3 0 0 -0.25 easeoutsine
+a changecamera position 351 9 0 0 0.75 easeoutsine
+
+endroll
+a changecamera position 360 3 0 0 -0.5 easeoutsine
+a changecamera position 363 3 0 0 0.25 easeinsine
+a changecamera position 366 3 0 0 0.25 easeoutsine
+a changecamera position 369 3 0 0 -0.5 easeinsine
+a changecamera position 372 3 0 0 -0.5 easeoutsine
+a changecamera position 375 3 0 0 0.25 easeinsine
+a changecamera position 378 3 0 0 0.25 easeoutsine
+a changecamera position 381 3 0 0 -0.5 easeinsine
+
+a changecamera angle 384 3 0 0 7.5 easeoutsine
+a changecamera angle 387 3 0 0 -7.5 easeinsine
+a changecamera angle 390 3 0 0 -7.5 easeoutsine
+a changecamera angle 393 3 0 0 7.5 easeinsine
+
+a changecamera position 396 3 0 0 -0.5 easeoutsine
+a changecamera position 399 3 0 0 0.25 easeinsine
+a changecamera position 402 3 0 0 -0.5 easeoutsine
+a changecamera position 405 3 0 0 0.25 easeinsine
+
+a changecamera position 408 3 0 0 -0.5 easeoutsine
+
+a changecamera position 411 12 0 12 -1 easeoutquad

@@ -1,0 +1,183 @@
+n long lt 0 1
+n short rb 2
+n short rc 3
+n long rt 4 5
+n short lb 6
+n short lc 7
+n long lt 8 9
+n short rt 10
+n short rc 11
+n long rb 12 13
+n short lb 14
+n short lb 14.5
+n short lc 15
+n long lb 16 17
+n short rc 17
+n long lc 18 19
+n short rt 19
+n long lc 20 21
+n short rb 21
+n short rc 22
+n short rb 22.5
+n short lb 23
+n long rb 24 25
+n short lc 25
+n long rc 26 27
+n short lt 27
+n long rc 28 29
+n short lb 29
+n short lc 30
+n short lb 30.5
+n short rb 31
+n long lt 32 33
+n short rt 33
+n short rc 33.5
+n long rb 34 35
+n short lb 35
+n short lc 35.5
+n long rt 36 37
+n short lc 37
+n short lt 37.5
+n long lb 38 39
+n short rt 39
+n short rc 39.5
+n long rc 40 41
+n short rt 41
+n short lt 41.5
+n long lc 42 43
+n short lb 43
+n short rb 43.5
+n long rt 44 45
+n short lt 45
+n short lc 45.5
+n short rt 46
+n short rc 46.5
+n short rb 47
+n short lt rc 48
+n short lc 49
+n short rt 49.5
+n short lb 50
+n short rc 50.5
+n short rb 51
+n short rt lc 52
+n short rc 53
+n short lt 53.5
+n short rb 54
+n short lc 54.5
+n short lb 55
+n short lt lb 56
+n short lc 57
+n short lt 57.5
+n short lb 58
+n short rt 58.5
+n short rb 59
+n long rt 60 60.5
+n long rb 61 61.5
+n long lc 62 62.5
+n long rt 63 63.5
+n short rt rb 64
+n short rc 65
+n short rt 65.5
+n short rb 66
+n short lt 66.5
+n short lb 67
+n short rb lc 68
+n short lb 69
+n short rc 69.5
+n short lc 70
+n short rt 70.5
+n short lt 71
+n short lb rc 72
+n short rb 73
+n short lc 73.5
+n short rc 74
+n short lt 74.5
+n short rt 75
+n long lt 76 76.5
+n long lb 77 77.5
+n long rc 78 78.5
+n long lt 79 79.5
+n compound lc 80 83.5 13
+n compound rb 84 87.5 13
+n compound rt 88 91.5 13
+n compound lc 92 95.5 13
+n long rc 96 96.5
+n short lc 97
+n short lb 97.5
+n long rb 98 98.5
+n short rt 99
+n long lc 100 100.5
+n short rc 101
+n short rb 101.5
+n long lb 102 102.5
+n short lt 103
+n long rc 104 104.5
+n short lc 105
+n short lt 105.5
+n long rt 106 106.5
+n short rb 107
+n long lc 108 108.5
+n short rc 109
+n short rt 109.5
+n long lt 110 110.5
+n short lb 111
+n long lb 112 113
+n long rb 114 115
+n long rc 116 117
+n long rt 118 119
+n long rb 120 121
+n long lb 122 123
+n long lc 124 125
+n long lt 126 127
+n long rb 128 129
+n short lb 129
+n short lc 129.5
+n short lt 130
+n short rt 130.5
+n short rt rb 131
+n long lc 132 133
+n short lb 133
+n short rb 133.5
+n short rc 134
+n short rt 134.5
+n short rt lc 135
+n long rt 136 137
+n short rc 137
+n short rb 137.5
+n short lb 138
+n short lc 138.5
+n short lc rt 139
+n long lt 140 140.5
+n long lb 141 141.5
+n long rc 142 142.5
+n long lt 143 143.5
+n long lb 144 145
+n short rb 145
+n short rc 145.5
+n short rt 146
+n short lt 146.5
+n short lt lb 147
+n long rc 148 149
+n short rb 149
+n short lb 149.5
+n short lc 150
+n short lt 150.5
+n short lt rc 151
+n long lt 152 153
+n short lc 153
+n short lb 153.5
+n short rb 154
+n short rc 154.5
+n short rc lt 155
+n long rt 156 156.5
+n long rb 157 157.5
+n long lc 158 158.5
+n long rt 159 159.5
+n short rb 160
+n short lb 164
+n short rc 168
+n short lc 170
+n short rt 172
+n short lt 174
+n short rc lc 175
+

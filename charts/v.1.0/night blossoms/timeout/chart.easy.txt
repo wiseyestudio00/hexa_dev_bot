@@ -1,0 +1,137 @@
+n short rb 16
+n short lb 20
+n short rc 24
+n short lc 28
+n short rt lt 30
+n short rc 32
+n short lc 34
+n short rb 36
+n short lb 38
+n short rt 40
+n short lt 42
+n short rc lc 44
+n short rc lc 46
+
+n short lc 48
+n short rc 50
+n short lt 52
+n short rt 54
+n short lb 56
+n short rb 58
+n long rc lc 60 62
+n long rb 64 65
+n short lb 66
+n short lb 67
+n long lc 68 69
+n short rc 70
+n short rc 71
+n long rt 72 73
+n short lt 74
+n short lt 75
+n long rc lc 76 79
+
+n long lt 80 81
+n short rt 82
+n short rt 83
+n long rc 84 85
+n short lc 86
+n short lc 87
+n long lb 88 89
+n short rb 90
+n short rb 91
+n long rc lc 92 94
+n catch rc lc 95
+n catch rc lc 95.5
+a changecamera position 96 28 0 0 0.9 easeinoutsine
+
+n long rb 96 97
+n short lb 97
+n long rc 98 99
+n short lc 99
+n long rt 100 101
+n short lt 101
+n short lt 102
+n short lt 103
+n long rb lt 104 105
+n long rc lc 106 107
+n long rt lb 108 109
+n short rc lc 110
+n short rc lc 111
+
+n long lt 112 113
+n short rt 113
+n long lc 114 115
+n short rc 115
+n long lb 116 117
+n short rb 117
+n short rb 118
+n short rb 119
+n long rb lt 120 121
+n long rc lc 122 123
+n long rt lb 124 128
+a changecamera position 128 8 0 0 -0.9 easeinoutsine
+n short rb lb 136
+n short rc lc 138
+n short rt lt 140
+n short rc lc 142
+
+n short rt 144
+n long lc 144 150
+n short rc 146
+
+n short rb 148
+
+
+
+n short lt 152
+n long rc 152 158
+n short lc 154
+n short lb 156
+
+
+n short rb 160
+n short rb 161
+
+n short lb 162
+n short lb 163
+
+n short rc 164
+n short rc 165
+
+n short lc 166
+n short lc 167
+
+n short rt 168
+n short rt 169
+
+n short lt 170
+n short lt 171
+
+
+n short rc 172
+n short rc 173
+
+n short lc 174
+n short lc 175
+
+n short rt lt 176
+n short rt lt 177
+n short rt lt 178
+n short rt lt 179
+
+
+n short rc lc 180
+n short rc lc 181
+n short rc lc 182
+n short rc lc 183
+
+n catch rb 184
+n catch rb 184.5
+n catch lb 185
+n catch lb 185.5
+n catch rb 186
+n catch rb 186.5
+n catch lb 187
+n catch lb 187.5
+
+n compound lb rb 188 191 8

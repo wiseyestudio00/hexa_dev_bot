@@ -102,9 +102,11 @@ async def checkout(ctx, path):
     if target_path.is_file():
         with open(target_path) as chart:
             names += chart.name + "\n"
+            splited = chart.name.split("/")
+            filename = splited[len(splited) - 1]
             charts.append(discord.File(
                 chart,
-                filename=chart.name.replace(str(target_path), "")))
+                filename=filename))
     
     if target_path.is_dir():
         for c in target_path.glob("chart.*.txt"):
@@ -114,15 +116,21 @@ async def checkout(ctx, path):
                     chart,
                     filename=chart.name.replace(str(target_path), "")))
 
+    if len(charts) == 0:
+        fail_emb = get_checkout_fail_embed("這個路徑裡沒有檔案")
+        await ctx.send(embed=fail_emb)
+        return False
+
     success_emb = get_checkout_success_embed(names)
     await ctx.send(files=charts, embed=success_emb)
     return True
+
 
 def get_delete_success_emb(description):
     return discord.Embed(
         title="刪除成功！",
         description=description,
-        color=discord.Color.red())
+        color=discord.Color.blue())
 
 
 def get_delete_fail_emb(description):
@@ -141,7 +149,7 @@ async def delete(ctx, path):
         return False
 
     if path.is_file():
-        child.unlink()
+        path.unlink()
         success_emb = get_delete_success_emb(f"你刪除了{path}")
         await ctx.send(embed=success_emb)
         return False

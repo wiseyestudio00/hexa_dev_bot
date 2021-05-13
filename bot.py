@@ -25,28 +25,32 @@ with open("setting.json") as setting:
     json_data = json.loads(text)
     TOKEN = json_data["token"]
 
-BOT = commands.Bot("/")
+BOT = commands.Bot(".")
 
 
 @BOT.command(help="Check in a chart.")
 async def checkin(ctx, path):
+    path = path.lower()
     if await chart.checkin(ctx, path):
         push_github(f"{datetime.datetime.now()}：{ctx.author.name} 上傳了 {path}")
 
 
 @BOT.command()
 async def checkout(ctx, path):
+    path = path.lower()
     await chart.checkout(ctx, path)
 
 
 @BOT.command(help="delete the path")
 async def delete(ctx, path):
+    path = path.lower()
     if await chart.delete(ctx, path):
         push_github(f"{datetime.datetime.now()}：{ctx.author.name} 刪除了 {path}")
 
 
 @BOT.command(help="View the files")
 async def tree(ctx, path=""):
+    path = path.lower()
     paths = DisplayablePath.make_tree(Path(f"{os.getcwd()}/charts/{path}"))
     
     """
