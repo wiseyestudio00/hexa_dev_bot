@@ -25,30 +25,53 @@ with open("setting.json") as setting:
     json_data = json.loads(text)
     TOKEN = json_data["token"]
 
+
 BOT = commands.Bot(".")
 
-
-@BOT.command(help="Check in a chart.")
+CHECK_IN_HELP_TEXT = """
+// 上傳譜面（如果已經上傳的會自動更新）\n.checkin 上傳路徑（要附加譜面檔案 chart.難度.txt）\n// 示範\n.checkin "v.1.0/journey's end/mellicious"（附加檔案：chart.easy.txt）
+"""
+@BOT.command(help=CHECK_IN_HELP_TEXT)
 async def checkin(ctx, path):
     path = path.lower()
     if await chart.checkin(ctx, path):
         push_github(f"{datetime.datetime.now()}：{ctx.author.name} 上傳了 {path}")
 
-
-@BOT.command()
+CHECKOUT_HELP_TEXT = """
+// 下載譜面（單個譜面）
+.checkout 到譜面的路徑
+// 示範
+.checkout "v.1.0/journey's end/mellicious/chart.hard.txt"
+"""
+@BOT.command(help=CHECKOUT_HELP_TEXT)
 async def checkout(ctx, path):
     path = path.lower()
     await chart.checkout(ctx, path)
 
 
-@BOT.command(help="delete the path")
+DELETE_HELP_TEXT="""
+// 刪除譜面
+.delete 到譜面的路徑
+// 示範
+.delete "v.1.0/journey's end/mellicious/chart.hard.txt"
+"""
+@BOT.command(help=DELETE_HELP_TEXT)
 async def delete(ctx, path):
     path = path.lower()
     if await chart.delete(ctx, path):
         push_github(f"{datetime.datetime.now()}：{ctx.author.name} 刪除了 {path}")
 
 
-@BOT.command(help="View the files")
+TREE_HELP_TEXT="""
+// 查看路徑（全部的路徑）
+.tree
+
+// 查看路徑（指定哪個檔案夾）
+.tree 檔案夾的路徑
+// 示範（顯示v.1.0/journey's end裡所有的路徑）
+.tree "v.1.0/journey's end"
+"""
+@BOT.command(help=TREE_HELP_TEXT)
 async def tree(ctx, path=""):
     path = path.lower()
     paths = DisplayablePath.make_tree(Path(f"{os.getcwd()}/charts/{path}"))
