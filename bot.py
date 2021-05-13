@@ -59,7 +59,7 @@ async def tree(ctx, path=None):
 
 @BOT.command(help="delete the path")
 async def delete(ctx, path):
-    chart.delete(ctx, path)
+    await chart.delete(ctx, path)
     push_github(f"{datetime.datetime.now()}：{ctx.author.name} 刪除了 {path}")
 
 
