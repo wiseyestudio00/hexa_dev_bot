@@ -5,17 +5,18 @@ from discord.ext import commands
 import discord
 import chart
 
-
 BOT = commands.Bot("/")
-
 
 @BOT.command(help="Check in a chart.")
 async def checkin(ctx, path):
     await chart.checkin(ctx, path)
 
     os.system("git add .")
-    os.system("git commit -m \"test\"")
+    os.system(f"git commit -m \"added {path}\"")
     os.system("git push")
+
+    with open("log.txt", "a") as log:
+        log.write(f"{ctx.author.name}上傳了{path}")
 
 
 @BOT.command()
@@ -49,7 +50,7 @@ async def tree(ctx, path=None):
 
     await ctx.send(f"```\n{text}\n```")
 
-@BOT.command(help="delete a file")
+@BOT.command(help="delete the path")
 async def delete(ctx, path):
     pass
 
