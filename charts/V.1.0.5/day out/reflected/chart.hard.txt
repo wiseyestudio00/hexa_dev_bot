@@ -51,23 +51,21 @@ a changestage reversereflectlcrc 17 1 easeOutSine
 a changestage classichexagon 18 0 easeOutSine
 
 //hold bounce
-a changestage rcbounce 47 0.5 easeOutQuart
-a changestage classichexagon 47.5 0.5 easeInSine
+
 a changestage rcbounce 48 0.5 easeOutQuart
 a changestage classichexagon 48.5 0.5 easeInSine
 a changestage rtbounce 49 0.5 easeOutQuart
 a changestage classichexagon 49.5 0.5 easeInSine
-a changestage rtbounce 50 0.5 easeOutQuart
+a changestage ltbounce 50.5 0.5 easeOutQuart
 a changestage classichexagon 50.5 0.5 easeInSine
 
 a changestage rbbounce 51 0.5 easeOutQuart
 a changestage classichexagon 51.5 0.5 easeInSine
-a changestage rbbounce 52 0.5 easeOutQuart
+a changestage lbbounce 52 0.5 easeOutQuart
 a changestage classichexagon 52.5 0.5 easeInSine
-a changestage lbbounce 53 0.5 easeOutQuart
+a changestage lcbounce 53 0.5 easeOutQuart
 a changestage classichexagon 53.5 0.5 easeInSine
-a changestage lbbounce 54 0.5 easeOutQuart
-a changestage classichexagon 54.5 0.5 easeInSine
+
 
 a changestage rtzoom 66.5625 0 Linear
 a changestage classichexagon 66.563 0.5 easeInSine
@@ -501,6 +499,8 @@ a changecamera angle 5.5 0.5 0 0 2 easeInSine
 a changecamera angle 6.0 0.5 0 0 -4 easeInOutSine
 a changecamera angle 6.5 0.5 0 0 2 easeOutSine
 
+a changecamera angle 47 3.5 0 0 -15 easeInOutSine
+a changecamera angle 50.5 3.5 0 0 15 easeInOutSine
 //chorus
 a changecamera angle 63.125 2.375 0 0 -90 easeOutQuad
 a changecamera angle 71 1 0 0 30 easeInOutSine
