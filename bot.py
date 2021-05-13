@@ -29,7 +29,10 @@ with open("setting.json") as setting:
 BOT = commands.Bot(".")
 
 CHECK_IN_HELP_TEXT = """
-// 上傳譜面（如果已經上傳的會自動更新）\n.checkin 上傳路徑（要附加譜面檔案 chart.難度.txt）\n// 示範\n.checkin "v.1.0/journey's end/mellicious"（附加檔案：chart.easy.txt）
+// 上傳譜面（如果已經上傳的會自動更新）
+.checkin 上傳路徑（要附加譜面檔案 chart.難度.txt）
+// 示範
+.checkin "v.1.0/journey's end/mellicious"（附加檔案：chart.easy.txt）
 """
 @BOT.command(help=CHECK_IN_HELP_TEXT)
 async def checkin(ctx, path):
