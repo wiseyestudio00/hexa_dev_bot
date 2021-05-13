@@ -25,65 +25,83 @@ with open("setting.json") as setting:
     json_data = json.loads(text)
     TOKEN = json_data["token"]
 
+BOT = commands.Bot(".", help_command=None)
 
-BOT = commands.Bot(".")
+@BOT.command()
+async def help(ctx):
+    embd = discord.Embed(
+        title="Hexa Hysteria譜面上傳處指令",
+        color=discord.Color.blue())
+    
+    embd.add_field(
+        name=".checkin 上傳路徑（要附加譜面檔案 chart.難度.txt）",
+        value="""
+        .checkin "v.1.0/journey's end/mellicious"\n（附加檔案：chart.easy.txt）
+        """,
+        inline=False)
 
-CHECK_IN_HELP_TEXT = """
-// 上傳譜面（如果已經上傳的會自動更新）
-.checkin 上傳路徑（要附加譜面檔案 chart.難度.txt）
-// 示範
-.checkin "v.1.0/journey's end/mellicious"（附加檔案：chart.easy.txt）
-"""
-@BOT.command(help=CHECK_IN_HELP_TEXT)
+    embd.add_field(
+        name=".checkout 到譜面的路徑",
+        value="""
+        .checkout "v.1.0/journey's end/mellicious/chart.hard.txt"
+        """,
+        inline=False)
+
+    embd.add_field(
+        name=".checkout 到譜面檔案夾的路徑",
+        value="""
+        .checkout "v.1.0/journey's end/mellicious"
+        """,
+        inline=False)
+
+    embd.add_field(
+        name=".delete 到譜面的路徑",
+        value="""
+        .delete "v.1.0/journey's end/mellicious/chart.hard.txt"
+        """,
+        inline=False)
+
+    embd.add_field(
+        name=".tree",
+        value="查看全部的路徑",
+        inline=False)
+
+    embd.add_field(
+        name=".tree 檔案夾的路徑",
+        value="""
+        .tree "v.1.0/journey's end"
+        """,
+        inline=False)
+
+    await ctx.send(embed=embd)
+
+
+
+@BOT.command()
 async def checkin(ctx, path):
     path = path.lower()
     if await chart.checkin(ctx, path):
         push_github(f"{datetime.datetime.now()}：{ctx.author.name} 上傳了 {path}")
 
-CHECKOUT_HELP_TEXT = """
-// 下載譜面（單個譜面）
-.checkout 到譜面的路徑
-// 示範
-.checkout "v.1.0/journey's end/mellicious/chart.hard.txt"
-"""
-@BOT.command(help=CHECKOUT_HELP_TEXT)
+
+@BOT.command()
 async def checkout(ctx, path):
     path = path.lower()
     await chart.checkout(ctx, path)
 
 
-DELETE_HELP_TEXT="""
-// 刪除譜面
-.delete 到譜面的路徑
-// 示範
-.delete "v.1.0/journey's end/mellicious/chart.hard.txt"
-"""
-@BOT.command(help=DELETE_HELP_TEXT)
+@BOT.command()
 async def delete(ctx, path):
     path = path.lower()
     if await chart.delete(ctx, path):
         push_github(f"{datetime.datetime.now()}：{ctx.author.name} 刪除了 {path}")
 
 
-TREE_HELP_TEXT="""
-// 查看路徑（全部的路徑）
-.tree
-
-// 查看路徑（指定哪個檔案夾）
-.tree 檔案夾的路徑
-// 示範（顯示v.1.0/journey's end裡所有的路徑）
-.tree "v.1.0/journey's end"
-"""
-@BOT.command(help=TREE_HELP_TEXT)
+@BOT.command()
 async def tree(ctx, path=""):
     path = path.lower()
     paths = DisplayablePath.make_tree(Path(f"{os.getcwd()}/charts/{path}"))
-    
-    """
-    if len(paths) == 0:
-        await ctx.send("這個路徑沒有譜面！")
-        return
-    """
+
     text = ""
 
     for path in paths:
