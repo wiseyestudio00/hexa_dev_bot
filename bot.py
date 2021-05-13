@@ -8,7 +8,7 @@ import arrow
 import discord
 from tree import tree
 
-BOT = commands.Bot("!")
+BOT = commands.Bot("/")
 
 
 def is_in_chart_format(filename):
