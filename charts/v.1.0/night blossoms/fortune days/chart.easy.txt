@@ -129,18 +129,21 @@ n long lt 102 103
 n short rt 104
 
 #F
-n long lb 108 111
-n catch rc 110
-n catch rc 111
+n short lb 108
+n short lb 109
+n short rc 110
+n short rc 111
 
-n long rb 112 115
-n catch lb 114
-n catch lb 115
+n short lc 112
+n short lc 113
+n short rb 114
+n short rb 115
 
-n long lc 116 119
-n catch rb 118
-n catch rb 118.5
-n catch rb 119
+n short lb 116
+n short rb 117
+n catch lb rb 118
+n catch lb rb 118.5
+n catch lb rb 119
 
 #G.1
 n short rt 120
