@@ -12,8 +12,17 @@ a changecamera position 68.5 1.5 0 0 1 easeinoutsine
 a changecamera position 70 0.5 0 0 -1 easeinoutsine
 a changecamera position 70.5 1.5 0 0 1.5 easeinoutsine
 
-a changecamera position 104 1.5 0 0 -2.5 easeinoutsine
+a changecamera position 104 1.5 0 0 -2.5 linear
 a changecamera position 108 4 0 0 2.5 easeinoutsine
+
+a changecamera position 136 0.5 0 0 -0.6 easeinoutsine
+a changecamera position 136.5 1.5 0 0 0.6 easeinoutsine
+a changecamera position 138 0.5 0 0 -0.6 easeinoutsine
+a changecamera position 138.5 1.5 0 0 0.6 easeinoutsine
+a changecamera position 140 0.5 0 0 -0.6 easeinoutsine
+a changecamera position 140.5 1.5 0 0 0.6 easeinoutsine
+a changecamera position 142 0.5 0 0 -0.6 easeinoutsine
+a changecamera position 142.5 1.5 0 0 0.6 easeinoutsine
 
 #旋轉舞台
 a changecamera angle 31 16 0 0 180 easeinoutsine
@@ -29,7 +38,7 @@ a changecamera angle 144 14 0 0 -120 linear
 #加特效
 
 #定義單軌道旋轉
-define stageposition Turn_lt 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,660
+define stageposition Turn_lt 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,480
 define stageposition Turn_lt_b 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
 
 #實行單軌道旋轉
@@ -80,9 +89,9 @@ n swipe out lc 16
 n short rb 16.5
 n swipe out lc 17
 
-n swipe out rt 18
-n swipe in rt 18.5
-n swipe out rt 19
+n short rt 18
+n short rt 18.5
+n short rt 19
 
 n short lb 20
 n short rb 20.5
@@ -97,9 +106,9 @@ n swipe out rc 24
 n short lb 24.5
 n swipe out rc 25
 
-n swipe out lt 26
-n swipe in lt 26.5
-n swipe out lt 27
+n short lt 26
+n short lt 26.5
+n short lt 27
 
 n short rb 28
 n short lb 28.5
@@ -120,7 +129,6 @@ n short rb 36
 n short rb 37
 
 n swipe in rc 38
-n swipe out rc 38.5
 n swipe in rc 39
 
 #C
@@ -188,7 +196,7 @@ n swipe out lb 77
 
 n long lc 78 79
 n short lb 78.5
-n short rc 79
+n short rb 79
 
 #G.2
 n short lb 80
@@ -261,11 +269,11 @@ n swipe out lb 122
 n swipe in lt 123
 
 n short lc 124
-n catch rb 124.5
+n short rb 124.5
 n short rb lc 125
 
 n short rc 126
-n catch lb 126.5
+n short lb 126.5
 n short lb rc 127
 
 #J.2
@@ -277,11 +285,11 @@ n swipe out rb 130
 n swipe in rt 131
 
 n short rc 132
-n catch lb 132.5
+n short lb 132.5
 n short lb rc 133
 
 n short lc 134
-n catch rb 134.5
+n short rb 134.5
 n short rb lc 135
 
 #K
