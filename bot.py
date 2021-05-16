@@ -81,12 +81,13 @@ async def help(ctx):
 async def checkin(ctx, path):
     path = path.lower()
     if await chart.checkin(ctx, path):
-        push_github(f"{datetime.datetime.now()}：{ctx.author.name} 上傳了 {path}")
+        push_github(f"{datetime.datetime.now()}：{ctx.author.name} 上傳了 {path}\n")
 
 
 @BOT.command()
 async def checkout(ctx, path):
     path = path.lower()
+    print(f"{ctx.author.name} asked for {path}")
     await chart.checkout(ctx, path)
 
 
@@ -94,13 +95,13 @@ async def checkout(ctx, path):
 async def delete(ctx, path):
     path = path.lower()
     if await chart.delete(ctx, path):
-        push_github(f"{datetime.datetime.now()}：{ctx.author.name} 刪除了 {path}")
+        push_github(f"{datetime.datetime.now()}：{ctx.author.name} 刪除了 {path}\n")
 
 
 @BOT.command()
 async def tree(ctx, path=""):
     path = path.lower()
-    paths = DisplayablePath.make_tree(Path(f"{os.getcwd()}/charts/{path}"))
+    paths = DisplayablePath.make_tree(Path(f"{os.getcwd()}/charts/{path}\n"))
 
     text = ""
 

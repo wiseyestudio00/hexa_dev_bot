@@ -100,7 +100,7 @@ async def checkout(ctx, path):
     names = ""
 
     if target_path.is_file():
-        with open(target_path) as chart:
+        with open(target_path, "rb") as chart:
             names += chart.name + "\n"
             splited = chart.name.split("/")
             filename = splited[len(splited) - 1]
@@ -110,16 +110,19 @@ async def checkout(ctx, path):
     
     if target_path.is_dir():
         for c in target_path.glob("chart.*.txt"):
-            with open(c) as chart:
+            with open(c, "rb") as chart:
                 names += chart.name + "\n"
                 charts.append(discord.File(
                     chart,
-                    filename=chart.name.replace(str(target_path), "")))
+                    filename=chart.name.replace(str(target_path) + "/", "")))
 
     if len(charts) == 0:
         fail_emb = get_checkout_fail_embed("這個路徑裡沒有檔案")
         await ctx.send(embed=fail_emb)
         return False
+
+    for c in charts:
+        print(c.filename)
 
     success_emb = get_checkout_success_embed(names)
     await ctx.send(files=charts, embed=success_emb)
