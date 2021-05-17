@@ -101,7 +101,7 @@ async def delete(ctx, path):
 @BOT.command()
 async def tree(ctx, path=""):
     path = path.lower()
-    paths = DisplayablePath.make_tree(Path(f"{os.getcwd()}/charts/{path}\n"))
+    paths = DisplayablePath.make_tree(Path(f"{os.getcwd()}/charts/{path}"))
 
     text = ""
 
