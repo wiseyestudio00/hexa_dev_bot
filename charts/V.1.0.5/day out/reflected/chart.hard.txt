@@ -122,8 +122,8 @@ a changecamera position 1 0.5 0 0 -1.5 easeOutSine
 a changecamera position 1.5 0.5 0 0 1.5 easeInSine
 
 //swipe out zoom in
-a changecamera position 3 0.5 0 0 0.5 easeOutSine
-a changecamera position 3.5 0.5 0 0 -0.5 easeInSine
+a changecamera position 3 0.75 0 0 0.5 easeOutSine
+a changecamera position 3.75 0.75 0 0 -0.5 easeInSine
 
 //camera move to lb and rb
 a changecamera position 5 1 0.15 0.2598075 0 easeOutCubic
@@ -141,28 +141,28 @@ a changecamera position 12 1 0.15 -0.2598075 0 easeInSine
 a changecamera position 13 1 0.15 0.2598075 0 easeOutCubic
 a changecamera position 14 1 -0.15 -0.2598075 0 easeOutCubic
 
-a changecamera position 17 0.5 0 0 -1.5 easeOutSine
+a changecamera position 17 0.5 0 0 -1.5 easeOutCubic
 a changecamera position 17.5 0.5 0 0 1.5 easeInSine
 
-a changecamera position 19.0 0.5 0 0 0.5 easeOutSine
-a changecamera position 19.5 0.5 0 0 -0.5 easeInSine
+a changecamera position 19.0 0.75 0 0 0.5 easeOutCubic
+a changecamera position 19.75 0.75 0 0 -0.5 easeInSine
 
-a changecamera position 21 1 -0.15 0.2598075 0 easeOutSine
-a changecamera position 22 1 0.15 -0.2598075 0 easeOutSine
+a changecamera position 21 1 -0.15 0.2598075 0 easeOutCubic
+a changecamera position 22 1 0.15 -0.2598075 0 easeInSine
 
 a changecamera position 23 1 0.3 0 0 easeOutSine
-a changecamera position 24 1 -0.3 0 0 easeOutSine
+a changecamera position 24 1 -0.3 0 0 easeInSine
 
 a changecamera position 25 1 -0.15 -0.2598075 0 easeOutSine
-a changecamera position 26 1 0.15 0.2598075 0 easeOutSine
+a changecamera position 26 1 0.15 0.2598075 0 easeInSine
 
 
 //zoom in and out
 a changecamera position 27.0 0.5 0 0 -0.5 easeOutSine
 a changecamera position 27.5 0.5 0 0 0.5 easeInSine
 
-a changecamera position 28.0 0.5 0 0 0.75 easeOutSine
-a changecamera position 28.5 0.5 0 0 -0.75 easeInSine
+a changecamera position 28.0 0.5 0 0 0.6 easeOutSine
+a changecamera position 28.5 0.5 0 0 -0.6 easeInSine
 
 
 a changecamera position 29.0 0.5 0 0 -0.75 easeOutSine
@@ -193,14 +193,14 @@ a changecamera position 46.0 1 0 -0.2 0 easeInOutSine
 
 
 //focus to one lane x 4 and return to original camera position
-a changecamera position 54.5 1 -0.5 0 0 easeOutQuart
-a changecamera position 55.5 1 1 0 0 easeOutQuart
-a changecamera position 56.5 1 -0.75 -0.433013 0 easeOutQuart
-a changecamera position 57.5 1 0.5 0.866026 0 easeOutQuart
-a changecamera position 58.5 1 -0.125 -0.2165065 0 easeOutQuart
+a changecamera position 54.5 1 -0.25 0 0 easeInOutSine
+a changecamera position 55.5 1 0.5 0 0 easeInOutSine
+a changecamera position 56.5 1 -0.375 -0.2165065 0 easeInOutSine
+a changecamera position 57.5 1 0.25 0.433013 0 easeInOutSine
+a changecamera position 58.5 0.5 -0.0625 -0.10825325 0 easeInOutSine
 
 //zoom in and out
-a changecamera position 59 1 -0.125 -0.2165065 -0.5 easeOutQuart
+a changecamera position 59 1 -0.0625 -0.10825325 -0.5 easeOutQuart
 a changecamera position 60 1 0 0 1 easeOutQuart
 a changecamera position 61 0.5 0 0 -5 easeOutQuad
 a changecamera position 61.5 0.5 0 0 4.5 easeInSine
@@ -224,8 +224,8 @@ a changecamera position 92 0.5 -0.1 0 0 easeOutSine
 
 
 //"reflected" pump
-a changecamera position 95.0 0.5 0 0 -0.5 easeOutSine
-a changecamera position 95.5 0.5 0 0 0.5 easeInSine
+a changecamera position 95.0 0.75 0 0 -0.7 easeOutSine
+a changecamera position 95.75 0.75 0 0 0.7 easeInSine
 
 
 //nudge left right left
@@ -326,14 +326,14 @@ a changecamera position 186 0.125 0 0 0.25 easeOutSine
 a changecamera position 186.25 0.5 0 0 -0.25 easeInOutQuad
 
 //stutter zoom
-a changecamera position 187 0 0 0 -0.2 Linear
-a changecamera position 187.5 0 0 0 -0.2 Linear
-a changecamera position 188 0 0 0 -0.2 Linear
-a changecamera position 188.5 0 0 0 -0.2 Linear
-a changecamera position 189 0 0 0 -0.2 Linear
-a changecamera position 189.5 0 0 0 -0.2 Linear
-a changecamera position 190 1 0 0 +1.2 easeOutCubic
-
+a changecamera position 187.0 0.5 0 0 -0.2 EaseOutQuad
+a changecamera position 187.5 0.5 0 0 -0.2 EaseOutQuad
+a changecamera position 188.0 0.5 0 0 -0.2 EaseOutQuad
+a changecamera position 188.5 0.5 0 0 -0.2 EaseOutQuad
+a changecamera position 189.0 0.5 0 0 -0.2 EaseOutQuad
+a changecamera position 189.5 0.5 0 0 -0.2 EaseOutQuad
+a changecamera position 190.0 0.5 0 0 +1.7 easeOutQuad
+a changecamera position 190.5 0.5 0 0 -0.5 easeInSine
 //kick sound screen pump effect
 a changecamera position 191 0.125 0 0 0.25 easeOutSine
 a changecamera position 191.25 0.5 0 0 -0.25 easeInOutQuad
@@ -390,15 +390,15 @@ a changecamera position 214 0.125 0 0 0.25 easeOutSine
 a changecamera position 214.25 0.25 0 0 -0.25 easeInOutQuad
 
 //focus to one lane x 8
-a changecamera position 214.5 1 -0.5 0 0 easeOutQuart
-a changecamera position 215.5 1 1 0 0 easeOutQuart
-a changecamera position 216.5 1 -0.75 -0.433013 0 easeOutQuart
-a changecamera position 217.5 1 0.5 0.866026 0 easeOutQuart
+a changecamera position 214.5 1 -0.5 0 0 easeInOutSine
+a changecamera position 215.5 1 1 0 0 easeInOutSine
+a changecamera position 216.5 1 -0.75 -0.433013 0 easeInOutSine
+a changecamera position 217.5 1 0.5 0.866026 0 easeInSine
 
-a changecamera position 218.5 1 -0.72 -0.433013 0 easeOutQuart
-a changecamera position 219.5 1 0.25 -0.433013 0 easeOutQuart
-a changecamera position 220.5 1 0.5 0 0 easeOutQuart
-a changecamera position 221.5 1 0.25 0.433013 0 easeOutQuart
+a changecamera position 218.5 1 -0.72 -0.433013 0 easeInOutSine
+a changecamera position 219.5 1 0.25 -0.433013 0 easeInOutSine
+a changecamera position 220.5 1 0.5 0 0 easeInOutSine
+a changecamera position 221.5 1 0.25 0.433013 0 easeInOutSine
 
 //parallax? and stutter zoom
 a changecamera position 223 0 -1 -0.5 -3 Linear
@@ -411,10 +411,10 @@ a changecamera position 227.5 0 0 0 0.5 Linear
 a changecamera position 227.75 0 0 0 0.5 Linear
 a changecamera position 228 0 0 0 1 Linear
 a changecamera position 228.5 0 0 0 1 Linear
-a changecamera position 229 0.5 0 0 1 EaseOutSine
+a changecamera position 229 0.75 0 0 1 EaseOutSine
 
 //zoom in, catch and swipe part 
-a changecamera position 229.5 0.5 0 -0 -1 EaseInSine
+a changecamera position 229.75 0.75 0 -0 -1 EaseInSine
 a changecamera position 231 0.5 0 0 1 EaseOutSine
 a changecamera position 238 0.5 0 0 -1 EaseOutSine
 
@@ -455,8 +455,8 @@ a changecamera position 260.5 0.125 0 0 0.25 easeOutSine
 a changecamera position 260.75 0.5 0 0 -0.25 easeInOutQuad
 
 //"reflected" pump 
-a changecamera position 263.0 0.5 0 0 -0.5 easeOutSine
-a changecamera position 263.5 0.5 0 0 0.5 easeInSine
+a changecamera position 263.0 0.75 0 0 -0.7 easeOutSine
+a changecamera position 263.75 0.75 0 0 0.7 easeInSine
 
 //nudge left right 
 a changecamera position 272 1 0.5 0 0 easeOutSine
@@ -472,10 +472,10 @@ a changecamera position 277.0 0.5 0 0 -0.5 easeOutSine
 a changecamera position 277.5 0.5 0 0 0.5 easeInSine
 
 //narrowing stutter zoom
-a changecamera position 278.25 0 0 0 0.2 EaseOutSine
-a changecamera position 278.5 0 0 0 0.2 EaseOutSine
-a changecamera position 278.75 0 0 0 0.2 EaseOutSine
-a changecamera position 279 0 0 0 -0.6 EaseOutSine
+a changecamera position 278.25 0.125 0 0 0.2 EaseOutSine
+a changecamera position 278.5 0.125 0 0 0.2 EaseOutSine
+a changecamera position 278.75 0.125 0 0 0.2 EaseOutSine
+a changecamera position 279 0.25 0 0 -0.6 EaseOutSine
 
 //nudge left right
 a changecamera position 288 1 -0.5 0 0 easeOutSine
@@ -490,8 +490,9 @@ a changecamera position 292.5 0.5 0 0 0.5 easeInSine
 a changecamera position 293.0 0.5 0 0 -0.5 easeOutSine
 a changecamera position 293.5 0.5 0 0 0.5 easeInSine
 
-
-
+a changecamera position 295 0.5 0.05 -0.0866025 0 easeOutSine
+a changecamera position 295.5 0.75 0.15 -0.2598075 0 easeOutSine
+a changecamera position 296.25 1.25 -0.2 0.34641 0 easeInSine
 //CAMERA ANGLE CHANGES
 
 //“もう我慢できない”shake 
@@ -502,15 +503,15 @@ a changecamera angle 6.5 0.5 0 0 2 easeOutSine
 a changecamera angle 47 3.5 0 0 -15 easeInOutSine
 a changecamera angle 50.5 3.5 0 0 15 easeInOutSine
 //chorus
-a changecamera angle 63.125 2.375 0 0 -90 easeOutQuad
-a changecamera angle 71 1 0 0 30 easeInOutSine
-a changecamera angle 73 2 0 0 -60 easeInOutSine
-a changecamera angle 76.5 2 0 0 60 easeInOutSine
+a changecamera angle 63.125 2.875 0 0 -90 easeOutSine
+a changecamera angle 70 2 0 0 30 easeInOutSine
+a changecamera angle 72 3.5 0 0 -60 easeInOutSine
+a changecamera angle 75.5 3.5 0 0 60 easeInOutSine
 
-a changecamera angle 79.125 2.375 0 0 90 easeOutQuad
-a changecamera angle 87 1 0 0 -30 easeInOutSine
-a changecamera angle 89 2 0 0 60 easeInOutSine
-a changecamera angle 92.5 2 0 0 -60 easeInOutSine
+a changecamera angle 79.125 2.875 0 0 90 easeOutSine
+a changecamera angle 86 2 0 0 -30 easeInOutSine
+a changecamera angle 88 3.5 0 0 60 easeInOutSine
+a changecamera angle 91.5 3.5 0 0 -60 easeInOutSine
 
 //chorus2 sway
 a changecamera angle 95 1 0 0 1.5 easeInOutSine
@@ -589,27 +590,27 @@ a changecamera angle 186.5 0.5 0 0 -5 easeOutSine
 
 
 //stutter
-a changecamera angle 187 0 0 0 -2.5 Linear
-a changecamera angle 187.5 0 0 0 -2.5 Linear
-a changecamera angle 188 0 0 0 -2.5 Linear
-a changecamera angle 188.5 0 0 0 -2.5 Linear
-a changecamera angle 189 0 0 0 -2.5 Linear
-a changecamera angle 189.5 0 0 0 -2.5 Linear
-a changecamera angle 190 0.5 0 0 +30 easeOutSine
-a changecamera angle 190.5 0.5 0 0 -20 easeInOutSine
+a changecamera angle 187.0 0.5 0 0 -2.5 EaseOutCubic
+a changecamera angle 187.5 0.5 0 0 -2.5 EaseOutCubic
+a changecamera angle 188.0 0.5 0 0 -2.5 EaseOutCubic
+a changecamera angle 188.5 0.5 0 0 -2.5 EaseOutCubic
+a changecamera angle 189.0 0.5 0 0 -2.5 EaseOutCubic
+a changecamera angle 189.5 0.5 0 0 -2.5 EaseOutCubic
+a changecamera angle 190.0 1 0 0 +10 easeOutSine
+/a changecamera angle 190.5 0.5 0 0 -20 easeInOutSine
 
 //turn 30deg every measure
-a changecamera angle 194 1 0 0 +30 easeInOutSine
-a changecamera angle 198 1 0 0 +30 easeInOutSine
-a changecamera angle 200.5 1 0 0 +10 easeInOutSine
-a changecamera angle 201.5 1 0 0 +10 easeInOutSine
-a changecamera angle 202.5 1 0 0 +10 easeInOutSine
+a changecamera angle 194 2 0 0 +30 easeOutSine
+a changecamera angle 198 2 0 0 +30 easeOutSine
+a changecamera angle 200.5 1 0 0 +10 easeOutSine
+a changecamera angle 201.5 1 0 0 +10 easeOutSine
+a changecamera angle 202.5 1 0 0 +10 easeOutSine
 
-a changecamera angle 206 1 0 0 -30 easeOutSine
-a changecamera angle 210 1 0 0 -30 easeInOutSine
+a changecamera angle 206 2 0 0 -30 easeOutSine
+a changecamera angle 210 2 0 0 -30 easeOutSine
 //a changecamera angle 214 0.5 0 0 -10 easeInOutSine
 //a changecamera angle 214.5 0.5 0 0 10 easeInOutSine
-a changecamera angle 218 1 0 0 -30 easeInOutSine
+a changecamera angle 218 2 0 0 -30 easeInOutSine
 
 //parallax
 a changecamera angle 223 0 5 5 -30 Linear
@@ -624,14 +625,14 @@ a changecamera angle 229 0 0 0 0 Linear
 
 //rotaeno(x
 a changecamera angle 231 1 0 0 -5 EaseInOutSine
-a changecamera angle 232 2 0 0 7.5 EaseInOutSine
-a changecamera angle 234 2 0 0 7.5 EaseInOutSine
-a changecamera angle 236 2 0 0 -7.5 EaseInOutSine
-a changecamera angle 238 0.5 0 0 -2.5 EaseInOutSine
+/a changecamera angle 232 2 0 0 7.5 EaseInOutSine
+/a changecamera angle 234 2 0 0 7.5 EaseInOutSine
+/a changecamera angle 236 2 0 0 -7.5 EaseInOutSine
+a changecamera angle 238 0.5 0 0 5 EaseInOutSine
 
 //
 a changecamera angle 244 3 0 0 -60 easeInOutSine
-a changecamera angle 256.5 2 0 0 60 easeInOutSine
+a changecamera angle 256.5 2 0 0 60 easeInOutQuad
 
 
 //chorus sway
@@ -808,11 +809,11 @@ n catch lb rt 62.5
 n swipe out lt rb 63
 
 //chorus
-n long rb 64 66
-n short rt 64.5
-n short lt 65
-n short lc 65.5
-n short lb 66
+n long rc 64 66
+n short lb 64.5
+n short lc 65
+n short lt 65.5
+n catch rt 66
 
 n long lc 67 68
 n swipe out lb 67.5
@@ -846,11 +847,11 @@ n catch rb 78
 n swipe in rb 78.5
 n swipe out rb lt 79
 
-n long rb 80 82
-n short lc 80.5
-n short lt 81
-n short rt 81.5
-n short rc 82
+n long lb 80 82
+n short rc 80.5
+n short rt 81
+n short lt 81.5
+n catch lc 82
 
 n long rt 83 84
 n swipe out rc 83.5
@@ -861,7 +862,7 @@ n swipe out rc 85.5
 n long rb 86 87
 n swipe out rc 86.5
 
-n long rt 87 89
+n long rt 87 90.5
 n swipe out rc 87.5
 n swipe in rc 88
 n swipe out rc 88.5
@@ -1154,12 +1155,12 @@ n swipe out rc lc 231
 n swipe in rc 232
 n swipe out rc 232.5
 n swipe in rc 233
-n swipe in rc 234
-n swipe out rc 234.5
-n swipe in rc 235
-n swipe out rc 235.5
-n swipe in rc 236
-n swipe out rc 236.25
+n swipe out rc 234
+n swipe in rc 234.5
+n swipe out rc 235
+n swipe in rc 235.5
+n swipe out rc 236
+n swipe in rc 236.25
 n swipe out rc 237
 
 n long lc 232 237
