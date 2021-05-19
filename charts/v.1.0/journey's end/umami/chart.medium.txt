@@ -320,7 +320,7 @@ n catch lc 241
 n catch lc 242
 n catch lc 243
 n catch lc 243.5
-n catch lc 245
+n catch lc 245.5
 n catch lc 246
 n catch lc 246.5
 n catch lc 247
