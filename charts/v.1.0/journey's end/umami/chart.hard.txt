@@ -320,7 +320,7 @@ n long rc 189 190
 n long lb 190 191
 n short rt 191
 
-a changestage side_2 192 8 easeOutSine
+a changestage side_2 192 8 easeInSine
 a changecamera angle 192 64 0 0 360 linear
 a changecamera position 192 1 0 0 0.5 easeOutSine
 n long lc 192 198
@@ -353,7 +353,7 @@ n catch rc 241
 n catch rc 242
 n catch rc 243
 n catch rc 243.5
-n catch rc 245
+n catch rc 245.5
 n catch rc 246
 n catch rc 246.5
 n catch rc 247
@@ -564,7 +564,7 @@ n short rb 349.5
 n swipe out rc 350
 n swipe out lc 350
 
-a changestage classichexagon 350.2 1.8 easeOutQuad
+a changestage classichexagon 350.2 0.8 easeOutQuad
 a changecamera angle 352 64 0 0 180 linear
 
 
