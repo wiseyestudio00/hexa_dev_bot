@@ -1,28 +1,28 @@
 #移動舞台
 a changecamera position 31 4 0 0 -0.5 easeinoutsine
 a changecamera position 46 1.5 0 0 -0.5 easeinoutsine
-a changecamera position 47.5 0.5 0 0 0.5 easeinoutsine
+a changecamera position 47.5 1 0 0 0.5 easeinoutsine
 
-a changecamera position 64 0.5 0 0 -1 easeinoutsine
-a changecamera position 64.5 1.5 0 0 1 easeinoutsine
-a changecamera position 66 0.5 0 0 -1 easeinoutsine
-a changecamera position 66.5 1.5 0 0 1 easeinoutsine
-a changecamera position 68 0.5 0 0 -1 easeinoutsine
-a changecamera position 68.5 1.5 0 0 1 easeinoutsine
-a changecamera position 70 0.5 0 0 -1 easeinoutsine
-a changecamera position 70.5 1.5 0 0 1.5 easeinoutsine
+a changecamera position 64 0.5 0 0 -1 easeoutsine
+a changecamera position 64.5 1.5 0 0 1 easeoutsine
+a changecamera position 66 0.5 0 0 -1 easeoutsine
+a changecamera position 66.5 1.5 0 0 1 easeoutsine
+a changecamera position 68 0.5 0 0 -1 easeoutsine
+a changecamera position 68.5 1.5 0 0 1 easeoutsine
+a changecamera position 70 0.5 0 0 -1 easeoutsine
+a changecamera position 70.5 1.5 0 0 1.5 easeoutsine
 
 a changecamera position 104 1.5 0 0 -2.5 linear
 a changecamera position 108 4 0 0 2.5 easeinoutsine
 
-a changecamera position 136 0.5 0 0 -0.6 easeinoutsine
-a changecamera position 136.5 1.5 0 0 0.6 easeinoutsine
-a changecamera position 138 0.5 0 0 -0.6 easeinoutsine
-a changecamera position 138.5 1.5 0 0 0.6 easeinoutsine
-a changecamera position 140 0.5 0 0 -0.6 easeinoutsine
-a changecamera position 140.5 1.5 0 0 0.6 easeinoutsine
-a changecamera position 142 0.5 0 0 -0.6 easeinoutsine
-a changecamera position 142.5 1.5 0 0 0.6 easeinoutsine
+a changecamera position 136 0.5 0 0 -0.7 easeoutsine
+a changecamera position 136.5 1.5 0 0 0.7 easeoutsine
+a changecamera position 138 0.5 0 0 -0.7 easeoutsine
+a changecamera position 138.5 1.5 0 0 0.7 easeoutsine
+a changecamera position 140 0.5 0 0 -0.7 easeoutsine
+a changecamera position 140.5 1.5 0 0 0.7 easeoutsine
+a changecamera position 142 0.5 0 0 -0.7 easeoutsine
+a changecamera position 142.5 1.5 0 0 0.7 easeoutsine
 
 #旋轉舞台
 a changecamera angle 31 16 0 0 180 easeinoutsine
@@ -30,7 +30,7 @@ a changecamera angle 52 4 0 0 30 easeinoutsine
 a changecamera angle 70 9 0 0 90 easeinoutsine
 a changecamera angle 80 9 0 0 -90 easeinoutsine
 a changecamera angle 104 8 0 0 -210 easeinoutsine
-a changecamera angle 144 14 0 0 -120 linear
+a changecamera angle 144 14 0 0 120 linear
 
 
 #切換舞台
@@ -42,11 +42,11 @@ define stageposition Turn_lt 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,
 define stageposition Turn_lt_b 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
 
 #實行單軌道旋轉
-a changestage Turn_lt 64 1 easeinoutsine
-a changestage Turn_lt_b 66 1 easeinoutsine
-a changestage Turn_lt 68 1 easeinoutsine
-a changestage Turn_lt_b 70 1 easeinoutsine
-a changestage Turn_lt 104 1 easeinoutsine
+a changestage Turn_lt 64 1 easeoutsine
+a changestage Turn_lt_b 66 1 easeoutsine
+a changestage Turn_lt 68 1 easeoutsine
+a changestage Turn_lt_b 70 1 easeoutsine
+a changestage Turn_lt 104 1 easeoutsine
 
 
 #正式譜面
@@ -139,10 +139,10 @@ n short lt 42.5
 n short lc 43
 
 n short lb 44
-n short lb 45
+n short rb 45
 
-n long rb 46 47.5
-n long lb 47 47.5
+n long lb 46 47.5
+n long rb 47 47.5
 
 #D.1
 n short rc 48
@@ -196,12 +196,12 @@ n swipe out lb 77
 
 n long lc 78 79
 n short lb 78.5
-n short rb 79
+n short lb 79
 
 #G.2
 n short lb 80
-n short lb 80.5
-n short lc 81
+n short lc 80.5
+n short lb 81
 n short lc 81.5
 
 n long rb 82 83
@@ -221,8 +221,8 @@ n short rt 88
 n short lt 88.5
 n short rt 89
 
-n swipe out lb 90
-n swipe in lb 90.5
+n short lb 90
+n short lb 90.5
 n swipe out lb 91
 
 n short rt 92
@@ -237,8 +237,8 @@ n short lc 96
 n short lt 96.5
 n short lc 97
 
-n swipe out rc 98
-n swipe in rc 98.5
+n short rc 98
+n short rc 98.5
 n swipe out rc 99
 
 n short lc 100
