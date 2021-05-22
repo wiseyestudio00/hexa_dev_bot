@@ -401,11 +401,15 @@ a changecamera position 220.5 1 0.5 0 0 easeInOutSine
 a changecamera position 221.5 1 0.25 0.433013 0 easeInOutSine
 
 //parallax? and stutter zoom
-a changecamera position 223 0 -1 -0.5 -3 Linear
-a changecamera position 224 0 1 0 0 Linear
-a changecamera position 225 0 0 1 0 Linear
-a changecamera position 226 0 -1 0 0 Linear
-a changecamera position 227 0 0.5 -0.5 0 Linear
+a changecamera position 223 0 -1 -0.5 -4 Linear
+a changecamera position 223.001 0.999 0 0 1 EaseInQuad
+a changecamera position 224 0 1 0 -0 Linear
+a changecamera position 224.001 0.999 0 0 1 EaseInQuad
+a changecamera position 225 0 0 1 -0 Linear
+a changecamera position 225.001 0.999 0 0 1 EaseInQuad
+a changecamera position 226 0 -1 0 -0 Linear
+a changecamera position 226.001 0.999 0 0 1 EaseInQuad
+a changecamera position 227 0 0.5 -0.5 -3 Linear
 
 a changecamera position 227.5 0 0 0 0.5 Linear
 a changecamera position 227.75 0 0 0 0.5 Linear
@@ -504,14 +508,14 @@ a changecamera angle 47 3.5 0 0 -15 easeInOutSine
 a changecamera angle 50.5 3.5 0 0 15 easeInOutSine
 //chorus
 a changecamera angle 63.125 2.875 0 0 -90 easeOutSine
-a changecamera angle 70 2 0 0 30 easeInOutSine
-a changecamera angle 72 3.5 0 0 -60 easeInOutSine
-a changecamera angle 75.5 3.5 0 0 60 easeInOutSine
+a changecamera angle 70 2 0 0 20 easeInOutSine
+a changecamera angle 72 3.5 0 0 -40 easeInOutSine
+a changecamera angle 75.5 3.5 0 0 50 easeInOutSine
 
 a changecamera angle 79.125 2.875 0 0 90 easeOutSine
-a changecamera angle 86 2 0 0 -30 easeInOutSine
-a changecamera angle 88 3.5 0 0 60 easeInOutSine
-a changecamera angle 91.5 3.5 0 0 -60 easeInOutSine
+a changecamera angle 86 2 0 0 -20 easeInOutSine
+a changecamera angle 88 3.5 0 0 40 easeInOutSine
+a changecamera angle 91.5 3.5 0 0 -50 easeInOutSine
 
 //chorus2 sway
 a changecamera angle 95 1 0 0 1.5 easeInOutSine
@@ -613,6 +617,22 @@ a changecamera angle 210 2 0 0 -30 easeOutSine
 a changecamera angle 218 2 0 0 -30 easeInOutSine
 
 //parallax
+/*
+a changecamera angle 223 0 7.5 -15 -30 Linear
+a changecamera angle 224 0 0 0 0 Linear
+a changecamera angle 225 0 0 0 0 Linear
+a changecamera angle 226 0 0 0 0 Linear
+a changecamera angle 227 0 0 0 0 Linear
+a changecamera angle 223 0 10 10 -30 Linear
+a changecamera angle 224 0 -20 0 0 Linear
+a changecamera angle 225 0 0 -20 0 Linear
+a changecamera angle 226 0 20 0 0 Linear
+a changecamera angle 227 0 -10 10 0 Linear
+*/
+
+
+
+
 a changecamera angle 223 0 5 5 -30 Linear
 a changecamera angle 224 0 -10 0 0 Linear
 a changecamera angle 225 0 0 -10 0 Linear
