@@ -299,7 +299,7 @@ n short rc 186.5
 n short lc 187
 n short lc 187.5
 
-n compound lb rb 188 190 10
+n compound lb rb 188 190 5
 n swipe in rb lb 191
 a changecamera position 191 7 0 0 -100 linear
 
