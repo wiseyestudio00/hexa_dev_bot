@@ -125,17 +125,16 @@ n short lc 100
 n short lc 101
 n short lc 102
 n short rb 103
+
 n catch lt 104
-/n catch lt 104.25
 n catch lt 104.5
-/n catch lt 104.75
 n catch rt 105.0
 n catch rt 105.5
-n catch lc 106.0
-n catch lc 106.5
-n catch rb 107.000
-n catch rb 107.333333
-n catch rb 107.666667
+n catch lt 106.0
+n catch lt 106.5
+n catch rt 107.000
+n catch rt 107.333333
+n catch rt 107.666667
 
 n short lb rb 110
 
@@ -150,16 +149,14 @@ n short rc 117
 n short rc 118
 n short lb 119
 n catch rt 120
-/n catch rt 104.25
 n catch rt 120.5
-/n catch rt 104.75
 n catch lt 121.0
 n catch lt 121.5
-n catch rc 122.0
-n catch rc 122.5
-n catch rb 123.000
-n catch rb 123.333333
-n catch rb 123.666667
+n catch rt 122.0
+n catch rt 122.5
+n catch lt 123.000
+n catch lt 123.333333
+n catch lt 123.666667
 n short lb 125
 n short rc 126
 
@@ -192,8 +189,8 @@ n short rc 170
 n short rt 171
 n short rt 172
 n short lt 173
-n short lc 174
-n long lb 175 176
+n short lt 174
+n long lc 175 176
 
 n short rt 177
 n short rt 178
@@ -259,17 +256,15 @@ n short lc 269
 n short lc 270
 
 n short rt 271
-n catch rb 272
-/n catch rb 272.25
-n catch lb 272.5
-/n catch lb 272.75
+n catch rc 272
+n catch lc 272.5
 n catch rc 273
 n catch rc 273.5
 n catch lc 274
 n catch lc 274.5
-n catch rt 275
-n catch rt 275.333333
-n catch rt 275.666667
+n catch rc 275
+n catch rc 275.333333
+n catch rc 275.666667
 n long lt 277 278
 
 n short lc 279
@@ -282,17 +277,15 @@ n short rc 285
 n short rc 286
 
 n short lt 287
-n catch lb 288
-/n catch lb 288.25
-n catch rb 288.5
-/n catch rb 288.75
+n catch lc 288
+n catch rc 288.5
 n catch lc 289
 n catch lc 289.5
 n catch rc 290
 n catch rc 290.5
-n catch lt 291
-n catch lt 291.333333
-n catch lt 291.666667
+n catch lc 291
+n catch lc 291.333333
+n catch lc 291.666667
 n long rt 293 294
 n short lt 295
 n short lt 295.5
