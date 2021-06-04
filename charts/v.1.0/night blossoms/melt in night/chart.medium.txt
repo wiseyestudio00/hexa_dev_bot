@@ -42,8 +42,16 @@ n short rc 40
 
 a changecamera angle 41 4 0 0 15 easeinoutsine
 n long rt 41 44
+n short lb 42
+n short lb 43
+n short lc 44
 a changecamera angle 45 4 0 0 -15 easeinoutsine
 n long lc 45 48
+n short rb 46
+n short rb 47
+n short rc 48
+
+
 
 n short rb 49
 n short lc 50
@@ -56,9 +64,14 @@ n short rb 55
 n short lc 56
 a changecamera angle 57 4 0 0 -15 easeinoutsine
 n long lt 57 60
+n short rb 58
+n short rb 59
+n short rc 60
 a changecamera angle 61 4 0 0 15 easeinoutsine
 n long rc 61 64
-
+n short lb 62
+n short lb 63
+n short lc 64
 
 
 a changecamera angle 65 8 0 0 -90 easeinoutsine
@@ -173,7 +186,7 @@ n swipe out rc 107
 n swipe out rb 108
 
 n short rt lb 109
-n short lb 110
+n short lb rc 110
 n short rt 111
 n short lc 111.5
 n short rc 112
@@ -295,7 +308,7 @@ n swipe out lc 171
 n swipe out lt 172
 
 n short rt lb 173
-n short rt 174
+n short rt lc 174
 n short lb 175
 n short rc 175.5
 n short lc 176
@@ -393,7 +406,7 @@ n catch rt 206
 
 n short rb lb 207
 
-n short lb rb 208
+n short lt rc 208
 
 a changecamera position 209 2 0 0 0.25 easeoutsine
 a changecamera position 211 2 0 0 -0.25 easeinsine
