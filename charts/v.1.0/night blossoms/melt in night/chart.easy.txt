@@ -37,7 +37,7 @@ n short lb 58
 n short lb 60
 n short lb 62
 
-a changecamera angle 65 16 0 0 30 easeinoutsine
+a movecamera angle 65 16 0 0 30 easeinoutsine
 
 
 n long rc 65 67
@@ -54,7 +54,7 @@ n short lb 85
 n short lb 86
 n short lb 87
 
-a changecamera angle 93 3 0 0 -30 easeinoutSine
+a movecamera angle 93 3 0 0 -30 easeinoutsine
 
 n short rt 89
 n short rt 90
@@ -64,23 +64,23 @@ n short rt 91
 
 
 副歌1
-a changecamera position 97 2 0 0 0.25 easeoutsine
-a changecamera position 99 2 0 0 -0.25 easeinsine
-a changecamera position 101 2 0 0 0.25 easeoutsine
-a changecamera position 103 2 0 0 -0.25 easeinsine
-a changecamera position 105 2 0 0 0.25 easeoutsine
-a changecamera position 107 2 0 0 -0.25 easeinsine
-a changecamera position 109 2 0 0 0.25 easeoutsine
-a changecamera position 111 2 0 0 -0.25 easeinsine
+a movecamera position 97 2 0 0 0.25 easeoutsine
+a movecamera position 99 2 0 0 -0.25 easeinsine
+a movecamera position 101 2 0 0 0.25 easeoutsine
+a movecamera position 103 2 0 0 -0.25 easeinsine
+a movecamera position 105 2 0 0 0.25 easeoutsine
+a movecamera position 107 2 0 0 -0.25 easeinsine
+a movecamera position 109 2 0 0 0.25 easeoutsine
+a movecamera position 111 2 0 0 -0.25 easeinsine
 
-a changecamera position 113 2 0 0 0.25 easeoutsine
-a changecamera position 115 2 0 0 -0.25 easeinsine
-a changecamera position 117 2 0 0 0.25 easeoutsine
-a changecamera position 119 2 0 0 -0.25 easeinsine
-a changecamera position 121 2 0 0 0.25 easeoutsine
-a changecamera position 123 2 0 0 -0.25 easeinsine
-a changecamera position 125 2 0 0 0.25 easeoutsine
-a changecamera position 127 2 0 0 -0.25 easeinsine
+a movecamera position 113 2 0 0 0.25 easeoutsine
+a movecamera position 115 2 0 0 -0.25 easeinsine
+a movecamera position 117 2 0 0 0.25 easeoutsine
+a movecamera position 119 2 0 0 -0.25 easeinsine
+a movecamera position 121 2 0 0 0.25 easeoutsine
+a movecamera position 123 2 0 0 -0.25 easeinsine
+a movecamera position 125 2 0 0 0.25 easeoutsine
+a movecamera position 127 2 0 0 -0.25 easeinsine
 
 
 n long rb 97 99
@@ -107,30 +107,30 @@ n short rt 157
 
 副歌2
 
-a changecamera position 161 2 0 0 0.25 easeoutsine
-a changecamera position 163 2 0 0 -0.25 easeinsine
+a movecamera position 161 2 0 0 0.25 easeoutsine
+a movecamera position 163 2 0 0 -0.25 easeinsine
 
-a changecamera position 165 2 0 0 0.25 easeoutsine
-a changecamera position 167 2 0 0 -0.25 easeinsine
+a movecamera position 165 2 0 0 0.25 easeoutsine
+a movecamera position 167 2 0 0 -0.25 easeinsine
 
-a changecamera position 169 2 0 0 0.25 easeoutsine
-a changecamera position 171 2 0 0 -0.25 easeinsine
+a movecamera position 169 2 0 0 0.25 easeoutsine
+a movecamera position 171 2 0 0 -0.25 easeinsine
 
-a changecamera position 173 2 0 0 0.25 easeoutsine
-a changecamera position 175 2 0 0 -0.25 easeinsine
+a movecamera position 173 2 0 0 0.25 easeoutsine
+a movecamera position 175 2 0 0 -0.25 easeinsine
 
 
-a changecamera position 177 2 0 0 0.25 easeoutsine
-a changecamera position 179 2 0 0 -0.25 easeinsine
+a movecamera position 177 2 0 0 0.25 easeoutsine
+a movecamera position 179 2 0 0 -0.25 easeinsine
 
-a changecamera position 181 2 0 0 0.25 easeoutsine
-a changecamera position 183 2 0 0 -0.25 easeinsine
+a movecamera position 181 2 0 0 0.25 easeoutsine
+a movecamera position 183 2 0 0 -0.25 easeinsine
 
-a changecamera position 185 2 0 0 0.25 easeoutsine
-a changecamera position 187 2 0 0 -0.25 easeinsine
+a movecamera position 185 2 0 0 0.25 easeoutsine
+a movecamera position 187 2 0 0 -0.25 easeinsine
 
-a changecamera position 189 2 0 0 0.25 easeoutsine
-a changecamera position 191 2 0 0 -0.25 easeinsine
+a movecamera position 189 2 0 0 0.25 easeoutsine
+a movecamera position 191 2 0 0 -0.25 easeinsine
 
 
 
@@ -152,10 +152,10 @@ n short lt 189
 
 副歌3
 
-a changecamera angle 193 4 0 0 11 easeOutSine
-a changecamera angle 197 4 0 0 11 easeOutSine
-a changecamera angle 201 4 0 0 11 easeOutSine
-a changecamera angle 205 4 0 0 12 easeOutSine
+a movecamera angle 193 4 0 0 11 easeoutsine
+a movecamera angle 197 4 0 0 11 easeoutsine
+a movecamera angle 201 4 0 0 11 easeoutsine
+a movecamera angle 205 4 0 0 12 easeoutsine
 
 n short rc 193
 n short rc 195
@@ -166,14 +166,14 @@ n short rt 203
 n short lb 205
 n short lb 207
 
-a changecamera angle 209 4 0 0 11 easeOutSine
-a changecamera angle 213 4 0 0 11 easeOutSine
-a changecamera angle 217 4 0 0 11 easeOutSine
+a movecamera angle 209 4 0 0 11 easeoutsine
+a movecamera angle 213 4 0 0 11 easeoutsine
+a movecamera angle 217 4 0 0 11 easeoutsine
 
 n short rc 209
 n short rc 211
 n short lc 213
 n short lc 215
 n short rt 217
-a changecamera angle 221 4 0 0 12 easeOutSine
+a movecamera angle 221 4 0 0 12 easeoutsine
 n long rc 221 225

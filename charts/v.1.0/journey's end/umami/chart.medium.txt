@@ -1,5 +1,5 @@
-a changecamera position 0 16 0 0 -1 linear
-a changecamera position 16 16 0 0 1 linear
+a movecamera position 0 16 0 0 -1 linear
+a movecamera position 16 16 0 0 1 linear
 
 n long lb 0 8
 n long rb 8 16
@@ -41,8 +41,8 @@ n catch rc 54
 n catch rc 55
 n short lc 56
 
-a changecamera position 60 1 0 0 1 easeOutSine
-a changecamera position 62 1 0 0 -1 easeOutSine
+a movecamera position 60 1 0 0 1 easeoutsine
+a movecamera position 62 1 0 0 -1 easeoutsine
 
 
 
@@ -129,13 +129,13 @@ n swipe in lt 126
 
 
 
-a changecamera position 128 2 -0.01 0 0 easeOutSine
+a movecamera position 128 2 -0.01 0 0 easeoutsine
 
-a changecamera angle 128 2 0 2 0 easeOutSine
+a movecamera angle 128 2 0 2 0 easeoutsine
 
-a changecamera position 130 2 0.01 0 0 easeOutSine
+a movecamera position 130 2 0.01 0 0 easeoutsine
 
-a changecamera angle 130 2 0 -2 0 easeOutSine
+a movecamera angle 130 2 0 -2 0 easeoutsine
 
 
 
@@ -156,13 +156,13 @@ n long rb 134 135
 
 
 
-a changecamera position 136 2 0.01 0 0 easeOutSine
+a movecamera position 136 2 0.01 0 0 easeoutsine
 
-a changecamera angle 136 2 0 -2 0 easeOutSine
+a movecamera angle 136 2 0 -2 0 easeoutsine
 
-a changecamera position 138 2 -0.01 0 0 easeOutSine
+a movecamera position 138 2 -0.01 0 0 easeoutsine
 
-a changecamera angle 138 2 0 2 0 easeOutSine
+a movecamera angle 138 2 0 2 0 easeoutsine
 
 
 n swipe out lc 136
@@ -180,8 +180,8 @@ n long rt 140 142
 n long lb 142 143
 
 
-a changecamera position 144 2 0 0 1 easeOutSine
-a changecamera position 146 2 0 0 -1 easeOutSine
+a movecamera position 144 2 0 0 1 easeoutsine
+a movecamera position 146 2 0 0 -1 easeoutsine
 
 
 
@@ -207,13 +207,13 @@ n long lb 158 159
 
 
 
-a changecamera position 160 2 -0.01 0 0 easeOutSine
+a movecamera position 160 2 -0.01 0 0 easeoutsine
 
-a changecamera angle 160 2 0 2 0 easeOutSine
+a movecamera angle 160 2 0 2 0 easeoutsine
 
-a changecamera position 162 2 0.01 0 0 easeOutSine
+a movecamera position 162 2 0.01 0 0 easeoutsine
 
-a changecamera angle 162 2 0 -2 0 easeOutSine
+a movecamera angle 162 2 0 -2 0 easeoutsine
 
 
 n swipe in lc 160
@@ -232,13 +232,13 @@ n long lb 166 167
 
 
 
-a changecamera position 168 2 0.01 0 0 easeOutSine
+a movecamera position 168 2 0.01 0 0 easeoutsine
 
-a changecamera angle 168 2 0 -2 0 easeOutSine
+a movecamera angle 168 2 0 -2 0 easeoutsine
 
-a changecamera position 170 2 -0.01 0 0 easeOutSine
+a movecamera position 170 2 -0.01 0 0 easeoutsine
 
-a changecamera angle 170 2 0 2 0 easeOutSine
+a movecamera angle 170 2 0 2 0 easeoutsine
 
 
 
@@ -259,8 +259,8 @@ n long rb 174 175
 
 
 
-a changecamera position 176 2 0 0 1 easeOutSine
-a changecamera position 178 2 0 0 -1 easeOutSine
+a movecamera position 176 2 0 0 1 easeoutsine
+a movecamera position 178 2 0 0 -1 easeoutsine
 
 
 
@@ -288,8 +288,8 @@ n long rb 190 191
 
 
 
-a changecamera angle 192 96 0 0 360 linear
-a changecamera position 192 1 0 0 0.5 easeOutSine
+a movecamera angle 192 96 0 0 360 linear
+a movecamera position 192 1 0 0 0.5 easeoutsine
 n long lc 192 198
 
 n long rc 200 206
@@ -384,8 +384,8 @@ n long rt 280 286
 
 
 
-a changecamera position 288 2 0 0 0.5 easeOutSine
-a changecamera position 290 2 0 0 -0.5 easeOutSine
+a movecamera position 288 2 0 0 0.5 easeoutsine
+a movecamera position 290 2 0 0 -0.5 easeoutsine
 
 
 n swipe out lt 288
@@ -402,8 +402,8 @@ n long lc 294 295
 
 
 
-a changecamera position 296 2 0 0 0.5 easeOutSine
-a changecamera position 298 2 0 0 -0.5 easeOutSine
+a movecamera position 296 2 0 0 0.5 easeoutsine
+a movecamera position 298 2 0 0 -0.5 easeoutsine
 
 
 
@@ -422,8 +422,8 @@ n long rc 302 303
 
 
 
-a changecamera position 304 2 0 0 0.5 easeOutSine
-a changecamera position 306 2 0 0 -0.5 easeOutSine
+a movecamera position 304 2 0 0 0.5 easeoutsine
+a movecamera position 306 2 0 0 -0.5 easeoutsine
 
 
 
@@ -453,8 +453,8 @@ n catch lb 317.5
 n catch lc 318.5
 n catch lc 319
 
-a changecamera position 320 2 0 0 0.5 easeOutSine
-a changecamera position 322 2 0 0 -0.5 easeOutSine
+a movecamera position 320 2 0 0 0.5 easeoutsine
+a movecamera position 322 2 0 0 -0.5 easeoutsine
 
 
 
@@ -473,8 +473,8 @@ n long rt 326 327
 
 
 
-a changecamera position 328 2 0 0 0.5 easeOutSine
-a changecamera position 330 2 0 0 -0.5 easeOutSine
+a movecamera position 328 2 0 0 0.5 easeoutsine
+a movecamera position 330 2 0 0 -0.5 easeoutsine
 
 
 n swipe out lb 328
@@ -491,8 +491,8 @@ n long rc 332 333
 n long lt 334 335
 
 
-a changecamera position 336 2 0 0 0.5 easeOutSine
-a changecamera position 338 2 0 0 -0.5 easeOutSine
+a movecamera position 336 2 0 0 0.5 easeoutsine
+a movecamera position 338 2 0 0 -0.5 easeoutsine
 
 
 n swipe out rc 336
@@ -520,7 +520,7 @@ n catch lb 349.5
 
 n swipe out rt 350
 n catch rt 351
-a changecamera angle 352 64 0 0 180 linear
+a movecamera angle 352 64 0 0 180 linear
 
 
 n long lc 352 354

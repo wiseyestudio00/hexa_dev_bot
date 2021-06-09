@@ -177,8 +177,8 @@ n long lb 79 79.25
 n long lc 79.5 79.75
 
 
-a changecamera position 79.75 2 0 -1 3.5 easeinoutsine
-a changecamera angle 79.75 2 20 0 0 easeinoutsine
+a movecamera position 79.75 2 0 -1 3.5 easeinoutsine
+a movecamera angle 79.75 2 20 0 0 easeinoutsine
 
 
 n short rb 80
@@ -201,8 +201,8 @@ n compound rb 82 83.875 8
 n compound lb 82.125 84 8
 
 
-a changecamera position 84 1 0 1 -3.5 easeinoutsine
-a changecamera angle 84 1 -20 0 0 easeinoutsine
+a movecamera position 84 1 0 1 -3.5 easeinoutsine
+a movecamera angle 84 1 -20 0 0 easeinoutsine
 
 
 n short rb 84.75
@@ -270,7 +270,7 @@ n swipe out lb rb 115.5
 define stageposition side4 4,1.15,3.3 0,0,180 200,0,3.3 0,0,0 4,-1.15,3.3 0,0,180 -4,-1.15,3.3 0,0,0 -200,0,3.3 0,0,0 -4,1.15,3.3 0,0,360
 
 
-a changecamera angle 115.75 3 0 0 1800 easeinCubic
+a movecamera angle 115.75 3 0 0 1800 easeincubic
 a changestage side4 118.75 0.25 easeinoutsine
 
 
@@ -299,12 +299,12 @@ n swipe in lb rb 127.25
 n swipe out lb rb 127.5
 
 
-a changecamera position 127 0.125 0 0 2 easeoutCubic
-a changecamera position 127.125 0.125 0 0 -2 easeinCubic
-a changecamera position 127.25 0.125 0 0 -2 easeoutCubic
-a changecamera position 127.375 0.125 0 0 2 easeinCubic
-a changecamera position 127.5 0.125 0 0 2 easeoutCubic
-a changecamera position 127.625 0.125 0 0 -2 easeinCubic
+a movecamera position 127 0.125 0 0 2 easeoutcubic
+a movecamera position 127.125 0.125 0 0 -2 easeincubic
+a movecamera position 127.25 0.125 0 0 -2 easeoutcubic
+a movecamera position 127.375 0.125 0 0 2 easeincubic
+a movecamera position 127.5 0.125 0 0 2 easeoutcubic
+a movecamera position 127.625 0.125 0 0 -2 easeincubic
 
 
 n long rb 128 128.75
@@ -341,12 +341,12 @@ n swipe out lt rt 143.25
 n swipe out lt rt 143.5
 
 
-a changecamera position 143 0.125 0 0 2 easeoutCubic
-a changecamera position 143.125 0.125 0 0 -2 easeinCubic
-a changecamera position 143.25 0.125 0 0 2 easeoutCubic
-a changecamera position 143.375 0.125 0 0 -2 easeinCubic
-a changecamera position 143.5 0.125 0 0 2 easeoutCubic
-a changecamera position 143.625 0.125 0 0 -2 easeinCubic
+a movecamera position 143 0.125 0 0 2 easeoutcubic
+a movecamera position 143.125 0.125 0 0 -2 easeincubic
+a movecamera position 143.25 0.125 0 0 2 easeoutcubic
+a movecamera position 143.375 0.125 0 0 -2 easeincubic
+a movecamera position 143.5 0.125 0 0 2 easeoutcubic
+a movecamera position 143.625 0.125 0 0 -2 easeincubic
 
 
 define stageposition rightopen 1.35,2.35,0 0,0,240 27,0,0 0,0,180 1.35,-2.35,0 0,0,120 -4,-1.15,3.3 0,0,0 -27,0,0 0,0,0 -4,1.15,3.3 0,0,360
@@ -366,10 +366,10 @@ define stageposition rightback 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 
 -n short 148.25
 
 
-a changestage rightopen 144 0.75 easeinoutQuint
-a changestage leftrightopen 144.75 0.75 easeinoutQuint
-a changestage rightback 145.5 0.75 easeinoutQuint
-a changestage classichexagon 146.25 0.75 easeinoutQuint
+a changestage rightopen 144 0.75 easeinoutquint
+a changestage leftrightopen 144.75 0.75 easeinoutquint
+a changestage rightback 145.5 0.75 easeinoutquint
+a changestage classichexagon 146.25 0.75 easeinoutquint
 
 
 a cameraeffect main brightness 2 144 0.15 easeoutexpo
@@ -393,8 +393,8 @@ a cameraeffect main vignette 0.9 147 1.25 easeoutcubic
 a cameraeffect main vignette 0 148.25 3 easeoutquart
 
 
-a changecamera angle 147 1.25 0 0 -70 easeoutcubic
-a changecamera angle 148.25 3 0 0 790 easeoutquart
+a movecamera angle 147 1.25 0 0 -70 easeoutcubic
+a movecamera angle 148.25 3 0 0 790 easeoutquart
 
 n short rb 151
 n short rb 151.25

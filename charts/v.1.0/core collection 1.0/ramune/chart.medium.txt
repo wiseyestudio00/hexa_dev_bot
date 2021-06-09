@@ -1,5 +1,5 @@
-a changecamera angle 0 32 0 0 120 linear
-a changecamera angle 32 32 0 0 -120 linear
+a movecamera angle 0 32 0 0 120 linear
+a movecamera angle 32 32 0 0 -120 linear
 define stageposition motomoto 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
 
 n long rt 0 7
@@ -113,8 +113,8 @@ n catch rb 127.5
 n catch lb 127.75
 n catch rb 128
 
-a changecamera position 124 4 0 0 1 easeinoutsine
-a changecamera angle 124 4 10 0 0 easeinoutsine
+a movecamera position 124 4 0 0 1 easeinoutsine
+a movecamera angle 124 4 10 0 0 easeinoutsine
 
 
 n long lb 132 134
@@ -150,8 +150,8 @@ n short rb 156
 n short rb 157
 n swipe in rb 158
 
-a changecamera position 158 2 0 0 -1 easeinoutsine
-a changecamera angle 158 2 -10 0 0 easeinoutsine
+a movecamera position 158 2 0 0 -1 easeinoutsine
+a movecamera angle 158 2 -10 0 0 easeinoutsine
 
 n swipe out rt 161
 n short lb 161
@@ -550,68 +550,68 @@ a changestage motomoto 172 1 easeinoutsine
 a changestage hhh 175 1 easeinoutsine
 a changestage motomoto 176 1 easeinoutsine
 
-a changecamera position 252 4 0 0 -0.8 easeinoutsine
+a movecamera position 252 4 0 0 -0.8 easeinoutsine
 
-a changecamera angle 256 1 0 0 2 easeinoutsine
-a changecamera angle 257 1 0 0 -2 easeinoutsine
-a changecamera angle 258 1 0 0 2 easeinoutsine
-a changecamera angle 259 1 0 0 -2 easeinoutsine
-a changecamera angle 260 1 0 0 -2 easeinoutsine
-a changecamera angle 261 1 0 0 2 easeinoutsine
-a changecamera angle 262 1 0 0 -2 easeinoutsine
-a changecamera angle 263 1 0 0 2 easeinoutsine
+a movecamera angle 256 1 0 0 2 easeinoutsine
+a movecamera angle 257 1 0 0 -2 easeinoutsine
+a movecamera angle 258 1 0 0 2 easeinoutsine
+a movecamera angle 259 1 0 0 -2 easeinoutsine
+a movecamera angle 260 1 0 0 -2 easeinoutsine
+a movecamera angle 261 1 0 0 2 easeinoutsine
+a movecamera angle 262 1 0 0 -2 easeinoutsine
+a movecamera angle 263 1 0 0 2 easeinoutsine
 
-a changecamera angle 264 1 0 0 2 easeinoutsine
-a changecamera angle 265 1 0 0 -2 easeinoutsine
-a changecamera angle 266 1 0 0 2 easeinoutsine
-a changecamera angle 267 1 0 0 -2 easeinoutsine
-a changecamera angle 268 1 0 0 -2 easeinoutsine
-a changecamera angle 269 1 0 0 2 easeinoutsine
-a changecamera angle 270 1 0 0 -2 easeinoutsine
-a changecamera angle 271 1 0 0 2 easeinoutsine
+a movecamera angle 264 1 0 0 2 easeinoutsine
+a movecamera angle 265 1 0 0 -2 easeinoutsine
+a movecamera angle 266 1 0 0 2 easeinoutsine
+a movecamera angle 267 1 0 0 -2 easeinoutsine
+a movecamera angle 268 1 0 0 -2 easeinoutsine
+a movecamera angle 269 1 0 0 2 easeinoutsine
+a movecamera angle 270 1 0 0 -2 easeinoutsine
+a movecamera angle 271 1 0 0 2 easeinoutsine
 
-a changecamera angle 272 1 0 0 2 easeinoutsine
-a changecamera angle 273 1 0 0 -2 easeinoutsine
-a changecamera angle 274 1 0 0 2 easeinoutsine
-a changecamera angle 275 1 0 0 -2 easeinoutsine
-a changecamera angle 276 1 0 0 -2 easeinoutsine
-a changecamera angle 277 1 0 0 2 easeinoutsine
-a changecamera angle 278 1 0 0 -2 easeinoutsine
-a changecamera angle 279 1 0 0 2 easeinoutsine
+a movecamera angle 272 1 0 0 2 easeinoutsine
+a movecamera angle 273 1 0 0 -2 easeinoutsine
+a movecamera angle 274 1 0 0 2 easeinoutsine
+a movecamera angle 275 1 0 0 -2 easeinoutsine
+a movecamera angle 276 1 0 0 -2 easeinoutsine
+a movecamera angle 277 1 0 0 2 easeinoutsine
+a movecamera angle 278 1 0 0 -2 easeinoutsine
+a movecamera angle 279 1 0 0 2 easeinoutsine
 
-a changecamera position 280 1.5 0 0 0.8 easeinoutsine
-a changecamera position 281.5 1.5 0 0 -0.8 easeinoutsine
-a changecamera position 283 1.5 0 0 0.8 easeinoutsine
-a changecamera position 284.5 1.5 0 0 -0.8 easeinoutsine
+a movecamera position 280 1.5 0 0 0.8 easeinoutsine
+a movecamera position 281.5 1.5 0 0 -0.8 easeinoutsine
+a movecamera position 283 1.5 0 0 0.8 easeinoutsine
+a movecamera position 284.5 1.5 0 0 -0.8 easeinoutsine
 
-a changecamera angle 288 1 0 0 2 easeinoutsine
-a changecamera angle 289 1 0 0 -2 easeinoutsine
-a changecamera angle 290 1 0 0 2 easeinoutsine
-a changecamera angle 291 1 0 0 -2 easeinoutsine
-a changecamera angle 292 1 0 0 -2 easeinoutsine
-a changecamera angle 293 1 0 0 2 easeinoutsine
-a changecamera angle 294 1 0 0 -2 easeinoutsine
-a changecamera angle 295 1 0 0 2 easeinoutsine
+a movecamera angle 288 1 0 0 2 easeinoutsine
+a movecamera angle 289 1 0 0 -2 easeinoutsine
+a movecamera angle 290 1 0 0 2 easeinoutsine
+a movecamera angle 291 1 0 0 -2 easeinoutsine
+a movecamera angle 292 1 0 0 -2 easeinoutsine
+a movecamera angle 293 1 0 0 2 easeinoutsine
+a movecamera angle 294 1 0 0 -2 easeinoutsine
+a movecamera angle 295 1 0 0 2 easeinoutsine
 
-a changecamera angle 296 1 0 0 2 easeinoutsine
-a changecamera angle 297 1 0 0 -2 easeinoutsine
-a changecamera angle 298 1 0 0 2 easeinoutsine
-a changecamera angle 299 1 0 0 -2 easeinoutsine
-a changecamera angle 300 1 0 0 -2 easeinoutsine
-a changecamera angle 301 1 0 0 2 easeinoutsine
-a changecamera angle 302 1 0 0 -2 easeinoutsine
-a changecamera angle 303 1 0 0 2 easeinoutsine
+a movecamera angle 296 1 0 0 2 easeinoutsine
+a movecamera angle 297 1 0 0 -2 easeinoutsine
+a movecamera angle 298 1 0 0 2 easeinoutsine
+a movecamera angle 299 1 0 0 -2 easeinoutsine
+a movecamera angle 300 1 0 0 -2 easeinoutsine
+a movecamera angle 301 1 0 0 2 easeinoutsine
+a movecamera angle 302 1 0 0 -2 easeinoutsine
+a movecamera angle 303 1 0 0 2 easeinoutsine
 
 
-a changecamera position 312 1.5 0 0 0.8 easeinoutsine
-a changecamera position 313.5 1.5 0 0 -0.8 easeinoutsine
-a changecamera position 315 1.5 0 0 0.8 easeinoutsine
-a changecamera position 316.5 1.5 0 0 -0.8 easeinoutsine
+a movecamera position 312 1.5 0 0 0.8 easeinoutsine
+a movecamera position 313.5 1.5 0 0 -0.8 easeinoutsine
+a movecamera position 315 1.5 0 0 0.8 easeinoutsine
+a movecamera position 316.5 1.5 0 0 -0.8 easeinoutsine
 
-a changecamera position 344 1.5 0 0 0.8 easeinoutsine
-a changecamera position 345.5 1.5 0 0 -0.8 easeinoutsine
-a changecamera position 347 1.5 0 0 0.8 easeinoutsine
-a changecamera position 348.5 1.5 0 0 -0.8 easeinoutsine
+a movecamera position 344 1.5 0 0 0.8 easeinoutsine
+a movecamera position 345.5 1.5 0 0 -0.8 easeinoutsine
+a movecamera position 347 1.5 0 0 0.8 easeinoutsine
+a movecamera position 348.5 1.5 0 0 -0.8 easeinoutsine
 
 a changestage aaa 353 1 easeinoutsine
 a changestage motomoto 354 1 easeinoutsine
@@ -633,10 +633,10 @@ a changestage fff 371 1 easeinoutsine
 a changestage motomoto 372 1 easeinoutsine
 
 
-a changecamera position 376 1.5 0 0 0.8 easeinoutsine
-a changecamera position 377.5 1.5 0 0 -0.8 easeinoutsine
-a changecamera position 379 1.5 0 0 0.8 easeinoutsine
-a changecamera position 380.5 1.5 0 0 -0.8 easeinoutsine
+a movecamera position 376 1.5 0 0 0.8 easeinoutsine
+a movecamera position 377.5 1.5 0 0 -0.8 easeinoutsine
+a movecamera position 379 1.5 0 0 0.8 easeinoutsine
+a movecamera position 380.5 1.5 0 0 -0.8 easeinoutsine
 
 
 

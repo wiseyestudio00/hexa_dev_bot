@@ -6,7 +6,7 @@ n short rc 8
 n short rc 10
 n short rc lc 12
 n swipe in rc 14
-a changecamera angle 14 1.5 0 0 60 easeinoutsine
+a movecamera angle 14 1.5 0 0 60 easeinoutsine
 n short lb 16
 n short lb 18
 n short rt 20
@@ -15,7 +15,7 @@ n short lb 24
 n short lb 26
 n short lb rt 28
 n swipe in lb 30
-a changecamera angle 30 1.5 0 0 -60 easeinoutsine
+a movecamera angle 30 1.5 0 0 -60 easeinoutsine
 
 n long rb 32 33
 n short lb 33
@@ -78,8 +78,8 @@ n short rb 61
 n short rc lc 62
 n swipe in rb lb 63
 
-a changecamera angle 63 2 15 0 0 easeinoutsine
-a changecamera position 63 1.5 0 0 1 easeinoutsine
+a movecamera angle 63 2 15 0 0 easeinoutsine
+a movecamera position 63 1.5 0 0 1 easeinoutsine
 
 n short rb 64
 n short rb 64.5
@@ -104,7 +104,7 @@ n swipe out rb 76
 n swipe in rb 77
 n swipe out rb lb 78
 
-a changecamera angle 78 1.5 -30 0 0 easeinoutsine
+a movecamera angle 78 1.5 -30 0 0 easeinoutsine
 
 n short lt 80
 n short lt 80.5
@@ -129,13 +129,13 @@ n swipe in lt 92
 n swipe out lt 93
 n swipe in rt lt 94
 
-a changecamera angle 94 1 15 0 0 easeinoutsine
-a changecamera position 94 1 0 0 -1 easeinoutsine
+a movecamera angle 94 1 15 0 0 easeinoutsine
+a movecamera position 94 1 0 0 -1 easeinoutsine
 
 a changecolor trial 95 0 0_0_0_0 rc lc easeinoutsine
 a changecolor trial 95.5 0 0_0_0_145 rc lc easeinoutsine
 
-a changecamera angle 96 15 0 0 90 linear
+a movecamera angle 96 15 0 0 90 linear
 
 n short rb 96
 n short rb 96.5
@@ -168,7 +168,7 @@ n swipe out rt lb 109
 n short lb rt 110
 n swipe in rt lb 111
 
-a changecamera angle 112 12 0 0 -90 linear
+a movecamera angle 112 12 0 0 -90 linear
 
 n short lt 112
 n short lt 112.5
@@ -199,9 +199,9 @@ n catch rc 123.5
 n long lb rt 124 127
 n swipe out rt lb 128
 
-a changecamera angle 128 6 0 0 720 easeinoutsine
-a changecamera position 128 3 0 0 -25 linear
-a changecamera position 131 3 0 0 25 linear
+a movecamera angle 128 6 0 0 720 easeinoutsine
+a movecamera position 128 3 0 0 -25 linear
+a movecamera position 131 3 0 0 25 linear
 
 n short rb 136
 n short lb 137
@@ -301,5 +301,5 @@ n short lc 187.5
 
 n compound lb rb 188 190 5
 n swipe in rb lb 191
-a changecamera position 191 7 0 0 -100 linear
+a movecamera position 191 7 0 0 -100 linear
 

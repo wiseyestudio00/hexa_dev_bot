@@ -44,7 +44,7 @@ n short rb 91
 n long rc lc 92 94
 n catch rc lc 95
 n catch rc lc 95.5
-a changecamera position 96 28 0 0 0.9 easeinoutsine
+a movecamera position 96 28 0 0 0.9 easeinoutsine
 
 n long rb 96 97
 n short lb 97
@@ -71,7 +71,7 @@ n short rb 119
 n long rb lt 120 121
 n long rc lc 122 123
 n long rt lb 124 128
-a changecamera position 128 8 0 0 -0.9 easeinoutsine
+a movecamera position 128 8 0 0 -0.9 easeinoutsine
 n short rb lb 136
 n short rc lc 138
 n short rt lt 140

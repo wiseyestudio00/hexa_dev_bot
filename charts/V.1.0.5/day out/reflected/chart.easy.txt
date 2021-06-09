@@ -1,57 +1,57 @@
 
-a changecamera angle 31 16 0 0 30 EaseInOutSine
-a changecamera angle 47 16 0 0 -30 EaseInOutSine
+a movecamera angle 31 16 0 0 30 easeinoutsine
+a movecamera angle 47 16 0 0 -30 easeinoutsine
 
-a changecamera position 63 2 0 0.1 0 EaseOutSine
-a changecamera position 65 2 0 -0.1 0 EaseInOutSine
+a movecamera position 63 2 0 0.1 0 easeoutsine
+a movecamera position 65 2 0 -0.1 0 easeinoutsine
 
-a changecamera position 71 2 0 0 0.2 EaseOutSine
-a changecamera position 73 2 0 0 -0.2 EaseInOutSine
+a movecamera position 71 2 0 0 0.2 easeoutsine
+a movecamera position 73 2 0 0 -0.2 easeinoutsine
 
-a changecamera position 79 2 0 0.1 0 EaseOutSine
-a changecamera position 81 2 0 -0.1 0 EaseInOutSine
+a movecamera position 79 2 0 0.1 0 easeoutsine
+a movecamera position 81 2 0 -0.1 0 easeinoutsine
 
-a changecamera position 87 2 0 0 0.2 EaseOutSine
-a changecamera position 89 2 0 0 -0.2 EaseInOutSine
+a movecamera position 87 2 0 0 0.2 easeoutsine
+a movecamera position 89 2 0 0 -0.2 easeinoutsine
 
-a changecamera position 239 2 0 -0.1 0 EaseOutSine
-a changecamera position 241 2 0 0.1 0 EaseInOutSine
+a movecamera position 239 2 0 -0.1 0 easeoutsine
+a movecamera position 241 2 0 0.1 0 easeinoutsine
 
-a changecamera position 247 2 0 -0.1 0 EaseOutSine
-a changecamera position 249 2 0 0.1 0 EaseInOutSine
-
-
-a changecamera angle 95 4 0 0 -7.5 EaseOutSine
-a changecamera angle 99 4 0 0 -7.5 EaseOutSine
-a changecamera angle 103 7 0 0 15 EaseInSine
-
-a changecamera angle 111 4 0 0 7.5 EaseOutSine
-a changecamera angle 115 4 0 0 7.5 EaseOutSine
-a changecamera angle 119 8 0 0 15 EaseInOutSine 
+a movecamera position 247 2 0 -0.1 0 easeoutsine
+a movecamera position 249 2 0 0.1 0 easeinoutsine
 
 
-a changecamera position 127 4 0 0 0.5 EaseOutSine
-a changecamera position 131 4 0 0 -0.5 EaseInSine
-a changecamera angle 127 8 0 0 -30 EaseInOutSine 
+a movecamera angle 95 4 0 0 -7.5 easeoutsine
+a movecamera angle 99 4 0 0 -7.5 easeoutsine
+a movecamera angle 103 7 0 0 15 easeinsine
 
-a changecamera position 223 4 0 0 0.5 EaseOutSine
-a changecamera position 227 4 0 0 -0.5 EaseInSine
+a movecamera angle 111 4 0 0 7.5 easeoutsine
+a movecamera angle 115 4 0 0 7.5 easeoutsine
+a movecamera angle 119 8 0 0 15 easeinoutsine 
 
-a changecamera angle 231 2 0 0 -2.5 EaseInOutSine
-a changecamera angle 233 2 0 0 2.5 EaseInSine
-a changecamera angle 235 2 0 0 2.5 EaseOutSine
-a changecamera angle 237 2 0 0 -2.5 EaseInOutSine
 
-a changecamera angle 255 4 0 0 7.5 EaseInOutSine
-a changecamera angle 259 4 0 0 -7.5 EaseInOutSine
+a movecamera position 127 4 0 0 0.5 easeoutsine
+a movecamera position 131 4 0 0 -0.5 easeinsine
+a movecamera angle 127 8 0 0 -30 easeinoutsine 
 
-a changecamera angle 263 4 0 0 -7.5 EaseOutSine
-a changecamera angle 267 4 0 0 -7.5 EaseOutSine
-a changecamera angle 271 8 0 0 15 EaseInOutSine
+a movecamera position 223 4 0 0 0.5 easeoutsine
+a movecamera position 227 4 0 0 -0.5 easeinsine
 
-a changecamera angle 279 4 0 0 7.5 EaseOutSine
-a changecamera angle 283 4 0 0 7.5 EaseOutSine
-a changecamera angle 287 8 0 0 -15 EaseInOutSine 
+a movecamera angle 231 2 0 0 -2.5 easeinoutsine
+a movecamera angle 233 2 0 0 2.5 easeinsine
+a movecamera angle 235 2 0 0 2.5 easeoutsine
+a movecamera angle 237 2 0 0 -2.5 easeinoutsine
+
+a movecamera angle 255 4 0 0 7.5 easeinoutsine
+a movecamera angle 259 4 0 0 -7.5 easeinoutsine
+
+a movecamera angle 263 4 0 0 -7.5 easeoutsine
+a movecamera angle 267 4 0 0 -7.5 easeoutsine
+a movecamera angle 271 8 0 0 15 easeinoutsine
+
+a movecamera angle 279 4 0 0 7.5 easeoutsine
+a movecamera angle 283 4 0 0 7.5 easeoutsine
+a movecamera angle 287 8 0 0 -15 easeinoutsine 
 
 n short rb 0
 n long rb 1 2

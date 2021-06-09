@@ -1,19 +1,19 @@
-a changecamera angle 0 2 0 0 5 easeOutSine
-a changecamera angle 2 2 0 0 -5 easeInSine
-a changecamera angle 4 2 0 0 -5 easeOutSine
-a changecamera angle 6 2 0 0 5 easeInSine
-a changecamera angle 8 2 0 0 5 easeOutSine
-a changecamera angle 10 2 0 0 -5 easeInSine
-a changecamera angle 12 2 0 0 -5 easeOutSine
-a changecamera angle 14 2 0 0 5 easeInSine
-a changecamera angle 16 2 0 0 5 easeOutSine
-a changecamera angle 18 2 0 0 -5 easeInSine
-a changecamera angle 20 2 0 0 -5 easeOutSine
-a changecamera angle 22 2 0 0 5 easeInSine
-a changecamera angle 24 2 0 0 5 easeOutSine
-a changecamera angle 26 2 0 0 -5 easeInSine
-a changecamera angle 28 2 0 0 -5 easeOutSine
-a changecamera angle 30 2 0 0 5 easeInSine
+a movecamera angle 0 2 0 0 5 easeoutsine
+a movecamera angle 2 2 0 0 -5 easeinsine
+a movecamera angle 4 2 0 0 -5 easeoutsine
+a movecamera angle 6 2 0 0 5 easeinsine
+a movecamera angle 8 2 0 0 5 easeoutsine
+a movecamera angle 10 2 0 0 -5 easeinsine
+a movecamera angle 12 2 0 0 -5 easeoutsine
+a movecamera angle 14 2 0 0 5 easeinsine
+a movecamera angle 16 2 0 0 5 easeoutsine
+a movecamera angle 18 2 0 0 -5 easeinsine
+a movecamera angle 20 2 0 0 -5 easeoutsine
+a movecamera angle 22 2 0 0 5 easeinsine
+a movecamera angle 24 2 0 0 5 easeoutsine
+a movecamera angle 26 2 0 0 -5 easeinsine
+a movecamera angle 28 2 0 0 -5 easeoutsine
+a movecamera angle 30 2 0 0 5 easeinsine
 n catch rb 0
 n catch rb 0.333
 n catch rb 0.667
@@ -99,7 +99,7 @@ n catch rc 27
 n catch rc 27.167
 n catch rc 27.333
 n catch rc 27.667
-a changecamera position 24 8 0 0 1 linear
+a movecamera position 24 8 0 0 1 linear
 n catch lc 28
 n catch lc 28.333
 n catch lc 28.667
@@ -116,29 +116,29 @@ n catch lc 31.667
 //
 n long rb 32 34
 n swipe in lc 32
-a changecamera position 32 2 0 0 -2 easeOutQuint
+a movecamera position 32 2 0 0 -2 easeoutquint
 n swipe out lt 34
-a changecamera position 34 2 0 0 2 easeOutQuint
+a movecamera position 34 2 0 0 2 easeoutquint
 n long lb 37 38
 n swipe in rc 37
-a changecamera position 37 1 0 0 -2 easeOutQuint
+a movecamera position 37 1 0 0 -2 easeoutquint
 n swipe out rt 38
-a changecamera position 38 2 0 0 2 easeOutQuint
+a movecamera position 38 2 0 0 2 easeoutquint
 n long lt 40 42
 n swipe in rc 40
-a changecamera position 40 2 0 0 -2 easeOutQuint
+a movecamera position 40 2 0 0 -2 easeoutquint
 n swipe out rb 42
-a changecamera position 42 2 0 0 2 easeOutQuint
+a movecamera position 42 2 0 0 2 easeoutquint
 n long rt 45 46
 n swipe in lc 45
-a changecamera position 45 1 0 0 -2 easeOutQuint
+a movecamera position 45 1 0 0 -2 easeoutquint
 n swipe out lb 46
-a changecamera position 46 2 0 0 2 easeOutQuint
+a movecamera position 46 2 0 0 2 easeoutquint
 n short rc 47
 n catch rc 47.667
 n catch rc 47.833
-a changecamera angle 48 12 0 0 150 linear
-a changecamera position 48 12 0 0 -1 linear
+a movecamera angle 48 12 0 0 150 linear
+a movecamera position 48 12 0 0 -1 linear
 n catch rc 48
 n short lc 48
 n catch rb 49
@@ -167,48 +167,48 @@ n catch lt 58.667
 n catch rt 59
 n catch rc 59.333
 n catch rb 59.667
-a changecamera position 60 1 0 0 30 easeOutExpo
+a movecamera position 60 1 0 0 30 easeoutexpo
 n short lb 60
-a changecamera position 63 0 0 0 -29 linear
+a movecamera position 63 0 0 0 -29 linear
 //
 n compound rt 64 66 4
-a changecamera angle 66 2 0 0 60 easeOutSine
+a movecamera angle 66 2 0 0 60 easeoutsine
 n short rc 66
 n compound lt 68 70 4
-a changecamera angle 70 2 0 0 60 easeOutSine
+a movecamera angle 70 2 0 0 60 easeoutsine
 n short lc 70
 n compound lc 72 74 4
-a changecamera angle 74 2 0 0 -60 easeOutSine
+a movecamera angle 74 2 0 0 -60 easeoutsine
 n short lb 74
 n compound lt 76 78 4
-a changecamera angle 78 2 0 0 -60 easeOutSine
+a movecamera angle 78 2 0 0 -60 easeoutsine
 n short rt 78
-a changecamera position 78.5 0 0 0 30 linear
-a changecamera position 78.833 0 0 0 -30 linear
-a changecamera position 79 0 0 0 30 linear
-a changecamera position 79.333 0 0 0 -30 linear
-a changecamera position 79.5 0 0 0 30 linear
-a changecamera position 79.833 0 0 0 -30 linear
+a movecamera position 78.5 0 0 0 30 linear
+a movecamera position 78.833 0 0 0 -30 linear
+a movecamera position 79 0 0 0 30 linear
+a movecamera position 79.333 0 0 0 -30 linear
+a movecamera position 79.5 0 0 0 30 linear
+a movecamera position 79.833 0 0 0 -30 linear
 n compound rt 80 82 4
-a changecamera angle 82 2 0 0 -60 easeOutSine
+a movecamera angle 82 2 0 0 -60 easeoutsine
 n short lt 82
 n short lb 83
 n compound rc 84 86 4
-a changecamera angle 86 2 0 0 -60 easeOutSine
+a movecamera angle 86 2 0 0 -60 easeoutsine
 n short rb 86
 n short rt 87
 n compound rb 88 90 4
 n long rc 88 90
-a changecamera angle 90 2 0 0 60 easeOutSine
+a movecamera angle 90 2 0 0 60 easeoutsine
 n short lb 90
 n catch lb 91.5
 n catch lb 91.667
 n compound rc 92 94 4
 n long rb 92 94
-a changecamera angle 94 2 0 0 60 easeOutSine
+a movecamera angle 94 2 0 0 60 easeoutsine
 n short rt 94
-a changecamera position 96 14 0 0 -1 linear
-a changecamera angle 96 14 0 0 -120 linear
+a movecamera position 96 14 0 0 -1 linear
+a movecamera angle 96 14 0 0 -120 linear
 n catch rt 96
 n catch rt 96.167
 n catch rt 96.333
@@ -270,10 +270,10 @@ n catch lc 109.5
 n catch lc 109.667
 n catch lc 109.833
 n swipe out lt 110
-a changecamera position 110 1 0 0 1 easeOutQuint
-a changecamera angle 111 1 0 0 -360 easeOutQuint
-a changecamera position 112 14 0 0 -1 linear
-a changecamera angle 112 12 0 0 120 linear
+a movecamera position 110 1 0 0 1 easeoutquint
+a movecamera angle 111 1 0 0 -360 easeoutquint
+a movecamera position 112 14 0 0 -1 linear
+a movecamera angle 112 12 0 0 120 linear
 n catch rb 112
 n catch rb 112.167
 n catch rb 112.333
@@ -323,7 +323,7 @@ n long lc 122.667 123.333
 n swipe in lb 123.333
 n swipe out rc 124
 n swipe out lt 124
-a changecamera angle 124 4 0 0 -870 easeInOutQuint
+a movecamera angle 124 4 0 0 -870 easeinoutquint
 //
 n short lb 128
 n long rc 129.5 130
@@ -357,64 +357,64 @@ n long lc 155 155.5
 n long lt 155.5 157.5
 n long lb 157.5 159
 
-a changecamera angle 160 28 0 0 180 linear
-a changecamera position 160 0.25 0 0 0.25 easeOutQuint
-a changecamera position 160.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 161 0.25 0 0 0.25 easeOutQuint
-a changecamera position 161.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 162 0.25 0 0 0.25 easeOutQuint
-a changecamera position 162.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 163 0.25 0 0 0.25 easeOutQuint
-a changecamera position 163.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 164 0.25 0 0 0.25 easeOutQuint
-a changecamera position 164.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 165 0.25 0 0 0.25 easeOutQuint
-a changecamera position 165.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 166 0.25 0 0 0.25 easeOutQuint
-a changecamera position 166.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 167 0.25 0 0 0.25 easeOutQuint
-a changecamera position 167.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 168 0.25 0 0 0.25 easeOutQuint
-a changecamera position 168.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 169 0.25 0 0 0.25 easeOutQuint
-a changecamera position 169.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 170 0.25 0 0 0.25 easeOutQuint
-a changecamera position 170.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 171 0.25 0 0 0.25 easeOutQuint
-a changecamera position 171.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 172 0.25 0 0 0.25 easeOutQuint
-a changecamera position 172.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 173 0.25 0 0 0.25 easeOutQuint
-a changecamera position 173.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 174 0.25 0 0 0.25 easeOutQuint
-a changecamera position 174.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 175 0.25 0 0 0.25 easeOutQuint
-a changecamera position 175.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 176 0.25 0 0 0.25 easeOutQuint
-a changecamera position 176.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 177 0.25 0 0 0.25 easeOutQuint
-a changecamera position 177.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 178 0.25 0 0 0.25 easeOutQuint
-a changecamera position 178.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 179 0.25 0 0 0.25 easeOutQuint
-a changecamera position 179.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 180 0.25 0 0 0.25 easeOutQuint
-a changecamera position 180.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 181 0.25 0 0 0.25 easeOutQuint
-a changecamera position 181.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 182 0.25 0 0 0.25 easeOutQuint
-a changecamera position 182.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 183 0.25 0 0 0.25 easeOutQuint
-a changecamera position 183.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 184 0.25 0 0 0.25 easeOutQuint
-a changecamera position 184.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 185 0.25 0 0 0.25 easeOutQuint
-a changecamera position 185.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 186 0.25 0 0 0.25 easeOutQuint
-a changecamera position 186.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 187 0.25 0 0 0.25 easeOutQuint
-a changecamera position 187.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera angle 188 4 0 0 -900 easeInOutQuart
+a movecamera angle 160 28 0 0 180 linear
+a movecamera position 160 0.25 0 0 0.25 easeoutquint
+a movecamera position 160.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 161 0.25 0 0 0.25 easeoutquint
+a movecamera position 161.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 162 0.25 0 0 0.25 easeoutquint
+a movecamera position 162.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 163 0.25 0 0 0.25 easeoutquint
+a movecamera position 163.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 164 0.25 0 0 0.25 easeoutquint
+a movecamera position 164.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 165 0.25 0 0 0.25 easeoutquint
+a movecamera position 165.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 166 0.25 0 0 0.25 easeoutquint
+a movecamera position 166.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 167 0.25 0 0 0.25 easeoutquint
+a movecamera position 167.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 168 0.25 0 0 0.25 easeoutquint
+a movecamera position 168.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 169 0.25 0 0 0.25 easeoutquint
+a movecamera position 169.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 170 0.25 0 0 0.25 easeoutquint
+a movecamera position 170.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 171 0.25 0 0 0.25 easeoutquint
+a movecamera position 171.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 172 0.25 0 0 0.25 easeoutquint
+a movecamera position 172.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 173 0.25 0 0 0.25 easeoutquint
+a movecamera position 173.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 174 0.25 0 0 0.25 easeoutquint
+a movecamera position 174.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 175 0.25 0 0 0.25 easeoutquint
+a movecamera position 175.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 176 0.25 0 0 0.25 easeoutquint
+a movecamera position 176.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 177 0.25 0 0 0.25 easeoutquint
+a movecamera position 177.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 178 0.25 0 0 0.25 easeoutquint
+a movecamera position 178.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 179 0.25 0 0 0.25 easeoutquint
+a movecamera position 179.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 180 0.25 0 0 0.25 easeoutquint
+a movecamera position 180.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 181 0.25 0 0 0.25 easeoutquint
+a movecamera position 181.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 182 0.25 0 0 0.25 easeoutquint
+a movecamera position 182.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 183 0.25 0 0 0.25 easeoutquint
+a movecamera position 183.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 184 0.25 0 0 0.25 easeoutquint
+a movecamera position 184.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 185 0.25 0 0 0.25 easeoutquint
+a movecamera position 185.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 186 0.25 0 0 0.25 easeoutquint
+a movecamera position 186.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 187 0.25 0 0 0.25 easeoutquint
+a movecamera position 187.25 0.75 0 0 -0.25 easeoutquad
+a movecamera angle 188 4 0 0 -900 easeinoutquart
 n short rc 160
 n long lb 161.5 162
 n long rb 162 162.5
@@ -444,23 +444,23 @@ n long rt 183.5 187
 n swipe out lt 187
 n swipe in lt 187.5
 //
-a changecamera angle 192 2 0 0 -5 easeOutSine
-a changecamera angle 194 2 0 0 5 easeInSine
-a changecamera angle 196 2 0 0 5 easeOutSine
-a changecamera angle 198 2 0 0 -5 easeInSine
-a changecamera angle 200 2 0 0 -5 easeOutSine
-a changecamera angle 202 2 0 0 5 easeInSine
-a changecamera angle 204 2 0 0 5 easeOutSine
-a changecamera angle 206 2 0 0 -5 easeInSine
-a changecamera angle 208 2 0 0 -5 easeOutSine
-a changecamera angle 210 2 0 0 5 easeInSine
-a changecamera angle 212 2 0 0 5 easeOutSine
-a changecamera angle 214 2 0 0 -5 easeInSine
-a changecamera angle 216 2 0 0 -5 easeOutSine
-a changecamera angle 218 2 0 0 5 easeInSine
-a changecamera angle 220 2 0 0 5 easeOutSine
-a changecamera angle 222 2 0 0 -5 easeInSine
-a changecamera position 216 8 0 0 1 linear
+a movecamera angle 192 2 0 0 -5 easeoutsine
+a movecamera angle 194 2 0 0 5 easeinsine
+a movecamera angle 196 2 0 0 5 easeoutsine
+a movecamera angle 198 2 0 0 -5 easeinsine
+a movecamera angle 200 2 0 0 -5 easeoutsine
+a movecamera angle 202 2 0 0 5 easeinsine
+a movecamera angle 204 2 0 0 5 easeoutsine
+a movecamera angle 206 2 0 0 -5 easeinsine
+a movecamera angle 208 2 0 0 -5 easeoutsine
+a movecamera angle 210 2 0 0 5 easeinsine
+a movecamera angle 212 2 0 0 5 easeoutsine
+a movecamera angle 214 2 0 0 -5 easeinsine
+a movecamera angle 216 2 0 0 -5 easeoutsine
+a movecamera angle 218 2 0 0 5 easeinsine
+a movecamera angle 220 2 0 0 5 easeoutsine
+a movecamera angle 222 2 0 0 -5 easeinsine
+a movecamera position 216 8 0 0 1 linear
 n catch lb 192
 n catch lb 192.333
 n catch lb 192.667
@@ -562,29 +562,29 @@ n catch rc 223.667
 //
 n long lb 224 226
 n swipe in rc 224
-a changecamera position 224 2 0 0 -2 easeOutQuint
+a movecamera position 224 2 0 0 -2 easeoutquint
 n swipe out rt 226
-a changecamera position 226 2 0 0 2 easeOutQuint
+a movecamera position 226 2 0 0 2 easeoutquint
 n long rb 229 230
 n swipe in lc 229
-a changecamera position 229 1 0 0 -2 easeOutQuint
+a movecamera position 229 1 0 0 -2 easeoutquint
 n swipe out lt 230
-a changecamera position 230 2 0 0 2 easeOutQuint
+a movecamera position 230 2 0 0 2 easeoutquint
 n long rt 232 234
 n swipe in lc 232
-a changecamera position 232 2 0 0 -2 easeOutQuint
+a movecamera position 232 2 0 0 -2 easeoutquint
 n swipe out lb 234
-a changecamera position 234 2 0 0 2 easeOutQuint
+a movecamera position 234 2 0 0 2 easeoutquint
 n long lt 237 238
 n swipe in rc 237
-a changecamera position 237 1 0 0 -2 easeOutQuint
+a movecamera position 237 1 0 0 -2 easeoutquint
 n swipe out rb 238
-a changecamera position 238 2 0 0 2 easeOutQuint
+a movecamera position 238 2 0 0 2 easeoutquint
 n short lc 239
 n catch lc 239.667
 n catch lc 239.833
-a changecamera angle 240 12 0 0 -150 linear
-a changecamera position 240 12 0 0 -1 linear
+a movecamera angle 240 12 0 0 -150 linear
+a movecamera position 240 12 0 0 -1 linear
 n catch lc 240
 n short rc 240
 n catch lb 241
@@ -614,143 +614,143 @@ n catch lt 251
 n catch lc 251.333
 n catch lb 251.667
 n long rb 252 255
-a changecamera position 252 3 0 0 -5 easeOutQuart
-a changecamera angle 255 0 0 0 150 linear
-a changecamera position 255 0 0 0 5 linear
+a movecamera position 252 3 0 0 -5 easeoutquart
+a movecamera angle 255 0 0 0 150 linear
+a movecamera position 255 0 0 0 5 linear
 //
-a changecamera angle 256 14 0 0 -90 linear
-a changecamera position 256 0.25 0 0 0.25 easeOutQuint
-a changecamera position 256.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 257 0.25 0 0 0.25 easeOutQuint
-a changecamera position 257.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 258 0.25 0 0 0.25 easeOutQuint
-a changecamera position 258.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 259 0.25 0 0 0.25 easeOutQuint
-a changecamera position 259.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 260 0.25 0 0 0.25 easeOutQuint
-a changecamera position 260.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 261 0.25 0 0 0.25 easeOutQuint
-a changecamera position 261.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 262 0.25 0 0 0.25 easeOutQuint
-a changecamera position 262.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 263 0.25 0 0 0.25 easeOutQuint
-a changecamera position 263.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 264 0.25 0 0 0.25 easeOutQuint
-a changecamera position 264.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 265 0.25 0 0 0.25 easeOutQuint
-a changecamera position 265.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 266 0.25 0 0 0.25 easeOutQuint
-a changecamera position 266.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 267 0.25 0 0 0.25 easeOutQuint
-a changecamera position 267.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 268 0.25 0 0 0.25 easeOutQuint
-a changecamera position 268.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 269 0.25 0 0 0.25 easeOutQuint
-a changecamera position 269.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 270.5 0 0 0 30 linear
-a changecamera position 270.833 0 0 0 -30 linear
-a changecamera position 271 0 0 0 30 linear
-a changecamera position 271.333 0 0 0 -30 linear
-a changecamera position 271.5 0 0 0 30 linear
-a changecamera position 271.833 0 0 0 -30 linear
-a changecamera angle 272 14 0 0 90 linear
-a changecamera position 272 0.25 0 0 0.25 easeOutQuint
-a changecamera position 272.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 273 0.25 0 0 0.25 easeOutQuint
-a changecamera position 273.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 274 0.25 0 0 0.25 easeOutQuint
-a changecamera position 274.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 275 0.25 0 0 0.25 easeOutQuint
-a changecamera position 275.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 276 0.25 0 0 0.25 easeOutQuint
-a changecamera position 276.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 277 0.25 0 0 0.25 easeOutQuint
-a changecamera position 277.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 278 0.25 0 0 0.25 easeOutQuint
-a changecamera position 278.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 279 0.25 0 0 0.25 easeOutQuint
-a changecamera position 279.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 280 0.25 0 0 0.25 easeOutQuint
-a changecamera position 280.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 281 0.25 0 0 0.25 easeOutQuint
-a changecamera position 281.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 282 0.25 0 0 0.25 easeOutQuint
-a changecamera position 282.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 283 0.25 0 0 0.25 easeOutQuint
-a changecamera position 283.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 284 0.25 0 0 0.25 easeOutQuint
-a changecamera position 284.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 285 0.25 0 0 0.25 easeOutQuint
-a changecamera position 285.25 0.75 0 0 -0.25 easeOutQuad
+a movecamera angle 256 14 0 0 -90 linear
+a movecamera position 256 0.25 0 0 0.25 easeoutquint
+a movecamera position 256.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 257 0.25 0 0 0.25 easeoutquint
+a movecamera position 257.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 258 0.25 0 0 0.25 easeoutquint
+a movecamera position 258.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 259 0.25 0 0 0.25 easeoutquint
+a movecamera position 259.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 260 0.25 0 0 0.25 easeoutquint
+a movecamera position 260.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 261 0.25 0 0 0.25 easeoutquint
+a movecamera position 261.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 262 0.25 0 0 0.25 easeoutquint
+a movecamera position 262.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 263 0.25 0 0 0.25 easeoutquint
+a movecamera position 263.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 264 0.25 0 0 0.25 easeoutquint
+a movecamera position 264.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 265 0.25 0 0 0.25 easeoutquint
+a movecamera position 265.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 266 0.25 0 0 0.25 easeoutquint
+a movecamera position 266.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 267 0.25 0 0 0.25 easeoutquint
+a movecamera position 267.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 268 0.25 0 0 0.25 easeoutquint
+a movecamera position 268.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 269 0.25 0 0 0.25 easeoutquint
+a movecamera position 269.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 270.5 0 0 0 30 linear
+a movecamera position 270.833 0 0 0 -30 linear
+a movecamera position 271 0 0 0 30 linear
+a movecamera position 271.333 0 0 0 -30 linear
+a movecamera position 271.5 0 0 0 30 linear
+a movecamera position 271.833 0 0 0 -30 linear
+a movecamera angle 272 14 0 0 90 linear
+a movecamera position 272 0.25 0 0 0.25 easeoutquint
+a movecamera position 272.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 273 0.25 0 0 0.25 easeoutquint
+a movecamera position 273.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 274 0.25 0 0 0.25 easeoutquint
+a movecamera position 274.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 275 0.25 0 0 0.25 easeoutquint
+a movecamera position 275.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 276 0.25 0 0 0.25 easeoutquint
+a movecamera position 276.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 277 0.25 0 0 0.25 easeoutquint
+a movecamera position 277.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 278 0.25 0 0 0.25 easeoutquint
+a movecamera position 278.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 279 0.25 0 0 0.25 easeoutquint
+a movecamera position 279.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 280 0.25 0 0 0.25 easeoutquint
+a movecamera position 280.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 281 0.25 0 0 0.25 easeoutquint
+a movecamera position 281.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 282 0.25 0 0 0.25 easeoutquint
+a movecamera position 282.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 283 0.25 0 0 0.25 easeoutquint
+a movecamera position 283.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 284 0.25 0 0 0.25 easeoutquint
+a movecamera position 284.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 285 0.25 0 0 0.25 easeoutquint
+a movecamera position 285.25 0.75 0 0 -0.25 easeoutquad
 a changestage square 286 2 easeinoutsine
-a changecamera angle 288 14 0 0 -90 linear
-a changecamera position 288 0.25 0 0 0.25 easeOutQuint
-a changecamera position 288.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 289 0.25 0 0 0.25 easeOutQuint
-a changecamera position 289.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 290 0.25 0 0 0.25 easeOutQuint
-a changecamera position 290.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 291 0.25 0 0 0.25 easeOutQuint
-a changecamera position 291.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 292 0.25 0 0 0.25 easeOutQuint
-a changecamera position 292.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 293 0.25 0 0 0.25 easeOutQuint
-a changecamera position 293.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 294 0.25 0 0 0.25 easeOutQuint
-a changecamera position 294.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 295 0.25 0 0 0.25 easeOutQuint
-a changecamera position 295.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 296 0.25 0 0 0.25 easeOutQuint
-a changecamera position 296.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 297 0.25 0 0 0.25 easeOutQuint
-a changecamera position 297.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 298 0.25 0 0 0.25 easeOutQuint
-a changecamera position 298.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 299 0.25 0 0 0.25 easeOutQuint
-a changecamera position 299.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 300 0.25 0 0 0.25 easeOutQuint
-a changecamera position 300.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 301 0.25 0 0 0.25 easeOutQuint
-a changecamera position 301.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 302 0.25 0 0 0.25 easeOutQuint
-a changecamera position 302.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera angle 303 1 0 0 360 easeOutQuint
-a changecamera angle 304 16 0 0 135 linear
-a changecamera position 304 0.25 0 0 0.25 easeOutQuint
-a changecamera position 304.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 305 0.25 0 0 0.25 easeOutQuint
-a changecamera position 305.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 306 0.25 0 0 0.25 easeOutQuint
-a changecamera position 306.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 307 0.25 0 0 0.25 easeOutQuint
-a changecamera position 307.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 308 0.25 0 0 0.25 easeOutQuint
-a changecamera position 308.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 309 0.25 0 0 0.25 easeOutQuint
-a changecamera position 309.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 309 0.25 0 0 0.25 easeOutQuint
-a changecamera position 309.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 310 0.25 0 0 0.25 easeOutQuint
-a changecamera position 310.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 311 0.25 0 0 0.25 easeOutQuint
-a changecamera position 311.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 312 0.25 0 0 0.25 easeOutQuint
-a changecamera position 312.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 313 0.25 0 0 0.25 easeOutQuint
-a changecamera position 313.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 314 0.25 0 0 0.25 easeOutQuint
-a changecamera position 314.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 315 0.25 0 0 0.25 easeOutQuint
-a changecamera position 315.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 316 0.25 0 0 0.25 easeOutQuint
-a changecamera position 316.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 317 0.25 0 0 0.25 easeOutQuint
-a changecamera position 317.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 318 0.25 0 0 0.25 easeOutQuint
-a changecamera position 318.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 319 0.25 0 0 0.25 easeOutQuint
-a changecamera position 319.25 0.75 0 0 -0.25 easeOutQuad
-a changecamera position 320 16 0 0 -7 easeOutQuint
+a movecamera angle 288 14 0 0 -90 linear
+a movecamera position 288 0.25 0 0 0.25 easeoutquint
+a movecamera position 288.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 289 0.25 0 0 0.25 easeoutquint
+a movecamera position 289.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 290 0.25 0 0 0.25 easeoutquint
+a movecamera position 290.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 291 0.25 0 0 0.25 easeoutquint
+a movecamera position 291.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 292 0.25 0 0 0.25 easeoutquint
+a movecamera position 292.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 293 0.25 0 0 0.25 easeoutquint
+a movecamera position 293.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 294 0.25 0 0 0.25 easeoutquint
+a movecamera position 294.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 295 0.25 0 0 0.25 easeoutquint
+a movecamera position 295.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 296 0.25 0 0 0.25 easeoutquint
+a movecamera position 296.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 297 0.25 0 0 0.25 easeoutquint
+a movecamera position 297.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 298 0.25 0 0 0.25 easeoutquint
+a movecamera position 298.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 299 0.25 0 0 0.25 easeoutquint
+a movecamera position 299.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 300 0.25 0 0 0.25 easeoutquint
+a movecamera position 300.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 301 0.25 0 0 0.25 easeoutquint
+a movecamera position 301.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 302 0.25 0 0 0.25 easeoutquint
+a movecamera position 302.25 0.75 0 0 -0.25 easeoutquad
+a movecamera angle 303 1 0 0 360 easeoutquint
+a movecamera angle 304 16 0 0 135 linear
+a movecamera position 304 0.25 0 0 0.25 easeoutquint
+a movecamera position 304.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 305 0.25 0 0 0.25 easeoutquint
+a movecamera position 305.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 306 0.25 0 0 0.25 easeoutquint
+a movecamera position 306.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 307 0.25 0 0 0.25 easeoutquint
+a movecamera position 307.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 308 0.25 0 0 0.25 easeoutquint
+a movecamera position 308.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 309 0.25 0 0 0.25 easeoutquint
+a movecamera position 309.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 309 0.25 0 0 0.25 easeoutquint
+a movecamera position 309.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 310 0.25 0 0 0.25 easeoutquint
+a movecamera position 310.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 311 0.25 0 0 0.25 easeoutquint
+a movecamera position 311.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 312 0.25 0 0 0.25 easeoutquint
+a movecamera position 312.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 313 0.25 0 0 0.25 easeoutquint
+a movecamera position 313.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 314 0.25 0 0 0.25 easeoutquint
+a movecamera position 314.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 315 0.25 0 0 0.25 easeoutquint
+a movecamera position 315.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 316 0.25 0 0 0.25 easeoutquint
+a movecamera position 316.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 317 0.25 0 0 0.25 easeoutquint
+a movecamera position 317.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 318 0.25 0 0 0.25 easeoutquint
+a movecamera position 318.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 319 0.25 0 0 0.25 easeoutquint
+a movecamera position 319.25 0.75 0 0 -0.25 easeoutquad
+a movecamera position 320 16 0 0 -7 easeoutquint
 n long lb 256 257
 n short rb 256
 n short rb 256.5
