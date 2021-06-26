@@ -1,0 +1,578 @@
+//前奏PART1
+n short rc 0
+n short lb 0.5
+n short rb 0.75
+n long lb 1.5 2.5
+n short rb 2.5
+n short lb 2.75
+n short rc 3.5
+
+n short lc 4
+n short rb 4.5
+n long lb 4.75 5.5
+n short rb 5.5
+n short lc 6
+n short rt 6.5
+n long rt 6.75 8
+
+n short lc 8
+n short rb 8.5
+n short lb 8.75
+n long rb 9.5 10.5
+n short lb 10.5
+n short rb 10.75
+n short lc 11.5
+
+n short rc 12
+n short lb 12.5
+n short rc 12.75
+n long lb 13.5 15
+n catch rt 14
+n catch rt 14.25
+n catch rt 14.5
+n catch rt 14.75
+n catch rt 15
+n swipe out rt lb 15.5
+a movecamera angle 13.75 2 0 0 60 easeinoutsine
+
+//前奏PART2(較強)
+
+a movecamera position 16 0.2 0 0 0.2 linear
+a movecamera position 16.2 0.2 0 0 -0.2 linear
+a movecamera position 17 0.2 0 0 0.2 linear
+a movecamera position 17.2 0.2 0 0 -0.2 linear
+a movecamera position 18 0.2 0 0 0.2 linear
+a movecamera position 18.2 0.2 0 0 -0.2 linear
+a movecamera position 19 0.2 0 0 0.2 linear
+a movecamera position 19.2 0.2 0 0 -0.2 linear
+a movecamera position 20 0.2 0 0 0.2 linear
+a movecamera position 20.2 0.2 0 0 -0.2 linear
+a movecamera position 21 0.2 0 0 0.2 linear
+a movecamera position 21.2 0.2 0 0 -0.2 linear
+a movecamera position 22 0.2 0 0 0.2 linear
+a movecamera position 22.2 0.2 0 0 -0.2 linear
+a movecamera position 23 0.2 0 0 0.2 linear
+a movecamera position 23.2 0.2 0 0 -0.2 linear
+a movecamera position 24 0.2 0 0 0.2 linear
+a movecamera position 24.2 0.2 0 0 -0.2 linear
+a movecamera position 25 0.2 0 0 0.2 linear
+a movecamera position 25.2 0.2 0 0 -0.2 linear
+a movecamera position 26 0.2 0 0 0.2 linear
+a movecamera position 26.2 0.2 0 0 -0.2 linear
+a movecamera position 27 0.2 0 0 0.2 linear
+a movecamera position 27.2 0.2 0 0 -0.2 linear
+a movecamera position 28 0.2 0 0 0.2 linear
+a movecamera position 28.2 0.2 0 0 -0.2 linear
+a movecamera position 29 0.2 0 0 0.2 linear
+a movecamera position 29.2 0.2 0 0 -0.2 linear
+
+n swipe in rt lb 16
+n short rb 16.5
+n short rc 16.75
+n long rb 17.5 18.5
+n short rt 17.5
+n short rc 18.5
+n short rb 18.75
+n short rc lb 19.5
+
+n swipe in rt lb 20
+n short rc 20.5
+n long rb 20.75 21.5
+n short rc 21.5
+n short lb 22
+n short lc rt 22.5
+n long lc rt 22.75 23.5
+
+n swipe in lb rt 24
+n short rc 24.5
+n short rb 24.75
+n long rc 25.5 26.5
+n short lb 25.5
+n short rb 26.5
+n short rc 26.75
+n short rb rt 27.5
+
+n swipe in lb rt 28
+n short lb rt 28.5
+n long rt 28.75 29.5
+n long lb 28.75 30
+a movecamera angle 28.25 2 0 0 -60 easeinoutsine
+n swipe out rt 30
+n swipe out lc 30.333
+n swipe out rb 30.666
+n catch lb 31
+
+define stageposition diasappear1 2.057,3.057,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
+define stageposition diasappear2 2.057,3.057,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -3.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
+define stageposition diasappear3 2.057,3.057,0 0,0,240 2.7,0,0 0,0,180 2.037,-3.037,0 0,0,120 -1.35,-2.35,0 0,0,60 -3.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
+a changestage diasappear1 30 0.3 linear
+a changestage diasappear2 30.333 0.3 linear
+a changestage diasappear3 30.666 0.3 linear
+a changestage classichexagon 31 0.8 easeoutsine
+a movecamera position 30 0.3 0 0 -0.2 linear
+
+a movecamera position 30.333 0.3 0 0 -0.2 linear
+a movecamera position 30.666 0.3 0 0 -0.2 linear
+a movecamera position 31 0.8 0 0 0.6 linear
+
+//主歌PART1(弱)
+
+a movestage angle 32 4 5 5 0 easeinoutsine
+a movestage angle 36 4 -5 -5 0 easeinoutsine
+a movestage angle 40 4 5 5 0 easeinoutsine
+a movestage angle 44 4 -5 -5 0 easeinoutsine
+a movestage angle 48 4 5 5 0 easeinoutsine
+a movestage angle 52 4 -5 -5 0 easeinoutsine
+a movestage angle 56 4 5 5 0 easeinoutsine
+a movestage angle 60 4 -5 -5 0 easeinoutsine
+a movecamera angle 32 32 0 0 360 linear
+
+
+a movestage position 32 4 0 0 -0.7 easeinoutsine
+a movestage position 36 4 0 0 0.7 easeinoutsine
+a movestage position 40 4 0 0 -0.7 easeinoutsine
+a movestage position 44 4 0 0 0.7 easeinoutsine
+a movestage position 48 4 0 0 -0.7 easeinoutsine
+a movestage position 52 4 0 0 0.7 easeinoutsine
+a movestage position 56 4 0 0 -0.7 easeinoutsine
+a movestage position 60 4 0 0 0.7 easeinoutsine
+
+n long lb 32 39
+n short rc 32
+n swipe out rc 33
+n short rc 34
+n swipe out rc 35
+n short rt 36
+n swipe in rt 37
+n short rt 38
+n swipe in rt 39
+
+n long lt 40 47
+n short rc 40
+n swipe out rc 41
+n short rc 42
+n swipe out rc 43
+n short rb 44
+n swipe in rb 45
+n short rb 46
+n swipe in rb 47
+
+n long lb 48 55
+n short rc 48
+n swipe out rc 49
+n short rc 50
+n swipe out rc 51
+n short rt 52
+n swipe in rt 53
+n short rt 54
+n swipe in rt 55
+
+n long lt 56 63
+n short rc 56
+n swipe out rc 57
+n short rc 58
+n swipe out rc 59
+n short rb 60
+n swipe in rb 61
+n short rb 62
+n swipe in rb 63
+
+//主歌PART2(較P1強)
+a movecamera position 64 16 0 0 -3 linear
+define stageposition touchlc 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -3.2,0,0 0,0,0 -1.35,2.35,0 0,0,300
+a changestage touchlc 65 0.75 easeOutSine
+n short lc 64.5
+n long lc 65 67
+n catch rb 66
+n catch rc 66.25
+n catch rt 66.5
+n catch rt 66.75
+n swipe out rt 67
+define stageposition touchrt 1.703,2.703,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
+a changestage touchrt 67 0.5 easeOutSine
+a changestage classichexagon 67.5 0.5 easeInSine
+n short rc 68
+n short lc 68.5
+n short lb 68.75
+n short lc 69
+n short rc 69.5
+n short rb 69.75
+n short rc 70
+n short rt 70.5
+n short lt 71.
+n swipe out lc 71.5
+a changestage touchlc 71.5 0.5 easeOutSine
+a changestage classichexagon 72 0.5 easeInSine
+n short rb 73
+n short rb 73.5
+n short lc 74
+n short lc 74.5
+n short rt 75
+n long rt 75.5 79.5
+a changestage touchrt 75.5 0.5 easeOutSine
+n compound lc 76.5 79.5 9
+define stageposition touchlbrt 1.703,2.703,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.703,-2.703,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
+a changestage touchrt 76.5 0.5 easeOutSine
+a changestage classichexagon 79.5 0.5 easeInSine
+
+
+
+
+a movecamera position 80 14 0 0 3.2 linear
+define stageposition touchrc 1.35,2.35,0 0,0,240 3.2,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
+a changestage touchrc 81 0.75 easeOutSine
+
+n short rc 80.5
+n long rc 81 83
+n catch lb 82
+n catch lc 82.25
+n catch lt 82.5
+n catch lt 82.75
+n swipe out lt 83
+
+
+
+
+
+define stageposition touchlt 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.703,2.703,0 0,0,300
+a changestage touchlt 83 0.5 easeOutSine
+a changestage classichexagon 83.5 0.5 easeInSine
+n short lc 84
+n short rc 84.5
+n short rb 84.75
+n short rc 85
+n short lc 85.5
+n short lb 85.75
+n short lc 86
+n short lt 86.5
+n short rt 87
+n swipe out rc 87.5
+a changestage touchrc 87.5 0.5 easeOutSine
+a changestage classichexagon 88 0.5 easeInSine
+n short lb 89
+n short lb 89.5
+n short rc 90
+n short rc 90.5
+n long lt 91 94
+n compound rb 91.5 94 7
+a changestage touchlt 91 0.5 easeOutSine
+
+define stageposition touchrblt 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.703,-2.703,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.703,2.703,0 0,0,300
+a changestage touchrblt 91.5 0.5 easeOutSine
+a changestage classichexagon 94 0.5 easeInSine
+
+define stageposition gone1 100,2.35,0 0,0,240 100,0,0 0,0,180 100,-2.35,0 0,0,120 100,-2.35,0 0,0,60 100,0,0 0,0,0 100,2.35,0 0,0,300
+a changestage gone1 95 0 easeInSine
+a changestage classichexagon 95.5 0 easeInSine
+
+a addbeat 94.2 1.3 1 1.3 linear
+
+//副歌
+define stageposition bloom 2.057,3.057,0 0,0,240 3.7,0,0 0,0,180 2.057,-3.057,0 0,0,120 -2.057,-3.057,0 0,0,60 -3.7,0,0 0,0,0 -2.057,3.057,0 0,0,300
+a movecamera position 96 8 0 0 -1.5 linear
+a changestage bloom 96 15 linear
+a changestage classichexagon 112 12 linear
+a movecamera position 112 8 0 0 1.5 linear
+
+a movecamera angle 104 1 0 0 15 easeinoutsine
+a movecamera angle 106 1 0 0 -30 easeinoutsine
+a movecamera angle 108 1 0 0 15 easeinoutsine
+
+a movecamera angle 120 1 0 0 -15 easeinoutsine
+a movecamera angle 122 1 0 0 30 easeinoutsine
+a movecamera angle 124 1 0 0 -15 easeinoutsine
+
+n long rc 95.2 97.7:1
+n short rt 95.7:1
+n short rb 97.5
+n long lc 98 99
+
+n short lb 99.5
+n short lc rb 100
+n short rb 100.5
+n short rc lb 101
+
+n short lc 101.5
+n long lt 102 103.5
+n short rt 102.5
+n short rc 103
+n short rb 103.5
+
+n swipe out rc 105
+n swipe in rc 105.5
+
+n swipe out lc 107
+n swipe in lc 107.5
+
+n long lt 109 109.75
+n short rt 109.75
+n short lt 110
+n short rc 110.5
+n short lc 111
+n swipe in rb lb 111.5
+
+
+n long lc 112.5 115
+n short lt 113
+n short lb 113.5
+n long rc 114 115
+
+n short rb 115.5
+n short rc lb 116
+n short lb 116.5
+n short lc rb 117
+
+n short rc 117.5
+n long rt 118 119.5
+n short lt 118.5
+n short lc 119.
+n short lb 119.5
+
+n swipe out lc 121
+n swipe in lc 121.5
+
+n swipe out rc 123
+n swipe in rc 123.5
+n swipe out rc 124
+
+n long rc 125 127.5
+n catch lb 125
+n catch lb 125.75
+n catch lb 126
+n catch lb 126.5
+n catch lb 127
+n catch lb 127.5
+n catch lb 128
+n swipe in rc 128
+
+a movecamera position 128 7.5 0 0 -120 easeoutsine
+a changecolor hitbox_default 130 3 0_0_0_0 lt rt lc rc rb lb easeinoutsine
+a changecolor trial 130 3 0_0_0_0 lt rt lc rc rb lb easeinoutsine
+a movecamera position 135.8 0 0 0 144 linear
+a movecamera position 136 8 0 0 -24 easeoutsine
+
+a changecolor hitbox_default 135.8 0 255_255_255_255 lt rt lc rc rb lb easeinoutsine
+a changecolor trial 135.8 0 0_0_0_145 lt rt lc rc rb lb easeinoutsine
+
+n catch lb 144
+n catch lb 145
+n catch lb 146
+n catch lb 147
+n catch lb 148
+n catch lb 149
+n catch lb 150
+n catch lb 151
+n catch lb 152
+n catch lb 153
+n catch lb 154
+n catch lb 155
+n catch lb 156
+n catch lb 157
+n catch lb 158
+n catch lb 159
+a movecamera angle 144 0.1 0 0 22.5 linear
+a movecamera angle 145 0.1 0 0 22.5 linear
+a movecamera angle 146 0.1 0 0 22.5 linear
+a movecamera angle 147 0.1 0 0 22.5 linear
+a movecamera angle 148 0.1 0 0 22.5 linear
+a movecamera angle 149 0.1 0 0 22.5 linear
+a movecamera angle 150 0.1 0 0 22.5 linear
+a movecamera angle 151 0.1 0 0 22.5 linear
+a movecamera angle 152 0.1 0 0 22.5 linear
+a movecamera angle 153 0.1 0 0 22.5 linear
+a movecamera angle 154 0.1 0 0 22.5 linear
+a movecamera angle 155 0.1 0 0 22.5 linear
+a movecamera angle 156 0.1 0 0 22.5 linear
+a movecamera angle 157 0.1 0 0 22.5 linear
+a movecamera angle 158 0.1 0 0 22.5 linear
+a movecamera angle 159 0.1 0 0 22.5 linear
+
+n long rc 160 160.75
+n short lb 160.75
+n short rb 161
+n long lc 161.5 162.25
+n short rt 162.25
+n short lt 162.5
+n long rc 163 164
+
+n long lc 164 164.75
+n short rb 164.75
+n short lb 165
+n long rc 165.5 166.25
+n short lt 166.25
+n short rt 166.5
+n short lc 167
+n swipe out lc 167.5
+
+n long lc 168 168.75
+n short rb 168.75
+n short lb 169
+n long rc 169.5 170.25
+n short lt 170.25
+n short rt 170.5
+n long lc 171 172
+
+n long rc 172 172.75
+n short lb 172.75
+n short rb 173
+n long lc 173.5 174.25
+n short rt 174.25
+n short lt 174.50
+n short rc 175
+n swipe out rc 175.5
+n short lb 176
+n short lb 176.5
+n short lc 177
+n short lt 177.5
+n short rb 178
+n short rb 178.5
+n short rc 179
+n short rt 179.5
+n short lb 180
+n short lc 180.5
+n short lt 181
+n short lt 181.5
+n short rb 182
+n short rc 182.5
+n short rt 183
+n short rt 183.5
+
+n short lb 184
+n short lb 184.25
+n short rb 184.5
+n short rb 184.75
+n short lc 185
+n short lc 185.25
+n short rc 185.5
+n short rc 185.75
+n short lt 186
+n short lt 186.25
+n short rt 186.5
+n short rt 186.75
+n short lc 187
+n short lc 187.25
+n short rc 187.5
+n short rc 187.75
+
+n catch lb 188.0
+n catch rb 188.125
+n catch lb 188.25
+n catch rb 188.375
+n catch lb 188.5
+n catch rb 188.625
+n catch lb 188.750
+n catch rb 188.875
+n catch lc 189.0
+n catch rc 189.125
+n catch lc 189.25
+n catch rc 189.375
+n catch lc 189.5
+n catch rc 189.625
+n catch lc 189.75
+n catch rc 189.875
+n catch lt 190
+n catch rt 190.125
+n catch lt 190.250
+n catch rt 190.375
+n catch lt 190.5
+n catch rt 190.625
+n catch lt 190.75
+n catch rt 190.875
+n swipe in rt 191
+n swipe out lt 191
+
+
+a movecamera position 160 0.2 0 0 0.2 linear
+a movecamera position 160.2 0.2 0 0 -0.2 linear
+a movecamera position 161 0.2 0 0 0.2 linear
+a movecamera position 161.2 0.2 0 0 -0.2 linear
+a movecamera position 162 0.2 0 0 0.2 linear
+a movecamera position 162.2 0.2 0 0 -0.2 linear
+a movecamera position 163 0.2 0 0 0.2 linear
+a movecamera position 163.2 0.2 0 0 -0.2 linear
+a movecamera position 164 0.2 0 0 0.2 linear
+a movecamera position 164.4 0.2 0 0 -0.2 linear
+a movecamera position 165 0.2 0 0 0.2 linear
+a movecamera position 165.2 0.2 0 0 -0.2 linear
+a movecamera position 166 0.2 0 0 0.2 linear
+a movecamera position 166.2 0.2 0 0 -0.2 linear
+a movecamera position 167 0.2 0 0 0.2 linear
+a movecamera position 167.2 0.2 0 0 -0.2 linear
+a movecamera position 168 0.2 0 0 0.2 linear
+a movecamera position 168.2 0.2 0 0 -0.2 linear
+a movecamera position 169 0.2 0 0 0.2 linear
+a movecamera position 169.2 0.2 0 0 -0.2 linear
+a movecamera position 170 0.2 0 0 0.2 linear
+a movecamera position 170.2 0.2 0 0 -0.2 linear
+a movecamera position 171 0.2 0 0 0.2 linear
+a movecamera position 171.2 0.2 0 0 -0.2 linear
+a movecamera position 172 0.2 0 0 0.2 linear
+a movecamera position 172.2 0.2 0 0 -0.2 linear
+a movecamera position 173 0.2 0 0 0.2 linear
+a movecamera position 173.2 0.2 0 0 -0.2 linear
+a movecamera position 174 0.2 0 0 0.2 linear
+a movecamera position 174.2 0.2 0 0 -0.2 linear
+a movecamera position 175 0.2 0 0 0.2 linear
+a movecamera position 175.2 0.2 0 0 -0.2 linear
+a movecamera position 176 0.2 0 0 0.2 linear
+a movecamera position 176.2 0.2 0 0 -0.2 linear
+a movecamera position 177 0.2 0 0 0.2 linear
+a movecamera position 177.2 0.2 0 0 -0.2 linear
+a movecamera position 178 0.2 0 0 0.2 linear
+a movecamera position 178.2 0.2 0 0 -0.2 linear
+a movecamera position 179 0.2 0 0 0.2 linear
+a movecamera position 179.2 0.2 0 0 -0.2 linear
+a movecamera position 180 0.2 0 0 0.2 linear
+a movecamera position 180.2 0.2 0 0 -0.2 linear
+a movecamera position 181 0.2 0 0 0.2 linear
+a movecamera position 181.2 0.2 0 0 -0.2 linear
+a movecamera position 182 0.2 0 0 0.2 linear
+a movecamera position 182.2 0.2 0 0 -0.2 linear
+a movecamera position 183 0.2 0 0 0.2 linear
+a movecamera position 183.2 0.2 0 0 -0.2 linear
+
+
+a movecamera position 184 0.1 0 0 0.05 easeoutsine
+a movecamera position 184.25 0.1 0 0 0.05 easeoutsine
+a movecamera position 184.5 0.1 0 0 0.05 easeoutsine
+a movecamera position 184.75 0.1 0 0 0.05 easeoutsine
+a movecamera position 185 0.1 0 0 0.05 easeoutsine
+a movecamera position 185.25 0.1 0 0 0.05 easeoutsine
+a movecamera position 185.5 0.1 0 0 0.05 easeoutsine
+a movecamera position 185.75 0.1 0 0 0.05 easeoutsine
+a movecamera position 186 0.1 0 0 0.05 easeoutsine
+a movecamera position 186.25 0.1 0 0 0.05 easeoutsine
+a movecamera position 186.5 0.1 0 0 0.05 easeoutsine
+a movecamera position 186.75 0.1 0 0 0.05 easeoutsine
+a movecamera position 187 0.1 0 0 0.05 easeoutsine
+a movecamera position 187.25 0.1 0 0 0.05 easeoutsine
+a movecamera position 187.5 0.1 0 0 0.05 easeoutsine
+a movecamera position 187.75 0.1 0 0 0.05 easeoutsine
+
+a movecamera position 188.0 0.1 0 0 -0.05 easeoutsine
+a movecamera position 188.125 0.1 0 0 -0.05 easeoutsine
+a movecamera position 188.250 0.1 0 0 -0.05 easeoutsine
+a movecamera position 188.375 0.1 0 0 -0.05 easeoutsine
+a movecamera position 188.5 0.1 0 0 -0.05 easeoutsine
+a movecamera position 188.625 0.1 0 0 -0.05 easeoutsine
+a movecamera position 188.75 0.1 0 0 -0.05 easeoutsine
+a movecamera position 188.875 0.1 0 0 -0.05 easeoutsine
+a movecamera position 189.0 0.1 0 0 -0.05 easeoutsine
+a movecamera position 189.125 0.1 0 0 -0.05 easeoutsine
+a movecamera position 189.250 0.1 0 0 -0.05 easeoutsine
+a movecamera position 189.375 0.1 0 0 -0.05 easeoutsine
+a movecamera position 189.5 0.1 0 0 -0.05 easeoutsine
+a movecamera position 189.625 0.1 0 0 -0.05 easeoutsine
+a movecamera position 189.75 0.1 0 0 -0.05 easeoutsine
+a movecamera position 189.875 0.1 0 0 -0.05 easeoutsine
+a movecamera position 190.0 0.1 0 0 -0.05 easeoutsine
+a movecamera position 190.125 0.1 0 0 -0.05 easeoutsine
+a movecamera position 190.250 0.1 0 0 -0.05 easeoutsine
+a movecamera position 190.375 0.1 0 0 -0.05 easeoutsine
+a movecamera position 190.5 0.1 0 0 -0.05 easeoutsine
+a movecamera position 190.625 0.1 0 0 -0.05 easeoutsine
+a movecamera position 190.75 0.1 0 0 -0.05 easeoutsine
+a movecamera position 190.875 0.1 0 0 -0.05 easeoutsine
+a movecamera position 191 0.1 0 0 -0.05 easeoutsine
+a movecamera angle 191 4 0 0 45 linear
+
