@@ -1,39 +1,23 @@
 
 n short rt 0
-n short rc 2
 n short rb 4
-n short lb 6
 n short lc 8
-n short lt 10
-n short rt 12
-n short rt lt 14
+n short rt lt 12
 
 n short lt 16
-n short lc 18
 n short lb 20
-n short rb 22
 n short rc 24
-n short rt 26
-n short lt 28
-n short lt rt 30
+n short lt rt 28
 
 n short rc 32
-n short rb 34
 n short lb 36
-n short lc 38
 n short lt 40
-n short rt 42
-n short rc 44
-n short rc lc 46
+n short rc lc 44
 
 n short lc 48
-n short lb 50
 n short rb 52
-n short rc 54
 n short rt 56
-n short lt 58
-n short lc 60
-n short rc lc 62
+n short rc lc 60
 
 n long rc 64 68
 n long lb 68 72
@@ -93,10 +77,11 @@ n long lt 200 208
 n long rt 208 216
 n long lb 216 224
 
-n long rc 224 232
-n long lc 232 240
-n long rc 240 248
-n long lc 248 256
+n long rc 224 230
+n long lc 232 238
+n long rc 240 246
+n long lc 248 254
+
 n short lb 228
 n short lb 230
 n short rb 236
