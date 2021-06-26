@@ -23,8 +23,7 @@ n short rt 22
 n long rb 24 31
 n short rt 25.5
 n short rt 27
-n short lt 28.5
-n short lt 30
+
 
 n long lb 32 39
 n short rc 33.5
@@ -47,8 +46,7 @@ n short lb 54
 n long rc 56 63
 n short lb 57.5
 n short lb 59
-n short lc 60.5
-n short lc 62
+
 
 n long lb 64 70
 n short rb 66
@@ -537,18 +535,18 @@ define stageposition fff 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,12
 define stageposition ggg 1.45,2.45,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.45,-2.45,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
 define stageposition hhh 1.35,2.35,0 0,0,240 2.8,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.8,0,0 0,0,0 -1.35,2.35,0 0,0,300
 
-a changestage aaa 161 1 easeinoutsine
-a changestage motomoto 162 1 easeinoutsine
-a changestage fff 163 1 easeinoutsine
-a changestage motomoto 164 1 easeinoutsine
-a changestage hhh 167 1 easeinoutsine
-a changestage motomoto 168 1 easeinoutsine
-a changestage aaa 169 1 easeinoutsine
-a changestage motomoto 170 1 easeinoutsine
-a changestage fff 171 1 easeinoutsine
-a changestage motomoto 172 1 easeinoutsine
-a changestage hhh 175 1 easeinoutsine
-a changestage motomoto 176 1 easeinoutsine
+a changestage aaa 161 0.75 easeinoutsine
+a changestage motomoto 161.75 0.75 easeinoutsine
+a changestage fff 163 0.75 easeinoutsine
+a changestage motomoto 163.75 0.75 easeinoutsine
+a changestage hhh 167 0.75 easeinoutsine
+a changestage motomoto 167.75 0.75 easeinoutsine
+a changestage aaa 169 0.75 easeinoutsine
+a changestage motomoto 169.75 0.75 easeinoutsine
+a changestage fff 171 0.75 easeinoutsine
+a changestage motomoto 171.75 0.75 easeinoutsine
+a changestage hhh 175 0.75 easeinoutsine
+a changestage motomoto 175.75 0.75 easeinoutsine
 
 a movecamera position 252 4 0 0 -0.8 easeinoutsine
 
@@ -602,7 +600,6 @@ a movecamera angle 301 1 0 0 2 easeinoutsine
 a movecamera angle 302 1 0 0 -2 easeinoutsine
 a movecamera angle 303 1 0 0 2 easeinoutsine
 
-
 a movecamera position 312 1.5 0 0 0.8 easeinoutsine
 a movecamera position 313.5 1.5 0 0 -0.8 easeinoutsine
 a movecamera position 315 1.5 0 0 0.8 easeinoutsine
@@ -613,24 +610,24 @@ a movecamera position 345.5 1.5 0 0 -0.8 easeinoutsine
 a movecamera position 347 1.5 0 0 0.8 easeinoutsine
 a movecamera position 348.5 1.5 0 0 -0.8 easeinoutsine
 
-a changestage aaa 353 1 easeinoutsine
-a changestage motomoto 354 1 easeinoutsine
-a changestage fff 355 1 easeinoutsine
-a changestage motomoto 356 1 easeinoutsine
-a changestage hhh 359 1 easeinoutsine
-a changestage motomoto 360 1 easeinoutsine
+a changestage aaa 353 0.75 easeinoutsine
+a changestage motomoto 353.75 0.75 easeinoutsine
+a changestage fff 355 0.75 easeinoutsine
+a changestage motomoto 355.75 0.75 easeinoutsine
+a changestage hhh 359 0.75 easeinoutsine
+a changestage motomoto 359.75 0.75 easeinoutsine
 
-a changestage fff 361 1 easeinoutsine
-a changestage motomoto 362 1 easeinoutsine
-a changestage aaa 363 1 easeinoutsine
-a changestage motomoto 364 1 easeinoutsine
-a changestage hhh 367 1 easeinoutsine
-a changestage motomoto 368 1 easeinoutsine
+a changestage fff 361 0.75 easeinoutsine
+a changestage motomoto 361.75 0.75 easeinoutsine
+a changestage aaa 363 0.75 easeinoutsine
+a changestage motomoto 363.75 0.75 easeinoutsine
+a changestage hhh 367 0.75 easeinoutsine
+a changestage motomoto 367.75 0.75 easeinoutsine
 
-a changestage aaa 369 1 easeinoutsine
-a changestage motomoto 370 1 easeinoutsine
-a changestage fff 371 1 easeinoutsine
-a changestage motomoto 372 1 easeinoutsine
+a changestage aaa 369 0.75 easeinoutsine
+a changestage motomoto 369.75 0.75 easeinoutsine
+a changestage fff 371 0.75 easeinoutsine
+a changestage motomoto 371.75 0.75 easeinoutsine
 
 
 a movecamera position 376 1.5 0 0 0.8 easeinoutsine
