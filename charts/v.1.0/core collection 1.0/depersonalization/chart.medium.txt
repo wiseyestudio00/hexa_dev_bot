@@ -1,0 +1,930 @@
+a movecamera position 1 4 0 0 1 EaseInQuad
+a movecamera position 5 4 0 0 -1 EaseOutQuad
+
+a movecamera position 53 16 0 0 1 Linear 
+a movecamera position 69 8 0 0 -1 EaseOutSine
+
+a movecamera position 125 12 0 0 0.75 Linear 
+a movecamera position 137 4 0 0 -0.75 EaseOutSine
+
+a movecamera position 197 6 0 0 0.375 Linear 
+a movecamera position 203 2 0 0 -0.375 EaseOutSine 
+
+a movecamera angle 221 1 0 0 2.5 EaseInOutSine
+a movecamera angle 222 2 0 0 -5 EaseInOutSine
+a movecamera angle 224 1 0 0 2.5 EaseInOutSine
+
+a movecamera position 261 4 0 0 0.375 Linear
+
+
+a movecamera position 349 12 0 0 0.75 Linear
+a movecamera position 361 4 0 0 -0.75 EaseOutSine
+
+a movecamera position 413 12 0 0 0.75 Linear 
+a movecamera position 425 4 0 0 -0.75 Linear 
+
+a movecamera position 485 4 0 0 0.25 Linear
+
+
+a movecamera angle 1 4 0 0 60 EaseInSine
+a movecamera angle 5 4 0 0 10 EaseInOutSine
+a movecamera angle 9 8 0 0 -20 EaseInOutSine
+a movecamera angle 17 8 0 0 +20 EaseInOutSine
+a movecamera angle 25 8 0 0 -20 EaseInOutSine
+a movecamera angle 33 4 0 0 +10 EaseInOutSine
+
+a movecamera angle 101 8 0 0 -60 EaseInOutSine
+a movecamera angle 117 8 0 0 60 EaseInOutSine
+
+a movecamera angle 142 7 0 0 60 EaseInOutSine
+a movecamera angle 150 7 0 0 -60 EaseInOutSine
+a movecamera angle 158 7 0 0 60 EaseInOutSine
+
+a movecamera angle 165 8 0 0 60 EaseInOutSine
+
+a movecamera angle 174 7 0 0 -60 EaseInOutSine
+a movecamera angle 182 7 0 0 60 EaseInOutSine
+a movecamera angle 190 7 0 0 -60 EaseInOutSine
+
+a movecamera angle 233 4 0 0 30 EaseInOutSine
+
+a movecamera angle 237 1 0 0 -7.5 EaseOutSine
+a movecamera angle 238 1 0 0 -7.5 EaseOutSine
+a movecamera angle 239 1 0 0 -7.5 EaseOutSine
+a movecamera angle 240 1 0 0 -7.5 EaseOutSine
+a movecamera angle 241 1 0 0 -7.5 EaseOutSine
+a movecamera angle 242 3 0 0 -22.5 EaseOutSine
+
+
+a movecamera angle 245 1 0 0 7.5 EaseOutSine
+a movecamera angle 246 1 0 0 7.5 EaseOutSine
+a movecamera angle 247 1 0 0 7.5 EaseOutSine
+a movecamera angle 248 1 0 0 7.5 EaseOutSine
+a movecamera angle 249 1 0 0 7.5 EaseOutSine
+a movecamera angle 250 1 0 0 7.5 EaseOutSine
+a movecamera angle 251 6 0 0 45 EaseOutSine
+a movecamera angle 265 4 0 0 -60 EaseInSine
+a movecamera position 265 4 0 0 1 EaseInQuad
+a movecamera position 269 4 0 0 -2 EaseOutQuad
+
+a movecamera angle 269 4 0 0 10 EaseInOutSine
+a movecamera angle 273 8 0 0 -20 EaseInOutSine
+a movecamera angle 281 8 0 0 +20 EaseInOutSine
+a movecamera angle 289 8 0 0 -20 EaseInOutSine
+a movecamera angle 297 8 0 0 +20 EaseInOutSine
+a movecamera angle 305 9 0 0 -20 EaseInOutSine
+
+a movestage angle 314 2.75 0 0 -7.5 EaseInSine
+a movestage angle 316.75 4 0 0 -20 EaseOutQuad
+a movecamera angle 320 1.5 0 0 -7.5 EaseInSine
+a movecamera angle 321.5 8 0 0 -20 EaseOutQuad
+a movestage angle 329 4 0 0 -10 EaseOutQuad
+
+
+a movestage angle 425 4 0 0 30 EaseOutQuad
+a movecamera angle 429 2 0 0 -10 EaseInOutSine
+a movecamera angle 431 4 0 0 20 EaseInOutSine
+a movecamera angle 435 2 0 0 -10 EaseInOutSine
+n catch lt 1
+n catch lt 1.25
+n catch lt 1.5
+n catch lt 1.75
+n catch lt 2
+n catch lt 2.25
+n catch lt 2.5
+n catch lt 2.75
+n catch lt 3
+n catch lt 3.25
+n catch lt 3.5
+n catch lt 3.75
+n catch lt 4
+n catch lt 4.25
+n catch lt 4.5
+n catch lt 4.75
+n swipe in lt 5
+
+n short rt 9
+
+
+n catch rb 13
+n catch rc 13.5
+n catch rb 14
+n catch rc 14.5
+
+n short lb 17
+
+
+n catch rc 21
+n catch rb 21.5
+n catch rc 22
+n catch rb 22.5
+
+n short rt 25
+
+
+n catch rb 29
+n catch rc 29.5
+n catch rb 30
+n catch rc 30.5
+
+n short lb 33
+n short rt 35
+
+n short rc rb 37
+n long rt 38 40
+n short rc 40
+n short rc 41
+
+n short rc rt 43
+
+n short rb rc 45
+n long lb 46 48
+n short rb 48
+n short rb 49
+
+n short rb lb 51
+
+n compound rc 53 69 30
+n compound rb 61 69 15
+
+n long rc 77 80
+n short rb 78
+n short lb 79
+n short lc 80
+
+n long rt 81 84
+n short rc 82
+n short rb 83
+n short lb 84
+
+n long lc 85 88
+n short rb 86
+n short rc 87
+n short rt 88
+
+n long lb 89 92
+n short rb 90
+n short rc 91
+n short rt 92
+
+n long lt 93 96.5
+
+
+n swipe out rb 94.5
+n swipe in rb 95.5
+n swipe out rb 96.5
+
+n short rt 97.5
+n short rc 98
+n short rt 98.5
+
+n short lb 99.5
+n short rb 100
+n short lb 100.5
+
+n swipe in rc 101
+n swipe out rc 102
+n swipe in rc 103
+n swipe out rc 104
+n swipe in rc 105
+n swipe out rc 106
+n swipe in rc 107
+
+
+
+n short lt 108
+n short lt 108.5
+n long lt 109 111
+
+n short rc 111
+n short rb 111.5
+n short rc 112
+n long lb 112.5 115.5
+
+n short lc 116
+n short lb 116.5
+n short lc 117
+n long rb 117.5 120
+
+n short rt 121
+n short rc 122
+n short rb 123
+n short lb 124
+
+n short rc 125
+n short rb 125.5
+n short rc 126
+n short rb 126.5
+n short rc 127
+n short rb 127.5
+n short rc 128
+n short rb 128.5
+n short rt 129
+n short lb 129.5
+n short rt 130
+n short lb 130.5
+n short rt 131
+n short lb 131.5
+n short rt 132
+n short lb 132.5
+n compound lt lc 133 137 8
+
+
+verse2
+
+n short lt 141
+n long lt 142 146
+n catch rb 143
+n catch rb 143.25
+n catch rb 143.5
+n catch rb 144
+n catch rb 144.25
+n catch rb 144.5
+n catch rb 145
+n catch rb 145.25
+n catch rb 145.5
+n catch rb 146
+n catch rb 146.25
+n catch rb 146.5
+
+n short rt 147
+n short rc 147.5
+n short rt 148
+
+n short lb 149
+n long lb 150 154
+n catch rt 151
+n catch rt 151.25
+n catch rt 151.5
+n catch rt 152
+n catch rt 152.25
+n catch rt 152.5
+n catch rt 153
+n catch rt 153.25
+n catch rt 153.5
+n catch rt 154
+n catch rt 154.25
+n catch rt 154.5
+
+n short lc 155
+n short lt 155.5
+n short lc 156
+
+n short rb 157
+n long rb 158 162
+
+n catch lt 159
+n catch lt 159.25
+n catch lt 159.5
+n catch lt 160
+n catch lt 160.25
+n catch lt 160.5
+n catch lt 161
+n catch lt 161.25
+n catch lt 161.5
+n catch lt 162
+n catch lt 162.25
+n catch lt 162.5
+
+n short rt rc 163
+n short rt rc 163.5
+n short rt rc 164
+
+n long lt 165 166
+n long rb 166 167
+n long rt 167 168
+n long lb 168 169
+n long lt 169 170
+n long rb 170 171
+n long lc 171 172
+n short rc 172
+
+n short lt rb 173
+n long rb 174 178
+n short lt 174
+n catch lt 175
+n catch lt 175.25
+n catch lt 175.5
+n catch lt 176
+n catch lt 176.25
+n catch lt 176.5
+n catch lt 177
+n catch lt 177.25
+n catch lt 177.5
+n catch lt 178
+n catch lt 178.25
+n catch lt 178.5
+
+n short rc 179
+n short rc 179.5
+n short rt 180
+
+
+
+n short lc rc 181
+n long lc 182 186
+n short rc 182
+n catch rc 183
+n catch rc 183.25
+n catch rc 183.5
+n catch rc 184
+n catch rc 184.25
+n catch rc 184.5
+n catch rc 185
+n catch rc 185.25
+n catch rc 185.5
+n catch rc 186
+n catch rc 186.25
+n catch rc 186.5
+
+n short lt 187
+n short lt 187.5
+n short rt 188
+
+n short lt rb 189
+n long lt 190 194
+n short rb 190
+
+n catch rb 191
+n catch rb 191.25
+n catch rb 191.5
+n catch rb 192
+n catch rb 192.25
+n catch rb 192.5
+n catch rb 193
+n catch rb 193.25
+n catch rb 193.5
+n catch rb 194
+n catch rb 194.25
+n catch rb 194.5
+
+n short rt rc 195
+n short rt rc 195.5
+n short lt rb 196
+
+n compound lc 197 205 16
+n compound lb 201 205 8
+
+n short lt 205
+n long lt 205.5 208.5
+n short rt 206.5
+n short rc 207.5
+n long rb 208.5 210.5
+n short rc 209.5
+n short rc 210
+n short rt 210.5
+n long lt 211.5 213
+n short rt 212.5
+n short rt 213
+
+n short rb 214
+n short rc 214.5
+n short rb 215
+n short rt 215.5
+n short rb 216
+
+n short lc 217
+n long lc 217.5 219.5
+n swipe out rc 218.5
+n swipe in rc 219.5
+n short rb lt 220.5
+n long rb lt 221 224
+
+n short lb 225
+n long lb 225.5 228.5
+n swipe out rt 226.5
+n swipe in rt 227.5
+
+n short lt 229
+n short rc 229.5
+n short rt 230
+n short rb 230.5
+n short rt 231
+n short rc 231.5
+n short lt 232
+n short rc 232.5
+n catch rt 233
+n catch rt 233.25
+n catch rt 233.5
+n catch rt 233.75
+n catch rt 234
+n catch rt 234.25
+n catch rt 234.5
+n catch rt 234.75
+n catch rt 235
+n catch rt 235.25
+n catch rt 235.5
+n catch rt 235.75
+n catch rt 236
+n catch rt 236.25
+n catch rt 236.5
+n catch rt 236.75
+
+
+
+
+
+n short rc 237
+n catch rc 237.25
+n catch rc 237.5
+n short lc 238
+n catch lc 238.25
+n catch lc 238.5
+
+n short rb 239
+n catch rb 239.25
+n catch rb 239.5
+n short lt 240
+n catch lt 240.25
+n catch lt 240.5
+
+n short lb 241
+n catch lb 241.25
+n catch lb 241.5
+n short rt 242
+n catch rt 242.25
+n catch rt 242.5
+
+n short rt 245
+n catch rt 245.25
+n catch rt 245.5
+n short lb 246
+n catch lb 246.25
+n catch lb 246.5
+
+n short lt 247
+n catch lt 247.25
+n catch lt 247.5
+n short rb 248
+n catch rb 248.25
+n catch rb 248.5
+
+n short lc 249
+n catch lc 249.25
+n catch lc 249.5
+n short rc 250
+n catch rc 250.25
+n catch rc 250.5
+
+n long lt 253 253.5
+n long lc 253.75 254.25
+n short lb 254.5
+n short rb 255.0
+
+n swipe out rc lc 256.0
+
+n long rt 257 257.5
+n long rc 257.75 258.25
+n short rb 258.5
+n short lb 259.0
+
+n swipe out lc rc 260.0
+
+
+n short lt 261
+n short rt 261.25
+n short lt 261.5
+n short rt 261.75
+n short lt 262
+n short rt 262.25
+n short lt 262.5
+n short rt 262.75
+
+n catch lt 263.000
+n catch lt 263.125
+n catch lt 263.25
+n catch lt 263.375
+n catch lt 263.5
+n catch lt 263.625
+n catch lt 263.75
+n catch lt 263.875
+n catch lt 264.000
+n catch lt 264.083333
+n catch lt 264.166667
+n catch lt 264.25
+n catch lt 264.333333
+n catch lt 264.416667
+n catch lt 264.5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+n catch rt 265.0
+n catch rt 265.25
+n catch rt 265.5
+n catch rt 265.75
+n catch rt 266.0
+n catch rt 266.25
+n catch rt 266.5
+n catch rt 266.75
+n catch rt 267.0
+n catch rt 267.25
+n catch rt 267.5
+n catch rt 267.75
+n catch rt 268.0
+n catch rt 268.25
+n catch rt 268.5
+n catch rt 268.75
+n swipe in rt 269
+
+
+n long lt 273 277
+
+
+n short rc 277
+n short rt 277.5
+n short rc 278
+n long rt 278.5 281
+
+n long rb 281 285
+
+
+n short rt 285
+n short rc 285.5
+n short rt 286
+n long rc 286.5 293
+
+
+
+
+n catch rt 293
+n catch rt 293.25
+n catch rt 293.5
+/n catch rt 293.75
+n catch lt 294
+n catch lt 294.25
+n catch lt 294.5
+/n catch lt 294.75
+n catch lc 295
+n catch lc 295.25
+n catch lc 295.5
+/n catch lc 295.75
+n catch lb 296
+n catch lb 296.25
+n catch lb 296.5
+/n catch lb 296.75
+n catch rb 297
+n catch rb 297.25
+n catch rb 297.5
+/n catch rb 297.75
+n catch rc 298
+n catch rc 298.25
+n catch rc 298.5
+/n catch rc 298.75
+
+n short rt 299.5
+n short rc 300
+n short lt 300.5
+n long rb 301 304
+
+n short lc 304
+n long rb 304.5 325
+n long lt 305 329
+
+n short rt rc 333
+n long lt 334 337
+n short rt 335
+n short lc 336
+n short lc 337
+n short rt 338
+n short rc lt 339
+
+n short rc rt 341
+n long rb 342 345
+n short rc 343
+n short lb 344
+n short lb 345
+n short rc 346
+n short rt rb 347
+
+n compound rt 349 361 24
+n compound rc 357 361 8
+
+chorus
+
+n short lt 365
+n long lt 365.5 368.5
+n short rc 366.5
+n long rb 367.5 368.5
+
+n short lt 369
+n short rc 369.5
+n short lt 370
+n short rb 371
+n short rt 371.5
+n short rb 372
+
+
+n short lt rt 373
+
+n short rb rc 374
+
+n short lt 375
+n short lt 375.5
+n short rb 376
+n long rb 376.5 378
+n short rt 377.5
+n short rt 378
+
+n short lb rb 379
+
+n short lc lt 380
+
+
+n short rc 381
+n short rt 381.5
+n short rb 382
+n long lt 382.5 383.25
+n swipe in lt 383.5
+n swipe out 384.5
+
+n short rb 385
+n short rt 385.5
+n short rb 386
+n short lt 387
+n short rc 387.5
+n short lt 388
+
+n short lb lc 389
+n short rc rt 390
+n long rc rt 390.5 391.5
+
+n short rc rt 392
+
+n short rb 393
+n long rb 393.5 394.25
+n swipe in rb 394.5
+n swipe in lt 395.5
+
+n short rb 397
+n long rb 397.5 398.5
+n short rt 398.5
+n long lt 399.5 400.5
+
+n short rb 401
+n short rt 401.5
+n short rc 402
+n short lt 403
+n short rc 403.5
+n short rt 404
+
+
+n short lc 405
+n short lc 405.5
+n short lb 406
+n short lb 406.5
+n swipe out lt 407.5
+n swipe out rb 408.5
+
+n short rt 409
+n short rt 409.5
+n short rc 410
+
+n short lt rt 411
+
+n short rb rc 412
+
+
+n catch rt 413
+n catch rt 413.5
+n catch lt 414
+n catch lt 414.5
+n catch lc 415
+n catch lc 415.5
+n catch lb 416
+n catch lb 416.5
+n catch rb 417
+n catch rb 417.5
+n catch rc 418
+n catch rc 418.5
+
+n short rt 419
+n short rt 419.5
+n short rt 420
+
+n compound rt 421 425 8
+n compound rc 421 425 8
+
+
+
+n catch rb 429
+n catch rc 429.25
+n catch rb 429.5
+
+n catch rc 430
+n catch rb 430.25
+n catch rc 430.5
+
+n catch rb 431
+n catch rc 431.25
+n catch rb 431.5
+
+n catch rc 432
+n catch rb 432.25
+n catch rc 432.5
+
+n catch rt 433
+n catch rc 433.25
+n catch rt 433.5
+
+n catch rc 434
+n catch rt 434.25
+n catch rc 434.5
+
+n catch rt 435
+n catch rc 435.25
+n catch rt 435.5
+
+n catch rc 436
+n catch rt 436.25
+n catch rc 436.5
+
+
+
+n catch rb 437
+n catch rb 437.25
+n catch rb 437.5
+n catch rb 437.75
+n catch rb 438
+n catch rb 438.25
+n catch rb 438.5
+
+a movecamera angle 439 12 0 0 60 EaseInOutSine
+
+n catch lc rc 439
+n catch lc rc 439.5
+n catch lc rc 440
+n catch lc rc 440.5
+n catch lc rc 441
+n catch lc rc 441.5
+n catch lc rc 442
+n catch lc rc 442.5
+
+n swipe in rc lc 443.5
+
+n catch lc rc 445
+n catch lc rc 445.5
+n catch lc rc 446
+n catch lc rc 446.5
+
+n catch lt rb 447.5
+
+n catch lt rb 448
+n catch lt rb 448.5
+n catch lt rb 449
+n catch lt rb 449.5
+n catch lc rc 450
+n catch lc rc 450.5
+
+n catch lt 451
+n catch rb 451.25
+n catch lt 451.5
+n catch rb 451.75
+n catch lt 452
+n catch rb 452.25
+n catch lt 452.5
+n catch rb 452.75
+
+n catch rt 453
+n catch lb 453.25
+n catch rt 453.5
+n catch lb 453.75
+n catch rt 454
+n catch lb 454.25
+n catch rt 454.5
+n catch lb 454.75
+
+n catch lt 455
+n catch rb 455.25
+n catch lt 455.5
+n catch rb 455.75
+n catch lt 456
+
+n catch rt 457
+n catch lt 457.5
+n catch lc 458
+n catch lb 458.5
+n catch rt 459
+n catch rc 459.5
+n catch rb 460
+n catch lb 460.5
+a movecamera angle 457 8 0 0 -30 EaseInOutSine
+
+n short lt 461
+n short rt 461.5
+n short rt 462
+
+n short rb 462.5
+n short rc 463
+n short rc 463.5
+
+n catch lc 464
+n catch lc 464.25
+n catch lc 464.5
+
+
+
+n short rc 465
+n short rb 465.5
+n short rb 466
+
+n short rt 466.5
+n short lt 467
+n short lt 467.5
+
+n catch lb 468
+n catch lb 468.25
+n catch lb 468.5
+n catch rb 469
+n catch rb 469.25
+n catch rb 469.5
+n catch rc 470
+n catch rc 470.25
+n catch rc 470.5
+n catch rt 471
+n catch rt 471.25
+n catch rt 471.5
+n catch lt 472
+n catch lt 472.25
+n catch lt 472.5
+
+n short lc 473
+n long lc 473.5 475.5
+
+n swipe in rc 474.5
+n swipe out rc 475.5
+
+n short lt 477
+n short rt 477.5
+n short lt 478
+n short rt 478.5
+n short lc 479
+n short rc 479.5
+n short lc 480
+n short rc 480.5
+n short lt 481
+n short rb 481.5
+n short lt 482
+n short rb 482.5
+n short rt 483
+n short rc 483.5
+n short rt 484
+n short rc 484.5
+
+a movecamera position 489 4 0 0 1 EaseOutQuad
+n compound rt rc 485 489 8
+a movecamera position 501.5 8 0 0 -2 EaseOutQuad
+
+n catch lt 493
+n catch lt 493.25
+n catch lt 493.5
+n catch lt 493.75
+n catch lt 494
+n catch lt 494.25
+
+n catch lt 494.5
+n catch lt 494.75
+n catch lt 495
+n catch lt 495.25
+n catch lt 495.5
+n catch lt 495.75
+
+n catch lt 496
+n catch lt 496.25
+n catch lt 496.5
+n catch lt 496.75
+n catch lt 497
+n catch lt 497.25
+
+n catch lt 497.5
+n catch lt 497.75
+n catch lt 498
+n catch lt 498.25
+n catch lt 498.5
+n catch lt 498.75
+
+n catch lt 499
+n catch lt 499.25
+n catch lt 499.5
+n catch lt 499.75
+n catch lt 500
+n catch lt 500.25
+
+n catch lt 500.5
+n catch lt 500.75
+
+n short lb 501
+n long lb 501.5 509
+
+a movecamera angle 493 6 0 0 -120 EaseInSine 
+a movecamera angle 499 2 0 0 -30 EaseOutSine
