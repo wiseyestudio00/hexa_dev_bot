@@ -211,8 +211,8 @@ n short rt 75
 n long rt 75.5 79.5
 a changestage touchrt 75.5 0.5 easeOutSine
 n compound lc 76.5 79.5 9
-define stageposition touchlbrt 1.703,2.703,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.703,-2.703,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
-a changestage touchrt 76.5 0.5 easeOutSine
+define stageposition touchlcrt 1.703,2.703,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -3.2,0,0 0,0,0 -1.35,2.35,0 0,0,300
+a changestage touchlcrt 76.5 0.5 easeOutSine
 a changestage classichexagon 79.5 0.5 easeInSine
 
 
@@ -297,12 +297,17 @@ n long lt 102 103.5
 n short rt 102.5
 n short rc 103
 n short rb 103.5
+n swipe out rb 104
 
-n swipe out rc 105
-n swipe in rc 105.5
+n swipe out rc lc 105
+n swipe in rc lc 105.5
 
-n swipe out lc 107
-n swipe in lc 107.5
+
+
+n swipe out lc rc 107
+n swipe in lc rc 107.5
+
+
 
 n long lt 109 109.75
 n short rt 109.75
@@ -327,13 +332,14 @@ n long rt 118 119.5
 n short lt 118.5
 n short lc 119.
 n short lb 119.5
+n swipe out lb 120
 
-n swipe out lc 121
-n swipe in lc 121.5
+n swipe out lc rc 121
+n swipe in lc rc 121.5
 
-n swipe out rc 123
-n swipe in rc 123.5
-n swipe out rc 124
+n swipe out rc lc 123
+n swipe in rc lc 123.5
+n swipe out rc lc 124
 
 n long rc 125 127.5
 n catch lb 125
@@ -574,5 +580,5 @@ a movecamera position 190.625 0.1 0 0 -0.05 easeoutsine
 a movecamera position 190.75 0.1 0 0 -0.05 easeoutsine
 a movecamera position 190.875 0.1 0 0 -0.05 easeoutsine
 a movecamera position 191 0.1 0 0 -0.05 easeoutsine
-a movecamera angle 191 4 0 0 45 linear
+a movecamera angle 191 8 0 0 45 linear
 
