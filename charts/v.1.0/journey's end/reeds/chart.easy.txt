@@ -1,121 +1,264 @@
-n long rb 0 11
-n long lb 12 23
-n long rc lc 24 29
-n short lb 30
-n short rb 33
-n short lb 36
-n long rb lb 39 44
-n short lc 45
-n short rb 48
+n long lb 0.5 21
+n short rb 0.5
+n short rb 6
+n short rb 12
+n short rc 18
+n short rc 21
+
+n long rc 24 33
+n short lc 24
+n short lc 27
+n short lc 30
+n short lc 33
+
+n short lc 36
+n short rc 36
+
+n short lb 42
+n short rb 42
+
+
+n long rb 48 51
+n short lb 48
 n short lb 51
+
+
+n long lc 54 57
 n short rc 54
-n short lc 57
-n short rb 60
-n short lt 63
-n short lb 66
-n short rt 69
+n short rc 57
 
-n long rb 72 73.5
-n long lb 75 76.5
-n long rc 78 79.5
-n long lc 81 82.5
-n short rc 84
-n short lb 87
-n short rb 90
-n short lc 93
-n long lc 96 97.5
-n long rb 99 100.5
-n long lb 102 103.5
-n long rc 105 106.5
-n short lc 108
+n long lb 60 63
+n short rc 60
+n short rc 63
+
+n long rb 66 69
+n short lc 66
+n short lc 69
+
+n long rc 72 75
+n short lt 72
+n short lt 75
+
+n long lc 78 81
+n short rt 78
+n short rt 81
+
+
+
+n short lb 84
+n short rb 87
+n compound rb 90 93 6
+
+n short lb 96
+n catch lb 97
+n catch lb 97.75
+n catch lb 98
+
+n short lc 99
+n catch lc 100
+n catch lc 100.75
+n catch lc 101
+
+n short lt 102
+n catch lt 103
+n catch lt 103.75
+n catch lt 104
+
+n short lt 105
+n short lc 106
+n short lb 107
+
+n short rb 108
+n catch rb 109
+n catch rb 109.75
+n catch rb 110
+
 n short rc 111
-n short lb 114
-n short rb 117
-n long rc 120 121.5
-n long lc 123 124.5
-n long rb 126 127.5
-n long lb 129 130.5
-n long rt 132 133.5
-n long lt 135 136.5
-n long rb 138 139.5
-n long lb 141 142.5
-n short lc rb 144
-n short lb rc 147
+n catch rc 112
+n catch rc 112.75
+n catch rc 113
+
+n short rt 114
+n catch rt 115
+n catch rt 115.75
+n catch rt 116
+
+
+n short rt 117
+n short rc 118
+n short rb 119
+
+
+n short lb 120
+n catch lb 121
+n catch lb 121.75
+n catch lb 122
+
+n short lc 123
+n catch lc 124
+n catch lc 124.75
+n catch lc 125
+
+n short lt 126
+n catch lt 127
+n catch lt 127.75
+n catch lt 128
+
+n short rt 129
+n short rc 130
+n short rb 131
+
+n short rb 132
+n catch rb 133
+n catch rb 133.75
+n catch rb 134
+
+n short rc 135
+n catch rc 136
+n catch rc 136.75
+n catch rc 137
+
+n short rt 138
+n catch rt 139
+n catch rt 139.75
+n catch rt 140
+
+n short lt 141
+n short lc 142
+n short lb 143
+
+n long lb 144 168
+n short rc 147
 n short rb 150
-n short lb 153
-n long rb lb 156 167
+n short rt 153
+n short rb 156
+n short rc 159
+n short rb 162
+n short rt 165
 
-n short lc 168
-n short rb 171
+n long rb 168 189
+n short lc 171
 n short lb 174
-n short rb 177
-n short rc 180
-n short lb 183
-n short rb 186
-n short lb 189
-n short lc 192
+n short lt 177
+n short lb 180
+n short lc 183
+n short lb 186
+n short lt 189
+
+//順時針旋轉
+
+n short lb 192
+n short rb 192
+n catch rb 193
+n catch rb 193.75
+n catch rb 194
+
+n short rb 195
 n short rc 195
-n short lb 198
-n short rb 201
-n short rc 204
+n catch rc 196
+n catch rc 196.75
+n catch rc 197
+
+n short rc 198
+n short rt 198
+n catch rt 199
+n catch rt 199.75
+n catch rt 200
+
+n catch rt 201
+n catch rt 202
+n catch rt 203
+
+n short rt 204
+n short lt 204
+n catch lt 205
+n catch lt 205.75
+n catch lt 206
+
+n short lt 207
 n short lc 207
-n short rb 210
-n short lb 213
-n long rc 216 217.5
-n long lc 219 220.5
-n long lb 222 223.5
-n long rb 225 226.5
-n long lc 228 229.5
-n long rc 231 232.5
-n long rb 234 235.5
-n long lb 237 239
-n long rc 240 241.5
-n long lb 243 244.5
-n long rc 246 248
-n long lt 249 251
-n long lb 252 254
-n long rc 255 257
-n short rb lc 258
-n short rc lb 261
+n catch lc 208
+n catch lc 208.75
+n catch lc 209
 
-n long rc 264 265.5
-n long lc 267 268.5
-n long lb 270 271.5
-n long rb 273 274.5
-n long rt 276 287
-n short lb 279
-n short lb 285
-n long lc 288 289.5
-n long rb 291 292.5
-n long lb 294 295.5
-n long rc 297 298.5
-n long lt 300 311
-n short rb 303
-n short rb 309
-n long rc 312 313.5
-n long lb 315 316.5
-n long rb 318 319.5
-n long lc 321 322.5
-n long lt 324 329
-n short rb 327
-n long rt 330 335
-n short lb 333
-n long lc 336 339
-n short rc 339
-n long rc 342 345
-n short lc 345
-n long lb rb 348 359
+n short lc 210
+n short lb 210
+n catch lb 211
+n catch lb 211.75
+n catch lb 212
+//回原點
 
-n short lc 360
-n short lb 366
-n short rc 372
-n short rb 378
-n long lb 384 386
-n long rc 387 389
-n long rb 390 392
-n long lc 393 395
-n long lb 396 401
-n long rb 402 407
+n catch lb 213
+n catch lb 214
+n catch lb 215
 
-n catch lc 408
+n short lb 216
+n short rb 216
+n catch rb 217
+n catch rb 217.75
+n catch rb 218
 
+n short rb 219
+n short lb 219
+n catch lb 220
+n catch lb 220.75
+n catch lb 221
+
+n short lb 222
+n short rb 222
+n catch rb 223
+n catch rb 223.75
+n catch rb 224
+
+n catch rb 225
+n catch rb 226
+n catch rb 227
+
+n long lb 228 232
+n long rb 229 239
+n catch lb 233
+n catch lb 233.3333
+n catch lb 233.6666
+n catch lb 234
+n catch lb 236
+n catch lb 237
+n catch lb 239
+
+
+n long rc 240 243
+n long lc 241 244
+
+n short rt 247
+n short rt 248
+n long rt 249 250
+n long rc 250 251
+n short rb 251
+n long rb 252 253
+
+n long rb 255 258
+n long lc 258 261
+n long rb 261 264
+n long lt 264 267
+n long rc 267 270
+n long lb 270 273
+n long rb 273 276
+n long lb 276 282
+n long rc 282 285
+n long lc 285 287
+n short rt 287
+n short rt 288
+
+n short lt 291
+n short lt 294
+n short rt 297
+n short rt 300
+n short lt 303
+n short rc 306
+n short lc 309
+n short lc 312
+n short rc 315
+n short lb 318
+n short rb 321
+n long rb 324 330
+n long lb 330 336
+n compound rb 336 342 10
