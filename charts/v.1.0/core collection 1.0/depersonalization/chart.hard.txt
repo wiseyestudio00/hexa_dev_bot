@@ -1,80 +1,4 @@
-Depersonalization - Hard
-Charter : nsida 
-combo : 
 
-以下是Depersonalization(名字有夠長
-
-2021年5月28
-發現fl studio可以將time signature 變爲 ¼拍 
-這樣可以拿來數拍
-
-1 Intro 
-37 Bridge
-69 Small Bridge
-77 Verse1 
-141 Verse2
-205 Chorus
-269 Quiet
-333 Bridge
-365 Chorus
-429 Final Blow
-493 Outro
-
-1和493要首尾呼應
-
-1~5異健同位 catch 遠下遠中近中
-4  
-5鋼琴低音和高音分別catch和short
-37 Kick三十二分
-69 舞臺效果？瞬移 最後2拍settle down
-77數拍子+Lead
-109 Lead
-125Kick 
-137 輕量采Lead音 or 直接空白
-141 强調“得””炸” 下上拖
-197 Kick 
-205 Lead+數拍子
-237 鋼琴catch
-253 鋼琴慢入kick
-269 主要舞臺動作鋼琴低音四粒一組 (先消失？遠平移)
-~313啊 long + 旋轉
-325開始拉回中央
-333 Lead分組的第一拍要强調
-349 Kick
-361 放大+stutter旋轉
-365 Lead 普通screen pump(要比reflected pump弱)
-413 四十八分Kick 
-429 高音鋼琴
-461 數拍子+高音鋼琴
-477四十八分Kick 
-501 雙long收尾  拉遠+ 旋轉sway
-
-Kick位置每kick一下就旋轉+pump
-左右5°來回(側一點)
-32/48分異健同位
-
-這首采音好難QQ
-今天采到beat209算了
- 
-
-睡了4小時就醒了
-
-繼續采音
-直接腦補譜面中
-差不多采完(還差副歌)
-這次嘗試舞臺動作跟note同時寫
-記得要記下當前舞臺角度
-正常                                         
-     6      1
-5                2
-     4      3
-垂直                            1
-                        6                       2
-		  5                       3
-                                     4
-
-
-發現了MS word巨集可以把譜面旋轉、左右上下反轉
 */
 
 define stageposition rtbounce 1.5,2.6098075,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
@@ -822,12 +746,14 @@ a s_movecamera angle y 489 2 4 EaseOutCubic
 a s_movecamera abs_position y 489 2 0 Linear
 a s_movecamera abs_position x 489 2 0 Linear
 
-
+a changestage spread 489 2 EaseOutQuad
 a s_movecamera angle z 489 2 700 EaseInQuad
+a changestage classichexagon 491 2 EaseOutSine
+a s_movecamera angle z 491 2 50 EaseOutQuad
 a s_movecamera abs_position z 489 1 6.2 EaseInSine
 
 a s_movecamera position z 490 3 -12.2 EaseOutQuad
-a s_movecamera angle z 491 2 50 EaseOutQuad
+
 
 
 a movecamera position 501.5 16 0 0 -7.5 EaseOutQuad 
@@ -1854,8 +1780,8 @@ n short lb 431
 n catch lc 431.25
 n catch lt 431.5
 
-n long rc 432.0 433
-
+n short rc 432.0
+n short rc 432.5
 
 
 n short rb 433
@@ -1898,8 +1824,8 @@ n swipe in lc 442.5
 n swipe in rb 443.5
 n short lb 443.5
 
-n short lt 445
-n short lc 445.5
+n long lt 445 445.5
+n long lc 445.5 446
 n short lb 446.0
 n swipe out rc 446.5
 n short rb 446.5
