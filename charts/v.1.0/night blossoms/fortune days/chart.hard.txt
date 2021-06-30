@@ -3,9 +3,45 @@ a movecamera position 6 0.3 0 0 -0.3 linear
 a movecamera position 6.5 0.5 0 0 0.2 easeinsine
 a movecamera position 7 0.3 0 0 -0.3 linear
 a movecamera position 7.5 1.5 0 0 0.4 easeinsine
-a movecamera position 15 1 0 0 -0.5 easeoutsine
-a movecamera position 16 8 0 0 0.5 easeinoutsine
+a movecamera position 14 2 0 0 -1 easeoutsine
+a movecamera position 16 8 0 0 1 easeinoutsine
 
+a movecamera position 31 0 0 0 50 linear
+a movecamera position 31.5 0 0 0 -50 linear
+
+a movecamera position 32 0.2 0 0 0.2 easeoutsine
+a movecamera position 32.5 0.2 0 0 -0.2 easeoutsine
+a movecamera position 33 0.2 0 0 0.2 easeoutsine
+a movecamera position 33.5 0.2 0 0 -0.2 easeoutsine
+a movecamera position 34 0.2 0 0 0.2 easeoutsine
+a movecamera position 34.5 0.2 0 0 -0.2 easeoutsine
+a movecamera position 35 0.2 0 0 0.2 easeoutsine
+a movecamera position 35.5 0.2 0 0 -0.2 easeoutsine
+a movecamera position 36 0.2 0 0 0.2 easeoutsine
+a movecamera position 36.5 0.2 0 0 -0.2 easeoutsine
+a movecamera position 37 0.2 0 0 0.2 easeoutsine
+a movecamera position 37.5 0.2 0 0 -0.2 easeoutsine
+a movecamera position 38 0.2 0 0 0.2 easeoutsine
+a movecamera position 38.5 0.2 0 0 -0.2 easeoutsine
+a movecamera position 39 0.2 0 0 0.2 easeoutsine
+a movecamera position 39.5 0.2 0 0 -0.2 easeoutsine
+a movecamera position 40 0.2 0 0 0.2 easeoutsine
+a movecamera position 40.5 0.2 0 0 -0.2 easeoutsine
+a movecamera position 41 0.2 0 0 0.2 easeoutsine
+a movecamera position 41.5 0.2 0 0 -0.2 easeoutsine
+a movecamera position 42 0.2 0 0 0.2 easeoutsine
+a movecamera position 42.5 0.2 0 0 -0.2 easeoutsine
+a movecamera position 43 0.2 0 0 0.2 easeoutsine
+a movecamera position 43.5 0.2 0 0 -0.2 easeoutsine
+a movecamera position 44 0.2 0 0 0.2 easeoutsine
+a movecamera position 44.5 0.2 0 0 -0.2 easeoutsine
+a movecamera position 45 0.2 0 0 0.2 easeoutsine
+a movecamera position 45.5 0.2 0 0 -0.2 easeoutsine
+a movecamera position 46 0.2 0 0 0.2 easeoutsine
+a movecamera position 46.5 0.2 0 0 -0.2 easeoutsine
+a movecamera position 47 0.2 0 0 0.2 easeoutsine
+
+a movecamera position 48 0.2 0 0 0.1 linear
 a movecamera position 48 0.2 0 0 0.1 linear
 a movecamera position 48.2 0.2 0 0 -0.1 linear
 a movecamera position 48.5 0.2 0 0 0.1 linear
@@ -93,28 +129,26 @@ a movecamera position 68.5 1.5 0 0 0.6 easeoutsine
 a movecamera position 70 0.5 0 0 -0.6 easeoutsine
 a movecamera position 70.5 1.5 0 0 0.6 easeoutsine
 
+a movecamera position 136 0.5 0 0 -0.6 easeoutsine
+a movecamera position 136.5 1.5 0 0 0.6 easeoutsine
+a movecamera position 138 0.5 0 0 -0.6 easeoutsine
+a movecamera position 138.5 1.5 0 0 0.6 easeoutsine
+a movecamera position 140 0.5 0 0 -0.6 easeoutsine
+a movecamera position 140.5 1.5 0 0 0.6 easeoutsine
+
 a movecamera position 104 4 0 0 -5 linear
 a movecamera position 108 4 0 0 5 easeinoutsine
 
 a movecamera position 142 2 0 0 -3 easeoutsine
 
+
 #旋轉舞台
 a movecamera angle 16.5 16 0 0 30 easeinoutsine
 
-a movecamera angle 38 0.5 0 0 7.5 easeoutsine
-a movecamera angle 38.5 0.5 0 0 -7.5 easeoutsine
-a movecamera angle 39 0.5 0 0 7.5 easeoutsine
-a movecamera angle 39.5 0.5 0 0 -7.5 easeoutsine
-
-a movecamera angle 46 0.5 0 0 -7.5 easeoutsine
-a movecamera angle 46.5 0.5 0 0 7.5 easeoutsine
-a movecamera angle 47 0.5 0 0 -7.5 easeoutsine
-a movecamera angle 47.5 0.5 0 0 7.5 easeoutsine
-
 a movecamera angle 48 16 0 0 30 linear
 
-a movecamera angle 72 8 0 0 30 easeinoutsine
-a movecamera angle 80 8 0 0 -30 easeinoutsine
+a movecamera angle 72 8 0 0 60 easeinoutsine
+a movecamera angle 80 8 0 0 -60 easeinoutsine
 
 a movecamera angle 88 16 0 0 -30 easeinoutsine
 
@@ -125,6 +159,9 @@ a movecamera angle 120 16 0 0 -60 linear
 a movecamera angle 144 14 0 0 120 linear
 
 #定義舞台
+define stageposition head 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.65,2.65,0 0,0,300
+define stageposition head_2 1.65,2.65,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
+
 define stageposition rest 1.8225,3.1725,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.8225,-3.1725,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
 
 define stageposition rest_2 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.8225,-3.1725,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.8225,3.1725,0 0,0,300
@@ -135,6 +172,11 @@ define stageposition main_2 2.7,0,0 0,0,180 1.35,2.35,0 0,0,240 -1.35,-2.35,0 0,
 
 
 #切換舞台
+a changestage head 6 0.5 easeoutsine
+a changestage original 6.5 1.5 easeoutsine
+a changestage head_2 7 0.5 easeoutsine
+a changestage original 7.5 1.5 easeoutsine
+
 a changestage rest 64 0.5 easeoutsine
 a changestage original 64.5 1.5 easeinsine
 
@@ -159,9 +201,6 @@ a changestage original 140.5 1.5 easeinsine
 
 #加特效
 
-#定義單軌道旋轉
-
-#實行單軌道旋轉
 
 #正式譜面
 
@@ -248,53 +287,67 @@ n long rc 29.5 31
 n long lb 29.75 31
 
 #main
-n short lb 32
 n short lb 32.25
-n short rc 32.5
-n short rc 32.75
+n long lb 32.5 32.75
+n short rb 32.75
+n long rc 33 33.75
 
-n long lb 33 34
 n short lt 33.5
-n long rc 34 35
-n short lt 34.5
+n short lt 33.75
+n long lb 34 34.5
+n catch rt 34.5
+n catch rc 34.75
 
 #----
-n short lb 35
-n short lb 35.25
-n short lt 35.5
+n short lc 35
+n short lt 35.25
+n short lc 35.5
 #----
 
-n long rc 36 37
-n short lt 36.5
-n long lb 37 38
-n short lt 37.5
+n short rc 36
+n short rc 36.25
+n short rb 36.5
+n short rc 36.75
 
-n long rc 38 39.5
-n short lc 38.5
-n short lc 39
-n swipe out lc 39.5
+n short lc 37
+n short lt 37.25
+n short lc 37.5
 
-n long lb 40 41
-n short lt 40.5
-n long rc 41 42
+n long rc 38 38.5
+n short lb 38.5
+n catch lc 39
+n catch lc 39.25
+n swipe out rt 39.5
+
+n short rc 40.25
+n long rc 40.5 40.75
+n short rb 40.75
+n long lb 41 41.75
+
 n short lt 41.5
-n long lb 42 43
-n short lt 42.5
+n short lt 41.75
+n long rc 42 42.5
+n catch lc 42.5
+n catch lb 42.75
 
-#----------------
-n short rc 43
-n short rc 43.25
-n short lt 43.5
-#----------------
+#----
+n short rt 43
+n short lt 43.25
+n short rt 43.5
+#----
 
-n long lb 44 45
-n short lt 44.5
-n long rc 45 46
-n short lt 45.5
+n short lb 44
+n short lb 44.25
+n short rb 44.5
+n short lb 44.75
 
-n long lb 46 47.5
-n short rt 46.5
-n short rt 47
+n short rt 45
+n short lt 45.25
+n short rt 45.5
+ 
+n long lb 46 46.5
+n short rc 46.5
+n swipe out lc 47
 n swipe out rt 47.5
 
 #B
@@ -357,7 +410,10 @@ n swipe out lb rt 68
 
 n short rc 69.5
 n short rc 69.75
-n long lb rt 70 71.5
+n short rb 70
+
+n catch lc 71.25
+n catch lc 71.5
 
 #main_2
 n short lt 72
@@ -372,6 +428,7 @@ n short rc 74
 n long lb 74 74.5
 n swipe out lt 74.5
 
+n short rb 74.75
 n short rc 75
 n long rc 75.25 75.5
 n swipe in lc 75.5
@@ -379,8 +436,10 @@ n swipe in lc 75.5
 n long lb 76 76.5
 n swipe out lt 76.5
 
-n long rt 77 77.5
-n swipe in rb 77.5
+n short lb 76.75
+n short rc 77
+n short rt 77.25
+n short rc 77.5
 
 n short rb 78
 n short lt 78.5
@@ -391,28 +450,34 @@ n swipe out lc 79
 
 #----------------
 
-n short lb 80
-n short lb rc 80.5
+n short rb 80
+n short lt rb 80.5
 
-n short rb rt 81
-n short rb 81.25
-n short rb lt 81.5
-n short rb 81.75
-n short rb 82
+n short rc lb 81
+n short lb 81.25
+n short lt lb 81.5
+n short lb 81.75
+n short lb 82
 
 n long rc 82 82.5
-n swipe out lc 82.5
+n swipe out rb 82.5
 
-n long rb 83 83.5
-n swipe in rt 83.5
+n short lt 82.75
+n short lb 83
+n long lb 83.25 83.5
+n swipe in lc 83.5
 
-n long lt 84 84.5
-n swipe out lb 84.5
+n long rc 84 84.5
+n swipe out rb 84.5
 
-n long rt 85 85.5
-n swipe in rb 85.5
+n short rc 84.75
+n short lb 85
+n short rt 85.25
+n short lb 85.5
 
-n long lb rt 86 87.5
+n short rt 86
+n catch lt 87
+n catch lt 87.5
 
 #A
 n long rt 88 88.5
@@ -496,11 +561,11 @@ n swipe out lc 117
 
 n short lt rt 118
 n short lc rc 118.5
-n short lb rb 119
-n catch rc 119.125
+n short lb 119
+n catch lb 119.125
 
-n short lb rb 119.5
-n catch lc 119.625
+n short rb 119.5
+n catch rb 119.625
 
 #B
 n short rc lc 120
