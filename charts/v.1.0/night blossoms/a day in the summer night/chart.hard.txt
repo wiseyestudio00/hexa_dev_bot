@@ -1,18 +1,18 @@
 define stageposition 001 1.35,2.35,0 0,0,0 1.35,0,0 0,0,180 1.35,-2.35,0 0,0,0 -50,-2.35,0 0,0,0 -50,0,0 0,0,0 -50,2.35,0 0,0,0
 define stageposition 002 50,2.35,0 0,0,0 50,0,0 0,0,180 50,-2.35,0 0,0,0 -1.35,-2.35,0 0,0,0 -1.35,0,0 0,0,0 -1.35,2.35,0 0,0,0
 n swipe out rt lb 0
-a changecamera angle 0 3.5 0 0 360 easeOutSine
+a movecamera angle 0 3.5 0 0 360 easeOutSine
 n swipe in lt rb 4
-a changecamera angle 4 3.5 0 0 -360 easeOutSine
+a movecamera angle 4 3.5 0 0 -360 easeOutSine
 n swipe out rt lb 8
-a changecamera angle 8 3.5 0 0 360 easeOutSine
-a changecamera position 12 0.5 0 0 -1 easeOutSine
-a changecamera angle 12 0.5 0 0 -15 easeOutSine
-a changecamera position 13 0.5 0 0 -1 easeOutSine
-a changecamera angle 13 0.5 0 0 15 easeOutSine
-a changecamera position 14 0.01 0 0 -1 easeOutSine
-a changecamera position 14.5 0.01 0 0 1 easeOutSine
-a changecamera position 15 0.01 0 0 2 easeOutSine
+a movecamera angle 8 3.5 0 0 360 easeOutSine
+a movecamera position 12 0.5 0 0 -1 easeOutSine
+a movecamera angle 12 0.5 0 0 -15 easeOutSine
+a movecamera position 13 0.5 0 0 -1 easeOutSine
+a movecamera angle 13 0.5 0 0 15 easeOutSine
+a movecamera position 14 0.01 0 0 -1 easeOutSine
+a movecamera position 14.5 0.01 0 0 1 easeOutSine
+a movecamera position 15 0.01 0 0 2 easeOutSine
 n short rb 15.75
 n short rc 16
 n short lb 16.25
@@ -36,8 +36,8 @@ n short lc 21.5
 n short rt 21.75
 n short rt 22
 n short lt rc 22.25
-n catch lt rb 22.5
-n swipe out lc rc 23
+n catch lc rb 22.5
+n swipe out lb rc 23
 n short rt 23.5
 n catch lb 23.75
 n short rc 24
@@ -50,34 +50,35 @@ n short lc 26
 n catch rc 26.25
 n long lb 26.5 27
 n swipe in rt 27
-n short rt lb 27.5
-n short lb 28
-n short lc 28.25
-n short lt 28.5
-n long lt 28.75 29.5
-n short rc 29.5
-n short rb 30
+n short rc lc 27.5
+n short lb rb 28
+n short lb 28.5
+n short lc 28.75
+n short rc 29
+n short rb 29.25
+n short lc 29.5
+n short lt 29.75
+n short rt 30
 n short rc 30.25
-n short rt 30.5
-n long rt 30.75 31.5
-n short lc 31.5
-a changecamera angle 32 1 0 0 -15 easeInOutSine
-a changecamera angle 33 1 0 0 15 easeInSine
-a changecamera angle 34 1 0 0 15 easeOutSine
-a changecamera angle 35 1 0 0 -15 easeInSine
-a changecamera angle 36 1 0 0 -15 easeOutSine
-a changecamera angle 37 1 0 0 15 easeInSine
-a changecamera angle 38 1 0 0 15 easeOutSine
-a changecamera angle 39 1 0 0 -15 easeInSine
-a changecamera angle 40 1 0 0 -15 easeOutSine
-a changecamera angle 41 1 0 0 15 easeInSine
-a changecamera angle 42 1 0 0 15 easeOutSine
-a changecamera angle 43 1 0 0 -15 easeInSine
-a changecamera angle 44 1 0 0 -15 easeOutSine
-a changecamera angle 45 1 0 0 15 easeInSine
-a changecamera angle 46 2 0 0 270 easeOutSine
-a changecamera position 46 0.5 0 0 -1 easeOutSine
-a changecamera position 46.5 1.5 -1.5 0 2 easeInOutSine
+n short rc lc 30.75
+n long rb lt 31 31.5
+a movecamera angle 32 1 0 0 -15 easeInOutSine
+a movecamera angle 33 1 0 0 15 easeInSine
+a movecamera angle 34 1 0 0 15 easeOutSine
+a movecamera angle 35 1 0 0 -15 easeInSine
+a movecamera angle 36 1 0 0 -15 easeOutSine
+a movecamera angle 37 1 0 0 15 easeInSine
+a movecamera angle 38 1 0 0 15 easeOutSine
+a movecamera angle 39 1 0 0 -15 easeInSine
+a movecamera angle 40 1 0 0 -15 easeOutSine
+a movecamera angle 41 1 0 0 15 easeInSine
+a movecamera angle 42 1 0 0 15 easeOutSine
+a movecamera angle 43 1 0 0 -15 easeInSine
+a movecamera angle 44 1 0 0 -15 easeOutSine
+a movecamera angle 45 1 0 0 15 easeInSine
+a movecamera angle 46 2 0 -30 270 easeOutSine
+a movecamera position 46 0.5 0 0 -1 easeOutSine
+a movecamera position 46.5 1.5 1 0 2 easeInOutSine
 n catch lt 32
 n catch lt 32.5
 n catch lt 33
@@ -162,10 +163,10 @@ n short lb lt 55
 n short lc 55.25
 n short lb 55.5
 n catch lb lt 56
-n long lc 56.5 57
-n short lt 57
-n long lc 57.5 58
-n short lb 58
+n short lc 56.5
+n short lt lb 57
+n short lc 57.5
+n short lb lt 58
 n short lb lt 58.5
 n short lc 58.75
 n short lb lt 59
@@ -176,9 +177,10 @@ n short lc lt 60.5
 n short lc lb 61
 n short lc lt 61.5
 n swipe in lb lt 62
-a s_changecamera position x 62 2 3 linear
-a s_changecamera position z 62 1 -3 easeOutCirc
-a s_changecamera position z 63 1 3 easeInCirc
+a movecamera angle 62 2 0 60 0 easeOutSine
+a s_movecamera position x 62 2 -2 linear
+a s_movecamera position z 62 1 -3 easeOutCirc
+a s_movecamera position z 63 1 3 easeInCirc
 n long rb 64.5 65
 n short rc 65
 n long rc 65.5 66
@@ -199,10 +201,10 @@ n short rb rt 71
 n short rc 71.25
 n short rb 71.5
 n catch rb rt 72
-n long rc 72.5 73
-n short rt 73
-n long rc 73.5 74
-n short rb 74
+n short rc 72.5
+n short rt rb 73
+n short rc 73.5
+n short rb rt 74
 n short rb rt 74.5
 n short rc 74.75
 n short rb rt 75
@@ -212,8 +214,11 @@ n short rc rb 76
 n short rc rt 76.5
 n short rc rb 77
 n short rc rt 77.5
-a changecamera angle 77.75 2.25 0 0 90 easeinOutSine
-a changecamera position 78 2 -1.5 0 -1 easeOutSine
+
+a s_movecamera abs_position z 77.75 2 -6.2 easeInOutSine
+a s_movecamera abs_position x 77.75 2 0 easeInOutSine
+a movecamera angle 77.75 2 0 -30 90 easeInOutSine
+
 n catch rc 78
 n catch rc 78.25
 n catch rt 78.5
@@ -231,37 +236,37 @@ n catch rb 79.749
 n catch rc 79.832
 n catch rt 79.915
 n catch lt 80
-a changecamera angle 80 13 0 0 180 linear
-a changecamera position 80 0.5 0 0 0.5 easeOutSine
-a changecamera position 80.5 0.5 0 0 -0.5 easeInSine
-a changecamera position 81 0.5 0 0 0.5 easeOutSine
-a changecamera position 81.5 0.5 0 0 -0.5 easeInSine
-a changecamera position 82 0.5 0 0 0.5 easeOutSine
-a changecamera position 82.5 0.5 0 0 -0.5 easeInSine
-a changecamera position 83 0.5 0 0 0.5 easeOutSine
-a changecamera position 83.5 0.5 0 0 -0.5 easeInSine
-a changecamera position 84 0.5 0 0 0.5 easeOutSine
-a changecamera position 84.5 0.5 0 0 -0.5 easeInSine
-a changecamera position 85 0.5 0 0 0.5 easeOutSine
-a changecamera position 85.5 0.5 0 0 -0.5 easeInSine
-a changecamera position 86 0.5 0 0 0.5 easeOutSine
-a changecamera position 86.5 0.5 0 0 -0.5 easeInSine
-a changecamera position 87 0.5 0 0 0.5 easeOutSine
-a changecamera position 87.5 0.5 0 0 -0.5 easeInSine
-a changecamera position 88 0.5 0 0 0.5 easeOutSine
-a changecamera position 88.5 0.5 0 0 -0.5 easeInSine
-a changecamera position 89 0.5 0 0 0.5 easeOutSine
-a changecamera position 89.5 0.5 0 0 -0.5 easeInSine
-a changecamera position 90 0.5 0 0 0.5 easeOutSine
-a changecamera position 90.5 0.5 0 0 -0.5 easeInSine
-a changecamera position 91 0.5 0 0 0.5 easeOutSine
-a changecamera position 91.5 0.5 0 0 -0.5 easeInSine
-a changecamera position 92 0.5 0 0 0.5 easeOutSine
-a changecamera position 92.5 0.5 0 0 -0.5 easeInSine
-a changecamera position 93 0.5 0 0 0.5 easeOutSine
-a changecamera position 93.5 0.5 0 0 -0.5 easeInSine
-a changecamera position 94 1 0 0 0.5 easeOutSine
-a changecamera position 95 1 0 0 -0.5 easeInOutSine
+a movecamera angle 80 13 0 0 180 linear
+a movecamera position 80 0.5 0 0 0.5 easeOutSine
+a movecamera position 80.5 0.5 0 0 -0.5 easeInSine
+a movecamera position 81 0.5 0 0 0.5 easeOutSine
+a movecamera position 81.5 0.5 0 0 -0.5 easeInSine
+a movecamera position 82 0.5 0 0 0.5 easeOutSine
+a movecamera position 82.5 0.5 0 0 -0.5 easeInSine
+a movecamera position 83 0.5 0 0 0.5 easeOutSine
+a movecamera position 83.5 0.5 0 0 -0.5 easeInSine
+a movecamera position 84 0.5 0 0 0.5 easeOutSine
+a movecamera position 84.5 0.5 0 0 -0.5 easeInSine
+a movecamera position 85 0.5 0 0 0.5 easeOutSine
+a movecamera position 85.5 0.5 0 0 -0.5 easeInSine
+a movecamera position 86 0.5 0 0 0.5 easeOutSine
+a movecamera position 86.5 0.5 0 0 -0.5 easeInSine
+a movecamera position 87 0.5 0 0 0.5 easeOutSine
+a movecamera position 87.5 0.5 0 0 -0.5 easeInSine
+a movecamera position 88 0.5 0 0 0.5 easeOutSine
+a movecamera position 88.5 0.5 0 0 -0.5 easeInSine
+a movecamera position 89 0.5 0 0 0.5 easeOutSine
+a movecamera position 89.5 0.5 0 0 -0.5 easeInSine
+a movecamera position 90 0.5 0 0 0.5 easeOutSine
+a movecamera position 90.5 0.5 0 0 -0.5 easeInSine
+a movecamera position 91 0.5 0 0 0.5 easeOutSine
+a movecamera position 91.5 0.5 0 0 -0.5 easeInSine
+a movecamera position 92 0.5 0 0 0.5 easeOutSine
+a movecamera position 92.5 0.5 0 0 -0.5 easeInSine
+a movecamera position 93 0.5 0 0 0.5 easeOutSine
+a movecamera position 93.5 0.5 0 0 -0.5 easeInSine
+a movecamera position 94 1 0 0 0.5 easeOutSine
+a movecamera position 95 1 0 0 -0.5 easeInOutSine
 n short lt rb 80.5
 n short lt rb 80.75
 n short lt rb 81
@@ -348,7 +353,8 @@ n catch rb 106
 n catch rb 107
 n catch rb 108
 n catch rb 109
-a changecamera angle 110 1.5 0 0 180 easeinoutsine
+a movecamera angle 110 1.5 30 0 180 easeinoutsine
+a movecamera position 110 1.5 0 5 2 easeinoutsine
 a changestage butterfly_6 110 1.5 easeinoutsine
 n short rb 112
 n short rc 112.25
@@ -375,14 +381,15 @@ n short lc 122.25
 n short lb 122.5
 n long lt 122.75 123.5
 n short rb lb 124
-n short rb rc 124.5
-n short rc lc 125
-n short lt lc 125.5
+n short rb rt 124.5
+n short rb lb 125
+n short lt lb 125.5
 n swipe in lt 126
 n swipe out rt 126
 
 a changestage 001 126 2 easeinoutsine
-a changecamera position 126 2 0 0 0 easeOutSine
+a movecamera position 126 2 -4 -5 1 easeOutSine
+a movecamera angle 126 2 -30 45 0 easeinoutsine
 
 n long rb 128.5 129
 n short rc 129
@@ -404,10 +411,10 @@ n short rb rt 135
 n short rc 135.25
 n short rb 135.5
 n catch rb rt 136
-n long rc 136.5 137
-n short rt 137
-n long rc 137.5 138
-n short rb 138
+n short rc 136.5
+n short rt rb 137
+n short rc 137.5
+n short rb rt 138
 n short rb rt 138.5
 n short rc 138.75
 n short rb rt 139
@@ -420,6 +427,8 @@ n short rc rt 141.5
 n swipe out rt rb 142
 
 a changestage 002 142 2 easeinoutsine
+a s_movecamera abs_angle y 142 2 -45 easeinoutsine
+a movecamera position 142 2 8 0 0 easeOutSine
 
 n long lb 144.5 145
 n short lc 145
@@ -441,10 +450,10 @@ n short lb lt 151
 n short lc 151.25
 n short lb 151.5
 n catch lb lt 152
-n long lc 152.5 153
-n short lt 153
-n long lc 153.5 154
-n short lb 154
+n short lc 152.5
+n short lt lb 153
+n short lc 153.5
+n short lb lt 154
 n short lb lt 154.5
 n short lc 154.75
 n short lb lt 155
@@ -455,24 +464,30 @@ n short lc lt 156.5
 n short lc lb 157
 n short lc lt 157.5
 
+a s_movecamera abs_position z 158 1.5 -6.2 easeInOutSine
+a s_movecamera abs_position x 158 1.5 0 easeInOutSine
+a s_movecamera abs_position y 158 1.5 0 easeInOutSine
+a s_movecamera angle y 158 1.5 45 easeInOutSine
+
 a changestage side_6 158 1.5 easeinoutsine
 a changestage classichexagon 160 15 linear
 
-n long lb 158 160
-n long lt 159 160
+n short lb 158
+n short lt 159
+n short lc 160
 
-n catch lt 162
+n catch rt 162
 n catch lb 162.5
 n catch rb 163
-n catch rt 163.5
+n catch lc 163.5
 n catch rt 166
 n catch lb 166.5
 n catch lc 167
 n catch lt 167.5
-n catch lt 170
+n catch lc 170
 n catch rc 170.5
-n catch rt 171
-n catch lc 171.5
+n catch lb 171
+n catch rt 171.5
 n catch rb lb 174
 n catch rc lc 174.5
 n catch rt lt 175
