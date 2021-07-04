@@ -1,0 +1,1161 @@
+n long rb 12 17
+n long lb 18 22
+n short lb 23
+n short rb 23
+n short rc 24
+n short rb 25
+n long lc 24 25
+n short lb 25.5
+n short lb 27
+n long rb 27 28
+n short lc 28
+n short lb 28.5
+n short lc 30
+n short lb 31
+n long rc 30 31
+n short rb 31.5
+n short rb 33
+n long lb 33 34
+n short rc 34
+n short rb 34.5
+n long lc 34.5 35.5
+n short rb 36
+n long lb 36 37
+n short rc 37
+n short lc 37.5
+n long rb 37.5 38.5
+n short lc 39
+n short lb 40
+n short rb 40.5
+n long rc 39 41.5
+n short rc 42
+n short rb 43
+n short lb 43.5
+n long lc 42 44.5
+n short rc 45
+n short lb 46
+n short rb 46.5
+n short lc 47
+n short lc 48
+n short lb 49
+n short rb 49.5
+n short lc 51
+n long rc 48 51.5
+n short lb 52
+n short rb 52.5
+n short rc 53
+n short rc 54
+n short rb 55
+n short lb 55.5
+n short rc 57
+n long lc 54 57.5
+n short rb 58
+n short lb 58.5
+n short lc 59
+n swipe out 60
+n long rt 60 63
+n swipe in rc 63
+n swipe out rc 66
+n long lt 66 69
+n swipe in lc 69
+n short lb 72
+n short lc 73.5
+n long rc 72 73.5
+n short lb 74
+n short rb 75
+n short rc 76.5
+n long lb 75 76.5
+n short rb 77
+n short lt 78
+n short lc 78.5
+n long rb 78 79.5
+n short lb 79.5
+n short rc 80.5
+n short rt 81
+n short rc 82
+n long lc 81 82.5
+n short rb 83
+n short lb 83.5
+n swipe out rc 84
+n swipe out lc 84
+n short rb 85
+n short lb 86
+n swipe in lt 87
+n swipe in rb 87
+n short lb 88
+n short rb 89
+n swipe in rt 90
+n swipe in lb 90
+n short rb 91
+n short lb 92
+n swipe out lb 93
+n swipe out rb 93
+n short rb 94
+n short rc 94.5
+n short lc 94.5
+n short lb 95
+n short rb 95.25
+n short lb 95.5
+n short rb 95.75
+n short rb 97.5
+n long lc 96 97.5
+n short lb 98
+n short lc 99
+n short lc 100.5
+n long rb 99 100.5
+n short lb 101
+n short rt 102
+n short rc 102.5
+n long lb 102 103.5
+n short rb 103.5
+n short lc 104.5
+n short lt 105
+n short lc 106
+n long rc 105 106.5
+n short lb 107
+n short rb 107.5
+n swipe out lc 108
+n swipe out rc 108
+n short rb 109
+n short lb 110
+n swipe out rb 111
+n swipe out lc 111
+n short lb 112
+n short rb 113
+n swipe out rc 114
+n swipe out lb 114
+n short rb 115
+n short lc 115.25
+n short rb 115.5
+n short lb 115.75
+n short rc 116
+n short lb 116.25
+n short rb 116.5
+n swipe in rc 117
+n swipe in lc 117
+n short lb 118
+n short rb 118.5
+n short rc 119
+n short lc 119
+n short lc 120
+n short lb 121.5
+n long rt 120 121.5
+n short rb 122
+n short rc 123
+n short rb 124.5
+n long lt 123 124.5
+n short lb 125
+n short lt 126
+n short lc 126.5
+n long rc 126 127.5
+n short lb 127.5
+n short rc 128.5
+n short rt 129
+n short rc 130
+n long lc 129 130.5
+n short rb 131
+n short lb 131.5
+n short lc 132
+n long rb 132 133.5
+n short lc 133.5
+n short lt 134
+n short rc 135
+n long lb 135 136.5
+n short rc 136.5
+n short rt 137
+n short rt 138
+n short rc 138.5
+n short rb 139.5
+n long lt 138 139.5
+n short lt 140.5
+n short lc 141
+n short lb 142
+n short rb 142.5
+n long rt 141 142.5
+n short lt 144
+n short lb 144
+n short rb 145
+n short lb 146
+n short rt 147
+n short rb 147
+n short lb 148
+n short rb 149
+n short rc 150
+n short lb 151.5
+n long lc 150 151.5
+n short lc 153
+n short rb 154
+n long rc 153 154
+n long lt 155 162
+n long rt 156 162
+n short lc 168
+n short lb 168
+n short rb 169
+n short lc 169.5
+n catch rb 170
+n catch lb 170.25
+n catch lc 170.5
+n catch lb 170.75
+n short rt 171
+n short lb 172
+n short rc 172.5
+n catch rb 173
+n catch lb 173.25
+n catch lc 173.5
+n short rc 174
+n short rb 174
+n short lb 175
+n short rc 175.5
+n catch lb 176
+n catch rb 176.25
+n catch rc 176.5
+n catch rb 176.75
+n short lt 177
+n short rb 178
+n short lc 178.5
+n catch lb 179
+n catch rb 179.25
+n catch rc 179.5
+n short rb 180
+n short lc 180
+n short lc 181
+n short rc 181.5
+n catch rb 182
+n catch lb 182.25
+n catch lc 182.5
+n catch lb 182.75
+n short rt 183
+n short lb 184
+n short rc 184.5
+n catch lc 185
+n catch lb 185.25
+n catch rb 185.5
+n short rc 186
+n short lb 186
+n short rc 187
+n short lc 187.5
+n catch lb 188
+n catch rb 188.25
+n catch rc 188.5
+n catch rb 188.75
+n short lt 189
+n short lb 190
+n short rb 190
+n catch rc 191
+n catch rb 191.25
+n catch lb 191.5
+n short rb 192
+n short lc 192
+n short lc 193
+n short lb 193.5
+n short rb 194
+n short lb 194.25
+n short rb 194.5
+n short lb 194.75
+n short rt 195
+n short rb 196
+n short lb 197
+n short lb 198
+n short rc 198
+n short rc 199
+n short rb 199.5
+n short lb 200
+n short rb 200.25
+n short lb 200.5
+n short rb 200.75
+n short lt 201
+n short lb 202
+n short rb 203
+n short rc 204
+n short rb 204
+n short lc 205
+n short lb 205.5
+n short rb 206
+n short lb 206.25
+n short rb 206.5
+n short lb 206.75
+n short rt 207
+n short rb 208
+n short rc 209
+n short lc 210
+n short lb 210
+n short rc 211
+n short rb 211.5
+n short lb 212
+n short rb 212.25
+n short lb 212.5
+n short rb 212.75
+n short lt 213
+n short lb 214
+n short lc 215
+n short rc 216
+n catch rb 216.5
+n catch lb 217
+n short rb 217.5
+n short lt 217.5
+n short rb 219
+n catch lb 219.5
+n catch lc 220
+n short lb 220.5
+n short rt 220.5
+n short lc 222
+n catch lb 222.5
+n catch rb 223
+n short lb 223.5
+n short rt 223.5
+n short lb 225
+n catch rb 225.5
+n catch rc 226
+n short rb 226.5
+n short lt 226.5
+n short rc 228
+n catch rb 228.5
+n catch lb 229
+n short lc 229.5
+n short rt 229.5
+n short lc 231
+n catch lb 231.5
+n catch rb 232
+n short rc 232.5
+n short lt 232.5
+n short rc 234
+n catch rb 234.5
+n catch lb 235
+n short lc 235.5
+n short rt 235.5
+n long rb 237 238.5
+n short lb 239
+n long rc 240 243.5
+n short lc 244
+n short lb 245
+n long rb 246 248
+n short lb 248
+n long lb 249 251
+n short rb 251
+n long lc 252 254
+n short lb 254
+n long rc 255 257
+n short rb 257
+n swipe out rt 258
+n swipe out lb 258
+n swipe out lt 261
+n swipe out rb 261
+n short lc 264
+n long rc 264 265.5
+n short lb 265.5
+n short lc 266
+n short rc 267
+n long lc 267 268.5
+n short rb 268.5
+n short rc 269
+n short rb 270
+n short rc 270.5
+n short rt 271.5
+n long lb 270 271.5
+n short lc 272.5
+n short lt 273
+n short lb 274
+n long rb 273 274.5
+n short lc 274.5
+n short rb 275
+n short rc 275.5
+n short lb 276
+n short lc 277
+n short lt 278
+n swipe out lc 279
+n short lb 280
+n short rb 281
+n short rc 282
+n short rb 283
+n short lb 284
+n swipe in lc 285
+n short lb 286
+n short rb 287
+n long rt 276 287
+n short rc 288
+n long lc 288 289.5
+n short rb 289.5
+n short lb 290
+n short lc 291
+n long rc 291 292.5
+n short lb 292.5
+n short rb 293
+n short lb 294
+n short lc 294.5
+n long rb 294 295.5
+n short lt 295.5
+n short rc 296.5
+n short rt 297
+n short rb 298
+n long lb 297 298.5
+n short rc 298.5
+n short lb 299
+n short lc 299.5
+n short rb 300
+n short rc 301
+n short rt 302
+n swipe out rc 303
+n short rb 304
+n short lb 305
+n short lc 306
+n short lb 307
+n short rb 308
+n swipe in rc 309
+n short rb 310
+n short lb 311
+n long lt 300 311
+n short rb 312
+n long lc 312 313.5
+n short rc 313.5
+n short rt 314
+n short lb 315
+n short lc 316.5
+n long rb 315 316.5
+n short lt 317
+n short rt 318
+n short rc 318.5
+n short rb 319.5
+n long lb 318 319.5
+n short lc 320.5
+n short lt 321
+n short lb 322
+n long rc 321 322.5
+n short rb 322.5
+n short lc 323
+n short rc 323.5
+n short rb 324
+n short rc 325.5
+n swipe in rt 327
+n short lt 328.5
+n long lc 324 328.5
+n short lb 330
+n short lc 331.5
+n swipe in lt 333
+n short rt 334.5
+n long rc 330 334.5
+n short rc 336
+n short rt 337
+n long lb 336 338
+n short lt 338
+n short lc 339
+n short lt 340
+n short rt 341
+n long rb 339 341
+n long rc 342 343.5
+n short lb 343.5
+n long lc 345 347
+n short rb 347
+n long rt 348 350.5
+n long lt 351 357
+n long lc 360 365.5
+n long lt 366 371.5
+n long rt 372 377.5
+n long rc 378 383.5
+n long lt 384 386.5
+n catch rc 387
+n catch rt 387.5
+n catch lt 388
+n catch lc 388.5
+n catch lt 389
+n catch rt 389.5
+n long rc 390 392.5
+n catch lc 393
+n catch lt 393.5
+n catch rt 394
+n catch rc 394.5
+n catch rt 395
+n catch lt 395.5
+n long lc 396 401.5
+n long rt 402 407.5
+n catch rc 408
+n catch lt 408
+
+//////////////////start adventure///////////////
+
+a s_movestage abs_angle z -0.01 0 -180 easeinoutsine
+a s_movestage abs_angle z 0 12 0 easeoutsine
+
+a s_movestage abs_angle x -0.01 0 20 easeinoutsine
+a s_movestage abs_angle x 0 12 0 easeinoutsine
+
+a s_movestage abs_position y -0.01 0 -10 easeinoutsine
+a s_movestage abs_position y 0 12 0 easeinoutsine
+
+a s_movestage abs_position z -0.01 0 3 easeinoutsine
+a s_movestage abs_position z 0 12 3 easeinoutsine
+a s_movestage abs_position z 12 6 1.5 easeoutback
+a s_movestage abs_position z 18 6 0.5 easeoutback
+
+a s_movestage abs_position z 24 3 -0.125 easeoutback
+a s_movestage abs_position z 27 3 0.125 easeoutback
+a s_movestage abs_position z 30 3 -0.125 easeoutback
+a s_movestage abs_position z 33 3 0.125 easeoutback
+a s_movestage abs_position z 36 3 -0.125 easeoutback
+a s_movestage abs_position z 39 3 0.125 easeoutback
+a s_movestage abs_position z 42 3 -0.125 easeoutback
+a s_movestage abs_position z 45 3 0.125 easeoutback
+
+a s_movestage abs_position z 48 3 -0.125 easeoutback
+a s_movestage abs_position z 51 3 0.125 easeoutback
+a s_movestage abs_position z 54 3 -0.125 easeoutback
+a s_movestage abs_position z 57 3 0.125 easeoutback
+a s_movestage abs_position z 60 3 -0.125 easeoutback
+a s_movestage abs_position z 63 3 0.5 easeoutback
+a s_movestage abs_position z 66 3 0.25 easeoutback
+a s_movestage abs_position z 69 1 0.75 easeoutback
+
+a s_movestage abs_angle y 24 3 1 easeoutsine
+a s_movestage abs_angle y 27 3 0 easeinsine
+a s_movestage abs_angle y 30 3 -1 easeoutsine
+a s_movestage abs_angle y 33 3 0 easeinsine
+a s_movestage abs_angle z 36 3 -1.5 easeoutsine
+a s_movestage abs_angle z 39 3 0 easeinsine
+a s_movestage abs_angle z 42 3 1.5 easeoutsine
+a s_movestage abs_angle z 45 3 0 easeinsine
+
+a s_movestage abs_angle y 48 3 -1 easeoutsine
+a s_movestage abs_angle y 51 3 0 easeinsine
+a s_movestage abs_angle y 54 3 1 easeoutsine
+a s_movestage abs_angle y 57 3 0 easeinsine
+
+a s_movestage abs_angle z 60 3 -3.75 easeinsine
+a s_movestage abs_angle z 63 3 0 easeoutsine
+a s_movestage abs_angle z 66 3 3.75 easeinsine
+a s_movestage abs_angle z 69 3 0 easeoutsine
+
+a s_movetrail lt abs_angle z 26 1 120 easeoutsine
+a s_movetrail rt abs_angle z 32 1 60 easeoutsine
+a s_movetrail lt abs_angle z 38 1 300 easeoutsine
+a s_movetrail rt abs_angle z 44 1 240 easeoutsine
+
+a s_movetrail rt abs_angle z 50 1 60 easeoutsine
+a s_movetrail lt abs_angle z 50 1 120 easeoutsine
+a s_movetrail rt abs_angle z 56 1 240 easeoutsine
+a s_movetrail lt abs_angle z 56 1 300 easeoutsine
+
+a s_movestage abs_position z 70 0.25 1.5 easeoutexpo
+a s_movestage abs_position z 70.25 0.25 1 easeoutexpo
+a s_movestage abs_position z 70.5 0.25 -0.5 easeoutexpo
+a s_movestage abs_position z 70.75 0.25 -1 easeoutexpo
+a s_movestage abs_position z 71 0.25 0.5 easeoutexpo
+a s_movestage abs_position z 71.25 0.25 0.25 easeoutexpo
+a s_movestage abs_position z 71.5 0.25 -0.25 easeoutexpo
+a s_movestage abs_position z 71.75 0.25 0 easeoutexpo
+
+a s_movestage abs_angle z 70 0.25 1.5 easeoutexpo
+a s_movestage abs_angle z 70.25 0.25 1 easeoutexpo
+a s_movestage abs_angle z 70.5 0.25 -0.5 easeoutexpo
+a s_movestage abs_angle z 70.75 0.25 -1 easeoutexpo
+a s_movestage abs_angle z 71 0.25 0.5 easeoutexpo
+a s_movestage abs_angle z 71.25 0.25 0.25 easeoutexpo
+a s_movestage abs_angle z 71.5 0.25 -0.25 easeoutexpo
+a s_movestage abs_angle z 71.75 0.25 0 easeoutexpo
+
+///////////////first journey/////////////////////////////
+
+a s_movestage abs_angle z 72 1.5 7.5 easeoutsine
+a s_movestage abs_angle z 73.5 1.5 15 easeinsine
+a s_movestage abs_angle z 75 1.5 22.5 easeoutsine
+a s_movestage abs_angle z 76.5 1.5 30 easeinsine
+a s_movestage abs_angle z 78 1.5 22.5 easeoutsine
+a s_movestage abs_angle z 79.5 1.5 15 easeinsine
+a s_movestage abs_angle z 81 1.5 7.5 easeoutsine
+a s_movestage abs_angle z 82.5 1.5 0 easeinsine
+
+a s_movestage abs_position z 72 0.25 -0.125 easeoutsine
+a s_movestage abs_position z 72.25 0.25 0 easeinsine
+a s_movestage abs_position z 75 0.25 -0.25 easeoutsine
+a s_movestage abs_position z 75.25 0.25 0 easeinsine
+a s_movestage abs_position z 78 0.25 -0.125 easeoutsine
+a s_movestage abs_position z 78.25 0.25 0 easeinsine
+a s_movestage abs_position z 81 0.25 -0.25 easeoutsine
+a s_movestage abs_position z 81.25 0.25 0 easeinsine
+
+a s_movestage abs_position z 84 3 -0.5 easeoutquad
+a s_movestage abs_position z 87 2 0 easeoutback
+a s_movestage abs_position z 90 3 0.5 easeoutquad
+a s_movestage abs_position z 93 2 0 easeoutback
+
+a s_movestage abs_angle z 84 3 -3.25 easeoutquad
+a s_movestage abs_angle z 87 2 0 easeoutback
+a s_movestage abs_angle z 90 3 3.25 easeoutquad
+a s_movestage abs_angle z 93 2 0 easeoutback
+
+a s_movestage abs_angle z 96 1.5 -7.5 easeoutsine
+a s_movestage abs_angle z 97.5 1.5 -15 easeinsine
+a s_movestage abs_angle z 99 1.5 -22.5 easeoutsine
+a s_movestage abs_angle z 100.5 1.5 -30 easeinsine
+a s_movestage abs_angle z 102 1.5 -22.5 easeoutsine
+a s_movestage abs_angle z 103.5 1.5 -15 easeinsine
+a s_movestage abs_angle z 105 1.5 -7.5 easeoutsine
+a s_movestage abs_angle z 106.5 1.5 0 easeinsine
+
+a s_movestage abs_position z 96 0.25 -0.125 easeoutsine
+a s_movestage abs_position z 96.25 0.25 0 easeinsine
+a s_movestage abs_position z 99 0.25 -0.25 easeoutsine
+a s_movestage abs_position z 99.25 0.25 0 easeinsine
+a s_movestage abs_position z 102 0.25 -0.125 easeoutsine
+a s_movestage abs_position z 102.25 0.25 0 easeinsine
+a s_movestage abs_position z 105 0.25 -0.25 easeoutsine
+a s_movestage abs_position z 105.25 0.25 0 easeinsine
+
+a s_movestage abs_position z 108 2 -0.25 easeoutback
+a s_movestage abs_position x 111 1.5 -0.25 easeoutquad
+a s_movestage abs_position y 111 1.5 -0.25 easeoutquad
+a s_movestage abs_position x 112.5 1.5 0 easeinquad
+a s_movestage abs_position y 112.5 1.5 0 easeinquad
+a s_movestage abs_position x 114 1.5 0.25 easeoutquad
+a s_movestage abs_position y 114 1.5 -0.25 easeoutquad
+a s_movestage abs_position x 115.5 1.5 0 easeinquad
+a s_movestage abs_position y 115.5 1.5 0 easeinquad
+a s_movestage abs_position z 117 2 0 easeoutback
+
+a s_movestage abs_angle y 108 3 1.125 easeoutquad
+a s_movestage abs_angle y 111 2 0 easeoutback
+a s_movestage abs_angle y 114 3 -1.125 easeoutquad
+a s_movestage abs_angle y 117 2 0 easeoutback
+
+a s_movestage abs_angle z 120 1.5 -7.5 easeoutsine
+a s_movestage abs_angle z 121.5 1.5 -15 easeinsine
+a s_movestage abs_angle z 123 1.5 -7.5 easeoutsine
+a s_movestage abs_angle z 124.5 1.5 0 easeinsine
+a s_movestage abs_angle z 126 1.5 7.5 easeoutsine
+a s_movestage abs_angle z 127.5 1.5 15 easeinsine
+a s_movestage abs_angle z 129 1.5 7.5 easeoutsine
+a s_movestage abs_angle z 130.5 1.5 0 easeinsine
+
+a s_movestage abs_position z 120 0.25 -0.125 easeoutsine
+a s_movestage abs_position z 120.25 0.25 0 easeinsine
+a s_movestage abs_position z 123 0.25 -0.25 easeoutsine
+a s_movestage abs_position z 123.25 0.25 0 easeinsine
+a s_movestage abs_position z 126 0.25 -0.125 easeoutsine
+a s_movestage abs_position z 126.25 0.25 0 easeinsine
+a s_movestage abs_position z 129 0.25 -0.25 easeoutsine
+a s_movestage abs_position z 129.25 0.25 0 easeinsine
+
+a s_movestage abs_position x 132 1.5 -0.125 easeoutquad
+a s_movestage abs_position y 132 1.5 -0.125 easeoutquad
+a s_movestage abs_position x 133.5 1.5 0 easeinquad
+a s_movestage abs_position y 133.5 1.5 0 easeinquad
+a s_movestage abs_position x 135 1.5 0.125 easeoutquad
+a s_movestage abs_position y 135 1.5 -0.125 easeoutquad
+a s_movestage abs_position x 136.5 1.5 0 easeinquad
+a s_movestage abs_position y 136.5 1.5 0 easeinquad
+
+a s_movestage abs_position x 138 1.5 -0.125 easeoutquad
+a s_movestage abs_position y 138 1.5 0.125 easeoutquad
+a s_movestage abs_position x 139.5 1.5 0 easeinquad
+a s_movestage abs_position y 139.5 1.5 0 easeinquad
+a s_movestage abs_position x 141 1.5 0.125 easeoutquad
+a s_movestage abs_position y 141 1.5 0.125 easeoutquad
+a s_movestage abs_position x 142.5 1.5 0 easeinquad
+a s_movestage abs_position y 142.5 1.5 0 easeinquad
+
+a s_movestage abs_position z 144 0.25 -0.125 easeoutsine
+a s_movestage abs_position z 144.25 0.25 0 easeinsine
+a s_movestage abs_position z 147 0.25 -0.25 easeoutsine
+a s_movestage abs_position z 147.25 0.25 0 easeinsine
+a s_movestage abs_position z 150 0.25 -0.125 easeoutsine
+a s_movestage abs_position z 150.25 0.25 0 easeinsine
+a s_movestage abs_position z 153 0.25 -0.25 easeoutsine
+a s_movestage abs_position z 153.25 0.25 0 easeinsine
+
+a s_movestage abs_angle z 144 1.5 -7.5 easeoutsine
+a s_movestage abs_angle z 145.5 1.5 -15 easeinsine
+a s_movestage abs_angle z 147 1.5 -7.5 easeoutsine
+a s_movestage abs_angle z 148.5 1.5 0 easeinsine
+a s_movestage abs_angle z 150 1.5 7.5 easeoutsine
+a s_movestage abs_angle z 151.5 1.5 15 easeinsine
+a s_movestage abs_angle z 153 1.5 7.5 easeoutsine
+a s_movestage abs_angle z 154.5 1.5 0 easeinsine
+
+//////////////////////blink star//////////////
+
+a changecolor trial 162 2 0_0_0_0 lt rt easeoutquart
+
+a s_movetrail rt abs_position x 162 6 6.75 linear
+a s_movetrail rt abs_position y 162 6 0 easeinsine
+a s_movetrail rt abs_angle z 162 6 360 easeinsine
+a s_movetrail lt abs_position x 162 6 -6.75 linear
+a s_movetrail lt abs_position y 162 6 0 easeinsine
+a s_movetrail lt abs_angle z 162 6 180 easeinsine
+
+///////////////////////////////////////////////////////////////////
+a changecolor trial 168 0 0_0_0_145 rt easeoutquart
+a changecolor trial 168.01 1 0_0_0_0 rt easeinsine
+a changecolor trial 169 2 0_0_0_145 rt linear
+a changecolor trial 171 2 0_0_0_0 rt easeoutsine
+
+a s_movetrail rt abs_position x 168 0 1.35 linear
+a s_movetrail rt abs_position y 168 0 2.35 easeoutcirc
+a s_movetrail rt abs_angle z 168 0 240 easeoutcirc
+
+a s_movetrail rt abs_position x 168.99 0 6.75 linear
+a s_movetrail rt abs_position y 168.99 0 0 easeoutcirc
+a s_movetrail rt abs_angle z 168.99 0 360 easeoutcirc
+
+a s_movetrail rt abs_position x 169 2 1.35 linear
+a s_movetrail rt abs_position y 169 2 2.35 easeoutcirc
+a s_movetrail rt abs_angle z 169 2 240 easeoutcirc
+
+a s_movetrail rt abs_position x 173 0 6.75 linear
+a s_movetrail rt abs_position y 173 0 0 easeoutcirc
+a s_movetrail rt abs_angle z 173 0 360 easeoutcirc
+/////////////////////////////////////
+
+/////////////////////////////////////
+a changecolor trial 174 0 0_0_0_145 lt easeoutquart
+a changecolor trial 174.01 1 0_0_0_0 lt easeinsine
+a changecolor trial 175 2 0_0_0_145 lt linear
+a changecolor trial 177 2 0_0_0_0 lt easeoutsine
+
+a s_movetrail lt abs_position x 174 0 -1.35 linear
+a s_movetrail lt abs_position y 174 0 2.35 easeoutcirc
+a s_movetrail lt abs_angle z 174 0 300 easeoutcirc
+
+a s_movetrail lt abs_position x 174.99 0 -6.75 linear
+a s_movetrail lt abs_position y 174.99 0 0 easeoutcirc
+a s_movetrail lt abs_angle z 174.99 0 180 easeoutcirc
+
+a s_movetrail lt abs_position x 175 2 -1.35 linear
+a s_movetrail lt abs_position y 175 2 2.35 easeoutcirc
+a s_movetrail lt abs_angle z 175 2 300 easeoutcirc
+
+a s_movetrail lt abs_position x 179 0 -6.75 linear
+a s_movetrail lt abs_position y 179 0 0 easeoutcirc
+a s_movetrail lt abs_angle z 179 0 180 easeoutcirc
+///////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////
+a changecolor trial 180 0 0_0_0_145 rt easeoutquart
+a changecolor trial 180.01 1 0_0_0_0 rt easeinsine
+a changecolor trial 181 2 0_0_0_145 rt linear
+a changecolor trial 183 2 0_0_0_0 rt easeoutsine
+
+a s_movetrail rt abs_position x 180 0 1.35 linear
+a s_movetrail rt abs_position y 180 0 2.35 easeoutcirc
+a s_movetrail rt abs_angle z 180 0 240 easeoutcirc
+
+a s_movetrail rt abs_position x 180.99 0 6.75 linear
+a s_movetrail rt abs_position y 180.99 0 0 easeoutcirc
+a s_movetrail rt abs_angle z 180.99 0 360 easeoutcirc
+
+a s_movetrail rt abs_position x 181 2 1.35 linear
+a s_movetrail rt abs_position y 181 2 2.35 easeoutcirc
+a s_movetrail rt abs_angle z 181 2 240 easeoutcirc
+
+a s_movetrail rt abs_position x 185 0 6.75 linear
+a s_movetrail rt abs_position y 185 0 0 easeoutcirc
+a s_movetrail rt abs_angle z 185 0 360 easeoutcirc
+/////////////////////////////////////
+
+/////////////////////////////////////
+a changecolor trial 186 0 0_0_0_145 lt easeoutquart
+a changecolor trial 186.01 1 0_0_0_0 lt easeinsine
+a changecolor trial 187 2 0_0_0_145 lt linear
+a changecolor trial 189 2 0_0_0_0 lt easeoutsine
+
+a s_movetrail lt abs_position x 186 0 -1.35 linear
+a s_movetrail lt abs_position y 186 0 2.35 easeoutcirc
+a s_movetrail lt abs_angle z 186 0 300 easeoutcirc
+
+a s_movetrail lt abs_position x 186.99 0 -6.75 linear
+a s_movetrail lt abs_position y 186.99 0 0 easeoutcirc
+a s_movetrail lt abs_angle z 186.99 0 180 easeoutcirc
+
+a s_movetrail lt abs_position x 187 2 -1.35 linear
+a s_movetrail lt abs_position y 187 2 2.35 easeoutcirc
+a s_movetrail lt abs_angle z 187 2 300 easeoutcirc
+
+a s_movetrail lt abs_position x 191 0 -6.75 linear
+a s_movetrail lt abs_position y 191 0 0 easeoutcirc
+a s_movetrail lt abs_angle z 191 0 180 easeoutcirc
+///////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////
+a changecolor trial 192 0 0_0_0_145 rt easeoutquart
+a changecolor trial 192.01 1 0_0_0_0 rt easeinsine
+a changecolor trial 193 2 0_0_0_145 rt linear
+a changecolor trial 195 2 0_0_0_0 rt easeoutsine
+
+a s_movetrail rt abs_position x 192 0 1.35 linear
+a s_movetrail rt abs_position y 192 0 2.35 easeoutcirc
+a s_movetrail rt abs_angle z 192 0 240 easeoutcirc
+
+a s_movetrail rt abs_position x 192.99 0 6.75 linear
+a s_movetrail rt abs_position y 192.99 0 0 easeoutcirc
+a s_movetrail rt abs_angle z 192.99 0 360 easeoutcirc
+
+a s_movetrail rt abs_position x 193 2 1.35 linear
+a s_movetrail rt abs_position y 193 2 2.35 easeoutcirc
+a s_movetrail rt abs_angle z 193 2 240 easeoutcirc
+
+a s_movetrail rt abs_position x 197 0 6.75 linear
+a s_movetrail rt abs_position y 197 0 0 easeoutcirc
+a s_movetrail rt abs_angle z 197 0 360 easeoutcirc
+/////////////////////////////////////
+
+/////////////////////////////////////
+a changecolor trial 198 0 0_0_0_145 lt easeoutquart
+a changecolor trial 198.01 1 0_0_0_0 lt easeinsine
+a changecolor trial 199 2 0_0_0_145 lt linear
+a changecolor trial 201 2 0_0_0_0 lt easeoutsine
+
+a s_movetrail lt abs_position x 198 0 -1.35 linear
+a s_movetrail lt abs_position y 198 0 2.35 easeoutcirc
+a s_movetrail lt abs_angle z 198 0 300 easeoutcirc
+
+a s_movetrail lt abs_position x 198.99 0 -6.75 linear
+a s_movetrail lt abs_position y 198.99 0 0 easeoutcirc
+a s_movetrail lt abs_angle z 198.99 0 180 easeoutcirc
+
+a s_movetrail lt abs_position x 199 2 -1.35 linear
+a s_movetrail lt abs_position y 199 2 2.35 easeoutcirc
+a s_movetrail lt abs_angle z 199 2 300 easeoutcirc
+
+a s_movetrail lt abs_position x 203 0 -6.75 linear
+a s_movetrail lt abs_position y 203 0 0 easeoutcirc
+a s_movetrail lt abs_angle z 203 0 180 easeoutcirc
+///////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////
+a changecolor trial 204 0 0_0_0_145 rt easeoutquart
+a changecolor trial 204.01 1 0_0_0_0 rt easeinsine
+a changecolor trial 205 2 0_0_0_145 rt linear
+a changecolor trial 207 2 0_0_0_0 rt easeoutsine
+
+a s_movetrail rt abs_position x 204 0 1.35 linear
+a s_movetrail rt abs_position y 204 0 2.35 easeoutcirc
+a s_movetrail rt abs_angle z 204 0 240 easeoutcirc
+
+a s_movetrail rt abs_position x 204.99 0 6.75 linear
+a s_movetrail rt abs_position y 204.99 0 0 easeoutcirc
+a s_movetrail rt abs_angle z 204.99 0 360 easeoutcirc
+
+a s_movetrail rt abs_position x 205 2 1.35 linear
+a s_movetrail rt abs_position y 205 2 2.35 easeoutcirc
+a s_movetrail rt abs_angle z 205 2 240 easeoutcirc
+
+a s_movetrail rt abs_position x 209 0 6.75 linear
+a s_movetrail rt abs_position y 209 0 0 easeoutcirc
+a s_movetrail rt abs_angle z 209 0 360 easeoutcirc
+/////////////////////////////////////
+
+/////////////////////////////////////
+a changecolor trial 210 0 0_0_0_145 lt easeoutquart
+a changecolor trial 210.01 1 0_0_0_0 lt easeinsine
+a changecolor trial 211 2 0_0_0_145 lt linear
+a changecolor trial 213 2 0_0_0_0 lt easeoutsine
+
+a s_movetrail lt abs_position x 210 0 -1.35 linear
+a s_movetrail lt abs_position y 210 0 2.35 easeoutcirc
+a s_movetrail lt abs_angle z 210 0 300 easeoutcirc
+
+a s_movetrail lt abs_position x 210.99 0 -6.75 linear
+a s_movetrail lt abs_position y 210.99 0 0 easeoutcirc
+a s_movetrail lt abs_angle z 210.99 0 180 easeoutcirc
+
+a s_movetrail lt abs_position x 211 2 -1.35 linear
+a s_movetrail lt abs_position y 211 2 2.35 easeoutcirc
+a s_movetrail lt abs_angle z 211 2 300 easeoutcirc
+
+a s_movetrail lt abs_position x 215 0 -6.75 linear
+a s_movetrail lt abs_position y 215 0 0 easeoutcirc
+a s_movetrail lt abs_angle z 215 0 180 easeoutcirc
+///////////////////////////////////////////////////////////////
+
+/////////////////////shooting_star//////////////////////////
+
+///////////////////////////////////////////////////////
+
+a changecolor trial 216 1 0_0_0_145 lt easeoutquart
+a changecolor trial 217.5 1 0_0_0_0 lt easeinquart
+
+a s_movetrail lt abs_position x 216 0 -1.35 linear
+a s_movetrail lt abs_position y 216 0 2.35 easeoutcirc
+a s_movetrail lt abs_angle z 215.99 0 300 easeoutcirc
+a s_movetrail lt abs_angle z 216 1.5 120 easeoutcirc
+
+////////////////////////////////////////////////
+
+a changecolor trial 219 1 0_0_0_145 rt easeoutquart
+a changecolor trial 220.5 1 0_0_0_0 rt easeinquart
+
+a s_movetrail rt abs_position x 219 0 1.35 linear
+a s_movetrail rt abs_position y 219 0 2.35 easeoutcirc
+a s_movetrail rt abs_angle z 218.99 0 240 easeoutcirc
+a s_movetrail rt abs_angle z 219 1.5 420 easeoutcirc
+
+////////////////////////////////////////////////
+
+a changecolor trial 222 1 0_0_0_145 rt easeoutquart
+a changecolor trial 223.5 1 0_0_0_0 rt easeinquart
+
+a s_movetrail rt abs_position x 222 0 1.35 linear
+a s_movetrail rt abs_position y 222 0 2.35 easeoutcirc
+a s_movetrail rt abs_angle z 221.99 0 240 easeoutcirc
+a s_movetrail rt abs_angle z 222 1.5 60 easeoutcirc
+
+///////////////////////////////////////////////////////
+
+a changecolor trial 225 1 0_0_0_145 lt easeoutquart
+a changecolor trial 226.5 1 0_0_0_0 lt easeinquart
+
+a s_movetrail lt abs_position x 225 0 -1.35 linear
+a s_movetrail lt abs_position y 225 0 2.35 easeoutcirc
+a s_movetrail lt abs_angle z 224.99 0 300 easeoutcirc
+a s_movetrail lt abs_angle z 225 1.5 480 easeoutcirc
+
+////////////////////////////////////////////////
+
+a changecolor trial 228 1 0_0_0_145 rt easeoutquart
+a changecolor trial 229.5 1 0_0_0_0 rt easeinquart
+
+a s_movetrail rt abs_position x 228 0 1.35 linear
+a s_movetrail rt abs_position y 228 0 2.35 easeoutcirc
+a s_movetrail rt abs_angle z 227.99 0 240 easeoutcirc
+a s_movetrail rt abs_angle z 228 1.5 60 easeoutcirc
+
+////////////////////////////////////////////////
+
+a changecolor trial 231 1 0_0_0_145 lt easeoutquart
+a changecolor trial 232.5 1 0_0_0_0 lt easeinquart
+
+a s_movetrail lt abs_position x 231 0 -1.35 linear
+a s_movetrail lt abs_position y 231 0 2.35 easeoutcirc
+a s_movetrail lt abs_angle z 230.99 0 300 easeoutcirc
+a s_movetrail lt abs_angle z 231 1.5 120 easeoutcirc
+
+////////////////////////////////////////////////
+
+a changecolor trial 234 1 0_0_0_145 rt easeoutquart
+a changecolor trial 235.5 1 0_0_0_0 rt easeinquart
+
+a s_movetrail rt abs_position x 234 0 1.35 linear
+a s_movetrail rt abs_position y 234 0 2.35 easeoutcirc
+a s_movetrail rt abs_angle z 233.99 0 240 easeoutcirc
+a s_movetrail rt abs_angle z 234 1.5 420 easeoutcirc
+
+a changecolor trial 237 1 0_0_0_145 lt easeoutquart
+a changecolor trial 240 1 0_0_0_145 rt easeoutquart
+
+//////////////////////////////////////////////////
+
+a s_movestage abs_angle z 168 1.5 -1.875 easeoutsine
+a s_movestage abs_angle z 169.5 1.5 0 easeinsine
+a s_movestage abs_angle z 174 1.5 1.875 easeoutsine
+a s_movestage abs_angle z 175.5 1.5 0 easeinsine
+a s_movestage abs_angle z 180 1.5 -1.875 easeoutsine
+a s_movestage abs_angle z 181.5 1.5 0 easeinsine
+a s_movestage abs_angle z 186 1.5 1.875 easeoutsine
+a s_movestage abs_angle z 187.5 1.5 0 easeinsine
+a s_movestage abs_angle z 192 1.5 -1.875 easeoutsine
+a s_movestage abs_angle z 193.5 1.5 0 easeinsine
+a s_movestage abs_angle z 198 1.5 1.875 easeoutsine
+a s_movestage abs_angle z 199.5 1.5 0 easeinsine
+a s_movestage abs_angle z 204 1.5 -1.875 easeoutsine
+a s_movestage abs_angle z 205.5 1.5 0 easeinsine
+a s_movestage abs_angle z 210 1.5 1.875 easeoutsine
+a s_movestage abs_angle z 211.5 1.5 0 easeinsine
+
+a s_movestage abs_position x 216 1.5 -0.0625 easeoutsine
+a s_movestage abs_position x 217.5 1.5 0 easeinsine
+a s_movestage abs_position x 219 1.5 0.0625 easeoutsine
+a s_movestage abs_position x 220.5 1.5 0 easeinsine
+a s_movestage abs_position x 222 1.5 0.0625 easeoutsine
+a s_movestage abs_position x 223.5 1.5 0 easeinsine
+a s_movestage abs_position x 225 1.5 -0.0625 easeoutsine
+a s_movestage abs_position x 226.5 1.5 0 easeinsine
+a s_movestage abs_position x 228 1.5 0.0625 easeoutsine
+a s_movestage abs_position x 229.5 1.5 0 easeinsine
+a s_movestage abs_position x 231 1.5 -0.0625 easeoutsine
+a s_movestage abs_position x 232.5 1.5 0 easeinsine
+a s_movestage abs_position x 234 1.5 0.0625 easeoutsine
+a s_movestage abs_position x 235.5 1.5 0 easeinsine
+
+a s_movestage abs_position z 237 18 4 easeinoutsine
+a s_movestage abs_position z 252 3 3 easeoutback
+a s_movestage abs_position z 255 3 2 easeoutback
+a s_movestage abs_position z 258 3 1 easeoutback
+a s_movestage abs_position z 261 3 0 easeoutback
+
+a s_movestage abs_angle z 258 1.5 1.875 easeoutsine
+a s_movestage abs_angle z 259.5 1.5 0 easeinsine
+a s_movestage abs_angle z 261 1.5 -1.875 easeoutsine
+a s_movestage abs_angle z 262.5 1.5 0 easeinsine
+
+a changecolor trial 261 1 0_0_0_0 lt lc lb rt rc rb easeinquart
+a changecolor trial 262 0.25 0_0_0_145 lt easeoutquart
+a changecolor trial 262.25 0.25 0_0_0_145 lc easeoutquart
+a changecolor trial 262.5 0.25 0_0_0_145 lb easeoutquart
+a changecolor trial 262.75 0.25 0_0_0_145 rb easeoutquart
+a changecolor trial 263 0.25 0_0_0_145 rc easeoutquart
+a changecolor trial 263.25 0.25 0_0_0_145 rt easeoutquart
+
+///////////////////second journey///////////////
+
+a s_movestage abs_angle z 264 1.5 7.5 easeoutsine
+a s_movestage abs_angle z 265.5 1.5 15 easeinsine
+a s_movestage abs_angle z 267 1.5 22.5 easeoutsine
+a s_movestage abs_angle z 268.5 1.5 30 easeinsine
+a s_movestage abs_angle z 270 1.5 22.5 easeoutsine
+a s_movestage abs_angle z 271.5 1.5 15 easeinsine
+a s_movestage abs_angle z 273 1.5 7.5 easeoutsine
+a s_movestage abs_angle z 274.5 1.5 0 easeinsine
+
+a s_movestage abs_position z 264 0.25 -0.125 easeoutsine
+a s_movestage abs_position z 264.25 0.25 0 easeinsine
+a s_movestage abs_position z 267 0.25 -0.25 easeoutsine
+a s_movestage abs_position z 267.25 0.25 0 easeinsine
+a s_movestage abs_position z 270 0.25 -0.125 easeoutsine
+a s_movestage abs_position z 270.25 0.25 0 easeinsine
+a s_movestage abs_position z 273 0.25 -0.25 easeoutsine
+a s_movestage abs_position z 273.25 0.25 0 easeinsine
+
+a s_movestage abs_position x 279 3 -0.0625 easeoutback
+a s_movestage abs_position x 285 3 0 easeoutback
+
+a s_movestage abs_position z 276 6 0.325 easeinsine
+a s_movestage abs_position z 282 6 0 easeinsine
+
+a s_movestage abs_angle z 276 6 -30 easeinsine
+a s_movestage abs_angle z 282 6 0 easeinsine
+
+a s_movestage abs_angle z 288 1.5 -7.5 easeoutsine
+a s_movestage abs_angle z 289.5 1.5 -15 easeinsine
+a s_movestage abs_angle z 291 1.5 -22.5 easeoutsine
+a s_movestage abs_angle z 292.5 1.5 -30 easeinsine
+a s_movestage abs_angle z 294 1.5 -22.5 easeoutsine
+a s_movestage abs_angle z 295.5 1.5 -15 easeinsine
+a s_movestage abs_angle z 297 1.5 -7.5 easeoutsine
+a s_movestage abs_angle z 298.5 1.5 0 easeinsine
+
+a s_movestage abs_position z 288 0.25 -0.125 easeoutsine
+a s_movestage abs_position z 288.25 0.25 0 easeinsine
+a s_movestage abs_position z 291 0.25 -0.25 easeoutsine
+a s_movestage abs_position z 291.25 0.25 0 easeinsine
+a s_movestage abs_position z 294 0.25 -0.125 easeoutsine
+a s_movestage abs_position z 294.25 0.25 0 easeinsine
+a s_movestage abs_position z 297 0.25 -0.25 easeoutsine
+a s_movestage abs_position z 297.25 0.25 0 easeinsine
+
+a s_movestage abs_position x 303 3 0.0625 easeoutback
+a s_movestage abs_position x 309 3 0 easeoutback
+
+a s_movestage abs_position z 300 6 0.75 easeinsine
+a s_movestage abs_position z 306 6 0 easeinsine
+
+a s_movestage abs_angle z 300 6 30 easeinsine
+a s_movestage abs_angle z 306 6 0 easeinsine
+
+a s_movestage abs_angle z 312 1.5 7.5 easeoutsine
+a s_movestage abs_angle z 313.5 1.5 15 easeinsine
+a s_movestage abs_angle z 315 1.5 7.5 easeoutsine
+a s_movestage abs_angle z 316.5 1.5 0 easeinsine
+a s_movestage abs_angle z 318 1.5 -7.5 easeoutsine
+a s_movestage abs_angle z 319.5 1.5 -15 easeinsine
+a s_movestage abs_angle z 321 1.5 -7.5 easeoutsine
+a s_movestage abs_angle z 322.5 1.5 0 easeinsine
+
+a s_movestage abs_position x 324 3 0.125 easeinsine
+a s_movestage abs_position y 324 3 0.125 easeinsine
+a s_movestage abs_position x 327 3 0 easeoutback
+a s_movestage abs_position y 327 3 0 easeoutback
+
+a s_movestage abs_position x 330 3 -0.125 easeinsine
+a s_movestage abs_position y 330 3 0.125 easeinsine
+a s_movestage abs_position x 333 3 0 easeoutback
+a s_movestage abs_position y 333 3 0 easeoutback
+
+a s_movestage abs_angle z 324 3 15 easeinsine
+a s_movestage abs_angle z 327 3 0 easeoutsine
+
+a s_movestage abs_angle z 330 3 -15 easeinsine
+a s_movestage abs_angle z 333 3 0 easeoutsine
+
+a s_movestage abs_position z 312 0.25 -0.125 easeoutsine
+a s_movestage abs_position z 312.25 0.25 0 easeinsine
+a s_movestage abs_position z 315 0.25 -0.25 easeoutsine
+a s_movestage abs_position z 315.25 0.25 0 easeinsine
+a s_movestage abs_position z 318 0.25 -0.125 easeoutsine
+a s_movestage abs_position z 318.25 0.25 0 easeinsine
+a s_movestage abs_position z 321 0.25 -0.25 easeoutsine
+a s_movestage abs_position z 321.25 0.25 0 easeinsine
+
+a s_movestage abs_angle z 336 1.5 -7.5 easeoutsine
+a s_movestage abs_angle z 337.5 1.5 -15 easeinsine
+a s_movestage abs_angle z 339 1.5 -7.5 easeoutsine
+a s_movestage abs_angle z 340.5 1.5 0 easeinsine
+a s_movestage abs_angle z 342 1.5 7.5 easeoutsine
+a s_movestage abs_angle z 343.5 1.5 15 easeinsine
+a s_movestage abs_angle z 345 1.5 7.5 easeoutsine
+a s_movestage abs_angle z 346.5 1.5 0 easeinsine
+
+a s_movestage abs_position x 336 3 0.03125 easeinsine
+a s_movestage abs_position y 336 3 0.03125 easeinsine
+a s_movestage abs_position x 339 3 0 easeoutback
+a s_movestage abs_position y 339 3 0 easeoutback
+
+a s_movestage abs_position x 342 3 -0.03125 easeinsine
+a s_movestage abs_position y 342 3 0.03125 easeinsine
+a s_movestage abs_position x 345 3 0 easeoutback
+a s_movestage abs_position y 345 3 0 easeoutback
+
+a changecolor trial 348 6 0_0_0_0 lb rb easeinsine
+
+a s_movestage abs_angle x 348 12 12.5 easeinsine
+a s_movestage abs_position y 348 12 -1 easeinsine
+
+/////////////////////endroll///////////////////
+a changecolor trial 360 3 0_0_0_100 lc easeinsine
+a changecolor trial 363 3 0_0_0_145 lc easeoutsine
+
+a changecolor trial 366 3 0_0_0_100 lt easeinsine
+a changecolor trial 369 3 0_0_0_145 lt easeoutsine
+
+a changecolor trial 372 3 0_0_0_100 rt easeinsine
+a changecolor trial 375 3 0_0_0_145 rt easeoutsine
+
+a changecolor trial 378 3 0_0_0_100 rc easeinsine
+a changecolor trial 381 3 0_0_0_145 rc easeoutsine
+
+a changecolor trial 384 1.5 0_0_0_100 lt easeoutsine
+a changecolor trial 385.5 1.5 0_0_0_145 lt easeoutsine
+
+a changecolor trial 390 1.5 0_0_0_100 rc easeoutsine
+a changecolor trial 391.5 1.5 0_0_0_145 rc easeoutsine
+
+a changecolor trial 396 3 0_0_0_100 lc easeinsine
+a changecolor trial 399 3 0_0_0_145 lc easeoutsine
+
+a changecolor trial 402 3 0_0_0_100 rt easeinsine
+a changecolor trial 405 3 0_0_0_145 rt easeoutsine
+
+a s_movestage abs_angle z 360 3 3.75 easeinsine
+a s_movestage abs_angle z 363 3 0 easeoutsine
+
+a s_movestage abs_angle z 366 3 -3.75 easeinsine
+a s_movestage abs_angle z 369 3 0 easeoutsine
+
+a s_movestage abs_angle z 372 3 3.75 easeinsine
+a s_movestage abs_angle z 375 3 0 easeoutsine
+
+a s_movestage abs_angle z 378 3 -3.75 easeinsine
+a s_movestage abs_angle z 381 3 0 easeoutsine
+
+a s_movestage abs_position z 384 3 0.25 easeoutsine
+a s_movestage abs_position z 390 3 0.5 easeoutsine
+
+a s_movestage abs_position z 396 6 1 easeinsine
+a s_movestage abs_position z 402 6 1.5 easeinsine
+
+a s_movetrail lc abs_position z 399 6 -50 easeinsine
+a s_movetrail rt abs_position z 405 6 -50 easeinsine
+a s_movetrail rc abs_position z 408 3 -50 easeinsine
+a s_movetrail lt abs_position z 408 3 -50 easeinsine
+a s_movetrail lb abs_position z 408 3 -50 easeinsine
+a s_movetrail rb abs_position z 408 3 -50 easeinsine
+
+define stageposition sylv_journey_stage 1.35,2.35,0 -5,0,240 4,-2.5,0 -7.5,0,90 1.35,-2.5,0 -7.5,0,90 -1.35,-2.5,0 -7.5,0,90 -4,-2.5,0 -7.5,0,90 -1.35,2.35,0 -5,0,300
+a changestage sylv_journey_stage 156 12 easeoutsine
+a changestage classichexagon 237 18 easeoutsine
