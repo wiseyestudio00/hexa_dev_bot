@@ -60,3 +60,6 @@
 2021-07-02 22:02:11.946791：大雄 上傳了 v.1.0/night blossoms/a day in the summer night
 2021-07-05 03:00:03.581863：錫爾/Sylvex 上傳了 v.1.0/journey's end/journey's end
 2021-07-05 03:02:31.951153：Sherwin Chen 上傳了 v.1.0/night blossoms/timeout
+<- 2021-07-06 更新以上 ->
+
+2021-07-06 01:54:21.657796：Jakasy(JK_c) 上傳了 v.1.0/night blossoms/timeout
