@@ -63,3 +63,4 @@
 <- 2021-07-06 更新以上 ->
 
 2021-07-06 01:54:21.657796：Jakasy(JK_c) 上傳了 v.1.0/night blossoms/timeout
+2021-07-06 03:16:38.263299：nishida1217 上傳了 v.1.0/core collection 1.0/depersonalization
