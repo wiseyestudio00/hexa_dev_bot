@@ -26,14 +26,14 @@ n short lc 11.5
 n short rc 12
 n short lb 12.5
 n short rc 12.75
-n long lb 13.5 15
-n catch rt 14
-n catch rt 14.25
-n catch rt 14.5
-n catch rt 14.75
-n catch rt 15
-n swipe out rt lb 15.5
-a movecamera angle 13.75 2.25 0 0 30 easeinoutsine
+n short lb rt 13.5
+n catch lb rt 14
+n catch lb rt 14.25
+n catch lb rt 14.5
+n catch lb rt 14.75
+n catch lb rt 15
+n catch lb rt lb 15.5
+a movecamera angle 13.5 2.5 0 0 30 easeinoutsine
 
 //前奏PART2(較強)
 
@@ -93,9 +93,9 @@ n short rc 26.75
 n short lb rt 27.5
 
 n short rc lc 28
-n short lb rt 28.5
-n long rt 28.75 29.5
-n long lb 28.75 30
+n short rt 28.5
+n short lc 28.75
+n short lb rt 29.5
 a movecamera angle 28.25 2 0 0 -30 easeinoutsine
 n swipe out rt 30
 n swipe out lc 30.333
@@ -355,14 +355,14 @@ n swipe out rc lc 123
 n swipe in rc lc 123.5
 n swipe out rc lc 124
 
-n long rc 125 127.5
-n catch lb 125
-n catch lb 125.75
-n catch lb 126
-n catch lb 126.5
-n catch lb 127
-n catch lb 127.5
-n catch lb 128
+n long rc 125 126
+n short lb 125
+n short lc 125.75
+n short lc 126
+n short lb 126.5
+n short lc rb 127
+n short rb 127.5
+n short lb 128
 n swipe in rc 128
 
 a movecamera position 128 7.5 0 0 -120 easeoutsine
@@ -408,54 +408,65 @@ a movecamera angle 158 0.1 0 0 22.5 linear
 a movecamera angle 159 0.1 0 0 22.5 linear
 
 n long rc 160 160.75
+n short lb 160
 n short lb 160.75
 n short rb 161
 n long lc 161.5 162.25
+n short rt 161.5
 n short rt 162.25
 n short lt 162.5
-n long rc 163 164
+n swipe out rc lc 163
+
 
 n long lc 164 164.75
+n short rb 164
 n short rb 164.75
 n short lb 165
 n long rc 165.5 166.25
+n short lt 165.5
 n short lt 166.25
 n short rt 166.5
-n short lc 167
-n swipe out lc 167.5
+n short lc rc 167
+n short lc 167.5
 
 n long lc 168 168.75
+n short rb 168
 n short rb 168.75
 n short lb 169
 n long rc 169.5 170.25
+n short lt 169.5
 n short lt 170.25
 n short rt 170.5
-n long lc 171 172
+n swipe out rc lc 171
 
 n long rc 172 172.75
+n short lb 172
 n short lb 172.75
 n short rb 173
 n long lc 173.5 174.25
+n short rt 173.5
 n short rt 174.25
 n short lt 174.50
-n short rc 175
-n swipe out rc 175.5
-n short lb 176
-n short lb 176.5
-n short lc 177
+n short rc lc 175
+n short rc 175.5
+
+n short lt rt 176
+n short lt 176.5
+n short lt rt 177
 n short lt 177.5
-n short rb 178
-n short rb 178.5
-n short rc 179
-n short rt 179.5
-n short lb 180
-n short lc 180.5
-n short lt 181
-n short lt 181.5
-n short rb 182
-n short rc 182.5
-n short rt 183
-n short rt 183.5
+n short lt rc 178
+n short lt 178.5
+n short lt rb 179
+n short lt 179.5
+
+n short rb lb 180
+n short rb 180.5
+n short rb lb 181
+n short rb 181.5
+n short rb lc 182
+n short rb 182.5
+n short rb lt 183
+n short rb 183.5
 
 n short lb 184
 n short lb 184.25
@@ -510,6 +521,7 @@ a movecamera position 162 0.2 0 0 0.2 linear
 a movecamera position 162.2 0.2 0 0 -0.2 linear
 a movecamera position 163 0.2 0 0 0.2 linear
 a movecamera position 163.2 0.2 0 0 -0.2 linear
+
 a movecamera position 164 0.2 0 0 0.2 linear
 a movecamera position 164.4 0.2 0 0 -0.2 linear
 a movecamera position 165 0.2 0 0 0.2 linear
