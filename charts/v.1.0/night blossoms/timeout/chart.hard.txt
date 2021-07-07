@@ -262,9 +262,11 @@ a changestage touchrblt 91.5 0.5 easeOutSine
 a changestage classichexagon 94 0.5 easeInSine
 
 define stageposition gone1 100,2.35,0 0,0,240 100,0,0 0,0,180 100,-2.35,0 0,0,120 100,-2.35,0 0,0,60 100,0,0 0,0,0 100,2.35,0 0,0,300
-a changestage gone1 95 0 easeInSine
-a changestage classichexagon 95.5 0 easeInSine
+define stageposition beforebloom 1.35,2.35,0 -1,1,240 2.7,0,0 0,1,180 1.35,-2.35,0 1,1,120 -1.35,-2.35,0 1,-1,60 -2.7,0,0 0,-1,0 -1.35,2.35,0 -1,-1,300
 
+
+a changestage gone1 95 0 easeInSine
+a changestage beforebloom 95.5 0 easeInSine
 
 
 //副歌
