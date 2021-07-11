@@ -3,8 +3,10 @@ a movecamera position 6 0.3 0 0 -0.3 linear
 a movecamera position 6.5 0.5 0 0 0.2 easeinsine
 a movecamera position 7 0.3 0 0 -0.3 linear
 a movecamera position 7.5 1.5 0 0 0.4 easeinsine
-a movecamera position 14 2 0 0 -1 easeoutsine
-a movecamera position 16 8 0 0 1 easeinoutsine
+a movecamera position 12 0.5 0 0 0.5 easeoutsine
+a movecamera position 13 0.5 0 0 -0.5 easeoutsine
+a movecamera position 14 2 0 0 -1.25 easeoutsine
+a movecamera position 16 8 0 0 1.25 easeinoutsine
 
 a movecamera position 31 0 0 0 50 linear
 a movecamera position 31.5 0 0 0 -50 linear
@@ -136,13 +138,98 @@ a movecamera position 138.5 1.5 0 0 0.6 easeoutsine
 a movecamera position 140 0.5 0 0 -0.6 easeoutsine
 a movecamera position 140.5 1.5 0 0 0.6 easeoutsine
 
-a movecamera position 104 4 0 0 -5 linear
-a movecamera position 108 4 0 0 5 easeinoutsine
+a movecamera position 104.5 3.5 0 0 -4.5 linear
+a movecamera position 108 4 0 0 4 easeinoutsine
+
+a movecamera position 112 1 0 0 0.3 easeoutsine
+a movecamera position 113 1 0 0 -0.3 easeoutsine
+a movecamera position 114 1 0 0 0.3 easeoutsine
+a movecamera position 115 1 0 0 -0.3 easeoutsine
+a movecamera position 116 1 0 0 0.3 easeoutsine
+a movecamera position 117 1 0 0 -0.3 easeoutsine
+a movecamera position 118 0.5 0 0 0.3 easeoutsine
+a movecamera position 118.5 0.5 0 0 -0.3 easeoutsine
+a movecamera position 119 0.5 0 0 0.3 easeoutsine
+a movecamera position 119.5 0.5 0 0 -0.3 easeoutsine
+
+a movecamera position 120 0.2 0 0 0.1 linear
+a movecamera position 120.2 0.2 0 0 -0.1 linear
+a movecamera position 120.5 0.2 0 0 0.1 linear
+a movecamera position 120.7 0.2 0 0 -0.1 linear
+a movecamera position 121 0.2 0 0 0.1 linear
+a movecamera position 121.2 0.2 0 0 -0.1 linear
+a movecamera position 121.5 0.2 0 0 0.1 linear
+a movecamera position 121.7 0.2 0 0 -0.1 linear
+a movecamera position 122 0.2 0 0 0.1 linear
+a movecamera position 122.2 0.2 0 0 -0.1 linear
+a movecamera position 122.5 0.2 0 0 0.1 linear
+a movecamera position 122.7 0.2 0 0 -0.1 linear
+a movecamera position 123 0.2 0 0 0.1 linear
+a movecamera position 123.2 0.2 0 0 -0.1 linear
+a movecamera position 123.5 0.2 0 0 0.1 linear
+a movecamera position 123.7 0.2 0 0 -0.1 linear
+a movecamera position 124 0.2 0 0 0.1 linear
+a movecamera position 124.2 0.2 0 0 -0.1 linear
+a movecamera position 124.5 0.2 0 0 0.1 linear
+a movecamera position 124.7 0.2 0 0 -0.1 linear
+a movecamera position 125 0.2 0 0 0.1 linear
+a movecamera position 125.2 0.2 0 0 -0.1 linear
+a movecamera position 125.5 0.2 0 0 0.1 linear
+a movecamera position 125.7 0.2 0 0 -0.1 linear
+a movecamera position 126 0.2 0 0 0.1 linear
+a movecamera position 126.2 0.2 0 0 -0.1 linear
+a movecamera position 126.5 0.2 0 0 0.1 linear
+a movecamera position 126.7 0.2 0 0 -0.1 linear
+a movecamera position 127 0.2 0 0 0.1 linear
+a movecamera position 127.2 0.2 0 0 -0.1 linear
+a movecamera position 127.5 0.2 0 0 0.1 linear
+a movecamera position 127.7 0.2 0 0 -0.1 linear
+a movecamera position 128 0.2 0 0 0.1 linear
+a movecamera position 128.2 0.2 0 0 -0.1 linear
+a movecamera position 128.5 0.2 0 0 0.1 linear
+a movecamera position 128.7 0.2 0 0 -0.1 linear
+a movecamera position 129 0.2 0 0 0.1 linear
+a movecamera position 129.2 0.2 0 0 -0.1 linear
+a movecamera position 129.5 0.2 0 0 0.1 linear
+a movecamera position 129.7 0.2 0 0 -0.1 linear
+a movecamera position 130 0.2 0 0 0.1 linear
+a movecamera position 130.2 0.2 0 0 -0.1 linear
+a movecamera position 130.5 0.2 0 0 0.1 linear
+a movecamera position 130.7 0.2 0 0 -0.1 linear
+a movecamera position 131 0.2 0 0 0.1 linear
+a movecamera position 131.2 0.2 0 0 -0.1 linear
+a movecamera position 131.5 0.2 0 0 0.1 linear
+a movecamera position 131.7 0.2 0 0 -0.1 linear
+a movecamera position 132 0.2 0 0 0.1 linear
+a movecamera position 132.2 0.2 0 0 -0.1 linear
+a movecamera position 132.5 0.2 0 0 0.1 linear
+a movecamera position 132.7 0.2 0 0 -0.1 linear
+a movecamera position 133 0.2 0 0 0.1 linear
+a movecamera position 133.2 0.2 0 0 -0.1 linear
+a movecamera position 133.5 0.2 0 0 0.1 linear
+a movecamera position 133.7 0.2 0 0 -0.1 linear
+a movecamera position 134 0.2 0 0 0.1 linear
+a movecamera position 134.2 0.2 0 0 -0.1 linear
+a movecamera position 134.5 0.2 0 0 0.1 linear
+a movecamera position 134.7 0.2 0 0 -0.1 linear
+a movecamera position 135 0.2 0 0 0.1 linear
+a movecamera position 135.2 0.2 0 0 -0.1 linear
 
 a movecamera position 142 2 0 0 -3 easeoutsine
 
-
 #旋轉舞台
+a movecamera angle 0 0.5 0 0 5 easeoutsine
+a movecamera angle 1 0.5 0 0 -5 easeoutsine
+a movecamera angle 2 0.5 0 0 -5 easeoutsine
+a movecamera angle 3 0.5 0 0 5 easeoutsine
+a movecamera angle 4 0.5 0 0 5 easeoutsine
+a movecamera angle 5 0.5 0 0 -5 easeoutsine
+
+a movecamera angle 8 0.5 0 0 5 easeoutsine
+a movecamera angle 9 0.5 0 0 -5 easeoutsine
+a movecamera angle 10 0.5 0 0 -5 easeoutsine
+a movecamera angle 11 0.5 0 0 5 easeoutsine
+
 a movecamera angle 16.5 16 0 0 30 easeinoutsine
 
 a movecamera angle 48 16 0 0 30 linear
@@ -170,6 +257,13 @@ define stageposition original 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0
 
 define stageposition main_2 2.7,0,0 0,0,180 1.35,2.35,0 0,0,240 -1.35,-2.35,0 0,0,60 1.35,-2.35,0 0,0,120 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
 
+define stageposition disappear 1.35,2.35,-30 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
+
+define stageposition disappear_2 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,-30 0,0,300
+
+define stageposition disappear_3 1.35,2.35,-30 0,0,240 2.7,0,-30 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,-30 0,0,60 -2.7,0,-30 0,0,0 -1.35,2.35,0 0,0,300
+
+define stageposition disappear_4 1.35,2.35,0 0,0,240 2.7,0,-30 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,-30 0,0,0 -1.35,2.35,0 0,0,300
 
 #切換舞台
 a changestage head 6 0.5 easeoutsine
@@ -190,6 +284,13 @@ a changestage main_2 70 1.5 easeoutsine
 
 a changestage original 86 1.5 easeoutsine
 
+a changestage square 104 3 easeinoutsine
+a changestage original 107.5 3.5 easeoutsine
+
+a changestage disappear 119 0 linear
+a changestage disappear_2 119.5 0 linear
+a changestage original 120 0 linear
+
 a changestage rest_2 136 0.5 easeoutsine
 a changestage original 136.5 1.5 easeinsine
 
@@ -199,45 +300,32 @@ a changestage original 138.5 1.5 easeinsine
 a changestage rest_2 140 0.5 easeoutsine
 a changestage original 140.5 1.5 easeinsine
 
-#加特效
-
+a changestage disappear_3 142 0 linear
+a changestage disappear_4 142.5 0 linear
+a changestage original 143 0 linear
 
 #正式譜面
 
 #Head
-n short lb rb 0
-n short lb 0.5
-n short rc 1
-n short rb lb 2
-n short rb 2.5
-n short lc 3
-n short rc lb 4
-n short rb 4.5
-n short rc 5
+n long lb rb 0 1.5
+n long lt rc 2 3.5
+n long lc rt 4 5.5
 
 n swipe out lt 6
 n swipe out rt 7
 
-n long lc 8 9
-n short lb 8
-n short rb 8.5
-n short rc 9
+n long lc lb 8 9.5
+n long rc rb 10 11.5
 
-n long rc 10 11
-n short rb 10
-n short lb 10.5
-n short lc 11
-
-n long lt 12 13
-n short rt 13
+n long lt rt 12 13.5
 
 n compound lb rb 14 15.5 8
 
 #A
 n long lc 16 16.5
-n swipe out rt 16.5
+n short rt 16.5
 
-n short rc lb 17
+n short rc 17
 n short rb 17.25
 n short lb 17.5
 n long rb 17.75 18.75
@@ -248,7 +336,7 @@ n short rt 19.25
 n short rt 19.5
 
 n long rb 20 20.5
-n swipe out lt 20.5
+n short lt 20.5
 
 n short lc 21
 n short lc 21.25
@@ -259,17 +347,17 @@ n short lb 22.25
 n short rb 22.5
 n short lb 22.75
 
-n swipe out rt 23
-n swipe out lt 23.25
-n swipe out rt 23.5
-n swipe out lt 23.75
+n short rt 23
+n short lt 23.25
+n short rt 23.5
+n short lt 23.75
 
 n long rc 24 24.5
-n swipe out lc 24.5
+n short lc 24.5
 
-n short lb 25
-n short rt 25.25
-n short lc 25.5
+n short rt 25
+n short lb 25.25
+n short rc 25.5
 n long lc 25.75 26.25
 
 n short rt 26.25
@@ -295,8 +383,8 @@ n long rc 33 33.75
 n short lt 33.5
 n short lt 33.75
 n long lb 34 34.5
-n catch rt 34.5
-n catch rc 34.75
+n short rt 34.5
+n short rc 34.75
 
 #----
 n short lc 35
@@ -314,9 +402,8 @@ n short lt 37.25
 n short lc 37.5
 
 n long rc 38 38.5
-n short lb 38.5
-n catch lc 39
-n catch lc 39.25
+n swipe out lb 38.5
+n long lc 39 39.5
 n swipe out rt 39.5
 
 n short rc 40.25
@@ -327,8 +414,8 @@ n long lb 41 41.75
 n short lt 41.5
 n short lt 41.75
 n long rc 42 42.5
-n catch lc 42.5
-n catch lb 42.75
+n short lc 42.5
+n short lb 42.75
 
 #----
 n short rt 43
@@ -347,26 +434,27 @@ n short rt 45.5
  
 n long lb 46 46.5
 n short rc 46.5
-n swipe out lc 47
+n short lc 47
 n swipe out rt 47.5
 
 #B
 n short lc rc 48
 n short lc 48.5
+n short lc 48.75
 n short rt lb 49
 n short rt 49.5
 
 n short rb rc 50
-n short rb 50.5
-n short rc 51
-n short rb 51.5
+n short rc 50.5
+n short rc 50.75
+n short rb 51
+n short rb rc 51.5
 
-n catch rt 52
-n catch rt 52.5
-n catch rt 53
-n catch rt 53.5
-
-n long lc 52 53.5
+n short rt lc 52
+n short lb 52.5
+n short lb 52.75
+n short rc 53
+n short rt lb 53.5
 
 n short lc 54
 n short lc rc 54.5
@@ -375,20 +463,23 @@ n short lb 55.25
 n short rb 55.5
 n short lb 55.75
 
-n long rt 56 57
+n long rt 56 56.5
 n swipe in lt 56.5
-n long lc 57 58
+n short rt 56.75
+n long rt 57 57.5
 n swipe in lt 57.5
 
-n long rt 58 60
+n long rt 58 58.5
 n swipe in rb 58.5
-n swipe out rb 59
+n short rt 58.75
+n long rt 59 59.5
 n swipe in rb 59.5
 
-n long lb 60 62
-n short rc 60.5
-n short rc 61
-n short rc 61.5
+n long lb 60 60.5
+n swipe in lt 60.5
+n short lb 60.75
+n long lb 61 61.5
+n swipe in lt 61.5
 
 n short lt 62
 n short lb 62.25
@@ -397,7 +488,7 @@ n short rb 62.75
 n short rc 63
 
 n short rb 63.5
-
+n short rc 63.75
 n swipe out lb rt 64
 
 n short lt 65.5
@@ -412,6 +503,7 @@ n short rc 69.5
 n short rc 69.75
 n short rb 70
 
+n short lt 71
 n catch lc 71.25
 n catch lc 71.5
 
@@ -438,15 +530,19 @@ n swipe out lt 76.5
 
 n short lb 76.75
 n short rc 77
-n short rt 77.25
-n short rc 77.5
+n long rc 77.25 77.5
+n swipe in rt 77.5
 
 n short rb 78
-n short lt 78.5
+n swipe out lt 78.5
 n short rt 79
-n swipe out rc 78
+n swipe out lb 79.5
+
+n short rc 78
 n swipe out lb 78.5
-n swipe out lc 79
+n short lc 79
+n swipe out lt 79.5
+
 
 #----------------
 
@@ -472,16 +568,17 @@ n swipe out rb 84.5
 
 n short rc 84.75
 n short lb 85
-n short rt 85.25
-n short lb 85.5
+n long lb 85.25 85.5
+n swipe in rt 85.5
 
-n short rt 86
-n catch lt 87
-n catch lt 87.5
+n short rb rc 86
+n short lc 86.5
+n short lt 87
+n short lc 87.5
 
 #A
 n long rt 88 88.5
-n swipe out lc 88.5
+n short lc 88.5
 
 n short lb rc 89
 n short rb 89.25
@@ -494,7 +591,7 @@ n short lc 91.25
 n short lc 91.5
 
 n long rb 92 92.5
-n swipe out lt 92.5
+n short lt 92.5
 
 n short rt 93
 n short rt 93.25
@@ -505,13 +602,13 @@ n short rc 94.25
 n short rb 94.5
 n short rc 94.75
 
-n swipe out lc 95
-n swipe out lt 95.25
-n swipe out lc 95.5
-n swipe out lt 95.75
+n short lc 95
+n short lt 95.25
+n short lc 95.5
+n short lt 95.75
 
 n long lb 96 96.5
-n swipe out rt 96.5
+n short rt 96.5
 
 n short rc 97
 n short lc 97.25
@@ -529,14 +626,12 @@ n short rt 99.75
 n long lc 100.5 101
 n long rb 101 101.25
 
-n long lb 101.5 102.5
-n long rc 101.75 103
+n long lb 101.5 103
+n long rc 101.75 102.5
 
-n catch lc 103
-n catch lt 103.125
-n catch rt 103.25
-n catch rc 103.375
-n catch rb 103.5
+n short rt 103
+n short lt 103.25
+n short rt 103.5
 
 n swipe out lc 104
 
@@ -570,20 +665,21 @@ n catch rb 119.625
 #B
 n short rc lc 120
 n short rc 120.5
+n short rc 120.75
 n short lt rb 121
 n short lt 121.5
 
 n short lb lc 122
-n short lb 122.5
-n short lc 123
-n short lb 123.5
+n short lc 122.5
+n short lc 122.75
+n short lb 123
+n short lb lc 123.5
 
-n catch lt 124
-n catch lt 124.5
-n catch lt 125
-n catch lt 125.5
-
-n long rc 124 125.5
+n short lt rc 124
+n short rb 124.5
+n short rb 124.75
+n short lc 125
+n short lt rb 125.5
 
 n short rc 126
 n short rc lc 126.5
@@ -592,20 +688,23 @@ n short rb 127.25
 n short lb 127.5
 n short rb 127.75
 
-n long lt 128 129
+n long lt 128 128.5
 n swipe in rt 128.5
-n long rc 129 130
+n short lt 128.75
+n long lt 129 129.5
 n swipe in rt 129.5
 
-n long lt 130 132
+n long lt 130 130.5
 n swipe in lb 130.5
-n swipe out lb 131
+n short lt 130.75
+n long lt 131 131.5
 n swipe in lb 131.5
 
-n long rb 132 134
-n short lc 132.5
-n short lc 133
-n short lc 133.5
+n long rb 132 132.5
+n swipe in rt 132.5
+n short rb 132.75
+n long rb 133 133.5
+n swipe in rt 133.5
 
 n short rt 134
 n short rb 134.25
@@ -614,7 +713,7 @@ n short lb 134.75
 n short lc 135
 
 n short lb 135.5
-
+n short lc 135.75
 n swipe out rb lt 136
 
 n short rt 137.5
