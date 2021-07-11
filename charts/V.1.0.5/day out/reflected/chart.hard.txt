@@ -765,7 +765,7 @@ n catch rb 37
 //half-turn
 n catch lt 39
 n catch rt 39.333333
-n long rc 39.666666 41.5
+n clong rc 39.666666 41.5
 
 n catch rb 40
 n catch rb 40.5
@@ -1112,7 +1112,7 @@ n swipe in lb 198
 
 n catch rc 199
 n catch rt 199.333333
-n long lt 199.666667 202.5
+n clong lt 199.666667 202.5
 
 n swipe out rb 200.5
 n swipe out rb 201.5
