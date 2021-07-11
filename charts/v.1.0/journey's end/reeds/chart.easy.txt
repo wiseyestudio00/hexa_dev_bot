@@ -4,7 +4,6 @@ n short rb 6
 n short rb 12
 n short rc 18
 
-n short rc 21
 n short rc 24
 n short lc 24
 n short lc 27
