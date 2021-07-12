@@ -1403,10 +1403,10 @@ n catch lc 242.25
 n catch lc 242.50
 n catch lc 242.75
 
-n short rc 243
-n short lb 243.5
-n short rt 244
-n short lc 244.5
+n short rt 243
+n short rc 243.5
+n short lc 244
+n short lb 244.5
 
 n short lt 245
 n catch rt 245.25
@@ -1991,11 +1991,11 @@ n catch lc 472.5
 n catch lc 472.75
 
 n short lb 473
-n short rt 473.5
-n short lt 474
+n short rb 473.5
+n short rc 474
 
-n swipe in lc rc 474.5
-n swipe out lt rb 475.5
+n swipe in rt lb 474.5
+n swipe out lc rc 475.5
 
 
 n short rc 477
