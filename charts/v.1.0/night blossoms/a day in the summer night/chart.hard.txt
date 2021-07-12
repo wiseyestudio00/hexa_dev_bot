@@ -361,9 +361,9 @@ n catch rb 106
 n catch rb 107
 n catch rb 108
 n catch rb 109
-a movecamera angle 110 1.5 30 0 180 easeinoutsine
-a movecamera position 110 1.5 0 5 3 easeinoutsine
-a changestage butterfly_6 110 1.5 easeinoutsine
+a movecamera angle 110.2 1.5 0 0 180 easeoutsine
+//a movecamera position 110 1.5 0 5 3 easeinoutsine
+//a changestage butterfly_6 110 1.5 easeinoutsine
 n short rb 112
 n short rc 112.25
 n short rt 112.5
@@ -372,32 +372,38 @@ n short lb 114
 n short lc 114.25
 n short lt 114.5
 n long lt 114.75 117.5
-n short rc 116
+n short rb 116
 n short rb 116.25
 n short rc 116.5
 n long rt 116.75 119.5
-n short lc 118
+n short lb 118
 n short lb 118.25
 n short lc 118.5
 n long lt 118.75 121.5
-n short rb 120
+n short rc 120
 n short rc 120.25
-n short rb 120.5
+n short rt 120.5
 n long rt 120.75 123.5
-n short lb 122
+n short lc 122
 n short lc 122.25
-n short lb 122.5
+n short lt 122.5
 n long lt 122.75 123.5
-n short rb lb 124
-n short rb rt 124.5
-n short rb lb 125
-n short lt lb 125.5
-n swipe in lt 126
-n swipe out rt 126
+n short rc lb 124
+n short lt rt 124.5
+n short rb lc 125
+n short lt rt 125.5
+//n swipe in lc 126
+n swipe out lc 126
 
-a changestage 001 126 2 easeinoutsine
-a movecamera position 126 2 -4 -5 1 easeOutSine
-a movecamera angle 126 2 -30 45 0 easeinoutsine
+//a changestage 001 126 2 easeinoutsine
+//a movecamera position 126 2 -3 0 5 easeOutSine
+//a movecamera angle 126 2 0 45 0 easeinoutsine
+
+a s_movetrail lt position x 126.2 1.8 -12 easeinoutsine
+a s_movetrail lt position y 126.2 1.8 20 easeinoutsine
+a s_movetrail lc abs_position x 126.2 1.8 -36 easeinoutsine
+a s_movetrail lb position x 126.2 1.8 -12 easeinoutsine
+a s_movetrail lb position y 126.2 1.8 -20 easeinoutsine
 
 n short rt 128.5
 n short rt 128.75
@@ -436,9 +442,21 @@ n short rc rb 141
 n short rc rt 141.5
 n swipe out rt rb 142
 
-a changestage 002 142 2 easeinoutsine
-a s_movecamera abs_angle y 142 2 -45 easeinoutsine
-a movecamera position 142 2 8 0 0 easeOutSine
+//a changestage 002 142 2 easeinoutsine
+//a s_movecamera abs_angle y 142 2 -45 easeinoutsine
+//a movecamera position 142 2 8 0 0 easeOutSine
+
+a s_movetrail rt position x 142.2 1.8 12 easeinoutsine
+a s_movetrail rt position y 142.2 1.8 20 easeinoutsine
+a s_movetrail rc abs_position x 142.2 1.8 36 easeinoutsine
+a s_movetrail rb position x 142.2 1.8 12 easeinoutsine
+a s_movetrail rb position y 142.2 1.8 -20 easeinoutsine
+
+a s_movetrail lt position x 142.2 1.8 12 easeinoutsine
+a s_movetrail lt position y 142.2 1.8 -20 easeinoutsine
+a s_movetrail lc abs_position x 142.2 1.8 -2.7 easeinoutsine
+a s_movetrail lb position x 142.2 1.8 12 easeinoutsine
+a s_movetrail lb position y 142.2 1.8 20 easeinoutsine
 
 n short lt 144.5
 n short lt 144.75
@@ -476,10 +494,10 @@ n short lc lt 156.5
 n short lc lb 157
 n short lc lt 157.5
 
-a s_movecamera abs_position z 158 1.5 -6.2 easeInOutSine
-a s_movecamera abs_position x 158 1.5 0 easeInOutSine
-a s_movecamera abs_position y 158 1.5 0 easeInOutSine
-a s_movecamera angle y 158 1.5 45 easeInOutSine
+//a s_movecamera abs_position z 158 1.5 -6.2 easeInOutSine
+//a s_movecamera abs_position x 158 1.5 0 easeInOutSine
+//a s_movecamera abs_position y 158 1.5 0 easeInOutSine
+//a s_movecamera angle y 158 1.5 45 easeInOutSine
 
 a changestage classichexagon 158 2 easeinoutsine
 a movecamera angle 160 15 0 0 90 easeinoutsine
