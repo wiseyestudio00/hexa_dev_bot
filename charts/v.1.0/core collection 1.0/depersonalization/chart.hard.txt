@@ -67,10 +67,10 @@ a s_movecamera position z 51.25 0.75 -0.1 EaseInSine
 
 
 //bounce position
-a s_movestage abs_position x 53 2 -0.15 EaseOutSine
-a s_movestage abs_position y 53 2 -0.259807 EaseOutSine
-a s_movestage abs_position x 55 4 0.15 EaseInOutSine
-a s_movestage abs_position y 55 4 0.259807 EaseInOutSine
+a s_movestage abs_position x 53 2 0.15 EaseOutSine
+a s_movestage abs_position y 53 2 0.259807 EaseOutSine
+a s_movestage abs_position x 55 4 -0.15 EaseInOutSine
+a s_movestage abs_position y 55 4 -0.259807 EaseInOutSine
 a s_movestage abs_position x 59 2 0 EaseInSine
 a s_movestage abs_position y 59 2 0 EaseInSine
 
@@ -440,11 +440,34 @@ a movecamera angle 224.5 0.5 0 0 -7.5 Linear
 
 a movecamera angle 229 8 0 0 30 EaseInOutSine
 
+a movecamera angle 237 0.5 0 0 2 EaseOutSine
+a movecamera angle 238 0.5 0 0 -4 EaseOutSine
+a movecamera angle 239 0.5 0 0 4 EaseOutSine
+a movecamera angle 240 0.5 0 0 -4 EaseOutSine
+a movecamera angle 241 0.5 0 0 4 EaseOutSine
+a movecamera angle 242 0.5 0 0 -2 EaseOutSine
+
+
 /8th stutter 
 a movecamera angle 243 0 0 0 -2 Linear
 a movecamera angle 243.5 0 0 0 +2 Linear
 a movecamera angle 244 0 0 0 +2 Linear
 a movecamera angle 244.5 0 0 0 -2 Linear
+a movecamera position 243 0 0 0 -0.5 Linear
+a movecamera position 243.5 0 0 0 -0.5 Linear
+a movecamera position 244 0 0 0 0.5 Linear
+a movecamera position 244.5 0 0 0 0.5 Linear
+
+
+
+a movecamera angle 245 0.5 0 0 2 EaseOutSine
+a movecamera angle 246 0.5 0 0 -4 EaseOutSine
+a movecamera angle 247 0.5 0 0 4 EaseOutSine
+a movecamera angle 248 0.5 0 0 -2 EaseOutSine
+a movecamera angle 249 0.5 0 0 -2 EaseOutSine
+a movecamera angle 250 0.5 0 0 2 EaseOutSine
+
+
 
 /16th stutter 
 a movecamera angle 251 0 0 0 3.75 Linear
@@ -459,6 +482,13 @@ a movecamera angle 252.75 0 0 0 3.75 Linear
 /bridge rotate
 a s_movecamera angle z 253 16 120 EaseInOutSine 
 
+a s_movecamera position z 263 0 0.1 Linear
+a s_movecamera position z 263.25 0 0.1 Linear
+a s_movecamera position z 263.5 0 0.1 Linear
+a s_movecamera position z 263.75 0 0.1 Linear
+a s_movecamera position z 264 0 0.1 Linear
+
+a s_movecamera position z 265 4 -0.5 EaseOutSine
 /quiet part zoom out sway
 a movecamera position 269 8 0 0 -2 Linear
 a movecamera angle 269 4 0 0 -15 EaseInOutSine
@@ -1373,7 +1403,10 @@ n catch lc 242.25
 n catch lc 242.50
 n catch lc 242.75
 
-
+n short rc 243
+n short lb 243.5
+n short rt 244
+n short lc 244.5
 
 n short lt 245
 n catch rt 245.25
@@ -1474,14 +1507,18 @@ n catch lt 268.25
 n catch lc 268.5
 n catch lb 268.75
 //change to catch long
-n long rb 269 276.5
+n clong rb 269 276.5
 
 n catch rb 277
+n catch rb 277.5
+n catch rc 278
 n long lc 273 278.5
-n long rc 278.5 284.5
+n clong rc 278.5 284.5
 n long lt 281 292
 n catch rc 285
-n long rb 286.5 292
+n catch rc 285.5
+n catch rb 286
+n clong rb 286.5 292
 
 
 
@@ -1640,29 +1677,30 @@ n catch lc 380.25
 n catch lt 380.5
 /n catch rt 380.75
 
-n short lb 381
-n short rc 381.5
-n short lc 382
-n long rb 382.5 383.5
-n swipe in lt 383.5
+n short rb 381
+n short lc 381.5
+n short rc 382
+n long lb 382.5 383.5
+n swipe in rt 383.5
  
 
-n short lb 384.5
-n short rc 385
-n short rb 385.5
-n short lc 386
-n short lb 386.5
+n short rb 384.5
+n short lc 385
+n short lb 385.5
+n short rc 386
+n short rb 386.5
 
-n short rb 387
-n catch rc 387.25
-n catch rt 387.5
-/n catch lt 387.75
+n short lb 387
+n catch lc 387.25
+n catch lt 387.5
+/n catch rt 387.75
 
-n short lc 388
-n short lt 388.5
-n swipe in rt 389
+n short rc 388
+n short rt 388.5
+n swipe in lt 389
 
-n short rb lt 390
+n short lb rt 390
+
 n long rc lc 390.5 391.5
 n short rb lt 392
 n short lc rc 392.5
@@ -1952,7 +1990,7 @@ n catch lc 472.25
 n catch lc 472.5
 n catch lc 472.75
 
-n short lt 473
+n short lb 473
 n short rt 473.5
 n short lt 474
 
@@ -2051,8 +2089,8 @@ n catch lb 500.25
 n catch lc 500.5
 n catch lt 500.75
 //change to catch long
-n long rt 501 509
-n long lb 501.5 509
+n clong rt 501 509
+n clong lb 501.5 509
 
 
 
@@ -2618,6 +2656,7 @@ a s_movecamera position z 476.00 0.25 0.2 EaseOutQuad
 a s_movecamera position z 476.25 0.75 -0.2 Easeinsine
 
 changelog:
-2021-06-29 已上傳
-2021-07-06 把部分short改成catch(迎合Build 38 short判定改變)
-
+2021-06-29  已上傳
+2021-07-06 03:16 把部分short改成catch(迎合Build 38 short判定改變)
+2021-07-06 04:35 把部分long 改成clong
+2021-07-13 00:25 再把部分long改成clong，增加少量運鏡
