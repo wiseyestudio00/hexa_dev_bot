@@ -396,8 +396,8 @@ n short lt rt 125.5
 n swipe out lc 126
 
 //a changestage 001 126 2 easeinoutsine
-//a movecamera position 126 2 -3 0 5 easeOutSine
-//a movecamera angle 126 2 0 45 0 easeinoutsine
+a movecamera position 126 2 -3 0 2 easeOutSine
+a movecamera angle 126 2 0 45 0 easeinoutsine
 
 a s_movetrail lt position x 126.2 1.8 -12 easeinoutsine
 a s_movetrail lt position y 126.2 1.8 20 easeinoutsine
@@ -443,8 +443,8 @@ n short rc rt 141.5
 n swipe out rt rb 142
 
 //a changestage 002 142 2 easeinoutsine
-//a s_movecamera abs_angle y 142 2 -45 easeinoutsine
-//a movecamera position 142 2 8 0 0 easeOutSine
+a s_movecamera abs_angle y 142 2 -45 easeinoutsine
+a movecamera position 142 2 6 0 0 easeOutSine
 
 a s_movetrail rt position x 142.2 1.8 12 easeinoutsine
 a s_movetrail rt position y 142.2 1.8 20 easeinoutsine
@@ -494,10 +494,10 @@ n short lc lt 156.5
 n short lc lb 157
 n short lc lt 157.5
 
-//a s_movecamera abs_position z 158 1.5 -6.2 easeInOutSine
-//a s_movecamera abs_position x 158 1.5 0 easeInOutSine
-//a s_movecamera abs_position y 158 1.5 0 easeInOutSine
-//a s_movecamera angle y 158 1.5 45 easeInOutSine
+a s_movecamera abs_position z 158 1.5 -6.2 easeInOutSine
+a s_movecamera abs_position x 158 1.5 0 easeInOutSine
+a s_movecamera abs_position y 158 1.5 0 easeInOutSine
+a s_movecamera angle y 158 1.5 45 easeInOutSine
 
 a changestage classichexagon 158 2 easeinoutsine
 a movecamera angle 160 15 0 0 90 easeinoutsine
