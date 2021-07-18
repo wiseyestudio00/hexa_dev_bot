@@ -257,14 +257,6 @@ define stageposition original 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0
 
 define stageposition main_2 2.7,0,0 0,0,180 1.35,2.35,0 0,0,240 -1.35,-2.35,0 0,0,60 1.35,-2.35,0 0,0,120 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
 
-define stageposition disappear 1.35,2.35,-30 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
-
-define stageposition disappear_2 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,-30 0,0,300
-
-define stageposition disappear_3 1.35,2.35,-30 0,0,240 2.7,0,-30 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,-30 0,0,60 -2.7,0,-30 0,0,0 -1.35,2.35,0 0,0,300
-
-define stageposition disappear_4 1.35,2.35,0 0,0,240 2.7,0,-30 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,-30 0,0,0 -1.35,2.35,0 0,0,300
-
 #切換舞台
 a changestage head 6 0.5 easeoutsine
 a changestage original 6.5 1.5 easeoutsine
@@ -280,16 +272,12 @@ a changestage original 66.5 1.5 easeinsine
 a changestage rest 68 0.5 easeoutsine
 a changestage original 68.5 1.5 easeinsine
 
-a changestage main_2 70 1.5 easeoutsine
+a changestage main_2 70 1.5 easeinoutsine
 
-a changestage original 86 1.5 easeoutsine
+a changestage original 86 1.5 easeinoutsine
 
-a changestage square 104 3 easeinoutsine
+a changestage square 104.25 2.75 easeinoutsine
 a changestage original 107.5 3.5 easeoutsine
-
-a changestage disappear 119 0 linear
-a changestage disappear_2 119.5 0 linear
-a changestage original 120 0 linear
 
 a changestage rest_2 136 0.5 easeoutsine
 a changestage original 136.5 1.5 easeinsine
@@ -300,9 +288,20 @@ a changestage original 138.5 1.5 easeinsine
 a changestage rest_2 140 0.5 easeoutsine
 a changestage original 140.5 1.5 easeinsine
 
-a changestage disappear_3 142 0 linear
-a changestage disappear_4 142.5 0 linear
-a changestage original 143 0 linear
+#顏色/透明度切換
+a changecolor trial 117.5 1.5 0_0_0_0 rt lt easeinsine
+a changecolor trial 119 0 0_0_0_145 lt linear
+a changecolor trial 119.5 0 0_0_0_145 rt linear
+a changecolor hitbox_default 117.5 1 0_0_0_0 rt lt easeinsine
+a changecolor hitbox_default 119 0 255_255_255_255 lt linear
+a changecolor hitbox_default 119.5 0 255_255_255_255 rt linear
+
+a changecolor trial 142 0.75 0_0_0_0 rt rc lb lc easeinsine
+a changecolor trial 143.25 0 0_0_0_145 lb rt linear
+a changecolor trial 143.5 0 0_0_0_145 rc lc linear
+a changecolor hitbox_default 142 0.5 0_0_0_0 rt rc lb lc easeinsine
+a changecolor hitbox_default 143.25 0 255_255_255_255 lb rt linear
+a changecolor hitbox_default 143.5 0 255_255_255_255 rc lc linear
 
 #正式譜面
 
@@ -731,4 +730,4 @@ n long rb 142 143.25
 
 n short lt 143.25
 n short rb 143.5
-n swipe out rt lb 144
+n swipe out lt rb 144
