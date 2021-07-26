@@ -80,5 +80,4 @@
 2021-07-14 23:14:56.126429：錫爾/Sylvex 上傳了 v.1.0/journey's end/journey's end
 2021-07-17 16:05:35.533111：大雄 上傳了 v.1.0/night blossoms/a day in the summer night
 2021-07-18 21:47:55.081187：MF- 上傳了 v.1.0/night blossoms/fortune days
-2021-07-26 22:28:35.819130：Sherwin Chen 上傳了 v.1.0/core collection 1.0
-2021-07-26 22:28:44.392027：Sherwin Chen 上傳了 v.1.0/core collection 1.0
+
