@@ -271,8 +271,8 @@ n swipe in rb 260.5
 n swipe in lb 261.5
 n swipe in lc 262.5
 
-n short rt lt 263.5
-n short rt lt 264
+n short lt 263.5
+n short rt 264
 n short rc 265
 n short rt 266
 n short lt 266.5
@@ -282,8 +282,8 @@ n swipe in lb 268.5
 n swipe in rb 269.5
 n swipe in rc 270.5
 
-n short rt lt 271.5
-n short rt lt 272
+n short rt 271.5
+n short lt 272
 n short lc 273
 n short lt 274
 n short rt 274.5
@@ -326,8 +326,8 @@ n swipe out rb 292.5
 n swipe out lb 293.5
 n swipe out lc 294.5
 
-n short rt lt 295.5
-n short rt lt 296
+n short lt 295.5
+n short rt 296
 n short rc 297
 n short rt 298
 n short lt 298.5
@@ -452,37 +452,31 @@ n short lb 353
 n short rc 354
 n swipe out lt 355
 n short rb 355
-
-n short lb 357
-n short rb 357
-n short lb 358
+n short rc 356
+n short lc 357
 n short rb 358
-n swipe out rc 359
-n swipe out lc 359
+n short lb 359
+
 
 n swipe out lt 361
 n short rb 361
 n short lc 362
 n swipe out rt 363
 n short lb 363
-n short lb 365
-n short rb 365
+n short lc 364
+n short rc 365
 n short lb 366
-n short rb 366
-n swipe out rc 367
-n swipe out lc 367
+n short rb 367
 
 n swipe out rt 369
 n short lb 369
 n short rc 370
 n swipe out lt 371
 n short rb 371
-n short lb 373
-n short rb 373
-n short lb 374
+n short rc 372
+n short lc 373
 n short rb 374
-n swipe out rc 375
-n swipe out lc 375
+n short lb 375
 
 n catch rc 376
 n catch rc 376.5
@@ -503,30 +497,30 @@ n short lc 383.5
 
 n long rt 384 392
 n short lt 388
-n short lc 390
+
 n long lb 392 400
 n short rb 396
-n short rc 398
+
 n long rt 400 408
 n short lt 404
-n short lc 406
+
 
 n long lb 408 409.5
 n long rc 409.5 411
 n long lc 411 412.5
-n long rb 412.5 414
-n short lt 414
-n short lc 415
 
-n short lb 416
+
+
+n short rb 416
 n short rc 420
 n short lt 424
 n short rb 428
 n short lc 432
 n short rt 436
 n short lb 440
+n short lc 441.5
 
-n long rb 444 448
+n long rb 443 448
 
 
 
@@ -614,15 +608,13 @@ a changestage aaa 353 0.75 easeinoutsine
 a changestage motomoto 353.75 0.75 easeinoutsine
 a changestage fff 355 0.75 easeinoutsine
 a changestage motomoto 355.75 0.75 easeinoutsine
-a changestage hhh 359 0.75 easeinoutsine
-a changestage motomoto 359.75 0.75 easeinoutsine
+
 
 a changestage fff 361 0.75 easeinoutsine
 a changestage motomoto 361.75 0.75 easeinoutsine
 a changestage aaa 363 0.75 easeinoutsine
 a changestage motomoto 363.75 0.75 easeinoutsine
-a changestage hhh 367 0.75 easeinoutsine
-a changestage motomoto 367.75 0.75 easeinoutsine
+
 
 a changestage aaa 369 0.75 easeinoutsine
 a changestage motomoto 369.75 0.75 easeinoutsine
