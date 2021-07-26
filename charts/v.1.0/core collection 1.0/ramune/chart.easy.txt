@@ -2,22 +2,22 @@
 n short rt 0
 n short rb 4
 n short lc 8
-n short rt lt 12
+n short rt 12
 
 n short lt 16
 n short lb 20
 n short rc 24
-n short lt rt 28
+n short lt 28
 
 n short rc 32
 n short lb 36
 n short lt 40
-n short rc lc 44
+n short rc 44
 
 n short lc 48
 n short rb 52
 n short rt 56
-n short rc lc 60
+n short lc 60
 
 n long rc 64 68
 n long lb 68 72
@@ -43,7 +43,7 @@ n short lc 116
 n short lc 118
 
 n short rb 120
-n short lb 122
+n short rb 122
 n long rc lc 124 126
 
 n short rc 128
@@ -56,21 +56,20 @@ n short lc 152
 n short rt lt 156
 
 n short rc 160
-n short rc lb 162
+n short lb 162
 n short rc 164
-n short rc lb 166
+n short lb 166
 n short lc 168
-n short lc rb 170
+n short rb 170
 n short lc 172
-n short lc rb 174
+n short rb 174
 
 n short rc 176
-n short rb 178
-n short lb 180
-n short lc 182
-n short lt 184
-n short rt 186
-n compound lc rc 188 191 4
+n short lb 178
+n short rc 180
+n short lb 182
+
+n compound lc rc 184 191 4
 
 n long rb 192 200
 n long lt 200 208
@@ -106,9 +105,9 @@ n short lt 274
 n short rt 276
 n short rt 278
 n short rc 280
-n short lc 282
+n short rc 282
 n short rb 284
-n short rb lb 286
+n short lb 286
 
 n short lc 288
 n short lc 290
@@ -123,41 +122,41 @@ n short rt 306
 n short lt 308
 n short lt 310
 n short lc 312
-n short rc 314
+n short lc 314
 n short lb 316
-n short rb lb 318
+n short rb 318
 
 n short rt 320
 n short rc 322
 n short rb 324
-n short rb lb 326
+n short rb 326
 n short lb 328
 n short lc 330
 n short lt 332
-n short lt rt 334
+n short lt 334
 n short lt 336
 n short lc 338
 n short lb 340
-n short lb rb 342
+n short lb 342
 n short rb 344
 n short rc 346
 n short rt 348
-n short rt lt 350
+n short rt 350
 
 n short rt 352
-n short rt lb 354
+n short lb 354
 n short rc 356
-n short rc lc 358
+n short lc 358
 n short rb 360
-n short rb lt 362
+n short lt 362
 n short lb 364
-n short lb rt 366
+n short rt 366
 n short lc 368
-n short lc rc 370
+n short rc 370
 n short lt 372
-n short lt rb 374
-n short rc lc 376
-n short rc lc 378
+n short rb 374
+n short lc 376
+n short rc 378
 n long rc lc 380 384
 
 n short rb 392
