@@ -289,10 +289,10 @@ a changestage rest_2 140 0.5 easeoutsine
 a changestage original 140.5 1.5 easeinsine
 
 #顏色/透明度切換
-a changecolor trial 117.5 1.5 0_0_0_0 rt lt easeinsine
+a changecolor trial 118 1 0_0_0_0 rt lt easeinsine
 a changecolor trial 119 0 0_0_0_145 lt linear
 a changecolor trial 119.5 0 0_0_0_145 rt linear
-a changecolor hitbox_default 117.5 1 0_0_0_0 rt lt easeinsine
+a changecolor hitbox_default 118 1 0_0_0_0 rt lt easeinsine
 a changecolor hitbox_default 119 0 255_255_255_255 lt linear
 a changecolor hitbox_default 119.5 0 255_255_255_255 rt linear
 
