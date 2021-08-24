@@ -86,6 +86,8 @@ async def checkin(ctx, path):
     if await chart.checkin(ctx, path):
         log = f"{datetime.datetime.now()}：{ctx.author.name} 更新 chart-library {path}\n"
         print(log)
+        song_name = path.split("/")[-1]
+        await add_to_dev_song(ctx, song_name)
         push_github(log)
 
 
