@@ -1,0 +1,121 @@
+n long rb 0 11
+n long lb 12 23
+n long rc lc 24 29
+n short lb 30
+n short rb 33
+n short lb 36
+n long rb lb 39 44
+n short lc 45
+n short rb 48
+n short lb 51
+n short rc 54
+n short lc 57
+n short rb 60
+n short lt 63
+n short lb 66
+n short rt 69
+
+n long rb 72 73.5
+n long lb 75 76.5
+n long rc 78 79.5
+n long lc 81 82.5
+n short rc 84
+n short lb 87
+n short rb 90
+n short lc 93
+n long lc 96 97.5
+n long rb 99 100.5
+n long lb 102 103.5
+n long rc 105 106.5
+n short lc 108
+n short rc 111
+n short lb 114
+n short rb 117
+n long rc 120 121.5
+n long lc 123 124.5
+n long rb 126 127.5
+n long lb 129 130.5
+n long rt 132 133.5
+n long lt 135 136.5
+n long rb 138 139.5
+n long lb 141 142.5
+n short lc rb 144
+n short lb rc 147
+n short rb 150
+n short lb 153
+n long rb lb 156 167
+
+n short lc 168
+n short rb 171
+n short lb 174
+n short rb 177
+n short rc 180
+n short lb 183
+n short rb 186
+n short lb 189
+n short lc 192
+n short rc 195
+n short lb 198
+n short rb 201
+n short rc 204
+n short lc 207
+n short rb 210
+n short lb 213
+n long rc 216 217.5
+n long lc 219 220.5
+n long lb 222 223.5
+n long rb 225 226.5
+n long lc 228 229.5
+n long rc 231 232.5
+n long rb 234 235.5
+n long lb 237 239
+n long rc 240 241.5
+n long lb 243 244.5
+n long rc 246 248
+n long lt 249 251
+n long lb 252 254
+n long rc 255 257
+n short rb lc 258
+n short rc lb 261
+
+n long rc 264 265.5
+n long lc 267 268.5
+n long lb 270 271.5
+n long rb 273 274.5
+n long rt 276 287
+n short lb 279
+n short lb 285
+n long lc 288 289.5
+n long rb 291 292.5
+n long lb 294 295.5
+n long rc 297 298.5
+n long lt 300 311
+n short rb 303
+n short rb 309
+n long rc 312 313.5
+n long lb 315 316.5
+n long rb 318 319.5
+n long lc 321 322.5
+n long lt 324 329
+n short rb 327
+n long rt 330 335
+n short lb 333
+n long lc 336 339
+n short rc 339
+n long rc 342 345
+n short lc 345
+n long lb rb 348 359
+
+n short lc 360
+n short lb 366
+n short rc 372
+n short rb 378
+n long lb 384 386
+n long rc 387 389
+n long rb 390 392
+n long lc 393 395
+n long lb 396 401
+n long rb 402 407
+
+n catch lc 408
+

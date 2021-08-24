@@ -5,72 +5,95 @@ from authorize import user_is_authorized
 
 
 def get_charts_path(path):
-    return f"charts/{path}"
+    """ Return "chart_library/{path}" """
+
+    return f"chart_library/{path}"
 
 
 def is_in_chart_format(filename):
+    """ Check if the filename is in the format of chart.name.txt """
+
     splited = filename.split(".")
+
     if len(splited) != 3 \
         or splited[0] != "chart" \
         or splited[2] != "txt":
         return False
+    
     return True
 
 
 def get_checkin_success_embed(description):
+    """ Return an Discord Embed with Blue Background. """
     result = discord.Embed(
         title="譜面上傳成功！",
         description=description,
         color=discord.Color.blue())
+
     result.set_footer(text=str(datetime.now()))
+
     return result
 
 
 def get_checkin_fail_embed(description):
+    """ Return an Discord Embed with Red Background. """
+
     result = discord.Embed(
         title="譜面上傳失敗",
         description=description,
         color=discord.Color.red())
+
     result.set_footer(text=str(datetime.now()))
+
     return result
 
 
 async def checkin(ctx, path):
+    """
+    Add all the attachments in ctx to the specified chart_library path.
+    Return False if the function encountered an error. Else return true.
+    """
+
     attachments = ctx.message.attachments
 
     if len(attachments) == 0:
+        print("ERROR: User did not attach any file!")
+
         emb = get_checkin_fail_embed("請附加譜面！")
         await ctx.send(embed=emb)
         return False
 
-    chart_file = attachments[0]
-
-    if not is_in_chart_format(chart_file.filename):
-        emb = get_checkin_fail_embed("譜面的名字要是chart.[名字].txt！")
-        await ctx.send(embed=emb)
-        return False
-    
-    content_bytes = await chart_file.read()
-    chart_text = content_bytes.decode("utf-8")
-
     directory = Path(get_charts_path(path))
 
-    # todo: only authorized users can make directory
     if not directory.exists():
         if user_is_authorized(ctx.message.author.id):
             directory.mkdir(parents=True, exist_ok=True)
         else:
+            print("ERROR: User-specified directory does not exist")
+            
             fail_emb = get_checkin_fail_embed("你不能新增檔案夾！")
             await ctx.send(embed = fail_emb)
+            return False    
+
+    for chart_file in attachments:
+        if not is_in_chart_format(chart_file.filename):
+            print("ERROR: File Name is not in Chart-Format")
+
+            emb = get_checkin_fail_embed("譜面的名字要是chart.[名字].txt！")
+            await ctx.send(embed=emb)
             return False
- 
-    path = Path(get_charts_path(f"{path}/{chart_file.filename}"))
-    path.write_text(chart_text)
+        
+        content_bytes = await chart_file.read()
+        chart_text = content_bytes.decode("utf-8")
+    
+        chart_path = Path(get_charts_path(f"{path}/{chart_file.filename}"))
+        chart_path.write_text(chart_text)
 
-    success_embed = get_checkin_success_embed(
-        f"{ctx.author.name}上傳了{path}")
+        success_embed = get_checkin_success_embed(
+            f"{ctx.author.name}上傳了{chart_path}")
 
-    await ctx.send(embed=success_embed)
+        await ctx.send(embed=success_embed)
+
     return True
 
 
@@ -89,6 +112,8 @@ def get_checkout_fail_embed(description):
 
 
 async def checkout(ctx, path):
+    """ Send a list of Charts to Discord. Return False if the operation fails. """
+
     target_path = Path(get_charts_path(path))
 
     if not target_path.exists():
@@ -107,8 +132,8 @@ async def checkout(ctx, path):
             charts.append(discord.File(
                 chart,
                 filename=filename))
-    
-    if target_path.is_dir():
+
+    elif target_path.is_dir():
         for c in target_path.glob("chart.*.txt"):
             with open(c, "rb") as chart:
                 names += chart.name + "\n"
@@ -160,11 +185,13 @@ async def delete(ctx, path):
     # todo: if the user wants to delete a directory
     # only authroize user can do that
     if user_is_authorized(ctx.message.author.id):
+
         for child in path.glob('*'):
             if child.is_file():
                 child.unlink()
             else:
                 rm_tree(child)
+
         path.rmdir()
 
         success_emb = get_delete_success_emb(f"你刪除了{path}")

@@ -1,8 +1,7 @@
 import os
 import json
 
-
-AUTHORIZED_USERS = []
+AUTHORIZED_USERS = [ ]
 
 with open("setting.json") as setting:
     text = setting.read()

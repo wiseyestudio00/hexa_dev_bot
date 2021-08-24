@@ -1,0 +1,1234 @@
+n short rb 0
+n short lb 0
+n swipe in rb 1
+n short lb 2
+n short rb 2
+n swipe in rb 3
+n short lc 4
+n short rb 4
+n swipe in rb 5
+n short lc 6
+n short rb 6
+n swipe in rb 7
+n short lb 8
+n short rc 8
+n swipe out lb 9
+n short lb 10
+n short rc 10
+n swipe out lb 11
+n short lb 12
+n short rb 12
+n swipe out lb 13
+n short rc 14
+n short lb 14.5
+n swipe out rb 15
+n short rc 15.46875
+n catch rc 15.75
+n catch rc 16
+n short lc 16
+n short lc 17
+n short rb 17
+n short lb 17.5
+n short lc 18
+n short lc 19
+n swipe out rb 19
+n short lc 20
+n short rb 20
+n short lc 21
+n short lb 21
+n short lc 22
+n short rb 22
+n short lb 22.5
+n swipe out rb 23
+n short lc 23.5
+n catch lc 23.75
+n short rc 24
+n catch lc 24
+n short rc 25
+n short lb 25
+n short lc 25.5
+n short rb 26
+n swipe in lb 27
+n short rc 28
+n short rb 28
+n short rc 29
+n short lb 29
+n short lc 30
+n short rb 30
+n short rb 30.5
+n short lb 30.5
+n short lc 31.5
+n catch lc 31.75
+n swipe in rb 32
+n catch lc 32
+n short lb 32.5
+n short rb 33
+n short lb 33.25
+n short rb 33.5
+n short lb 33.75
+n short rb 34
+n short rb 34.5
+n short rb 35
+n short lb 35.25
+n short rb 35.5
+n short lb 35.75
+n short rb 36
+n short lb 36.5
+n short lb 37
+n short rb 37.25
+n short lb 37.5
+n short rb 37.75
+n short lb 38
+n short lb 38.5
+n short lb 39
+n short rb 39.25
+n short lb 39.5
+n short rb 39.75
+n short lb 40
+n short lc 40.5
+n short rc 41
+n short lc 41.25
+n short rc 41.5
+n short lc 41.75
+n short rc 42
+n short lc 42.5
+n short rc 43
+n short lc 43.25
+n short rc 43.5
+n short lc 43.75
+n short rc 44
+n short lb 44
+n short lb 45
+n short rb 45
+n short lc 46
+n short rb 46
+n short rb 46.5
+n short lb 46.5
+n short lc 47.5
+n catch lc 47.75
+n catch lc 48
+n swipe out rc 48
+n short rc 49
+n short rc 50
+n short rc 51
+n short rc 51.75
+n short lc 52
+n short lc 53
+n short lc 54
+n short lc 55
+n short lc 55.75
+n short rb 56
+n short lb 56.25
+n short rb 56.5
+n short lb 56.75
+n short rb 57
+n short lb 57.25
+n short rb 57.5
+n short lb 57.75
+n short rc 58
+n short lc 58.25
+n short rc 58.5
+n short lc 58.75
+n short rc 59
+n short lc 59.28125
+n short rc 59.5
+n short lc 59.75
+n long rb 60 63
+n short lb 64
+n swipe out rc 64
+n short lc 64.5
+n short lb 65
+n short rb 65.5
+n short lb 65.5
+n short rc 68
+n short rb 69
+n short lb 70
+n short rb 70.5
+n short lb 71.5
+n short rb 71.75
+n short rc 72
+n short lb 72
+n short lc 72.5
+n short lb 73
+n short rb 73.5
+n short lb 73.5
+n short rt 76
+n short lt 76
+n short rc 77
+n short lc 77
+n short rt 78
+n short lc 78.5
+n short rc 79
+n short lb 79.5
+n short rb 79.75
+n catch rc 80
+n catch rb 80.5
+n catch lb 81
+n catch lb 81.5
+n short rc 81.5
+n short rb 84
+n catch lc 84
+n catch lb 84.5
+n catch rb 85
+n short rc 85.5
+n catch rb 85.5
+n short rb 87
+n short rc 88
+n short lb 88
+n short rb 89
+n short rb 89.5
+n short lb 90
+n short rc 90
+n short rb 91
+n short rb 91.5
+n short rb 92
+n short lc 92
+n short lb 93
+n short rb 94
+n short rc 95
+n catch rc 95.5
+n catch rc 95.78125
+n catch rc 96
+n short lc 96
+n catch lb 96.5
+n catch rb 96.96875
+n short lc 97
+n catch lb 97.5
+n short lc 98
+n short lc 99
+n short rc 100
+n short lc 100
+n short rb 101
+n short lc 101
+n short lc 102
+n short rb 102
+n short rc 102.5
+n short lc 103
+n catch rc 103.5
+n catch rc 103.75
+n short lb 104
+n catch rc 104
+n catch rb 104.5
+n short lb 105
+n catch rc 105
+n catch rb 105.5
+n short lb 106
+n short lb 107
+n short rt 108
+n short lb 108
+n short rc 109
+n short lb 109
+n short lb 110
+n short rt 110
+n catch rt 110.5
+n catch rt 111
+n short lb 111
+n short lt 111.5
+n catch lt 111.75
+n short rb 112
+n catch lt 112
+n catch lc 112.5
+n catch lc 113
+n short rb 113
+n catch lc 113.5
+n short rb 114
+n short rb 115
+n short rc 116
+n catch lc 116
+n catch lc 116.5
+n short rc 117
+n catch lb 117
+n catch lb 117.5
+n short rc 118
+n short rc 119
+n short lb 119
+n short lt 120
+n short rt 120
+n short rt 121.5
+n short rc 122
+n short lc 122
+n short lb 123
+n short rb 123
+n short lc 124
+n short lb 125
+n short lb 126
+n short lb 126.5
+n long rc 124 127
+n short lb 127
+n swipe in lc 128
+n swipe out rc 128
+n short rb 128.5
+n short lb 129
+n short rb 129.25
+n short lb 129.5
+n short rb 129.75
+n short lb 130
+n short rb 130.5
+n short lb 131
+n short rb 131.25
+n short lb 131.5
+n short rb 131.75
+n short lb 132
+n short rb 132.5
+n short lb 133
+n short rb 133.25
+n short lb 133.5
+n short rb 133.75
+n short lb 134
+n short rb 134.5
+n short lb 135
+n short rb 135.25
+n short lb 135.5
+n short rb 135.75
+n short lb 136
+n short rc 136.5
+n short lc 137
+n short rc 137.25
+n short lc 137.5
+n short rc 137.75
+n short lc 138
+n short rc 138.5
+n short lc 139
+n short rc 139.25
+n short lc 139.5
+n short rc 139.75
+n short lc 140
+n short rc 140.5
+n short lc 141
+n short rc 141.25
+n short lc 141.5
+n short rc 141.75
+n short lc 142
+n short lb 142.5
+n short rb 142.75
+n short lb 143
+n short rb 143.5
+n short lb 143.75
+n short rb 144
+n short rc 144.5
+n short rc 145
+n short lb 145.25
+n short rc 145.5
+n short lb 145.75
+n short rc 146
+n short lb 146.5
+n short rc 147
+n short lb 147.25
+n short rc 147.5
+n short lb 147.75
+n short rc 148
+n short rb 148.5
+n short lb 149
+n short rb 149.25
+n short lb 149.5
+n short rb 149.75
+n short lb 150
+n short rb 150.5
+n short lb 151
+n short lc 151.25
+n short lb 151.5
+n short lc 151.75
+n catch rb 152
+n catch rb 152.5
+n long lc 152 152.96875
+n catch rb 153
+n catch rb 153.25
+n catch rb 153.5
+n catch rb 153.75
+n catch rc 154
+n catch rc 154.5
+n long lb 154 155
+n catch rc 155
+n catch rc 155.25
+n catch rc 155.5
+n catch rc 155.75
+n catch lb 156
+n catch lb 156.5
+n catch lb 157
+n catch lb 157.25
+n catch lb 157.5
+n catch lb 157.75
+n catch lb 158
+n long rb 156 158
+n catch lb 158.5
+n catch lb 159
+n catch rb 159.25
+n catch lb 159.5
+n catch rb 159.75
+n short rc 160
+n short lc 160
+n catch lc 160.5
+n short rc 161
+n catch lc 161.25
+n catch lc 161.75
+n short rc 162
+n short lc 162.5
+n short rc 163
+n short lc 163
+n short lc 163.5
+n short rc 164
+n short lb 164
+n catch lb 164.5
+n catch lb 165
+n short rc 165
+n catch lb 165.25
+n catch lb 165.75
+n short rc 166
+n short lb 166.5
+n short lb 167
+n short rc 167
+n short lb 167.5
+n short lc 168
+n short rb 168
+n catch lc 168.5
+n catch lc 169
+n short rb 169
+n catch lc 169.25
+n catch lc 169.75
+n short rb 170
+n short lc 170.5
+n short lc 171
+n short rb 171
+n short lc 171.5
+n short rc 172
+n short lb 172
+n catch lb 172.5
+n short rc 173
+n catch lb 173
+n catch lb 173.25
+n catch lb 173.75
+n short rc 174
+n short lc 174.5
+n short rc 175
+n short lb 175
+n short lb 175.5
+n catch lb 175.75
+n catch lb 176
+n short rc 176
+n short rc 176.5
+n short lc 176.5
+n short rc 177
+n short lc 177.25
+n short rc 177.5
+n short lc 177.75
+n short rc 178
+n swipe out lc 178.5
+n swipe out rc 179
+n swipe out lc 179.5
+n short lb 180
+n short rb 180
+n short lb 180.5
+n short rb 180.5
+n short lb 181
+n short rb 181.25
+n short rb 181.75
+n short lb 182
+n swipe out rb 182.5
+n swipe out lb 183
+n catch rb 183.5
+n catch lb 183.75
+n long rc 184 187
+n long lc 184 187
+n short lb 188
+n catch lb 188.5
+n catch lb 188.75
+n catch rb 189.25
+n long rc 188 189.5
+n catch rb 189.5
+n catch lb 190
+n catch lb 190.25
+n catch lb 190.5
+n catch lb 190.75
+n catch lc 191
+n catch lc 191.25
+n catch lc 191.5
+n catch lc 191.75
+n swipe in rc 192
+n catch lc 192
+n short rc 192.5
+n short lb 193
+n short rb 193.25
+n short rb 193.75
+n short lb 194
+n swipe in rc 194.5
+n swipe in lc 195
+n swipe in rc 195.5
+n short rc 196
+n short lc 196
+n short rc 196.5
+n short lb 197
+n short rb 197.25
+n short rb 197.75
+n short lb 198
+n swipe in lc 198.5
+n swipe in rc 199
+n swipe in lc 199.5
+n short lc 200
+n short rb 200
+n short lc 200.5
+n short lb 201
+n short rb 201.25
+n short rb 201.75
+n short lb 202
+n swipe out lc 202.5
+n swipe out rb 203
+n swipe out lc 203.5
+n short lc 204
+n short rb 204
+n short lc 204.5
+n short lb 205
+n short rb 205.25
+n short lc 205.75
+n short rc 206.5
+n short rb 207
+n short lc 207.5
+n catch lc 207.75
+n catch lc 208
+n short rc 208
+n short lb 208.5
+n short rc 209
+n short rb 209.25
+n short rb 209.75
+n short rc 210
+n swipe out lb 210.5
+n swipe out rc 211
+n swipe out lb 211.5
+n short lb 212
+n short rc 212
+n short lb 212.5
+n short rb 213
+n short rc 213.25
+n short rc 213.75
+n short rb 214
+n short lb 214.5
+n short lb 215
+n short rc 215
+n short lb 215.5
+n catch lb 215.75
+n short rc 216
+n catch lb 216
+n short lb 216.5
+n short lb 217
+n short rc 217.25
+n short rb 217.75
+n short lb 218.5
+n short rb 219
+n short lb 219.5
+n short lb 219.75
+n short rc 220
+n catch rc 220.5
+n catch rc 220.75
+n short lc 221
+n catch lc 221.25
+n catch lc 221.5
+n catch rc 222
+n catch rc 222.25
+n catch lb 222.75
+n catch lb 223
+n short lc 223.5
+n catch lc 223.75
+n short rc 224
+n catch lc 224
+n short rc 224.5
+n short lc 225
+n short rc 225.25
+n short rc 225.75
+n short lc 226
+n swipe in lb 226.5
+n swipe in rb 227
+n swipe in lb 227.5
+n short lc 228
+n short rc 228
+n short rc 228.5
+n short rc 229
+n short lc 229.25
+n short lc 229.75
+n short rc 230
+n swipe in rb 230.5
+n swipe in lb 231
+n swipe in rb 231.5
+n short rc 232
+n short lc 232
+n short lc 232.5
+n short lc 233
+n short rc 233.25
+n short rc 233.75
+n short lc 234
+n swipe in rb 234.5
+n swipe in lb 235
+n swipe in rb 235.5
+n short rc 236
+n short lc 236
+n short lc 236.5
+n short rc 237
+n short lc 237
+n short rc 237.25
+n short lc 237.75
+n short rc 238
+n short lc 238
+n short rc 238.5
+n short rb 238.5
+n short rc 239
+n short lb 239
+n short rb 239.5
+n catch rb 239.75
+n catch rb 240
+n short lb 240
+n short lc 240.5
+n short rc 241
+n short lc 241
+n short lc 241.25
+n short rc 241.75
+n short rc 242
+n short lc 242
+n swipe out rc 242.5
+n swipe out lc 243
+n swipe out rc 243.5
+n short rc 244
+n short lb 244
+n short lb 244.5
+n short rc 245
+n short lb 245
+n short rc 245.25
+n short lb 245.75
+n short lb 246
+n short rc 246
+n short rc 246.5
+n short rb 246.5
+n short rb 247
+n short lb 247
+n catch rb 247.5
+n catch rb 247.75
+n short lb 249.5
+n long lc 248 251
+n short rb 251
+n short rc 252
+n short rb 253
+n short lb 254
+n short rb 255
+n long lc 252 255
+n catch rb 255.25
+n catch rb 255.5
+n catch rb 255.625
+n short rb 256
+n short lc 256
+n short lc 256.5
+n short lc 257
+n short rb 257
+n short lc 257.25
+n short lc 257.75
+n short rb 258
+n short lc 258.5
+n short lc 259
+n short rb 259
+n short lc 259.5
+n short lc 260
+n short rb 260
+n short rb 260.5
+n short rb 261
+n short lc 261
+n short rb 261.25
+n short rb 261.75
+n short lc 262
+n short rb 262.5
+n short rb 263
+n short lc 263
+n short rb 263.5
+n short lb 264
+n short rc 264
+n short lb 264.5
+n short rc 265
+n short lb 265
+n short lb 265.25
+n short rc 265.75
+n short rc 266
+n short lb 266.5
+n short rc 267
+n short lb 267.5
+n short rc 268
+n short lb 268
+n short rc 268.5
+n short rc 269
+n short lb 269
+n short rc 269.25
+n short rc 269.75
+n short lb 270
+n short rc 270.53125
+n short rb 271
+n short lb 271.5
+n catch lb 271.75
+n short rc 272
+n catch lb 272
+n short rc 272.5
+n short rc 273
+n short lb 273
+n short rc 273.25
+n short rc 273.75
+n short lb 274
+n short rc 274.5
+n short rc 275
+n short lb 275
+n short rc 275.5
+n short lc 276
+n short rb 276
+n short lc 276.5
+n short lc 277
+n short rb 277
+n short lc 277.25
+n short lc 277.75
+n short rb 278
+n short lc 278.5
+n short lc 279
+n short rb 279
+n short lc 279.5
+n short lc 279.75
+n short rc 280
+n short lb 280
+n short rc 280.5
+n short rc 281
+n short lb 281
+n short rc 281.25
+n short rc 281.75
+n short lb 282
+n short rc 282.5
+n short lb 283
+n short rc 283
+n short rc 283.5
+n short rc 283.75
+n short lc 284
+n swipe out rt 284.5
+n swipe in rb 284.75
+n swipe out rc 285.25
+n swipe in rb 285.5
+n swipe in rt 286
+n swipe out rc 286.25
+n swipe out rb 286.75
+n swipe in rt 287
+n catch lb 287.5
+n catch rb 287.75
+n short rc 288
+n short rc 289
+n short rc 290
+n short rc 291
+n short rc 292
+n short rc 293
+n short rc 294
+n short rc 295
+n short rc 295.75
+n short lc 296
+n short lc 297
+n short lc 298
+n short lc 299
+n short lc 300
+n short lc 301
+n short lc 302
+n short lc 303
+n short rb 304
+n short lb 304
+n short lb 304.5
+n short rb 305
+n short lb 305
+n short lb 305.25
+n short rb 305.5
+n short lb 305.75
+n short rb 306
+n swipe out lb 306.5
+n swipe in rb 307
+n swipe out lb 307.5
+n short rb 308
+n short lc 308
+n short rb 308.5
+n short rb 309
+n short lc 309
+n short rb 309.25
+n short lc 309.5
+n short rb 309.75
+n short lc 310
+n swipe in rb 310.5
+n swipe out lc 311
+n swipe in rb 311.5
+n short lc 312
+n short rb 312.25
+n short lc 312.5
+n short rb 312.75
+n short lc 313
+n short rb 313.25
+n short lc 313.53125
+n short rb 313.75
+n short lb 314
+n short rb 314.25
+n short lb 314.5
+n short rb 314.75
+n short lb 315
+n short rb 315.25
+n short lb 315.5
+n short rb 315.75
+n short lc 316
+n short lb 317
+n long rb 316 317
+n short rc 318
+n short rb 319
+n long lc 318 319
+n short lc 320
+n short rc 320
+n short rb 321.5
+n short lb 321.5
+n short rc 324
+n short rb 325
+n short lc 326
+n short lb 326.5
+n short rc 327.5
+n catch rc 327.75
+n catch rc 328
+n short lc 329.5
+n short lb 332
+n short lc 333
+n short rc 334
+n short lb 334.5
+n short rc 335
+n short lc 335.5
+n catch lc 335.75
+n catch lc 336
+n short rb 337.5
+n short rc 340
+n short rb 341.5
+n short lc 343
+n short lb 344
+
+//運鏡。。
+
+a movecamera position -3 0 0 0 -2 linear
+a movecamera position 0 18 0 0 2 easeinoutsine
+
+a movecamera angle 192 8 0 0 15 easeoutsine
+a movecamera angle 200 8 0 0 -15 easeoutsine
+a movecamera angle 208 8 0 0 -15 easeoutsine
+a movecamera angle 216 8 0 0 15 easeoutsine
+
+a cameraeffect main arcade 0.5 32 0.5 easeoutquart
+a cameraeffect main arcade 0 32.5 5.5 easeinsine
+
+a movecamera position 32 0.25 0 0 0.125 easeoutquart
+a movecamera position 32.25 0.25 0 0 -0.125 easeinquad
+
+a movecamera position 34 0.25 0 0 0.125 easeoutquart
+a movecamera position 34.25 0.25 0 0 -0.125 easeinquad
+
+a movecamera position 36 0.25 0 0 0.125 easeoutquart
+a movecamera position 36.25 0.25 0 0 -0.125 easeinquad
+
+a movecamera position 38 0.25 0 0 0.125 easeoutquart
+a movecamera position 38.25 0.25 0 0 -0.125 easeinquad
+
+a movecamera position 40 0.25 0 0 0.125 easeoutquart
+a movecamera position 40.25 0.25 0 0 -0.125 easeinquad
+
+a movecamera position 42 0.25 0 0 0.125 easeoutquart
+a movecamera position 42.25 0.25 0 0 -0.125 easeinquad
+
+a movecamera position 44 0.25 0 0 0.125 easeoutquart
+a movecamera position 44.25 0.25 0 0 -0.125 easeinquad
+
+a movecamera position 48 0.25 0 0 0.125 easeoutquart
+a movecamera position 48.25 0.25 0 0 -0.125 easeinquad
+
+a movecamera position 49 0.25 0 0 0.125 easeoutquart
+a movecamera position 49.25 0.25 0 0 -0.125 easeinquad
+
+a movecamera position 50 0.25 0 0 0.125 easeoutquart
+a movecamera position 50.25 0.25 0 0 -0.125 easeinquad
+
+a movecamera position 51 0.25 0 0 0.125 easeoutquart
+a movecamera position 51.25 0.25 0 0 -0.125 easeinquad
+
+a movecamera position 52 0.25 0 0 0.125 easeoutquart
+a movecamera position 52.25 0.25 0 0 -0.125 easeinquad
+
+a movecamera position 53 0.25 0 0 0.125 easeoutquart
+a movecamera position 53.25 0.25 0 0 -0.125 easeinquad
+
+a movecamera position 54 0.25 0 0 0.125 easeoutquart
+a movecamera position 54.25 0.25 0 0 -0.125 easeinquad
+
+a movecamera position 55 0.25 0 0 0.125 easeoutquart
+a movecamera position 55.25 0.25 0 0 -0.125 easeinquad
+
+a movecamera position 56 0.25 0 0 0.125 easeoutquart
+a movecamera position 56.25 0.25 0 0 -0.125 easeinquad
+
+a movecamera position 57 0.25 0 0 0.125 easeoutquart
+a movecamera position 57.25 0.25 0 0 -0.125 easeinquad
+
+a movecamera position 58 0.25 0 0 0.125 easeoutquart
+a movecamera position 58.25 0.25 0 0 -0.125 easeinquad
+
+a movecamera position 59 0.25 0 0 0.125 easeoutquart
+a movecamera position 59.25 0.25 0 0 -0.125 easeinquad
+
+a cameraeffect main arcade 0.5 63.8 0.5 easeoutquad
+a cameraeffect main arcade 0 64.3 7.5 easeoutquart
+a movecamera position 64 16 0 0 -2 linear
+a movecamera position 64 16 0 0 -2 easeinoutsine
+
+a movecamera position 96 16 0 0 2 linear
+a movecamera position 96 16 0 0 2 easeinoutsine
+
+a cameraeffect main arcade 0.5 127.8 0.5 easeinquad
+a cameraeffect main arcade 0 128.3 7.5 easeoutquart
+
+a movecamera position 129 0.25 0 0 0.125 easeoutquart
+a movecamera position 129.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 131 0.25 0 0 0.125 easeoutquart
+a movecamera position 131.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 133 0.25 0 0 0.125 easeoutquart
+a movecamera position 133.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 133 0.25 0 0 0.125 easeoutquart
+a movecamera position 133.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 135 0.25 0 0 0.125 easeoutquart
+a movecamera position 135.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 137 0.25 0 0 0.125 easeoutquart
+a movecamera position 137.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 139 0.25 0 0 0.125 easeoutquart
+a movecamera position 139.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 141 0.25 0 0 0.125 easeoutquart
+a movecamera position 141.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 143 0.25 0 0 0.125 easeoutquart
+a movecamera position 143.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 145 0.25 0 0 0.125 easeoutquart
+a movecamera position 145.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 147 0.25 0 0 0.125 easeoutquart
+a movecamera position 147.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 149 0.25 0 0 0.125 easeoutquart
+a movecamera position 149.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 151 0.25 0 0 0.125 easeoutquart
+a movecamera position 151.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 153 0.25 0 0 0.125 easeoutquart
+a movecamera position 153.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 155 0.25 0 0 0.125 easeoutquart
+a movecamera position 155.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 157 0.25 0 0 0.125 easeoutquart
+a movecamera position 157.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 159 0.25 0 0 0.125 easeoutquart
+a movecamera position 159.25 0.25 0 0 -0.125 easeinquad
+
+a movecamera position 160 0.25 0 0 0.125 easeoutquart
+a movecamera position 160.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 161 0.25 0 0 0.125 easeoutquart
+a movecamera position 161.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 162 0.25 0 0 0.125 easeoutquart
+a movecamera position 162.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 163 0.25 0 0 0.125 easeoutquart
+a movecamera position 163.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 164 0.25 0 0 0.125 easeoutquart
+a movecamera position 164.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 165 0.25 0 0 0.125 easeoutquart
+a movecamera position 165.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 166 0.25 0 0 0.125 easeoutquart
+a movecamera position 166.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 167 0.25 0 0 0.125 easeoutquart
+a movecamera position 167.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 168 0.25 0 0 0.125 easeoutquart
+a movecamera position 168.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 169 0.25 0 0 0.125 easeoutquart
+a movecamera position 169.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 170 0.25 0 0 0.125 easeoutquart
+a movecamera position 170.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 171 0.25 0 0 0.125 easeoutquart
+a movecamera position 171.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 172 0.25 0 0 0.125 easeoutquart
+a movecamera position 172.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 173 0.25 0 0 0.125 easeoutquart
+a movecamera position 173.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 174 0.25 0 0 0.125 easeoutquart
+a movecamera position 174.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 175 0.25 0 0 0.125 easeoutquart
+a movecamera position 175.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 176 0.25 0 0 0.125 easeoutquart
+a movecamera position 176.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 177 0.25 0 0 0.125 easeoutquart
+a movecamera position 177.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 178 0.25 0 0 0.125 easeoutquart
+a movecamera position 178.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 179 0.25 0 0 0.125 easeoutquart
+a movecamera position 179.25 0.25 0 0 -0.125 easeinquad
+
+a movecamera position 180 0.25 0 0 0.125 easeoutquart
+a movecamera position 180.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 181 0.25 0 0 0.125 easeoutquart
+a movecamera position 181.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 182 0.25 0 0 0.125 easeoutquart
+a movecamera position 182.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 183 0.25 0 0 0.125 easeoutquart
+a movecamera position 183.25 0.25 0 0 -0.125 easeinquad
+
+a cameraeffect main arcade 0.5 192 0.5 easeinquad
+a cameraeffect main arcade 0 192.25 7.5 easeoutquart 
+a movecamera position 192 0.25 0 0 0.125 easeoutquart
+a movecamera position 192.25 0.25 0 0 -0.125 easeinquad
+
+a movecamera position 193 0.25 0 0 0.125 easeoutquart
+a movecamera position 193.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 194 0.25 0 0 0.125 easeoutquart
+a movecamera position 194.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 195 0.25 0 0 0.125 easeoutquart
+a movecamera position 195.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 196 0.25 0 0 0.125 easeoutquart
+a movecamera position 196.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 197 0.25 0 0 0.125 easeoutquart
+a movecamera position 197.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 198 0.25 0 0 0.125 easeoutquart
+a movecamera position 198.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 199 0.25 0 0 0.125 easeoutquart
+a movecamera position 199.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 200 0.25 0 0 0.125 easeoutquart
+a movecamera position 200.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 201 0.25 0 0 0.125 easeoutquart
+a movecamera position 201.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 202 0.25 0 0 0.125 easeoutquart
+a movecamera position 202.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 203 0.25 0 0 0.125 easeoutquart
+a movecamera position 203.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 204 0.25 0 0 0.125 easeoutquart
+a movecamera position 204.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 205 0.25 0 0 0.125 easeoutquart
+a movecamera position 205.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 206 0.25 0 0 0.125 easeoutquart
+a movecamera position 206.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 207 0.25 0 0 0.125 easeoutquart
+a movecamera position 207.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 208 0.25 0 0 0.125 easeoutquart
+a movecamera position 208.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 209 0.25 0 0 0.125 easeoutquart
+a movecamera position 209.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 210 0.25 0 0 0.125 easeoutquart
+a movecamera position 210.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 211 0.25 0 0 0.125 easeoutquart
+a movecamera position 211.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 212 0.25 0 0 0.125 easeoutquart
+a movecamera position 212.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 213 0.25 0 0 0.125 easeoutquart
+a movecamera position 213.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 214 0.25 0 0 0.125 easeoutquart
+a movecamera position 214.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 215 0.25 0 0 0.125 easeoutquart
+a movecamera position 215.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 216 0.25 0 0 0.125 easeoutquart
+a movecamera position 216.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 217 0.25 0 0 0.125 easeoutquart
+a movecamera position 217.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 218 0.25 0 0 0.125 easeoutquart
+a movecamera position 218.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 219 0.25 0 0 0.125 easeoutquart
+a movecamera position 219.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 220 0.25 0 0 0.125 easeoutquart
+a movecamera position 220.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 221 0.25 0 0 0.125 easeoutquart
+a movecamera position 221.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 222 0.25 0 0 0.125 easeoutquart
+a movecamera position 222.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 223 0.25 0 0 0.125 easeoutquart
+a movecamera position 223.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 224 0.25 0 0 0.125 easeoutquart
+a movecamera position 224.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 225 0.25 0 0 0.125 easeoutquart
+a movecamera position 225.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 226 0.25 0 0 0.125 easeoutquart
+a movecamera position 226.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 227 0.25 0 0 0.125 easeoutquart
+a movecamera position 227.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 228 0.25 0 0 0.125 easeoutquart
+a movecamera position 228.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 229 0.25 0 0 0.125 easeoutquart
+a movecamera position 229.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 230 0.25 0 0 0.125 easeoutquart
+a movecamera position 230.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 231 0.25 0 0 0.125 easeoutquart
+a movecamera position 231.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 232 0.25 0 0 0.125 easeoutquart
+a movecamera position 232.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 233 0.25 0 0 0.125 easeoutquart
+a movecamera position 233.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 234 0.25 0 0 0.125 easeoutquart
+a movecamera position 234.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 235 0.25 0 0 0.125 easeoutquart
+a movecamera position 235.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 236 0.25 0 0 0.125 easeoutquart
+a movecamera position 236.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 237 0.25 0 0 0.125 easeoutquart
+a movecamera position 237.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 238 0.25 0 0 0.125 easeoutquart
+a movecamera position 238.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 239 0.25 0 0 0.125 easeoutquart
+a movecamera position 239.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 240 0.25 0 0 0.125 easeoutquart
+a movecamera position 240.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 241 0.25 0 0 0.125 easeoutquart
+a movecamera position 241.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 242 0.25 0 0 0.125 easeoutquart
+a movecamera position 242.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 243 0.25 0 0 0.125 easeoutquart
+a movecamera position 243.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 244 0.25 0 0 0.125 easeoutquart
+a movecamera position 244.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 245 0.25 0 0 0.125 easeoutquart
+a movecamera position 245.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 246 0.25 0 0 0.125 easeoutquart
+a movecamera position 246.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 247 0.25 0 0 0.125 easeoutquart
+a movecamera position 247.25 0.25 0 0 -0.125 easeinquad
+
+a cameraeffect main arcade 0.5 255.8 0.5 easeinquad 
+a cameraeffect main arcade 0 256.3 7.5 easeoutquart 
+a movecamera position 256 0.25 0 0 0.125 easeoutquart 
+a movecamera position 256.25 0.25 0 0 -0.125 easeinquad 
+
+a movecamera angle 256 16 0 0 90 easeinoutsine
+
+a movecamera position 256 0.25 0 0 0.125 easeoutquart
+a movecamera position 256.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 257 0.25 0 0 0.125 easeoutquart
+a movecamera position 257.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 258 0.25 0 0 0.125 easeoutquart
+a movecamera position 258.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 259 0.25 0 0 0.125 easeoutquart
+a movecamera position 259.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 260 0.25 0 0 0.125 easeoutquart
+a movecamera position 260.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 261 0.25 0 0 0.125 easeoutquart
+a movecamera position 261.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 262 0.25 0 0 0.125 easeoutquart
+a movecamera position 262.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 263 0.25 0 0 0.125 easeoutquart
+a movecamera position 263.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 264 0.25 0 0 0.125 easeoutquart
+a movecamera position 264.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 265 0.25 0 0 0.125 easeoutquart
+a movecamera position 265.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 266 0.25 0 0 0.125 easeoutquart
+a movecamera position 266.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 267 0.25 0 0 0.125 easeoutquart
+a movecamera position 267.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 268 0.25 0 0 0.125 easeoutquart
+a movecamera position 268.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 269 0.25 0 0 0.125 easeoutquart
+a movecamera position 269.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 270 0.25 0 0 0.125 easeoutquart
+a movecamera position 270.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 271 0.25 0 0 0.125 easeoutquart
+a movecamera position 271.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 272 0.25 0 0 0.125 easeoutquart
+a movecamera position 272.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 273 0.25 0 0 0.125 easeoutquart
+a movecamera position 273.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 274 0.25 0 0 0.125 easeoutquart
+a movecamera position 274.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 275 0.25 0 0 0.125 easeoutquart
+a movecamera position 275.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 276 0.25 0 0 0.125 easeoutquart
+a movecamera position 276.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 277 0.25 0 0 0.125 easeoutquart
+a movecamera position 277.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 278 0.25 0 0 0.125 easeoutquart
+a movecamera position 278.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 279 0.25 0 0 0.125 easeoutquart
+a movecamera position 279.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 280 0.25 0 0 0.125 easeoutquart
+a movecamera position 280.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 281 0.25 0 0 0.125 easeoutquart
+a movecamera position 281.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 282 0.25 0 0 0.125 easeoutquart
+a movecamera position 282.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 283 0.25 0 0 0.125 easeoutquart
+a movecamera position 283.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 284 0.25 0 0 0.125 easeoutquart
+a movecamera position 284.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 285 0.25 0 0 0.125 easeoutquart
+a movecamera position 285.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 286 0.25 0 0 0.125 easeoutquart
+a movecamera position 286.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 287 0.25 0 0 0.125 easeoutquart
+a movecamera position 287.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 288 0.25 0 0 0.125 easeoutquart
+a movecamera position 288.25 0.25 0 0 -0.125 easeinquad
+
+a movecamera angle 288 16 0 0 -90 easeinoutsine
+
+a movecamera position 289 0.25 0 0 0.125 easeoutquart
+a movecamera position 289.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 290 0.25 0 0 0.125 easeoutquart
+a movecamera position 290.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 291 0.25 0 0 0.125 easeoutquart
+a movecamera position 291.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 292 0.25 0 0 0.125 easeoutquart
+a movecamera position 292.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 293 0.25 0 0 0.125 easeoutquart
+a movecamera position 293.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 294 0.25 0 0 0.125 easeoutquart
+a movecamera position 294.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 295 0.25 0 0 0.125 easeoutquart
+a movecamera position 295.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 296 0.25 0 0 0.125 easeoutquart
+a movecamera position 296.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 297 0.25 0 0 0.125 easeoutquart
+a movecamera position 297.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 298 0.25 0 0 0.125 easeoutquart
+a movecamera position 298.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 299 0.25 0 0 0.125 easeoutquart
+a movecamera position 299.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 300 0.25 0 0 0.125 easeoutquart
+a movecamera position 300.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 301 0.25 0 0 0.125 easeoutquart
+a movecamera position 301.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 302 0.25 0 0 0.125 easeoutquart
+a movecamera position 302.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 303 0.25 0 0 0.125 easeoutquart
+a movecamera position 303.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 304 0.25 0 0 0.125 easeoutquart
+a movecamera position 304.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 305 0.25 0 0 0.125 easeoutquart
+a movecamera position 305.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 306 0.25 0 0 0.125 easeoutquart
+a movecamera position 306.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 307 0.25 0 0 0.125 easeoutquart
+a movecamera position 307.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 308 0.25 0 0 0.125 easeoutquart
+a movecamera position 308.25 0.25 0 0 -0.125 easeinquad
+
+a movecamera position 304 0.25 0 0 0.125 easeoutquart
+a movecamera position 304.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 304.5 0.25 0 0 0.125 easeoutquart
+a movecamera position 304.75 0.25 0 0 -0.125 easeinquad
+a movecamera position 305 0.25 0 0 0.125 easeoutquart
+a movecamera position 305.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 305.5 0.25 0 0 0.125 easeoutquart
+a movecamera position 305.75 0.25 0 0 -0.125 easeinquad
+a movecamera position 306 0.25 0 0 0.125 easeoutquart
+a movecamera position 306.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 306.5 0.25 0 0 0.125 easeoutquart
+a movecamera position 306.75 0.25 0 0 -0.125 easeinquad
+a movecamera position 307 0.25 0 0 0.125 easeoutquart
+a movecamera position 307.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 307.5 0.25 0 0 0.125 easeoutquart
+a movecamera position 307.75 0.25 0 0 -0.125 easeinquad
+a movecamera position 308 0.25 0 0 0.125 easeoutquart
+a movecamera position 308.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 308.5 0.25 0 0 0.125 easeoutquart
+a movecamera position 308.75 0.25 0 0 -0.125 easeinquad
+a movecamera position 309 0.25 0 0 0.125 easeoutquart
+a movecamera position 309.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 309.5 0.25 0 0 0.125 easeoutquart
+a movecamera position 309.75 0.25 0 0 -0.125 easeinquad
+a movecamera position 310 0.25 0 0 0.125 easeoutquart
+a movecamera position 310.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 310.5 0.25 0 0 0.125 easeoutquart
+a movecamera position 310.75 0.25 0 0 -0.125 easeinquad
+a movecamera position 311 0.25 0 0 0.125 easeoutquart
+a movecamera position 311.25 0.25 0 0 -0.125 easeinquad
+a movecamera position 311.5 0.25 0 0 0.125 easeoutquart
+a movecamera position 311.75 0.25 0 0 -0.125 easeinquad
+
+a cameraeffect main arcade 0.5 319.8 0.5 easeinquad
+a cameraeffect main arcade 0 320.3 7.5 easeoutquart
+a movecamera position 319.9 0.25 0 0 0.5 easeinoutsine
+a movecamera position 320 0.25 0 0 -0.5 easeinoutsine
+a movecamera position 320.1 0.25 0 0 -0.5 easeinoutsine

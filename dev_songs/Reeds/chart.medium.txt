@@ -1,0 +1,360 @@
+//Medium chart
+
+n long lb 0.3333 21
+n short rb 0.3333
+n short rb 3
+n short rb 5
+n short rc 6
+n short rc 9
+n short rc 10
+n short rb 11
+n short rc 12
+n short rb 15
+n short rb 17
+n short rc 18
+n short rc 20
+n short rb 21
+
+n long rb 24 29
+n short lb 24
+n short lc 26
+n short lc 27
+n short lb 28
+n short lb 29
+
+n long lc 30 33
+n short rc 30
+n short rb 31
+n short rc 32
+n short rt 33
+
+n swipe in lb 36
+n swipe in rb 36
+n catch lb 39
+
+n swipe out lb 42
+n swipe out rb 42
+
+n catch rb 45
+
+n long rb 48 51
+n short lb 48
+n short lb 50
+n swipe in lb 51
+
+
+n long lc 54 57
+n short rc 54
+n short rc 56
+n swipe out rc 57
+
+n long lb 60 63
+n short rc 60
+n short rc 62
+n swipe in rc 63
+
+n long rb 66 69
+n short lc 66
+n short lc 68
+n swipe out lc 69
+
+n long rc 72 75
+n short lt 72
+n short lt 74
+n swipe in lt 75
+
+n long lc 78 81
+n short rt 78
+n short rt 80
+n swipe out rt 81
+
+
+
+n long lb 84 87
+n short rb 86
+n swipe in rb 87
+n compound rb 90 92 6
+n swipe out rb 93
+
+a s_movecamera angle z 93 12 -90 easeinoutsine
+
+n short lb 96
+n short rb 97
+n short lb 97.75
+n catch lb 98
+
+n short lc 99
+n short lb 100
+n short lc 100.75
+n catch lc 101
+
+n short lt 102
+n short lc 103
+n short lt 103.75
+n catch lt 104
+
+n short lt 105
+n short lc 106
+n short lb 107
+
+a s_movecamera angle z 106 12 90 easeinoutsine
+
+n short lc 108
+n short lt 109
+n short lc 109.75
+n catch lc 110
+
+n short lb 111
+n short lc 112
+n short lb 112.75
+n catch lb 113
+
+n short rb 114
+n short lb 115
+n short rb 115.75
+n catch rb 116
+
+
+n short rb 117
+n short lb 118
+n short lc 119
+
+
+n short lb 120
+n short rb 120
+n short lb 121
+n short lb 121.75
+n catch lb 122
+
+n short lc 123
+n short rb 123
+n short lc 124
+n short lc 124.75
+n catch lc 125
+
+n short lt 126
+n short rb 126
+n short lt 127
+n short lt 127.75
+n catch lt 128
+
+n short rt 129
+n short rc 130
+n short rb 131
+
+n short rb 132
+n short lb 132
+n short rb 133
+n short rb 133.75
+n catch rb 134
+
+n short rc 135
+n short lb 135
+n short rc 136
+n short rc 136.75
+n catch rc 137
+
+n short rt 138
+n short lb 138
+n short rt 139
+n short rt 139.75
+n catch rt 140
+
+n short lt 141
+n short lc 142
+n short lb 143
+
+a s_movecamera angle z 144 23 30 easeinoutsine
+
+n long lb 144 165
+n swipe in rc 144
+n short rc 145
+n short rc 146
+n swipe out rb 147
+n short rb 148
+n short rb 149
+n swipe in rt 150
+n short rt 151
+n short rt 152
+n swipe out rc 153
+n short rc 154
+n short rc 155
+n swipe in rb 156
+n short rb 157
+n short rb 158
+n swipe out rt 159
+n short rt 160
+n short rt 161
+n swipe out rb 162
+n short rb 163
+n short rb 164
+n swipe in rb 165
+
+a s_movecamera angle z 168 23 -30 easeinoutsine
+n long rb 168 189
+n swipe in lb 168
+n short lb 169
+n short lb 170
+n swipe out lc 171
+n short lc 172
+n short lc 173
+n swipe in lt 174
+n short lt 175
+n short lt 176
+n swipe out lc 177
+n short lc 178
+n short lc 179
+n swipe in lb 180
+n short lb 181
+n short lb 182
+n swipe out lc 183
+n short lc 184
+n short lc 185
+n swipe in lb 186
+n short lb 187
+n short lb 188
+n short lt 189
+
+//順時針旋轉
+
+n long lb 192 194
+n short rb 192
+n catch rb 193
+n catch rb 193.75
+n catch rb 194
+
+n long rb 195 197
+n short rc 195
+n catch rc 196
+n catch rc 196.75
+n catch rc 197
+
+n long rc 198 200
+n short rt 198
+n catch rt 199
+n catch rt 199.75
+n catch rt 200
+
+n short rt 201
+n short rt 202
+n short rt 203
+
+n long rt 204 206
+n short lt 204
+n catch lt 205
+n catch lt 205.75
+n catch lt 206
+
+n long lt 207 209
+n short lc 207
+n catch lc 208
+n catch lc 208.75
+n catch lc 209
+
+n long lc 210 212
+n short lb 210
+n catch lb 211
+n catch lb 211.75
+n catch lb 212
+//回原點
+
+n short lb 213
+n short lb 214
+n short lb 215
+
+n long lb 216 218
+n short rb 216
+n catch rb 217
+n catch rb 217.75
+n catch rb 218
+
+n long rb 219 221
+n short lb 219
+n catch lb 220
+n catch lb 220.75
+n catch lb 221
+
+n long lb 222 224
+n short rb 222
+n catch rb 223
+n catch rb 223.75
+n catch rb 224
+
+n short rb 225
+n short rb 226
+n short rb 227
+
+n long lb 228 229
+n long rb 229 232
+n short lb 233
+n short rb 233.3333
+n short lb 233.6666
+n short rb 234
+n short lb 236
+n short rb 237
+n short lb 239
+
+
+n long rc 240 246
+n long lc 241 246
+
+n long rt 247 248
+n long lt 248 249
+n long rt 249 250
+n long lc 250 251
+n short rb 251
+n long rb 252 253
+n short lb 253
+n short lb 254.5
+n long rb 255 257
+n short lb 257
+n long lc 258 261
+n swipe in rb 261
+n short rt 263.25
+n short lt 263.5
+n short rt 263.75
+n long lt 264 267
+n short rc 266
+n long rc 267 270
+n short lb 269
+n long lb 270 273
+n short rb 272
+n long rb 273 275
+n long lb 275 279
+n short lb 281.25
+n short rb 281.5
+n short lb 281.75
+n long rb 282 285
+n long lc 285 287
+n short rt 287
+
+a s_movecamera angle z 288 48 30 easeinoutsine
+
+n short rt 288
+n short lt 290
+n short rt 291
+n short lt 294
+
+n short rt 296
+n short lt 297
+
+n short rt 300
+n short lt 302
+n short rt 303
+n short lt 305
+n short rc 306
+n short lc 308
+n short rc 309
+n short lc 310
+n short rc 312
+n short lc 314
+n short rc 315
+n short lb 316
+n short rb 317
+n short lb 318
+n short rb 319
+n short lb 320
+n swipe in rb 321
+n long rb 324 330
+n long lb 330 336
+n compound rb 336 342 10

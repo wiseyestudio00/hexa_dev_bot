@@ -1,0 +1,2065 @@
+define stageposition BTsmall 1.35,2.35,100 0,0,240 -2.7,0,0 0,0,180 1.35,-2.35,100 0,0,120 -1.35,-2.35,100 0,0,60 2.7,0,0 0,0,0 -1.35,2.35,100 0,0,300
+
+n short rc 0
+n short lc 0
+n short rc 1.5
+n short rc 3
+
+n short lt 4
+n short lt 5.5
+n short lt 7
+
+n short rt 8
+n short rt 9.5
+n short rt 11
+
+n short lc 12
+n short lc 13.5
+n short lc 15
+
+n short rb 16
+n short rb 17.5
+n short rb 19
+
+
+n short lc 20
+n short lc 21.5
+n short lc 23
+
+n short rt 24
+n short rt 25.5
+n short rt 27
+
+n short lt 28
+n short lt 29.5
+n short lt 31
+
+
+
+
+
+a changestage BTsmall 32 3 easeinsine
+a changestage classichexagon 35 3 easeoutsine
+a movecamera angle 32 6 0 0 3600 easeInOutQuart
+
+a movecamera position 32 0 0 0 2 easeinoutsine
+a movecamera position 32.1 5.9 0 0 -2 easeinoutsine
+
+n swipe out lc 32
+n swipe out rc 32
+
+
+
+
+
+
+
+
+
+a changestage BTsmall 40.5 2.5 easeinsine
+a changestage classichexagon 43 3 easeoutsine
+a movecamera angle 40.5 5.5 0 0 -3600 easeInOutQuart
+
+a movecamera position 40 0 0 0 1 easeinoutsine
+a movecamera position 40.1 0.4 0 0 -1 easeinoutsine
+
+a movecamera position 40.5 0 0 0 2 easeinoutsine
+a movecamera position 40.6 5.4 0 0 -2 easeinoutsine
+
+n swipe out lc 40
+n swipe out rc 40
+n swipe out lc 40.5
+n swipe out rc 40.5
+
+
+
+
+
+a changestage BTsmall 48 3 easeinsine
+a changestage classichexagon 51 3 easeoutsine
+a movecamera angle 48 6 0 0 3600 easeInOutQuart
+
+a movecamera position 48 0 0 0 2 easeinoutsine
+a movecamera position 48.1 5.9 0 0 -2 easeinoutsine
+
+n swipe in lc 48
+n swipe in rc 48
+
+
+a movecamera angle 56.5 3.5 0 0 180 easeInOutSine
+
+
+a movecamera position 56 0 0 0 1 easeinoutsine
+a movecamera position 56.1 0.4 0 0 -1 easeinoutsine
+
+a movecamera position 56.5 0 0 0 2 easeinoutsine
+a movecamera position 56.6 3.3 0 0 -2 easeinoutsine
+
+
+
+n swipe in lc 56
+n swipe in rc 56
+n swipe in lc 56.5
+n swipe in rc 56.5
+
+
+a s_movecamera position y 60 4 0.25 easeOutSine
+a movecamera angle 60 4 -30 0 0 easeOutSine
+
+a s_movecamera position z 60 4 2 easeinoutsine
+
+
+n swipe out lc 60
+n swipe out rc 61
+n swipe out lt 62
+n swipe out rt 63
+
+
+
+
+
+a s_movecamera position y 64 28 -0.25 linear
+a movecamera angle 64 28 30 0 0 linear
+
+a s_movecamera position z 64 0 -0.5 easeinoutsine
+a s_movecamera position z 64.1 0.8 0.4 easeoutsine
+
+
+a s_movecamera position z 65 0 -0.5 easeinoutsine
+a s_movecamera position z 65.1 0.8 0.4 easeoutsine
+
+a s_movecamera position z 66 0 -0.5 easeinoutsine
+a s_movecamera position z 66.1 0.8 0.4 easeoutsine
+
+a s_movecamera position z 67 0 -0.5 easeinoutsine
+a s_movecamera position z 67.1 0.8 0.4 easeoutsine
+
+a s_movecamera position z 68 0 -0.5 easeinoutsine
+a s_movecamera position z 68.1 0.8 0.4 easeoutsine
+
+a s_movecamera position z 69 0 -0.5 easeinoutsine
+a s_movecamera position z 69.1 0.8 0.4 easeoutsine
+
+a s_movecamera position z 70 0 -0.5 easeinoutsine
+a s_movecamera position z 70.1 0.8 0.4 easeoutsine
+
+a s_movecamera position z 71 0 -0.5 easeinoutsine
+a s_movecamera position z 71.1 0.8 0.4 easeoutsine
+
+
+
+a s_movecamera position z 72 0 -0.5 easeinoutsine
+a s_movecamera position z 72.1 0.8 0.4 easeoutsine
+
+a s_movecamera position z 73 0 -0.5 easeinoutsine
+a s_movecamera position z 73.1 0.8 0.4 easeoutsine
+
+a s_movecamera position z 74 0 -0.5 easeinoutsine
+a s_movecamera position z 74.1 0.8 0.4 easeoutsine
+
+a s_movecamera position z 75 0 -0.5 easeinoutsine
+a s_movecamera position z 75.1 0.8 0.4 easeoutsine
+
+a s_movecamera position z 76 0 -0.5 easeinoutsine
+a s_movecamera position z 76.1 0.8 0.4 easeoutsine
+
+a s_movecamera position z 77 0 -0.5 easeinoutsine
+a s_movecamera position z 77.1 0.8 0.4 easeoutsine
+
+a s_movecamera position z 78 0 -0.5 easeinoutsine
+a s_movecamera position z 78.1 0.8 0.4 easeoutsine
+
+a s_movecamera position z 79 0 -0.5 easeinoutsine
+a s_movecamera position z 79.1 0.8 0.4 easeoutsine
+
+
+
+
+a s_movecamera position z 80 0 -0.5 easeinoutsine
+a s_movecamera position z 80.1 0.8 0.4 easeoutsine
+
+a s_movecamera position z 81 0 -0.5 easeinoutsine
+a s_movecamera position z 81.1 0.8 0.4 easeoutsine
+
+a s_movecamera position z 82 0 -0.5 easeinoutsine
+a s_movecamera position z 82.1 0.8 0.4 easeoutsine
+
+a s_movecamera position z 83 0 -0.5 easeinoutsine
+a s_movecamera position z 83.1 0.8 0.4 easeoutsine
+
+a s_movecamera position z 84 0 -0.5 easeinoutsine
+a s_movecamera position z 84.1 0.8 0.4 easeoutsine
+
+a s_movecamera position z 85 0 -0.5 easeinoutsine
+a s_movecamera position z 85.1 0.8 0.4 easeoutsine
+
+a s_movecamera position z 86 0 -0.5 easeinoutsine
+a s_movecamera position z 86.1 0.8 0.4 easeoutsine
+
+
+a s_movecamera position z 87 0 -0.5 easeinoutsine
+a s_movecamera position z 87.1 0.8 0.4 easeoutsine
+
+a s_movecamera position z 88 0 -0.5 easeinoutsine
+a s_movecamera position z 88.1 0.8 0.4 easeoutsine
+
+a s_movecamera position z 89 0 -0.5 easeinoutsine
+a s_movecamera position z 89.1 0.8 0.4 easeoutsine
+
+a s_movecamera position z 90 0 -0.5 easeinoutsine
+a s_movecamera position z 90.1 0.8 0.4 easeoutsine
+
+
+a s_movecamera position z 91 0 -0.5 easeinoutsine
+a s_movecamera position z 91.1 0.8 0.4 easeoutsine
+
+n short lt 64
+n short lt 64.75
+n short lt 65.5
+n short rt 64
+n short rt 65
+
+
+n short lt 66
+n short lt 66.75
+n short lt 67.5
+n short rt 66
+n short rt 67
+
+n short lt 68
+n short lt 68.75
+n short lt 69.5
+n short rt 68
+n short rt 69
+
+n short lt 70
+n short lt 70.5
+n short lt 71.5
+n short rt 70
+n short rt 71
+
+
+
+n short rt 72
+n short rt 72.75
+n short rt 73.5
+n short lt 72
+n short lt 73
+
+
+n short rt 74
+n short rt 74.75
+n short rt 75.5
+n short lt 74
+n short lt 75
+
+n short rt 76
+n short rt 76.75
+n short rt 77.5
+n short lt 76
+n short lt 77
+
+n short rt 78
+n short rt 78.5
+n short rt 79.5
+n short lt 78
+n short lt 79
+
+n short lc 80
+n swipe out rc 80
+n short lt 80.5
+n short rt 81
+n short rc 81.5
+
+n short lt 82
+n short rt 82.5
+n short lt 82.75
+n short rt 83.25
+n short lt 83.5
+
+
+n short rc 84
+n swipe out lc 84
+n short rt 84.5
+n short lt 85
+n short lc 85.5
+
+n short rt 86
+n short lt 86.5
+n short rt 86.75
+n short lt 87.25
+n short rt 87.5
+
+n short lc 88
+n short rc 88.25
+n short lc 88.5
+n short rc 88.75
+n short lc 89
+n short rc 89.25
+n short lc 89.5
+n short rc 89.75
+
+
+n short lb 90
+n short rb 90.25
+n short lb 90.5
+n short rb 90.75
+n short lb 91
+n short rb 91.25
+n short lb 91.5
+n short rb 91.75
+
+a s_movecamera abs_position z 92 0 -6.2 easeInCubic
+a s_movecamera abs_position x 92 0 0 easeInCubic
+a s_movecamera abs_position y 92 0 0 easeInCubic
+a movecamera abs_angle 92 0 0 0 0 easeInCubic
+
+
+a s_movecamera abs_position z 92 0 -6.2 easeInCubic
+a s_movecamera abs_position x 92 0 0 easeInCubic
+a s_movecamera abs_position y 92 0 0 easeInCubic
+a movecamera abs_angle 92 0 0 0 0 easeInCubic
+a s_movecamera angle z 92.01 0.99 120 easeOutCubic
+a s_movecamera angle z 93 1 120 easeOutCubic
+a s_movecamera angle z 94 1 120 easeOutCubic
+a s_movecamera position z 95 0.8 0.5 easeoutsine
+
+define stageposition NOrt 1.35,100,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
+define stageposition NOrc 1.35,2.35,0 0,0,240 2.7,100,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
+define stageposition NOrb 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-100,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
+define stageposition NOlb 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-100,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
+define stageposition NOlc 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -100,0,0 0,0,0 -1.35,2.35,0 0,0,300
+define stageposition NOlt 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,100,0 0,0,300
+
+
+
+a s_movecamera position z 96 0 -0.5 easeinoutsine
+a s_movecamera position z 96.1 0.8 0.5 easeoutsine
+a changestage NOlt 96.25 0 easeoutsine
+a changestage NOrt 96.5 0 easeoutsine
+a changestage NOrc 96.75 0 easeoutsine
+
+a s_movecamera position z 97 0 -0.5 easeinoutsine
+a s_movecamera position z 97.1 0.8 0.5 easeoutsine
+a changestage classichexagon 97 0 easeoutsine
+a changestage NOlt 97.25 0 easeoutsine
+a changestage NOrt 97.5 0 easeoutsine
+a changestage NOrc 97.75 0 easeoutsine
+
+a s_movecamera position z 98 0 -0.5 easeinoutsine
+a s_movecamera position z 98.1 0.8 0.5 easeoutsine
+a changestage classichexagon 98 0 easeoutsine
+a changestage NOlt 98.25 0 easeoutsine
+a changestage NOrt 98.5 0 easeoutsine
+a changestage NOrc 98.75 0 easeoutsine
+
+a s_movecamera position z 99 0 -0.5 easeinoutsine
+a s_movecamera position z 99.1 0.8 0.5 easeoutsine
+a changestage classichexagon 99 0 easeoutsine
+a changestage NOlt 99.25 0 easeoutsine
+a changestage NOrt 99.5 0 easeoutsine
+a changestage NOrc 99.75 0 easeoutsine
+
+
+
+a s_movecamera position z 100 0 -0.5 easeinoutsine
+a s_movecamera position z 100.1 0.8 0.5 easeoutsine
+a changestage classichexagon 100 0 easeoutsine
+a changestage NOlt 100.25 0 easeoutsine
+a changestage NOrt 100.5 0 easeoutsine
+a changestage NOrc 100.75 0 easeoutsine
+
+
+a s_movecamera position z 101 0 -0.5 easeinoutsine
+a s_movecamera position z 101.1 0.8 0.5 easeoutsine
+a changestage classichexagon 101 0 easeoutsine
+a changestage NOlt 101.25 0 easeoutsine
+a changestage NOrt 101.5 0 easeoutsine
+a changestage NOrc 101.75 0 easeoutsine
+
+a s_movecamera position z 102 0 -0.5 easeinoutsine
+a s_movecamera position z 102.1 0.8 0.5 easeoutsine
+a changestage classichexagon 102 0 easeoutsine
+a changestage NOlt 102.25 0 easeoutsine
+a changestage NOrt 102.5 0 easeoutsine
+a changestage NOrc 102.75 0 easeoutsine
+
+a s_movecamera position z 103 0 -0.5 easeinoutsine
+a s_movecamera position z 103.1 0.8 0.5 easeoutsine
+a changestage classichexagon 103 0 easeoutsine
+a changestage NOlt 103.25 0 easeoutsine
+a changestage NOrt 103.5 0 easeoutsine
+a changestage NOrc 103.75 0 easeoutsine
+
+
+
+a s_movecamera position z 104 0 -0.5 easeinoutsine
+a s_movecamera position z 104.1 0.8 0.5 easeoutsine
+a changestage classichexagon 104 0 easeoutsine
+a changestage NOlt 104.25 0 easeoutsine
+a changestage NOrt 104.5 0 easeoutsine
+a changestage NOrc 104.75 0 easeoutsine
+
+a s_movecamera position z 105 0 -0.5 easeinoutsine
+a s_movecamera position z 105.1 0.8 0.5 easeoutsine
+a changestage classichexagon 105 0 easeoutsine
+a changestage NOlt 105.25 0 easeoutsine
+a changestage NOrt 105.5 0 easeoutsine
+a changestage NOrc 105.75 0 easeoutsine
+
+a s_movecamera position z 106 0 -0.5 easeinoutsine
+a s_movecamera position z 106.1 0.8 0.5 easeoutsine
+a changestage classichexagon 106 0 easeoutsine
+a changestage NOlt 106.25 0 easeoutsine
+a changestage NOrt 106.5 0 easeoutsine
+a changestage NOrc 106.75 0 easeoutsine
+
+a s_movecamera position z 107 0 -0.5 easeinoutsine
+a s_movecamera position z 107.1 0.8 0.5 easeoutsine
+a changestage classichexagon 107 0 easeoutsine
+a changestage NOlt 107.25 0 easeoutsine
+a changestage NOrt 107.5 0 easeoutsine
+a changestage NOrc 107.75 0 easeoutsine
+
+
+n short lb 96
+n short rb 96
+n catch rb 96.25
+n catch rb 96.5
+n catch rb 96.75
+
+n short lb 97
+n short lc 97
+n catch lc 97.25
+n catch lc 97.5
+n catch lc 97.75
+
+
+n short lb 98
+n short rb 98
+n catch rb 98.25
+n catch rb 98.5
+n catch rb 98.75
+
+n short lb 99
+n short lc 99
+n catch lc 99.25
+n catch lc 99.5
+n catch lc 99.75
+
+
+
+n short lb 100
+n short rb 100
+n catch rb 100.25
+n catch rb 100.5
+n catch rb 100.75
+
+n short lb 101
+n short lc 101
+n catch lc 101.25
+n catch lc 101.5
+n catch lc 101.75
+
+n short lb 102
+n short rb 102
+n catch rb 102.25
+n catch rb 102.5
+n catch rb 102.75
+
+n short lb 103
+n short lc 103
+n catch lc 103.25
+n catch lc 103.5
+n catch lc 103.75
+
+
+n short lb 104
+n short rb 104
+n catch rb 104.25
+n catch rb 104.5
+n catch rb 104.75
+
+n short lb 105
+n short lc 105
+n catch lc 105.25
+n catch lc 105.5
+n catch lc 105.75
+
+n short lb 106
+n short rb 106
+n catch rb 106.25
+n catch rb 106.5
+n catch rb 106.75
+
+
+n short lb 107
+n short lc 107
+n catch lc 107.25
+n catch lc 107.5
+n catch lc 107.75
+
+
+a changestage NOlt 108 0 easeoutsine
+a changestage NOlc 108.25 0 easeoutsine
+a changestage NOlb 108.5 0 easeoutsine
+a changestage NOrb 108.75 0 easeoutsine
+a changestage NOrc 109 0 easeoutsine
+a changestage NOrt 109.25 0 easeoutsine
+a changestage NOlt 109.5 0 easeoutsine
+a changestage classichexagon 109.75 0 easeoutsine
+
+a changestage NOrt 110 0 easeoutsine
+a changestage NOrc 110.25 0 easeoutsine
+a changestage NOrb 110.5 0 easeoutsine
+a changestage NOlb 110.75 0 easeoutsine
+a changestage NOlc 111 0 easeoutsine
+a changestage NOlt 111.25 0 easeoutsine
+a changestage NOrt 111.5 0 easeoutsine
+a changestage classichexagon 111.75 0 easeoutsine
+
+a s_movecamera angle z 108 2 60 easeOutCubic
+a s_movecamera angle z 110 2 -60 easeOutCubic
+
+
+
+a s_movecamera position z 112 0 -0.5 easeinoutsine
+a s_movecamera position z 112.1 0.8 0.5 easeoutsine
+a changestage NOrt 112.25 0 easeoutsine
+a changestage NOlt 112.5 0 easeoutsine
+a changestage NOlc 112.75 0 easeoutsine
+
+a s_movecamera position z 113 0 -0.5 easeinoutsine
+a s_movecamera position z 113.1 0.8 0.5 easeoutsine
+a changestage classichexagon 113 0 easeoutsine
+a changestage NOrt 113.25 0 easeoutsine
+a changestage NOlt 113.5 0 easeoutsine
+a changestage NOlc 113.75 0 easeoutsine
+
+a s_movecamera position z 114 0 -0.5 easeinoutsine
+a s_movecamera position z 114.1 0.8 0.5 easeoutsine
+a changestage classichexagon 114 0 easeoutsine
+a changestage NOrt 114.25 0 easeoutsine
+a changestage NOlt 114.5 0 easeoutsine
+a changestage NOlc 114.75 0 easeoutsine
+
+a s_movecamera position z 115 0 -0.5 easeinoutsine
+a s_movecamera position z 115.1 0.8 0.5 easeoutsine
+a changestage classichexagon 115 0 easeoutsine
+a changestage NOrt 115.25 0 easeoutsine
+a changestage NOlt 115.5 0 easeoutsine
+a changestage NOlc 115.75 0 easeoutsine
+
+
+
+a s_movecamera position z 116 0 -0.5 easeinoutsine
+a s_movecamera position z 116.1 0.8 0.5 easeoutsine
+a changestage classichexagon 116 0 easeoutsine
+a changestage NOrt 116.25 0 easeoutsine
+a changestage NOlt 116.5 0 easeoutsine
+a changestage NOlc 116.75 0 easeoutsine
+
+a s_movecamera position z 117 0 -0.5 easeinoutsine
+a s_movecamera position z 117.1 0.8 0.5 easeoutsine
+a changestage classichexagon 117 0 easeoutsine
+a changestage NOrt 117.25 0 easeoutsine
+a changestage NOlt 117.5 0 easeoutsine
+a changestage NOlc 117.75 0 easeoutsine
+
+a s_movecamera position z 118 0 -0.5 easeinoutsine
+a s_movecamera position z 118.1 0.8 0.5 easeoutsine
+a changestage classichexagon 118 0 easeoutsine
+a changestage NOrt 118.25 0 easeoutsine
+a changestage NOlt 118.5 0 easeoutsine
+a changestage NOlc 118.75 0 easeoutsine
+
+a s_movecamera position z 119 0 -0.5 easeinoutsine
+a s_movecamera position z 119.1 0.8 0.5 easeoutsine
+a changestage classichexagon 119 0 easeoutsine
+a changestage NOrt 119.25 0 easeoutsine
+a changestage NOlt 119.5 0 easeoutsine
+a changestage NOlc 119.75 0 easeoutsine
+
+
+a changestage classichexagon 120 0 easeoutsine
+
+a s_movecamera position z 120 0 -0.5 easeinoutsine
+a s_movecamera position z 120.1 0.8 0.5 easeoutsine
+a s_movecamera position z 121 0 -0.5 easeinoutsine
+a s_movecamera position z 121.1 0.8 0.5 easeoutsine
+a s_movecamera position z 122 0 -0.5 easeinoutsine
+a s_movecamera position z 122.1 0.8 0.5 easeoutsine
+
+a s_movecamera position z 123 0 -0.5 easeinoutsine
+a s_movecamera position z 123.1 0.8 0.5 easeoutsine
+
+n short rb 112
+n short lb 112
+n catch lb 112.25
+n catch lb 112.5
+n catch lb 112.75
+
+n short rb 113
+n short rc 113
+n catch rc 113.25
+n catch rc 113.5
+n catch rc 113.75
+
+
+n short rb 114
+n short lb 114
+n catch lb 114.25
+n catch lb 114.5
+n catch lb 114.75
+
+n short rb 115
+n short rc 115
+n catch rc 115.25
+n catch rc 115.5
+n catch rc 115.75
+
+
+
+n short rb 116
+n short lb 116
+n catch lb 116.25
+n catch lb 116.5
+n catch lb 116.75
+
+n short rb 117
+n short rc 117
+n catch rc 117.25
+n catch rc 117.5
+n catch rc 117.75
+
+n short rb 118
+n short lb 118
+n catch lb 118.25
+n catch lb 118.5
+n catch lb 118.75
+
+n short rb 119
+n short rc 119
+n catch rc 119.25
+n catch rc 119.5
+n catch rc 119.75
+
+
+n short lb 120
+n short rb 120.25
+n short lb 120.5
+n short rb 120.75
+
+n short lc 121
+n short rc 121.25
+n short lc 121.5
+n short rc 121.75
+
+n short lt 122
+n short rt 122.25
+n short lt 122.5
+n short rt 122.75
+
+
+n short lt 123
+n short rt 123.25
+n short lt 123.5
+n short rt 123.75
+
+
+a s_movecamera angle z 124 2 360 easeinOutQuart
+a changestage BTsmall 124 1 easeinQuart
+
+a changestage classichexagon 125 2 easeoutQuart
+
+a s_movecamera position z 128 0 -0.5 easeinoutsine
+a s_movecamera position z 128.1 0.8 0.5 easeoutsine
+
+a s_movecamera position z 129 0 -0.5 easeinoutsine
+a s_movecamera position z 129.1 0.8 0.5 easeoutsine
+
+a s_movecamera position z 130 0 -0.5 easeinoutsine
+a s_movecamera position z 130.1 0.8 0.5 easeoutsine
+
+a s_movecamera position z 131 0 -0.5 easeinoutsine
+a s_movecamera position z 131.1 0.8 0.5 easeoutsine
+
+
+
+
+a s_movecamera position z 132 0 -0.5 easeinoutsine
+a s_movecamera position z 132.1 0.8 0.5 easeoutsine
+
+a s_movecamera position z 133 0 -0.5 easeinoutsine
+a s_movecamera position z 133.1 0.8 0.5 easeoutsine
+
+a s_movecamera position z 134 0 -0.5 easeinoutsine
+a s_movecamera position z 134.1 0.8 0.5 easeoutsine
+
+a s_movecamera position z 135 0 -0.5 easeinoutsine
+a s_movecamera position z 135.1 0.8 0.5 easeoutsine
+
+
+
+
+n short rt 128
+n short rc 128.75
+n short rb 129.5
+n short lb 130.25
+n short lb 130.75
+n short rb 131.5
+
+n short lc 128
+n short lc 129
+n short lc 130
+n short lc 131
+
+
+
+
+
+n short lt 132
+n short lc 132.75
+n short lb 133.5
+n short rb 134.25
+n short rb 134.75
+n short lb 135.5
+
+n short rc 132
+n short rc 133
+n short rc 134
+n short rc 135
+
+
+a s_movecamera position z 136 0 -0.5 easeinoutsine
+a s_movecamera position z 136.1 0.8 0.5 easeoutsine
+
+a s_movecamera position z 137 0 -0.5 easeinoutsine
+a s_movecamera position z 137.1 0.8 0.5 easeoutsine
+
+a s_movecamera position z 138 0 -0.5 easeinoutsine
+a s_movecamera position z 138.1 0.8 0.5 easeoutsine
+
+a s_movecamera position z 139 0 -0.5 easeinoutsine
+a s_movecamera position z 139.1 0.8 0.5 easeoutsine
+
+
+
+
+a s_movecamera position z 140 0 -0.5 easeinoutsine
+a s_movecamera position z 140.1 0.8 0.5 easeoutsine
+
+a s_movecamera position z 141 0 -0.5 easeinoutsine
+a s_movecamera position z 141.1 0.8 0.5 easeoutsine
+
+a s_movecamera position z 142 0 -0.5 easeinoutsine
+a s_movecamera position z 142.1 0.8 0.5 easeoutsine
+
+a s_movecamera position z 143 0 -0.5 easeinoutsine
+a s_movecamera position z 143.1 0.8 0.5 easeoutsine
+
+
+n short rt 136
+n short rc 136.75
+n short rb 137.5
+n short lb 138.25
+n short lb 138.75
+n short rb 139.5
+
+n short lc 136
+n short lc 137
+n short lc 138
+n short lc 139
+
+
+
+
+
+n short lt 140
+n short lc 140.75
+n short lb 141.5
+n short rb 142.25
+n short rb 142.75
+n short lb 143.5
+
+n short rc 140
+n short rc 141
+n short rc 142
+n short rc 143
+
+
+
+a s_movecamera position z 144 0 -0.5 easeinoutsine
+a s_movecamera position z 144.1 0.8 0.5 easeoutsine
+
+a s_movecamera position z 145 0 -0.5 easeinoutsine
+a s_movecamera position z 145.1 0.8 0.5 easeoutsine
+
+a s_movecamera position z 146 0 -0.5 easeinoutsine
+a s_movecamera position z 146.1 0.8 0.5 easeoutsine
+
+a s_movecamera position z 147 0 -0.5 easeinoutsine
+a s_movecamera position z 147.1 0.8 0.5 easeoutsine
+
+
+
+
+a s_movecamera position z 148 0 -0.5 easeinoutsine
+a s_movecamera position z 148.1 0.8 0.5 easeoutsine
+
+a s_movecamera position z 149 0 -0.5 easeinoutsine
+a s_movecamera position z 149.1 0.8 0.5 easeoutsine
+
+a s_movecamera position z 150 0 -0.5 easeinoutsine
+a s_movecamera position z 150.1 0.8 0.5 easeoutsine
+
+a s_movecamera position z 151 0 -0.5 easeinoutsine
+a s_movecamera position z 151.1 0.8 0.5 easeoutsine
+
+
+n short rt 144
+n short rc 144.75
+n short rb 145.5
+n short lb 146.25
+n short lb 146.75
+n short rb 147.5
+
+n swipe out lc 144
+n short lc 145
+n short lc 146
+n short lc 147
+
+
+
+
+
+n short lt 148
+n short lc 148.75
+n short lb 149.5
+n short rb 150.25
+n short rb 150.75
+n short lb 151.5
+
+n swipe out rc 148
+n short rc 149
+n short rc 150
+n short rc 151
+
+a s_movecamera position z 152 0 -0.5 easeinoutsine
+a s_movecamera position z 152.1 0.8 0.5 easeoutsine
+
+a s_movecamera position z 153 0 -0.5 easeinoutsine
+a s_movecamera position z 153.1 0.8 0.5 easeoutsine
+
+a s_movecamera position z 154 0 -0.5 easeinoutsine
+a s_movecamera position z 154.1 0.8 0.5 easeoutsine
+
+a s_movecamera position z 155 0 -0.5 easeinoutsine
+a s_movecamera position z 155.1 0.8 0.5 easeoutsine
+
+n short rt 152
+n short rc 152.75
+n short rb 153.5
+
+n swipe out lc 152
+n short lc 153
+
+n short lt 154
+n short lc 154.75
+n short lb 155.5
+
+n swipe out rc 154
+n short rc 155
+
+a s_movecamera position z 156 0 -0.5 easeinoutsine
+a s_movecamera position z 156.1 0.8 0.5 easeoutsine
+
+a s_movecamera position z 157 0 -0.5 easeinoutsine
+a s_movecamera position z 157.1 0.8 0.5 easeoutsine
+
+a s_movecamera position z 158 0 -0.5 easeinoutsine
+a s_movecamera position z 158.1 0.8 0.5 easeoutsine
+
+a s_movecamera angle z 156 1 120 easeOutCubic
+a s_movecamera angle z 157 1 120 easeOutCubic
+a s_movecamera angle z 158 1 120 easeOutCubic
+
+a s_movecamera position z 159 0 -0.5 easeinoutsine
+a s_movecamera position z 159.1 0.8 0.5 easeoutsine
+
+
+
+define stageposition movelc 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -4,0,0 0,10,0 -1.35,2.35,0 0,0,300
+define stageposition moverc 1.35,2.35,0 0,0,240 4,0,0 0,-10,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
+define stageposition movertlt 1.35,2.35,0 -10,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 -10,0,300
+define stageposition moverblb 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 10,0,120 -1.35,-2.35,0 10,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
+
+
+
+a changestage movelc 160 1 easeinsine
+a changestage classichexagon 161 0.5 easeoutsine
+a changestage movelc 161.5 0.5 easeoutsine
+
+a changestage classichexagon 162 0 easeoutsine
+a changestage movelc 162.1 0.9 easeoutsine
+a changestage classichexagon 163 1 easeinsine
+
+a changestage movelc 164 1 easeoutsine
+a changestage classichexagon 165 1 easeinsine
+
+a changestage movelc 166 1 easeoutsine
+a changestage classichexagon 167 1 easeoutsine
+
+
+n short rc 160
+n short rt 161
+n short lb 161
+
+n short rb 161.75
+n short rb 162.5
+n short rt 163
+n short lb 163
+
+n short rc 163.75
+
+n short rt 164.25
+n short lb 164.25
+
+n short rb 164.5
+
+n short rt 165
+n short lb 165
+
+n short rc 165.75
+
+
+n short rt 166.25
+n short lb 166.25
+
+n short rb 166.5
+
+n short rt 167
+n short lb 167
+n short rc 167.5
+
+
+a changestage moverc 168 1 easeinsine
+a changestage classichexagon 169 0.5 easeoutsine
+a changestage moverc 169.5 0.5 easeoutsine
+
+a changestage classichexagon 170 0 easeoutsine
+a changestage moverc 170.1 0.9 easeoutsine
+a changestage classichexagon 171 1 easeinsine
+
+a changestage moverc 172 0.5 easeoutsine
+a changestage classichexagon 172.5 1.25 easeinsine
+
+a changestage moverc 173.75 0.5 easeinsine
+
+a changestage classichexagon 174.25 0.25 easeinsine
+a changestage moverc 174.5 0.75 easeoutsine
+a changestage classichexagon 175.25 0.75 easeoutsine
+
+
+
+
+
+n short lc 168
+n short rb 169
+n short lt 169
+
+n short lb 169.75
+n short lb 170.5
+n short lt 171
+n short rb 171
+
+n short lc 171.75
+
+n short rb 172.25
+n short lt 172.25
+
+n short lb 172.5
+
+n short rb 173
+n short lt 173
+
+n short lc 173.75
+
+
+n short rb 174.25
+n short lt 174.25
+
+n short lb 174.5
+
+n short rb 175
+n short lt 175
+n short lc 175.5
+
+
+a changestage movertlt 176 1 easeinsine
+a changestage classichexagon 177 0.5 easeoutsine
+a changestage movertlt 177.5 0.5 easeoutsine
+
+a changestage classichexagon 178 0 easeoutsine
+a changestage movertlt 178.1 0.9 easeoutsine
+a changestage classichexagon 179 1 easeinsine
+
+a changestage movertlt 180 1 easeoutsine
+a changestage classichexagon 181 1 easeinsine
+
+a changestage movertlt 182 1 easeoutsine
+a changestage classichexagon 183 1 easeoutsine
+
+
+
+
+
+
+n short rb 176
+n short rc 177
+n short lc 177
+
+n short lb 177.75
+n short lb 178.5
+n short rc 179
+n short lc 179
+
+n short rb 179.75
+
+n short rc 180.25
+n short lc 180.25
+
+n short lb 180.5
+
+n short rc 181
+n short lc 181
+
+n short rb 181.75
+
+
+n short rc 182.25
+n short lc 182.25
+
+n short lb 182.5
+
+n short rc 183
+n short lc 183
+n short rb 183.5
+
+
+a changestage moverblb 184 1 easeinsine
+a changestage classichexagon 185 0.5 easeoutsine
+a changestage moverblb 185.5 0.5 easeoutsine
+
+a changestage classichexagon 186 0 easeoutsine
+a changestage moverblb 186.1 0.9 easeoutsine
+a changestage classichexagon 187 1 easeoutsine
+
+
+
+
+n short lb 184
+n short rc 185
+n short lc 185
+
+n short rt 185.75
+n short lt 185.75
+n short rt 186.5
+n short lt 186.5
+n short rc 187
+n short lc 187
+
+n long lt 188 188.5
+n long lc 189 189.5
+n long lb 190 190.5
+n long rb 191 191.5
+
+
+a s_movecamera position z 188 0 -0.5 easeinoutsine
+a s_movecamera position z 188.1 0.9 0.5 easeinoutsine
+a s_movecamera position z 189 0 -0.5 easeinoutsine
+a s_movecamera position z 189.1 0.9 0.5 easeinoutsine
+a s_movecamera position z 190 0 -0.5 easeinoutsine
+a s_movecamera position z 190.1 0.9 0.5 easeinoutsine
+a s_movecamera position z 191 0 -0.5 easeinoutsine
+a s_movecamera position z 191.1 0.9 0.5 easeinoutsine
+
+
+n swipe out rb 188
+n swipe out rc 189
+n swipe out rt 190
+n swipe out lt 191
+
+
+
+
+define stageposition movelcout2 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -100,0,9 0,30,0 -1.35,2.35,0 0,0,300
+define stageposition movelcback1 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 40,0,9 0,30,0 -1.35,2.35,0 0,0,300
+
+a s_movecamera position z 192 4 0.5 easeinoutsine
+a s_movecamera position z 196 4 -0.5 easeinoutsine
+
+a changestage movelcout2 192 4 easeinQuart
+a changestage movelcback1 196 0 easeinsine
+a changestage classichexagon 196.01 2.99 easeoutQuart
+
+
+
+define stageposition movercout2 1.35,2.35,0 0,0,240 100,0,0 0,-30,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
+define stageposition movercback1 1.35,2.35,0 0,0,240 -40,0,0 0,-30,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
+
+a s_movecamera position z 200 4 0.5 easeinoutsine
+a s_movecamera position z 204 4 -0.5 easeinoutsine
+
+a changestage movercout2 200 4 easeinQuart
+a changestage movercback1 204 0 easeinsine
+a changestage classichexagon 204.01 2.99 easeoutQuart
+
+
+n long rc 192 196
+n swipe out lc 192
+
+n short lb 193.5
+n short lb 195
+
+n short rb 196
+n short rb 197.5
+n short rb 199
+
+n long lc 200 204
+n swipe out rc 200
+
+n short rb 201.5
+n short rb 203
+
+n short lb 204
+n short lb 205.5
+n short lb 207
+
+a s_movecamera position z 208 4 0.5 easeinoutsine
+a s_movecamera position z 212 4 -0.5 easeinoutsine
+
+a changestage movelcout2 208 4 easeinQuart
+a changestage movelcback1 212 0 easeinsine
+a changestage classichexagon 212.01 2.99 easeoutQuart
+
+a s_movecamera position z 216 4 0.5 easeinoutsine
+a s_movecamera position z 220 4 -0.5 easeinoutsine
+
+a changestage movercout2 216 4 easeinQuart
+a changestage movercback1 220 0 easeinsine
+a changestage classichexagon 220.01 2.99 easeoutQuart
+
+
+n swipe out lc 208
+n short rc 208
+n short rc 208.5
+n short rc 209
+
+n short lb 209.5
+n short lb 210
+n short lb 210.5
+
+n short rb 211
+n short rb 211.5
+
+n short lt 212
+n short lt 212.5
+n short lt 213
+
+n short rt 213.5
+n short rt 214
+
+n short lt 214.5
+n short rt 214.75
+
+n short lt 215.25
+n short rt 215.5
+
+
+
+
+n swipe out rc 216
+n short lc 216
+n short lc 216.5
+n short lc 217
+
+
+n short rb 217.5
+n short rb 218
+
+n short lb 218.5
+n short rb 218.75
+
+n short lb 219.25
+n short rb 219.5
+
+n short lt 220
+n short rt 220.25
+n short lt 220.5
+n short rt 220.75
+
+n short lt 221
+n short rt 221.25
+n short lt 221.5
+n short rt 221.75
+
+n short lt 222
+n short rt 222.25
+n short lt 222.5
+n short rt 222.75
+
+n short lt 223
+n short rt 223.25
+n short lt 223.5
+n short rt 223.75
+
+
+n swipe out rc 224
+n swipe out lc 224
+
+a changestage hide 224.3 7.5 easeoutsine
+
+a changestage drop_6 232 0 linear
+
+
+a s_movecamera position z 231 0 10 easeinoutsine
+
+a s_movecamera position z 232 7 -9 easeinCubic
+a s_movecamera angle x 231 0 -50 easeOutCubic
+a s_movecamera angle x 232 7 50 easeoutsine
+
+
+n short lb 240
+n short rb 240.667
+
+n short lb 241
+n short rb 241.667
+
+n short lb 242
+n short rb 242.667
+
+n short lb 243
+n short rb 243.667
+
+n short lc 244
+n short rc 244.667
+
+n short lc 245
+n short rc 245.667
+
+n short lc 246
+n short rc 246.667
+
+n short lc 247
+n short rc 247.667
+
+
+
+
+n short lt 248
+n short rt 248
+
+
+n short lc 248.667
+n short rb 248.667
+
+
+n short rc 249.333
+n short lb 249.333
+
+
+
+
+n short lt 250
+n short rb 250
+
+
+n short rc 250.667
+n short lb 250.667
+
+
+n short rt 251.333
+n short lc 251.333
+
+
+n swipe in lb 252
+n swipe in rb 252
+
+define stageposition rblbside 5.5,1.05,3 0,-4,180 4.3,-2,3 -2.8,-2.8,135 1.25,-3.3,3 -4,0,90 -1.25,-3.3,3 -4,0,90 -4.3,-2,3 -2.8,2.8,45 -5.5,1.05,3 0,4,360
+
+a changestage rblbside 252.3 3.5 easeoutQuart 
+
+
+n short lt 256
+n short rb 256
+n short rc 256.667
+
+n short lc 257
+n catch rt 257
+n short rc 257.667
+
+n short lt 258
+n catch rb 258
+n short rc 258.667
+
+n short lc 259
+n catch rt 259
+n short rc 259.667
+
+
+n short lt 260
+n catch rb 260
+n short rc 260.667
+
+n short lb 261
+n catch rt 261
+n short rc 261.667
+
+n short lt 262
+n catch rb 262
+n short rc 262.667
+
+n swipe in lc 263
+n swipe in rc 263
+
+
+
+n short lc 264
+n short rc 264
+n short lb 264.667
+
+n short rb 265
+n catch lc 265
+n short rb 265.667
+
+n short lb 266
+n catch rc 266
+n short lc 266.667
+
+n short rb 267
+n catch lt 267
+n short rc 267.667
+
+
+n swipe in lb 268
+n swipe out rt 268
+
+n swipe in rb 269
+n swipe out lt 269
+
+n swipe in lb 270
+n swipe out rt 270
+
+n swipe in rb 271
+n swipe out lt 271
+
+
+
+
+
+
+
+
+
+n short rt 272
+n short lb 272
+n short lc 272.667
+
+n short rc 273
+n catch lt 273
+n short lc 273.667
+
+n short rt 274
+n catch lb 274
+n short lc 274.667
+
+n short rc 275
+n catch lt 275
+n short lc 275.667
+
+
+n short rt 276
+n catch lb 276
+n short lc 276.667
+
+n short rb 277
+n catch lt 277
+n short lc 277.667
+
+n short rt 278
+n catch lb 278
+n short lc 278.667
+
+n swipe in rc 279
+n swipe in lc 279
+
+
+
+n short rc 280
+n short lc 280
+n short rb 280.667
+
+n short lb 281
+n catch rc 281
+n short lb 281.667
+
+n short rb 282
+n catch lc 282
+n short rc 282.667
+
+n short lb 283
+n catch rt 283
+n short lc 283.667
+
+n swipe in rb 284
+n swipe out lt 284
+
+n swipe in lb 285
+n swipe out rt 285
+
+n swipe in rb 286
+n swipe out lt 286
+
+n swipe in lb 287
+n swipe out rt 287
+
+
+
+
+
+
+n short rc 288
+n short lb 288
+n short rb 288.667
+
+n short rb 289
+n swipe out lt 289
+n short rc 289.667
+
+
+n short lc 290
+n short rb 290
+n short lb 290.667
+
+n short lb 291
+n swipe out rt 291
+n short lc 291.667
+
+n short rc 292
+n short lb 292
+n short rb 292.667
+
+n short rb 293
+n swipe out lt 293
+n short rc 293.667
+
+n short lc 294
+n short rb 294
+n short lb 294.667
+
+
+n swipe in rb 295
+n swipe in lb 295
+
+
+n short lc 296
+n short lb 296
+n short rb 296.667
+
+n short rc 297
+n swipe in lb 297
+n short rt 297.667
+
+n short rc 298
+n short rb 298
+n short lb 298.667
+
+n short lc 299
+n swipe in rb 299
+n short lt 299.667
+
+
+n short lc 300
+n swipe out rt 300
+
+n short lb 301
+n swipe out rc 301
+
+n short rb 302
+n swipe out lc 302
+
+n short rc 303
+n swipe out lt 303
+
+
+a changestage classichexagon 304 16 linear
+a s_movecamera position z 304 16 -1 easeinCubic
+
+n short lc 304
+n short rb 304
+n short lb 304.667
+
+n short lb 305
+n swipe out rt 305
+n short lc 305.667
+
+
+n short rc 306
+n short lb 306
+n short rb 306.667
+
+n short rb 307
+n swipe out lt 307
+n short rc 307.667
+
+n short lc 308
+n short rb 308
+n short lb 308.667
+
+n short lb 309
+n swipe out rt 309
+n short lc 309.667
+
+n short rc 310
+n short lb 310
+n short rb 310.667
+
+
+n swipe in rb 311
+n swipe in lb 311
+
+
+
+
+
+n short rc 312
+n short rb 312
+n short lb 312.667
+
+n short lc 313
+n swipe in rb 313
+n short lt 313.667
+
+n short lc 314
+n short lb 314
+n short rb 314.667
+
+n short rc 315
+n swipe in lb 315
+n short rt 315.667
+
+
+n short rc 316
+n swipe out lt 316
+
+n short rb 317
+n swipe out lc 317
+
+n short lb 318
+n swipe out rc 318
+
+n short lc 319
+n swipe out rt 319
+
+
+a s_movecamera position z 320 0 -0.2 easeinCubic
+a s_movecamera position z 320.1 0.8 0.2 easeoutCubic
+
+
+a s_movecamera position z 321 0 -0.2 easeinCubic
+a s_movecamera position z 321.1 0.8 0.2 easeoutCubic
+
+a s_movecamera position z 322 0 -0.2 easeinCubic
+a s_movecamera position z 322.1 0.8 0.2 easeoutCubic
+
+
+a s_movecamera position z 323 0 -0.2 easeinCubic
+a s_movecamera position z 323.1 0.8 0.2 easeoutCubic
+
+
+a s_movecamera position z 324 0 -0.2 easeinCubic
+a s_movecamera position z 324.1 0.8 0.2 easeoutCubic
+
+a s_movecamera position z 325 0 -0.2 easeinCubic
+a s_movecamera position z 325.1 0.8 0.2 easeoutCubic
+
+a s_movecamera position z 326 0 -0.2 easeinCubic
+a s_movecamera position z 326.1 0.8 0.2 easeoutCubic
+
+a s_movecamera position z 327 0 -0.2 easeinCubic
+a s_movecamera position z 327.1 0.8 0.2 easeoutCubic
+
+
+n short rb 320
+n short rb 321
+n short rc 320
+n short rt 320.75
+n short rt 321.5
+
+n short lb 322
+n short lb 323
+n short rb 322
+n short rt 322.75
+n short rt 323.5
+
+n short lc 324
+n short lc 325
+n short lb 324
+n short rt 324.75
+n short rt 325.5
+
+n short lt 326
+n long lc 327 327.5
+n short rt 326.25
+n long rc 327 327.5
+
+a s_movecamera position z 328 0 -0.2 easeinCubic
+a s_movecamera position z 328.1 0.8 0.2 easeoutCubic
+
+
+a s_movecamera position z 329 0 -0.2 easeinCubic
+a s_movecamera position z 329.1 0.8 0.2 easeoutCubic
+
+a s_movecamera position z 330 0 -0.2 easeinCubic
+a s_movecamera position z 330.1 0.8 0.2 easeoutCubic
+
+
+a s_movecamera position z 331 0 -0.2 easeinCubic
+a s_movecamera position z 331.1 0.8 0.2 easeoutCubic
+
+
+a s_movecamera position z 332 0 -0.2 easeinCubic
+a s_movecamera position z 332.1 0.8 0.2 easeoutCubic
+
+a s_movecamera position z 333 0 -0.2 easeinCubic
+a s_movecamera position z 333.1 0.8 0.2 easeoutCubic
+
+a s_movecamera position z 334 0 -0.2 easeinCubic
+a s_movecamera position z 334.1 0.8 0.2 easeoutCubic
+
+a s_movecamera position z 335 0 -0.2 easeinCubic
+a s_movecamera position z 335.1 0.8 0.2 easeoutCubic
+
+
+n short lb 328
+n short rb 329
+n short lc 330
+n long lc 331 331.5
+n short rb 328
+n short rc 328.75
+n short rc 329.5
+
+n short lb 330.25
+n long lb 331 331.5
+
+n long lt 332 332.5
+n long lc 333 333.5
+n long lb 334 334.5
+n long rb 335 335.5
+n swipe out rb 332
+n swipe out rc 333
+n swipe out rt 334
+n swipe out lt 335
+
+
+a s_movecamera position z 336 0 -0.2 easeinCubic
+a s_movecamera position z 336.1 0.8 0.2 easeoutCubic
+
+
+a s_movecamera position z 337 0 -0.2 easeinCubic
+a s_movecamera position z 337.1 0.8 0.2 easeoutCubic
+
+a s_movecamera position z 338 0 -0.2 easeinCubic
+a s_movecamera position z 338.1 0.8 0.2 easeoutCubic
+
+
+a s_movecamera position z 339 0 -0.2 easeinCubic
+a s_movecamera position z 339.1 0.8 0.2 easeoutCubic
+
+
+a s_movecamera position z 340 0 -0.2 easeinCubic
+a s_movecamera position z 340.1 0.8 0.2 easeoutCubic
+
+a s_movecamera position z 341 0 -0.2 easeinCubic
+a s_movecamera position z 341.1 0.8 0.2 easeoutCubic
+
+a s_movecamera position z 342 0 -0.2 easeinCubic
+a s_movecamera position z 342.1 0.8 0.2 easeoutCubic
+
+a s_movecamera position z 343 0 -0.2 easeinCubic
+a s_movecamera position z 343.1 0.8 0.2 easeoutCubic
+
+
+
+n short lb 336
+n short lb 337
+n short lc 336
+n short lt 336.75
+n short lt 337.5
+
+n short rb 338
+n short rb 339
+n short lb 338
+n short lt 338.75
+n short lt 339.5
+
+n short rc 340
+n short rc 341
+n short rb 340
+n short lt 340.75
+n short lt 341.5
+
+n short rt 342
+n long rc 343 343.5
+n short lt 342.25
+n long lc 343 343.5
+
+
+
+a s_movecamera position z 344 0 -0.2 easeinCubic
+a s_movecamera position z 344.1 0.8 0.2 easeoutCubic
+
+
+a s_movecamera position z 345 0 -0.2 easeinCubic
+a s_movecamera position z 345.1 0.8 0.2 easeoutCubic
+
+a s_movecamera position z 346 0 -0.2 easeinCubic
+a s_movecamera position z 346.1 0.8 0.2 easeoutCubic
+
+
+a s_movecamera position z 347 0 -0.2 easeinCubic
+a s_movecamera position z 347.1 0.8 0.2 easeoutCubic
+
+
+a s_movecamera position z 348 0 -0.2 easeinCubic
+a s_movecamera position z 348.1 0.8 0.2 easeoutCubic
+
+a s_movecamera position z 349 0 -0.2 easeinCubic
+a s_movecamera position z 349.1 0.8 0.2 easeoutCubic
+
+a s_movecamera position z 350 0 -0.2 easeinCubic
+a s_movecamera position z 350.1 0.8 0.2 easeoutCubic
+
+a s_movecamera position z 351 0 -0.2 easeinCubic
+a s_movecamera position z 351.1 0.8 0.2 easeoutCubic
+
+
+
+n short rb 344
+n short lb 345
+n short rc 346
+n long rc 347 347.5
+n short lb 344
+n short lc 344.75
+n short lc 345.5
+
+n short rb 346.25
+n long rb 347 347.5
+
+n long rt 348 348.5
+n long rc 349 349.5
+n long rb 350 350.5
+n long lb 351 351.5
+n swipe out lb 348
+n swipe out lc 349
+n swipe out lt 350
+n swipe out rt 351
+
+
+
+a s_movecamera position z 352 0 -0.2 easeinCubic
+a s_movecamera position z 352.1 0.8 0.2 easeoutCubic
+
+
+a s_movecamera position z 353 0 -0.2 easeinCubic
+a s_movecamera position z 353.1 0.8 0.2 easeoutCubic
+
+a s_movecamera position z 354 0 -0.2 easeinCubic
+a s_movecamera position z 354.1 0.8 0.2 easeoutCubic
+
+
+a s_movecamera position z 355 0 -0.2 easeinCubic
+a s_movecamera position z 355.1 0.8 0.2 easeoutCubic
+
+
+a s_movecamera position z 356 0 -0.2 easeinCubic
+a s_movecamera position z 356.1 0.8 0.2 easeoutCubic
+
+a s_movecamera position z 357 0 -0.2 easeinCubic
+a s_movecamera position z 357.1 0.8 0.2 easeoutCubic
+
+a s_movecamera position z 358 0 -0.2 easeinCubic
+a s_movecamera position z 358.1 0.8 0.2 easeoutCubic
+
+a s_movecamera position z 359 0 -0.2 easeinCubic
+a s_movecamera position z 359.1 0.8 0.2 easeoutCubic
+
+
+
+
+
+n short lc 352
+n short lb 353
+n short rb 354
+n short lb 355
+n short lc 356
+n short lb 357
+n short lt 358
+n long lc 359 359.5
+
+n short rb 352
+n short rc 352.75
+n short rc 353.5
+
+n short rt 354
+n short rc 354.75
+n short rc 355.5
+
+n short rb 356
+n short rc 356.75
+n short rc 357.5
+n short rt 358.25
+n long rc 359 359.5
+
+
+a s_movecamera position z 360 0 -0.2 easeinCubic
+a s_movecamera position z 360.1 0.8 0.2 easeoutCubic
+
+
+a s_movecamera position z 361 0 -0.2 easeinCubic
+a s_movecamera position z 361.1 0.8 0.2 easeoutCubic
+
+a s_movecamera position z 362 0 -0.2 easeinCubic
+a s_movecamera position z 362.1 0.8 0.2 easeoutCubic
+
+
+a s_movecamera position z 363 0 -0.2 easeinCubic
+a s_movecamera position z 363.1 0.8 0.2 easeoutCubic
+
+
+a s_movecamera position z 364 0 -0.2 easeinCubic
+a s_movecamera position z 364.1 0.8 0.2 easeoutCubic
+
+a s_movecamera position z 365 0 -0.2 easeinCubic
+a s_movecamera position z 365.1 0.8 0.2 easeoutCubic
+
+a s_movecamera position z 366 0 -0.2 easeinCubic
+a s_movecamera position z 366.1 0.8 0.2 easeoutCubic
+
+a s_movecamera position z 367 0 -0.2 easeinCubic
+a s_movecamera position z 367.1 0.8 0.2 easeoutCubic
+
+
+
+
+
+n short rb 360
+n short lt 361
+n short rt 362
+n long rc 363 363.5
+
+n short lb 360
+n short lc 360.75
+n short lc 361.5
+n short lt 362.25
+n long rt 363 363.5
+
+n long lt 364 364.5
+n long rt 365 365.5
+n long rc 366 366.5
+n long rb 367 367.5
+n swipe out rb 364
+n swipe out lb 365
+n swipe out lc 366
+n swipe out lt 367
+
+
+
+a s_movecamera position z 368 0 -0.5 easeinCubic
+a s_movecamera position z 368.1 0.8 0.5 easeoutCubic
+
+
+a s_movecamera position z 369 0 -0.2 easeinCubic
+a s_movecamera position z 369.1 0.8 0.2 easeoutCubic
+
+a s_movecamera position z 370 0 -0.2 easeinCubic
+a s_movecamera position z 370.1 0.8 0.2 easeoutCubic
+
+
+a s_movecamera position z 371 0 -0.2 easeinCubic
+a s_movecamera position z 371.1 0.8 0.2 easeoutCubic
+
+
+a s_movecamera position z 372 0 -0.5 easeinCubic
+a s_movecamera position z 372.1 0.8 0.5 easeoutCubic
+
+a s_movecamera position z 373 0 -0.2 easeinCubic
+a s_movecamera position z 373.1 0.8 0.2 easeoutCubic
+
+a s_movecamera position z 374 0 -0.2 easeinCubic
+a s_movecamera position z 374.1 0.8 0.2 easeoutCubic
+
+a s_movecamera position z 375 0 -0.2 easeinCubic
+a s_movecamera position z 375.1 0.8 0.2 easeoutCubic
+
+
+
+
+
+
+n swipe out rc 368
+n short rb 369
+n short lb 370
+n short rb 371
+n swipe out rc 372
+n short rb 373
+n short rt 374
+n long rc 375 375.5
+
+n short lb 368
+n short lc 368.75
+n short lc 369.5
+
+n short lt 370
+n short lc 370.75
+n short lc 371.5
+
+n short lb 372
+n short lc 372.75
+n short lc 373.5
+n short lt 374.25
+n long lc 375 375.5
+
+
+
+
+
+
+a s_movecamera position z 376 0 -0.5 easeinCubic
+a s_movecamera position z 376.1 0.8 0.5 easeoutCubic
+
+
+a s_movecamera position z 377 0 -0.2 easeinCubic
+a s_movecamera position z 377.1 0.8 0.2 easeoutCubic
+
+a s_movecamera position z 378 0 -0.5 easeinCubic
+a s_movecamera position z 378.1 0.8 0.5 easeoutCubic
+
+
+a s_movecamera position z 379 0 -0.2 easeinCubic
+a s_movecamera position z 379.1 0.8 0.2 easeoutCubic
+
+
+a s_movecamera position z 380 0 -0.5 easeinCubic
+a s_movecamera position z 380.1 0.8 0.5 easeoutCubic
+
+a s_movecamera position z 381 0 -0.5 easeinCubic
+a s_movecamera position z 381.1 0.8 0.5 easeoutCubic
+
+a s_movecamera position z 382 0 -0.5 easeinCubic
+a s_movecamera position z 382.1 0.8 0.5 easeoutCubic
+
+a s_movecamera position z 383 0 -0.5 easeinCubic
+a s_movecamera position z 383.1 0.8 0.5 easeoutCubic
+
+
+
+
+
+
+
+
+
+n short rb 376
+n short lb 376.25
+n short rb 376.5
+n short lb 376.75
+
+n short rc 377
+n short lc 377.25
+n short rc 377.5
+n short lc 377.75
+
+n short rt 378
+n short lt 378.25
+n short rt 378.5
+n short lt 378.75
+
+n short rt 379
+n short lt 379.25
+n short rt 379.5
+n short lt 379.75
+
+n swipe out rc 380
+n swipe out lc 380.5
+n swipe out rb 381
+n swipe out lt 381.5
+n swipe out lb 382
+n swipe out rt 382.5
+n swipe in rt 383
+n swipe in lb 383
+
+n swipe out lc 384
+n swipe out rc 384
+
+
+a changestage hide 384.3 7.5 easeoutsine
+a changestage square 392 7 easeoutCubic
+
+a s_movecamera position z 384 16 -3 easeinCubic
+
+a s_movecamera position z 400 16 2 linear
+
+
+n short rb 400
+n short rb 400.5
+n short lt 401
+n short lt 401.5
+
+n short rt 402
+n short lt 402.5
+n short rt 402.75
+n short lt 403.25
+n short rt 403.5
+
+
+
+
+n short lb 404
+n short lb 404.5
+n short rt 405
+n short rt 405.5
+
+n short lt 406
+n short rt 406.5
+n short lt 406.75
+n short rt 407.25
+n short lt 407.5
+
+
+n short rb 408
+n short lb 408.25
+n short rb 408.5
+n short lb 408.75
+n short rb 409
+n short lb 409.25
+n short rb 409.5
+n short lb 409.75
+
+
+n short rt 410
+n short lt 410.25
+n short rt 410.5
+n short lt 410.75
+n short rt 411
+n short lt 411.25
+n short rt 411.5
+n short lt 411.75
+
+n short rb 412
+n short rt 412.75
+n short lt 413.5
+n short lb 414.25
+n short lb 414.75
+n short rb 415.5

@@ -9,15 +9,6 @@ import chart
 from authorize import user_is_authorized
 from tree import DisplayablePath
 
-
-def push_github(commit_message):
-    with open("log.txt", "a") as log:
-        log.write(commit_message)
-    os.system("git add .")
-    os.system(f"git commit -m \"{commit_message}\"")
-    os.system("git push")
-
-
 TOKEN = ""
 
 with open("setting.json") as setting:
@@ -26,6 +17,16 @@ with open("setting.json") as setting:
     TOKEN = json_data["token"]
 
 BOT = commands.Bot(".", help_command=None)
+
+def push_github(commit_message):
+    with open("log.txt", "a") as log:
+        log.write(commit_message)
+
+    os.system("git pull")
+    os.system("git add .")
+    os.system(f"git commit -m \"{commit_message}\"")
+    os.system("git push")
+
 
 @BOT.command()
 async def help(ctx):
@@ -79,7 +80,9 @@ async def help(ctx):
 
 @BOT.command()
 async def checkin(ctx, path):
+    
     path = path.lower()
+    
     if await chart.checkin(ctx, path):
         push_github(f"{datetime.datetime.now()}：{ctx.author.name} 上傳了 {path}\n")
 
@@ -87,7 +90,9 @@ async def checkin(ctx, path):
 @BOT.command()
 async def checkout(ctx, path):
     path = path.lower()
+
     print(f"{ctx.author.name} asked for {path}")
+    
     await chart.checkout(ctx, path)
 
 
@@ -99,16 +104,27 @@ async def delete(ctx, path):
 
 
 @BOT.command()
-async def tree(ctx, path=""):
+async def library_tree(ctx, path=""):
+    path = f"{os.getcwd()}/chart_library/{path}"
+    await ctx.send(f"```\n{make_tree(path)}\n```")
+
+
+@BOT.command()
+async def dev_song_tree(ctx, path=""):
+    path = f"{os.getcwd()}/dev_songs/{path}"
+    await ctx.send(f"```\n{make_tree(path)}\n```")
+
+
+def make_tree(path):
     path = path.lower()
-    paths = DisplayablePath.make_tree(Path(f"{os.getcwd()}/charts/{path}"))
+    paths = DisplayablePath.make_tree(Path(path))
 
     text = ""
 
     for path in paths:
         text += path.displayable() + "\n"
 
-    await ctx.send(f"```\n{text}\n```")
+    return text
 
 
 @BOT.event
