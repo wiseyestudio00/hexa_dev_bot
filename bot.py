@@ -5,6 +5,7 @@ from pathlib import Path
 from discord.ext import commands
 import discord
 import chart
+import dev_song_uploader
 
 from authorize import user_is_authorized
 from tree import DisplayablePath
@@ -17,6 +18,7 @@ with open("setting.json") as setting:
     TOKEN = json_data["token"]
 
 BOT = commands.Bot(".", help_command=None)
+
 
 def push_github(commit_message):
     with open("log.txt", "a") as log:
@@ -80,19 +82,17 @@ async def help(ctx):
 
 @BOT.command()
 async def checkin(ctx, path):
-    
     path = path.lower()
-    
     if await chart.checkin(ctx, path):
-        push_github(f"{datetime.datetime.now()}：{ctx.author.name} 上傳了 {path}\n")
+        log = f"{datetime.datetime.now()}：{ctx.author.name} 更新 chart-library {path}\n"
+        print(log)
+        push_github(log)
 
 
 @BOT.command()
 async def checkout(ctx, path):
     path = path.lower()
-
     print(f"{ctx.author.name} asked for {path}")
-    
     await chart.checkout(ctx, path)
 
 
@@ -100,31 +100,62 @@ async def checkout(ctx, path):
 async def delete(ctx, path):
     path = path.lower()
     if await chart.delete(ctx, path):
-        push_github(f"{datetime.datetime.now()}：{ctx.author.name} 刪除了 {path}\n")
+        log = f"{datetime.datetime.now()}：{ctx.author.name} 刪除 chart-library {path}\n"
+        push_github(log)
 
 
 @BOT.command()
-async def library_tree(ctx, path=""):
+async def add_to_dev_song(ctx, song_name):
+    song_name = song_name.lower()
+
+    if await dev_song_uploader.add_to_dev_songs(ctx, song_name):
+        log = f"{datetime.datetime.now()}: {ctx.author.name} 更新 Dev-Songs的 {song_name}\n"
+        push_github(log)
+
+
+@BOT.command()
+async def delete_from_dev_song(ctx, path):
+    song_name = path.lower()
+
+    if await dev_song_uploader.delete_from_dev_songs(ctx, path):
+        log = f"{datetime.datetime.now()}: {ctx.author.name} 刪除 Dev-Songs的 {song_name}\n"
+        push_github(log)
+
+
+@BOT.command()
+async def chart_library_tree(ctx, path=""):
     path = f"{os.getcwd()}/chart_library/{path}"
-    await ctx.send(f"```\n{make_tree(path)}\n```")
+
+    for text in make_tree(path):
+        await ctx.send(f"```\n{text}\n```")
 
 
 @BOT.command()
 async def dev_song_tree(ctx, path=""):
     path = f"{os.getcwd()}/dev_songs/{path}"
-    await ctx.send(f"```\n{make_tree(path)}\n```")
+
+    for text in make_tree(path):
+        await ctx.send(f"```\n{text}\n```")
 
 
 def make_tree(path):
     path = path.lower()
     paths = DisplayablePath.make_tree(Path(path))
 
+    result = []
+
     text = ""
 
     for path in paths:
+        # Discord can not send message of over 2000 characters.
+        if len(text) > 1800:
+            result.append(text)
+            text = ""
         text += path.displayable() + "\n"
 
-    return text
+    result.append(text)
+
+    return result
 
 
 @BOT.event

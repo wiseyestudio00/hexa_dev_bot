@@ -1,4 +1,5 @@
 from os import path
+import pathlib
 import discord
 from datetime import datetime
 from pathlib import Path
@@ -6,7 +7,7 @@ from discord import widget
 
 from discord.file import File
 from authorize import user_is_authorized
-from dev_songs.generate_index import generate_catalog
+from generate_index import generate_dev_songs_catalog
 
 def get_success_embed(description):
     return discord.Embed(
@@ -14,11 +15,13 @@ def get_success_embed(description):
         description=description,
         color=discord.Color.blue())
 
+
 def get_fail_embed(description):
     return discord.Embed(
         title="無法上傳至dev_songs！",
         description=description,
         color=discord.Color.red())
+
 
 def get_dev_song_path(file_path):
     """ return dev_songs/file_path"""
@@ -35,14 +38,21 @@ async def add_to_dev_songs(ctx, song_name):
     for file in ctx.message.attachments:
         file_name = file.filename
         content_bytes = await file.read()
+
         result = add_data_to_dev_songs(content_bytes, song_name, file_name)
 
         if result:
             embed = get_success_embed(f"成功上傳{file_name}至Dev-Songs的{song_name}")
         else:
-            embed = get_fail_embed(f"上傳{file_name}至Dev-Songs的{song_name}，失敗！")
+            embed = get_fail_embed(f"無法上傳{file_name}至Dev-Songs的{song_name}！")
         
         await ctx.send(embed=embed)
+
+        if not result:
+            return False
+
+    return True
+
 
 
 async def delete_from_dev_songs(ctx, path):
@@ -56,9 +66,12 @@ async def delete_from_dev_songs(ctx, path):
     if result:
         embed = get_success_embed(f"成功刪除{get_dev_song_path(path)}")
     else:
-        embed = get_success_embed(f"刪除師掰{get_dev_song_path(path)}")
+        embed = get_fail_embed(f"刪除失敗{get_dev_song_path(path)}")
     
     await ctx.send(embed=embed)
+
+    return result
+
 
 def add_data_to_dev_songs(byte_array, song_name, file_name):
     """
@@ -82,7 +95,7 @@ def add_data_to_dev_songs(byte_array, song_name, file_name):
 
     chart_path.write_bytes(byte_array);        
 
-    generate_catalog()
+    generate_dev_songs_catalog()
 
     return True
 
@@ -91,12 +104,17 @@ def delete_file_from_dev_songs(delete_from_path):
     """
     Delete the specify file in Dev-Songs ("dev_songs/delete_from_path"). Update Catalog.
 
-    Does nothin if file does not exists.
+    Does nothing if file does not exists, return False.
     """
     path = Path(get_dev_song_path(delete_from_path))
 
-    path.unlink(missing_ok=True)
+    if not path.exists():
+        return False
 
-    generate_catalog()
+    if path.is_file():
+        path.unlink(missing_ok=True)
+    elif path.is_dir():
+        path.rmdir()
 
+    generate_dev_songs_catalog()
     return True

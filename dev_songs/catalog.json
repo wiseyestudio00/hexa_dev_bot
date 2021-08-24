@@ -3,8 +3,12 @@
         "ModificationDate": "2021-05-31 21:02:39.913237",
         "Size": 101
     },
+    "Blue/.DS_Store": {
+        "ModificationDate": "2021-08-25 02:30:55.262775",
+        "Size": 6148
+    },
     "Blue/chart.hard.txt": {
-        "ModificationDate": "2021-06-26 22:28:51.894839",
+        "ModificationDate": "2021-06-26 22:28:51.894838",
         "Size": 10538
     },
     "Blue/audio.ogg": {
@@ -14,6 +18,10 @@
     "ADayInTheSummerNight/level.json": {
         "ModificationDate": "2021-05-31 21:02:44.375330",
         "Size": 120
+    },
+    "ADayInTheSummerNight/.DS_Store": {
+        "ModificationDate": "2021-07-06 01:07:23.001461",
+        "Size": 6148
     },
     "ADayInTheSummerNight/chart.hard.txt": {
         "ModificationDate": "2021-07-17 19:46:31.536870",
@@ -26,6 +34,10 @@
     "TimeOut/level.json": {
         "ModificationDate": "2021-04-27 11:53:16",
         "Size": 127
+    },
+    "TimeOut/.DS_Store": {
+        "ModificationDate": "2021-07-06 01:06:50.460357",
+        "Size": 6148
     },
     "TimeOut/chart.hard.txt": {
         "ModificationDate": "2021-07-11 17:05:16.287554",
@@ -50,6 +62,10 @@
     "Mellifluous/level.json": {
         "ModificationDate": "2021-05-31 21:06:14.129778",
         "Size": 110
+    },
+    "Mellifluous/.DS_Store": {
+        "ModificationDate": "2021-05-03 23:35:48.118171",
+        "Size": 6148
     },
     "Mellifluous/chart.hard.txt": {
         "ModificationDate": "2021-06-26 22:28:51.905171",
@@ -83,6 +99,10 @@
         "ModificationDate": "2021-05-31 21:04:57.237111",
         "Size": 100
     },
+    "Freesia/.DS_Store": {
+        "ModificationDate": "2021-06-01 01:30:21.828900",
+        "Size": 6148
+    },
     "Freesia/chart.hardprototype.txt": {
         "ModificationDate": "2021-07-13 06:28:02.744859",
         "Size": 35949
@@ -99,6 +119,10 @@
         "ModificationDate": "2021-05-31 21:07:27.268600",
         "Size": 99
     },
+    "Ramune/.DS_Store": {
+        "ModificationDate": "2021-06-01 01:30:40.472924",
+        "Size": 6148
+    },
     "Ramune/audio.ogg": {
         "ModificationDate": "2021-04-27 11:54:22",
         "Size": 3436788
@@ -110,6 +134,10 @@
     "JourneysEnd/level.json": {
         "ModificationDate": "2021-05-31 21:05:37.657928",
         "Size": 99
+    },
+    "JourneysEnd/.DS_Store": {
+        "ModificationDate": "2021-06-01 01:30:27.542104",
+        "Size": 6148
     },
     "JourneysEnd/chart.hard.txt": {
         "ModificationDate": "2021-07-15 01:35:19.103686",
@@ -127,6 +155,10 @@
         "ModificationDate": "2021-06-27 11:06:05.482931",
         "Size": 141
     },
+    "Depersonalization/.DS_Store": {
+        "ModificationDate": "2021-06-27 11:06:55.045586",
+        "Size": 6148
+    },
     "Depersonalization/chart.hard.txt": {
         "ModificationDate": "2021-07-13 06:28:02.743614",
         "Size": 79551
@@ -143,6 +175,10 @@
         "ModificationDate": "2021-05-31 21:04:08.475874",
         "Size": 109
     },
+    "FortuneDays/.DS_Store": {
+        "ModificationDate": "2021-07-06 01:07:17.957827",
+        "Size": 6148
+    },
     "FortuneDays/chart.hard.txt": {
         "ModificationDate": "2021-07-26 22:28:58.371909",
         "Size": 19042
@@ -155,6 +191,10 @@
         "ModificationDate": "2021-05-31 21:03:09.524422",
         "Size": 113
     },
+    "DifferentNeverland/.DS_Store": {
+        "ModificationDate": "2021-05-31 21:03:28.217705",
+        "Size": 6148
+    },
     "DifferentNeverland/chart.hard.txt": {
         "ModificationDate": "2021-06-26 22:28:51.966964",
         "Size": 24661
@@ -166,6 +206,10 @@
     "Gravitizer/level.json": {
         "ModificationDate": "2021-04-27 11:53:56",
         "Size": 129
+    },
+    "Gravitizer/.DS_Store": {
+        "ModificationDate": "2021-06-30 16:15:34.616924",
+        "Size": 6148
     },
     "Gravitizer/chart.hard.txt": {
         "ModificationDate": "2021-06-29 23:25:51.182700",
