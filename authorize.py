@@ -13,7 +13,7 @@ def user_is_authorized(id):
     Takes in a Discord User ID. Return true if the User is authorized.
     """
     
-    return id in AUTHORIZED_USERS
+    return str(id) in AUTHORIZED_USERS
 
 
 def context_sender_is_authorized(ctx):
@@ -23,4 +23,4 @@ def context_sender_is_authorized(ctx):
 
     print(ctx.message.author.id)
 
-    return ctx.message.author.id in AUTHORIZED_USERS
+    return str(ctx.message.author.id) in AUTHORIZED_USERS
