@@ -2,6 +2,7 @@ import os
 import json
 import datetime
 from pathlib import Path
+from discord import message
 from discord.ext import commands
 import discord
 import chart
@@ -33,57 +34,111 @@ def push_github(commit_message):
 @BOT.command()
 async def help(ctx):
     embd = discord.Embed(
-        title="Hexa Hysteria譜面上傳處指令",
-        color=discord.Color.blue())
+        title = "Hexa Hysteria譜面上傳處指令表",
+        color = discord.Color.blue())
     
     embd.add_field(
-        name=".checkin 上傳路徑（要附加譜面檔案 chart.難度.txt）",
-        value="""
-        .checkin "v.1.0/journey's end/mellicious"\n（附加檔案：chart.easy.txt）
+        name = ".checkin 上傳路徑（要附加譜面檔案，名稱為chart.難度.txt）",
+        value = """
+        將譜面上傳到譜面資料庫，並且更新Dev-Song。
+
+        例：.checkin "v.1.0/journey's end/mellicious"\n（附加檔案：chart.easy.txt）
+        """,
+        inline = False)
+
+    embd.add_field(
+        name = ".checkout 到譜面的路徑",
+        value = """
+        將譜面從譜面資料庫提出。
+
+        例：.checkout "v.1.0/journey's end/mellicious/chart.hard.txt"
+        """,
+        inline = False)
+
+    embd.add_field(
+        name = ".checkout 到譜面檔案夾的路徑",
+        value = """
+        將全部的譜面從譜面資料庫中的檔案夾提出。
+
+        例：.checkout "v.1.0/journey's end/mellicious"
+        """,
+        inline = False)
+
+    embd.add_field(
+        name = ".delete 到譜面的路徑",
+        value = """
+        刪除譜面資料庫的譜面。
+
+        例：.delete "v.1.0/journey's end/mellicious/chart.hard.txt"
         """,
         inline=False)
 
     embd.add_field(
-        name=".checkout 到譜面的路徑",
-        value="""
-        .checkout "v.1.0/journey's end/mellicious/chart.hard.txt"
+        name = ".chart_library_tree",
+        value = """
+        查看譜面資料庫的所有路徑。
         """,
-        inline=False)
+        inline = False
+    )
 
     embd.add_field(
-        name=".checkout 到譜面檔案夾的路徑",
+        name = ".chart_library_tree 路徑",
         value="""
-        .checkout "v.1.0/journey's end/mellicious"
+        查看譜面資料庫特定的路徑。
         """,
-        inline=False)
+        inline=False
+    )
 
     embd.add_field(
-        name=".delete 到譜面的路徑",
-        value="""
-        .delete "v.1.0/journey's end/mellicious/chart.hard.txt"
+        name = ".add_to_dev_song 歌曲名稱 (需要附加檔案，可以是任何檔案)",
+        value = """
+        將檔案上傳到Dev-Songs。
+
+        只有有權限的人才可以使用。
+
+        例：.add_to_dev_song 歌曲名稱 （附加檔案：audio.ogg）
         """,
-        inline=False)
+        inline=False
+    )
 
     embd.add_field(
-        name=".tree",
-        value="查看全部的路徑",
-        inline=False)
-
-    embd.add_field(
-        name=".tree 檔案夾的路徑",
+        name=".delete_from_dev_song 檔案路徑",
         value="""
-        .tree "v.1.0/journey's end"
+        將Dev-Song的檔案刪除。
+
+        只有有權限的人才可以使用。
+
+        例：.add_to_dev_song blue/chart.hard.txt
         """,
-        inline=False)
+        inline=False
+    )
 
     await ctx.send(embed=embd)
 
+def get_success_embed(description):
+    return discord.Embed(
+        title="成功",
+        description=description,
+        color=discord.Color.blue())
+
+
+def get_fail_embed(description):
+    return discord.Embed(
+        title="失敗",
+        description=description,
+        color=discord.Color.red())
 
 
 @BOT.command()
 async def checkin(ctx, path):
     path = path.lower()
-    if await chart.checkin(ctx, path):
+
+    success, message = await chart.checkin(ctx, path)
+
+    embed = get_success_embed(message) if success else get_fail_embed(message)
+    await ctx.send(embed=embed)
+
+    if success:
         log = f"{datetime.datetime.now()}：{ctx.author.name} 更新 chart-library {path}\n"
         print(log)
         song_name = path.split("/")[-1]
@@ -94,14 +149,25 @@ async def checkin(ctx, path):
 @BOT.command()
 async def checkout(ctx, path):
     path = path.lower()
+
+    success, message = await chart.checkout(ctx, path)
+
+    embed = get_success_embed(message) if success else get_fail_embed(message)
+    await ctx.send(embed=embed)
+
     print(f"{ctx.author.name} asked for {path}")
-    await chart.checkout(ctx, path)
 
 
 @BOT.command()
 async def delete(ctx, path):
     path = path.lower()
-    if await chart.delete(ctx, path):
+    
+    success, message = await chart.delete(ctx, path)
+
+    embed = get_success_embed(message) if success else get_fail_embed(message)
+    await ctx.send(embed=embed)
+
+    if success:
         log = f"{datetime.datetime.now()}：{ctx.author.name} 刪除 chart-library {path}\n"
         push_github(log)
 
@@ -110,7 +176,12 @@ async def delete(ctx, path):
 async def add_to_dev_song(ctx, song_name):
     song_name = song_name.lower()
 
-    if await dev_song_uploader.add_to_dev_songs(ctx, song_name):
+    success, message = await dev_song_uploader.add_to_dev_songs(ctx, song_name)
+
+    embed = get_success_embed(message) if success else get_fail_embed(message)
+    await ctx.send(embed=embed)
+
+    if success:
         log = f"{datetime.datetime.now()}: {ctx.author.name} 更新 Dev-Songs的 {song_name}\n"
         push_github(log)
 
@@ -119,14 +190,19 @@ async def add_to_dev_song(ctx, song_name):
 async def delete_from_dev_song(ctx, path):
     song_name = path.lower()
 
-    if await dev_song_uploader.delete_from_dev_songs(ctx, path):
+    success, message = await dev_song_uploader.delete_from_dev_songs(ctx, path)
+
+    embed = get_success_embed(message) if success else get_fail_embed(message)
+    await ctx.send(embed=embed)
+
+    if success:
         log = f"{datetime.datetime.now()}: {ctx.author.name} 刪除 Dev-Songs的 {song_name}\n"
         push_github(log)
 
 
 @BOT.command()
 async def chart_library_tree(ctx, path=""):
-    path = f"{os.getcwd()}/chart_library/{path}"
+    path = f"{os.getcwd()}/chart_library/{path}"        
 
     for text in make_tree(path):
         await ctx.send(f"```\n{text}\n```")
