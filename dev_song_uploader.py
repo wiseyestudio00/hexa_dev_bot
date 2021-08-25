@@ -26,7 +26,7 @@ async def add_to_dev_songs(ctx, song_name):
     if not context_sender_is_authorized(ctx):
         return False, "上傳者無權限更改Dev-Song。"
 
-    return add_to_dev_song_skip_authorize(ctx, song_name)
+    return await add_to_dev_song_skip_authorize(ctx, song_name)
 
 
 async def add_to_dev_song_skip_authorize(ctx, song_name):
@@ -80,7 +80,7 @@ async def delete_from_dev_songs(ctx, path):
     if not context_sender_is_authorized(ctx):
         return False, "上傳者無權限更改Dev-Song。"
 
-    return delete_from_dev_songs_skip_authorize(ctx, path)
+    return await delete_from_dev_songs_skip_authorize(ctx, path)
 
 
 async def delete_from_dev_songs_skip_authorize(ctx, path):
