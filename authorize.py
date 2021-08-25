@@ -21,4 +21,6 @@ def context_sender_is_authorized(ctx):
     Takes in a Discord-Context. Checks if its author is autorized
     """
 
+    print(ctx.message.author.id)
+
     return ctx.message.author.id in AUTHORIZED_USERS
