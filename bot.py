@@ -142,7 +142,7 @@ async def checkin(ctx, path):
         log = f"{datetime.datetime.now()}：{ctx.author.name} 更新 chart-library {path}\n"
         print(log)
         song_name = path.split("/")[-1]
-        await add_to_dev_song(ctx, song_name)
+        await add_to_dev_song_skip_authorize(ctx, song_name)
         push_github(log)
 
 
@@ -177,6 +177,19 @@ async def add_to_dev_song(ctx, song_name):
     song_name = song_name.lower()
 
     success, message = await dev_song_uploader.add_to_dev_songs(ctx, song_name)
+
+    embed = get_success_embed(message) if success else get_fail_embed(message)
+    await ctx.send(embed=embed)
+
+    if success:
+        log = f"{datetime.datetime.now()}: {ctx.author.name} 更新 Dev-Songs的 {song_name}\n"
+        push_github(log)
+
+
+async def add_to_dev_song_skip_authorize(ctx, song_name):
+    song_name = song_name.lower()
+
+    success, message = await dev_song_uploader.add_to_dev_song_skip_authorize(ctx, song_name)
 
     embed = get_success_embed(message) if success else get_fail_embed(message)
     await ctx.send(embed=embed)

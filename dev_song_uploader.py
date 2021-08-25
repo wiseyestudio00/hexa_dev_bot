@@ -26,6 +26,10 @@ async def add_to_dev_songs(ctx, song_name):
     if not context_sender_is_authorized(ctx):
         return False, "上傳者無權限更改Dev-Song。"
 
+    return add_to_dev_song_skip_authorize(ctx, song_name)
+
+
+async def add_to_dev_song_skip_authorize(ctx, song_name):
     attachments = ctx.message.attachments
 
     if len(attachments) == 0:
@@ -76,14 +80,16 @@ async def delete_from_dev_songs(ctx, path):
     if not context_sender_is_authorized(ctx):
         return False, "上傳者無權限更改Dev-Song。"
 
+    return delete_from_dev_songs_skip_authorize(ctx, path)
+
+
+async def delete_from_dev_songs_skip_authorize(ctx, path):
     return delete_from_dev_songs_helper(path)
 
 
 def delete_from_dev_songs_helper(delete_from_path):
     """
     Delete the specify file in Dev-Songs ("dev_songs/delete_from_path"). Update Catalog.
-
-    Does nothing if file does not exists, return False.
     """
     path = Path(get_dev_song_path(delete_from_path))
 
@@ -96,5 +102,5 @@ def delete_from_dev_songs_helper(delete_from_path):
         path.rmdir()
 
     generate_dev_songs_catalog()
-    
+
     return True, f"成功刪除{delete_from_path}"
