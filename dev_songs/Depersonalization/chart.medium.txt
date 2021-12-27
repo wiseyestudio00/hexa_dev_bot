@@ -1,14 +1,15 @@
+section offset:-29 bpm:185
 a movecamera position 1 4 0 0 1 EaseInQuad
 a movecamera position 5 4 0 0 -1 EaseOutQuad
 
-a movecamera position 53 16 0 0 1 Linear 
+a movecamera position 53 16 0 0 1 Linear
 a movecamera position 69 8 0 0 -1 EaseOutSine
 
-a movecamera position 125 12 0 0 0.75 Linear 
+a movecamera position 125 12 0 0 0.75 Linear
 a movecamera position 137 4 0 0 -0.75 EaseOutSine
 
-a movecamera position 197 6 0 0 0.375 Linear 
-a movecamera position 203 2 0 0 -0.375 EaseOutSine 
+a movecamera position 197 6 0 0 0.375 Linear
+a movecamera position 203 2 0 0 -0.375 EaseOutSine
 
 a movecamera angle 221 1 0 0 2.5 EaseInOutSine
 a movecamera angle 222 2 0 0 -5 EaseInOutSine
@@ -20,8 +21,8 @@ a movecamera position 261 4 0 0 0.375 Linear
 a movecamera position 349 12 0 0 0.75 Linear
 a movecamera position 361 4 0 0 -0.75 EaseOutSine
 
-a movecamera position 413 12 0 0 0.75 Linear 
-a movecamera position 425 4 0 0 -0.75 Linear 
+a movecamera position 413 12 0 0 0.75 Linear
+a movecamera position 425 4 0 0 -0.75 Linear
 
 a movecamera position 485 4 0 0 0.25 Linear
 
@@ -926,5 +927,5 @@ n catch lt 500.75
 n short lb 501
 n long lb 501.5 509
 
-a movecamera angle 493 6 0 0 -120 EaseInSine 
+a movecamera angle 493 6 0 0 -120 EaseInSine
 a movecamera angle 499 2 0 0 -30 EaseOutSine

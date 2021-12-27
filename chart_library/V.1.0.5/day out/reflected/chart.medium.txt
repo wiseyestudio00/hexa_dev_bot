@@ -1,3 +1,4 @@
+section offset:985 bpm:112
 medium 譜面理念:
 讓玩家知道可以用左手處理右邊、右手處理左邊
 左手可以負責ltlclb rtrb
@@ -752,4 +753,3 @@ n swipe in lc rc 294
 
 n short lt 295
 n short lt 295.5
-

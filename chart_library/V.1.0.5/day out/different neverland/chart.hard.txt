@@ -1,3 +1,4 @@
+section offset:702 bpm:120
 a movecamera angle 0 2 0 0 5 easeoutsine
 a movecamera angle 2 2 0 0 -5 easeinsine
 a movecamera angle 4 2 0 0 -5 easeoutsine

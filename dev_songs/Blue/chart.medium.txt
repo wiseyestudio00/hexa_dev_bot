@@ -1,4 +1,5 @@
-前奏
+section offset:885 bpm:80
+// 前奏
 n long lt 0 3.5
 n short rt 0.5
 n short rc 1

@@ -1,4 +1,4 @@
-
+section offset:985 bpm:112
 a movecamera angle 31 16 0 0 30 easeinoutsine
 a movecamera angle 47 16 0 0 -30 easeinoutsine
 
@@ -27,12 +27,12 @@ a movecamera angle 103 7 0 0 15 easeinsine
 
 a movecamera angle 111 4 0 0 7.5 easeoutsine
 a movecamera angle 115 4 0 0 7.5 easeoutsine
-a movecamera angle 119 8 0 0 15 easeinoutsine 
+a movecamera angle 119 8 0 0 15 easeinoutsine
 
 
 a movecamera position 127 4 0 0 0.5 easeoutsine
 a movecamera position 131 4 0 0 -0.5 easeinsine
-a movecamera angle 127 8 0 0 -30 easeinoutsine 
+a movecamera angle 127 8 0 0 -30 easeinoutsine
 
 a movecamera position 223 4 0 0 0.5 easeoutsine
 a movecamera position 227 4 0 0 -0.5 easeinsine
@@ -51,7 +51,7 @@ a movecamera angle 271 8 0 0 15 easeinoutsine
 
 a movecamera angle 279 4 0 0 7.5 easeoutsine
 a movecamera angle 283 4 0 0 7.5 easeoutsine
-a movecamera angle 287 8 0 0 -15 easeinoutsine 
+a movecamera angle 287 8 0 0 -15 easeinoutsine
 
 n short rb 0
 n long rb 1 2
@@ -289,29 +289,3 @@ n catch lc 291.666667
 n long rt 293 294
 n short lt 295
 n short lt 295.5
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

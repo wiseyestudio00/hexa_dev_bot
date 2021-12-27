@@ -1,3 +1,4 @@
+section offset:914 bpm:180
 n short lb 0
 n short lb 1
 n short rb 2

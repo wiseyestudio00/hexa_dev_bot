@@ -1,3 +1,4 @@
+section offset:95 bpm:80
 n long lt 0 1
 n short rb 2
 n short rc 3
@@ -167,4 +168,3 @@ n short lc 170
 n short rt 172
 n short lt 174
 n short rc lc 175
-

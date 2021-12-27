@@ -1,3 +1,4 @@
+section offset:120 bpm:165
 n long rb 0 5.5
 n long lb 6 11.5
 n long rc 12 17.5

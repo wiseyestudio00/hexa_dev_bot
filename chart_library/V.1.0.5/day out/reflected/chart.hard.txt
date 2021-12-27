@@ -1,3 +1,4 @@
+section offset:985 bpm:112
 //defining stage positions
 //original(classichexagon): 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
 /define stageposition reflectedclassichexagon -1.35,2.35,0 0,0,300 -2.7,0,0 0,0,180 -1.35,-2.35,0 0,0,60 1.35,-2.35,0 0,0,120 2.7,0,0 0,0,0 1.35,2.35,0 0,0,240
@@ -6,7 +7,7 @@ define stageposition reflectlcrc_rotatelcrc 1.35,2.35,0 0,0,240 -2.7,0,0 0,0,0 1
 define stageposition reversereflectlcrc 1.35,2.35,0 0,0,240 2.7,0,0 0,0,0 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,180 -1.35,2.35,0 0,0,300
 /define stageposition reflectlbrt -1.35,-2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 1.35,2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
 /define stageposition reflectltrb 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 -1.35,2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 1.35,-2.35,0 0,0,300
-                        
+
 /define stageposition reflectlcrb1 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 -1.35,-2.35,0 0,0,60 -1.35,-2.35,0 0,0,60 -1.35,-2.35,0 0,0,60 -1.35,2.35,0 0,0,300
 /define stageposition reflectlcrb2 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 -2.7,0,0 0,0,0 -1.35,-2.35,0 0,0,60 1.35,-2.35,0 0,0,120 -1.35,2.35,0 0,0,300
 
@@ -26,7 +27,7 @@ define stageposition rtzoom 1.35,2.35,1.5 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0
 define stageposition lczoom 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,1.5 0,0,0 -1.35,2.35,0 0,0,300
 
 define stageposition narrowing 0.9,1.56667,-1 0,0,240 1.8,0,-1 0,0,180 0.9,-1.56667,-1 0,0,120 -0.9,-1.56667,-1 0,0,60 -1.8,0,-1 0,0,0 -0.9,1.56667,-1 0,0,300
-								 
+
 //can be used only when classichexagon is in use
 define stageposition rtbounce 1.5,2.6098075,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
 define stageposition rcbounce 1.35,2.35,0 0,0,240 3.0,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
@@ -172,7 +173,7 @@ a movecamera position 30.0 0.5 0 0 0.25 easeoutsine
 a movecamera position 30.5 0.5 0 0 -0.25 easeinsine
 
 
-//floating effect 
+//floating effect
 a movecamera angle 31 16 0 0 60 easeinoutcubic
 
 a movecamera position 31.0 1 0.2 0 0 easeinoutsine
@@ -205,7 +206,7 @@ a movecamera position 60 1 0 0 1 easeoutquart
 a movecamera position 61 0.5 0 0 -5 easeoutquad
 a movecamera position 61.5 0.5 0 0 4.5 easeinsine
 
-//swipe in out to move camera 
+//swipe in out to move camera
 a movecamera position 72 0.5 0.075 0.12990375 0 easeoutsine
 a movecamera position 72.5 0.5 -0.125 -0.21650625 0 easeoutsine
 a movecamera position 73 0.5 0.05 0.0866025 0 easeoutsine
@@ -417,7 +418,7 @@ a movecamera position 228 0 0 0 1 linear
 a movecamera position 228.5 0 0 0 1 linear
 a movecamera position 229 0.75 0 0 1 easeoutsine
 
-//zoom in, catch and swipe part 
+//zoom in, catch and swipe part
 a movecamera position 229.75 0.75 0 -0 -1 easeinsine
 a movecamera position 231 0.5 0 0 1 easeoutsine
 a movecamera position 238 0.5 0 0 -1 easeoutsine
@@ -458,11 +459,11 @@ a movecamera position 260.0 0.5 0 0 -0.25 easeinoutquad
 a movecamera position 260.5 0.125 0 0 0.25 easeoutsine
 a movecamera position 260.75 0.5 0 0 -0.25 easeinoutquad
 
-//"reflected" pump 
+//"reflected" pump
 a movecamera position 263.0 0.75 0 0 -0.7 easeoutsine
 a movecamera position 263.75 0.75 0 0 0.7 easeinsine
 
-//nudge left right 
+//nudge left right
 a movecamera position 272 1 0.5 0 0 easeoutsine
 a movecamera position 273 1 -1 0 0 easeoutsine
 a movecamera position 274 1 0.5 0 0 easeoutsine
@@ -499,7 +500,7 @@ a movecamera position 295.5 0.75 0.15 -0.2598075 0 easeoutsine
 a movecamera position 296.25 1.25 -0.2 0.34641 0 easeinsine
 //camera angle changes
 
-//“もう我慢できない”shake 
+//“もう我慢できない”shake
 a movecamera angle 5.5 0.5 0 0 2 easeinsine
 a movecamera angle 6.0 0.5 0 0 -4 easeinoutsine
 a movecamera angle 6.5 0.5 0 0 2 easeoutsine
@@ -723,7 +724,7 @@ n catch lc 16.5
 n catch lc 16.5625
 n catch lc 16.625
 
-//part 1 
+//part 1
 n swipe in rc lc 17
 n swipe out rc lc 19
 
@@ -1395,7 +1396,3 @@ n swipe out lt 295.5
 向外swipe那裏的cameraanglechange延遲了0.125拍(67ms)
 總combo743減到672
 有些地方有細微改動
-
-
-
-

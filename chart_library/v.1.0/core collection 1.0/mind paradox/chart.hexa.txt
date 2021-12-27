@@ -1,4 +1,4 @@
-
+section offset:115 bpm:143
 0:00-0:06 動畫 翻一圈
 0:13~0:20
 0:20 16分拍
@@ -1415,4 +1415,3 @@ a s_movecamera position z 348 2.5 -10 easeoutsine
 a s_movecamera position z 350.5 1.5 8 easeinsine
 n swipe out lb rt 352
 a s_movecamera position z 352 1.5 27 easeoutsine
-

@@ -1,3 +1,4 @@
+section offset:327 bpm:61.5
 #移動舞台
 a movecamera position 6 0.3 0 0 -0.3 linear
 a movecamera position 6.5 0.5 0 0 0.2 easeinsine
@@ -430,7 +431,7 @@ n short lb 44.75
 n short rt 45
 n short lt 45.25
 n short rt 45.5
- 
+
 n long lb 46 46.5
 n short rc 46.5
 n short lc 47
@@ -613,7 +614,7 @@ n short rc 97
 n short lc 97.25
 n short rt 97.5
 n long rt 97.75 98.25
-      
+
 n short lc 98.25
 n short rb 98.5
 n short lb 98.75

@@ -1,3 +1,4 @@
+section offset:327 bpm:61.5
 #移動舞台
 
 #旋轉舞台

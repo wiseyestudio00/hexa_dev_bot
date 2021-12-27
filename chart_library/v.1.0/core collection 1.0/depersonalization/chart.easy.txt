@@ -1,3 +1,4 @@
+section offset:-29 bpm:185
 a movecamera position 5 8 0 0 -0.5 EaseOutSine
 a movecamera position 29 8 0 0 0.5 EaseInSine
 
@@ -144,7 +145,7 @@ n catch lb 162
 n catch lc 163
 n catch lc 163.5
 n catch lc 164
- 
+
 n short lt 165
 n catch lc 166
 n catch lb 167
@@ -415,7 +416,7 @@ n short rt 487
 n short rc 488
 
 n long rb 489 492
-a movecamera angle 493 8 0 0 -60 EaseInOutSine 
+a movecamera angle 493 8 0 0 -60 EaseInOutSine
 n catch rb 493
 /n catch rb 493.25
 n catch rb 493.5
@@ -450,5 +451,3 @@ n catch rb 500
 /n catch rb 500.75
 n catch rb lt 501
 n catch rb lt 501.5
-
-

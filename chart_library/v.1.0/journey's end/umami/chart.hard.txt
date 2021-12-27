@@ -1,4 +1,5 @@
- a movecamera position 0 16 0 0 1 linear
+section offset:120 bpm:158.158
+a movecamera position 0 16 0 0 1 linear
 a movecamera position 16 16 0 0 -1 linear
 
 n short rt 0
@@ -670,5 +671,3 @@ n long lt 413 414
 n long rb 414 415
 n long lb 415 420
 n long rt 416 420
-
-

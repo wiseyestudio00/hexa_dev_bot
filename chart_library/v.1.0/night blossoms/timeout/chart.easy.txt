@@ -1,3 +1,4 @@
+section offset:150 bpm:100
 n long rb 0 4
 n long lb 8 12
 n short rb 16

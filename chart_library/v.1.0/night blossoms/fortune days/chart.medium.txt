@@ -1,3 +1,4 @@
+section offset:327 bpm:61.5
 #移動舞台
 a movecamera position 31 4 0 0 -0.5 easeinoutsine
 a movecamera position 46 1.5 0 0 -0.5 easeinoutsine

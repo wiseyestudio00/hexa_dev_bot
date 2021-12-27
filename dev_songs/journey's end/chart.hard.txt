@@ -1,3 +1,4 @@
+section offset:120 bpm:165
 n long rb 12 17
 n long lb 18 22
 n short rb 23
@@ -590,7 +591,7 @@ a s_movestage abs_position z 96.25 0.25 0 easeinsine
 a s_movestage abs_position z 99 0.25 -0.25 easeoutsine
 a s_movestage abs_position z 99.25 0.25 0 easeinsine
 a s_movestage abs_position z 102 0.25 -0.125 easeoutsine
-a s_movestage abs_position z 102.25 0.25 0 easeinsine 
+a s_movestage abs_position z 102.25 0.25 0 easeinsine
 a s_movestage abs_position z 105 0.25 -0.25 easeoutsine
 a s_movestage abs_position z 105.25 0.25 0 easeinsine
 

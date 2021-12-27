@@ -1,3 +1,4 @@
+section offset:150 bpm:100
 n short rc 0
 n short rc 2
 n short lc 4
@@ -302,4 +303,3 @@ n short lc 187.5
 n compound lb rb 188 190 5
 n swipe in rb lb 191
 a movecamera position 191 7 0 0 -100 linear
-

@@ -1,3 +1,4 @@
+section offset:200 bpm:89
 前奏 1
 主歌 33
 副歌a 97

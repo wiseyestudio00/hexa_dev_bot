@@ -1,3 +1,4 @@
+section offset:832 bpm:142
 n short rb 0
 n short lb 0
 n swipe in rb 1
@@ -962,7 +963,7 @@ a movecamera position 183 0.25 0 0 0.125 easeoutquart
 a movecamera position 183.25 0.25 0 0 -0.125 easeinquad
 
 a cameraeffect main arcade 0.5 192 0.5 easeinquad
-a cameraeffect main arcade 0 192.25 7.5 easeoutquart 
+a cameraeffect main arcade 0 192.25 7.5 easeoutquart
 a movecamera position 192 0.25 0 0 0.125 easeoutquart
 a movecamera position 192.25 0.25 0 0 -0.125 easeinquad
 
@@ -1077,10 +1078,10 @@ a movecamera position 246.25 0.25 0 0 -0.125 easeinquad
 a movecamera position 247 0.25 0 0 0.125 easeoutquart
 a movecamera position 247.25 0.25 0 0 -0.125 easeinquad
 
-a cameraeffect main arcade 0.5 255.8 0.5 easeinquad 
-a cameraeffect main arcade 0 256.3 7.5 easeoutquart 
-a movecamera position 256 0.25 0 0 0.125 easeoutquart 
-a movecamera position 256.25 0.25 0 0 -0.125 easeinquad 
+a cameraeffect main arcade 0.5 255.8 0.5 easeinquad
+a cameraeffect main arcade 0 256.3 7.5 easeoutquart
+a movecamera position 256 0.25 0 0 0.125 easeoutquart
+a movecamera position 256.25 0.25 0 0 -0.125 easeinquad
 
 a movecamera angle 256 16 0 0 90 easeinoutsine
 

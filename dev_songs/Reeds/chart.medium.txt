@@ -1,3 +1,4 @@
+section offset:1910 bpm:136.136
 //Medium chart
 
 n long lb 0.3333 21

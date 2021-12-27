@@ -1,3 +1,4 @@
+section offset:914 bpm:180
 define stageposition BTsmall 1.35,2.35,100 0,0,240 -2.7,0,0 0,0,180 1.35,-2.35,100 0,0,120 -1.35,-2.35,100 0,0,60 2.7,0,0 0,0,0 -1.35,2.35,100 0,0,300
 
 n short rc 0
@@ -1288,7 +1289,7 @@ n swipe in rb 252
 
 define stageposition rblbside 5.5,1.05,3 0,-4,180 4.3,-2,3 -2.8,-2.8,135 1.25,-3.3,3 -4,0,90 -1.25,-3.3,3 -4,0,90 -4.3,-2,3 -2.8,2.8,45 -5.5,1.05,3 0,4,360
 
-a changestage rblbside 252.3 3.5 easeoutQuart 
+a changestage rblbside 252.3 3.5 easeoutQuart
 
 
 n short lt 256

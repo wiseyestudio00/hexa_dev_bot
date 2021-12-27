@@ -1,4 +1,4 @@
-
+section offset:120 bpm:158.158
 n short lb 0
 n short rb 8
 n short lc 16
@@ -156,7 +156,7 @@ n long rc 292 294
 n short lc 296
 n short lc 298
 n long lc 300 302
- 
+
 
 
 n short rt 304
@@ -244,5 +244,3 @@ n short lb 412
 n short rc 414
 
 n long lb 416 420
-
-

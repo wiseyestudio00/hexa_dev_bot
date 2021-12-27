@@ -1,3 +1,4 @@
+section offset:95 bpm:80
 n long lt 0 0.5
 n short rc 1
 n short rt 1.5
@@ -349,6 +350,3 @@ n swipe out rb 174.5
 n swipe out lc 175
 
 a movecamera angle 160 2 0 0 -15 easeoutsine
-
-
-

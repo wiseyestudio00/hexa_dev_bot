@@ -1,3 +1,4 @@
+section offset:150 bpm:100
 //前奏PART1
 n short rc 0
 n short lb 0.5
@@ -609,4 +610,3 @@ a movecamera position 190.75 0.1 0 0 -0.05 easeoutsine
 a movecamera position 190.875 0.1 0 0 -0.05 easeoutsine
 a movecamera position 191 0.1 0 0 -0.05 easeoutsine
 a movecamera angle 191 8 0 0 45 linear
-
