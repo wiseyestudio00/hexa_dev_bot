@@ -1,4 +1,6 @@
 section offset:95 bpm:80
+beat range 0:200 offset:95 bpm:80
+
 n long lt 0 1
 n short rb 2
 n short rc 3
