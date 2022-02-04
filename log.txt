@@ -104,3 +104,4 @@
 2021-08-25 21:47:42.177281: Sherwin Chen 刪除 Dev-Songs的 test song/m.pdf
 2021-08-25 21:47:47.605507: Sherwin Chen 刪除 Dev-Songs的 test song
 2022-02-04 18:21:58.392600: Sherwin Chen 更新 Dev-Songs的 mind paradox
+2022-02-04 18:21:58.003167：Sherwin Chen 更新 chart-library v.1.0/core collection 1.0/mind paradox
