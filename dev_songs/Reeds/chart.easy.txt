@@ -1,6 +1,7 @@
 section offset:1910 bpm:136.136
-n short lb 0.3333
-n short rb 0.3333
+//Easy Chart
+n short lb 0
+n short rb 0
 n short rb 6
 n short rb 12
 n short rc 18
@@ -52,17 +53,17 @@ n compound rb 90 93 6
 
 n catch lb 96
 n catch lb 97
-n catch lb 97.75
+n catch lb 97.667
 n catch lb 98
 
 n catch lc 99
 n catch lc 100
-n catch lc 100.75
+n catch lc 100.667
 n catch lc 101
 
 n catch lt 102
 n catch lt 103
-n catch lt 103.75
+n catch lt 103.667
 n catch lt 104
 
 n catch lt 105
@@ -71,17 +72,17 @@ n catch lb 107
 
 n catch rb 108
 n catch rb 109
-n catch rb 109.75
+n catch rb 109.667
 n catch rb 110
 
 n catch rc 111
 n catch rc 112
-n catch rc 112.75
+n catch rc 112.667
 n catch rc 113
 
 n catch rt 114
 n catch rt 115
-n catch rt 115.75
+n catch rt 115.667
 n catch rt 116
 
 
@@ -92,17 +93,17 @@ n catch rb 119
 
 n catch lb 120
 n catch lb 121
-n catch lb 121.75
+n catch lb 121.667
 n catch lb 122
 
 n catch lc 123
 n catch lc 124
-n catch lc 124.75
+n catch lc 124.667
 n catch lc 125
 
 n catch lt 126
 n catch lt 127
-n catch lt 127.75
+n catch lt 127.667
 n catch lt 128
 
 n catch rt 129
@@ -111,17 +112,17 @@ n catch rb 131
 
 n catch rb 132
 n catch rb 133
-n catch rb 133.75
+n catch rb 133.667
 n catch rb 134
 
 n catch rc 135
 n catch rc 136
-n catch rc 136.75
+n catch rc 136.667
 n catch rc 137
 
 n catch rt 138
 n catch rt 139
-n catch rt 139.75
+n catch rt 139.667
 n catch rt 140
 
 n catch lt 141
@@ -150,17 +151,17 @@ n short lt 189
 
 n short rb 192
 n catch rb 193
-n catch rb 193.75
+n catch rb 193.667
 n catch rb 194
 
 n short rc 195
 n catch rc 196
-n catch rc 196.75
+n catch rc 196.667
 n catch rc 197
 
 n short rt 198
 n catch rt 199
-n catch rt 199.75
+n catch rt 199.667
 n catch rt 200
 
 n catch rt 201
@@ -169,17 +170,17 @@ n catch rt 203
 
 n short lt 204
 n catch lt 205
-n catch lt 205.75
+n catch lt 205.667
 n catch lt 206
 
 n short lc 207
 n catch lc 208
-n catch lc 208.75
+n catch lc 208.667
 n catch lc 209
 
 n short lb 210
 n catch lb 211
-n catch lb 211.75
+n catch lb 211.667
 n catch lb 212
 //回原點
 
@@ -189,17 +190,17 @@ n catch lb 215
 
 n short rb 216
 n catch rb 217
-n catch rb 217.75
+n catch rb 217.667
 n catch rb 218
 
 n short lb 219
 n catch lb 220
-n catch lb 220.75
+n catch lb 220.667
 n catch lb 221
 
 n short rb 222
 n catch rb 223
-n catch rb 223.75
+n catch rb 223.667
 n catch rb 224
 
 n catch rb 225
