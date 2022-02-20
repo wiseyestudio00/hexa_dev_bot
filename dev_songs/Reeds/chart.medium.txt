@@ -1,8 +1,9 @@
 section offset:1910 bpm:136.136
+
 //Medium chart
 
-n long lb 0.3333 21
-n short rb 0.3333
+n long lb 0 21
+n short rb 0
 n short rb 3
 n short rb 5
 n short rc 6
@@ -74,24 +75,24 @@ n swipe out rt 81
 n long lb 84 87
 n short rb 86
 n swipe in rb 87
-n compound rb 90 92 6
-n swipe out rb 93
+n compound rb 90 93 6
+
 
 a s_movecamera angle z 93 12 -90 easeinoutsine
 
 n short lb 96
 n short rb 97
-n short lb 97.75
+n short lb 97.667
 n catch lb 98
 
 n short lc 99
 n short lb 100
-n short lc 100.75
+n short lc 100.667
 n catch lc 101
 
 n short lt 102
 n short lc 103
-n short lt 103.75
+n short lt 103.667
 n catch lt 104
 
 n short lt 105
@@ -102,17 +103,17 @@ a s_movecamera angle z 106 12 90 easeinoutsine
 
 n short lc 108
 n short lt 109
-n short lc 109.75
+n short lc 109.667
 n catch lc 110
 
 n short lb 111
 n short lc 112
-n short lb 112.75
+n short lb 112.667
 n catch lb 113
 
 n short rb 114
 n short lb 115
-n short rb 115.75
+n short rb 115.667
 n catch rb 116
 
 
@@ -124,19 +125,19 @@ n short lc 119
 n short lb 120
 n short rb 120
 n short lb 121
-n short lb 121.75
+n short lb 121.667
 n catch lb 122
 
 n short lc 123
 n short rb 123
 n short lc 124
-n short lc 124.75
+n short lc 124.667
 n catch lc 125
 
 n short lt 126
 n short rb 126
 n short lt 127
-n short lt 127.75
+n short lt 127.667
 n catch lt 128
 
 n short rt 129
@@ -146,19 +147,19 @@ n short rb 131
 n short rb 132
 n short lb 132
 n short rb 133
-n short rb 133.75
+n short rb 133.667
 n catch rb 134
 
 n short rc 135
 n short lb 135
 n short rc 136
-n short rc 136.75
+n short rc 136.667
 n catch rc 137
 
 n short rt 138
 n short lb 138
 n short rt 139
-n short rt 139.75
+n short rt 139.667
 n catch rt 140
 
 n short lt 141
@@ -167,73 +168,76 @@ n short lb 143
 
 a s_movecamera angle z 144 23 30 easeinoutsine
 
-n long lb 144 165
-n swipe in rc 144
+// n long lb 144 165下修已刪除長音
+
+n swipe in lb 144
 n short rc 145
 n short rc 146
-n swipe out rb 147
+n swipe out lb 147
 n short rb 148
 n short rb 149
-n swipe in rt 150
+n swipe in lb 150
 n short rt 151
 n short rt 152
-n swipe out rc 153
+n swipe out lb 153
 n short rc 154
 n short rc 155
-n swipe in rb 156
+n swipe in lb 156
 n short rb 157
 n short rb 158
-n swipe out rt 159
+n swipe out lb 159
 n short rt 160
 n short rt 161
-n swipe out rb 162
+n swipe out lb 162
 n short rb 163
 n short rb 164
-n swipe in rb 165
+n swipe in lb 165
 
 a s_movecamera angle z 168 23 -30 easeinoutsine
-n long rb 168 189
-n swipe in lb 168
+
+//n long rb 168 189 下修已刪除長音
+
+n swipe in rb 168
 n short lb 169
 n short lb 170
-n swipe out lc 171
+n swipe out rb 171
 n short lc 172
 n short lc 173
-n swipe in lt 174
+n swipe in rb 174
 n short lt 175
 n short lt 176
-n swipe out lc 177
+n swipe out rb 177
 n short lc 178
 n short lc 179
-n swipe in lb 180
+n swipe in rb 180
 n short lb 181
 n short lb 182
-n swipe out lc 183
+n swipe out rb 183
 n short lc 184
 n short lc 185
-n swipe in lb 186
+n swipe in rb 186
 n short lb 187
 n short lb 188
-n short lt 189
+n swipe in lt 189
 
 //順時針旋轉
 
 n long lb 192 194
 n short rb 192
 n catch rb 193
-n catch rb 193.75
+n catch rb 193.667
 n catch rb 194
 
 n long rb 195 197
 n short rc 195
 n catch rc 196
-n catch rc 196.75
+n catch rc 196.667
 n catch rc 197
 
 n long rc 198 200
 n short rt 198
 n catch rt 199
-n catch rt 199.75
+n catch rt 199.667
 n catch rt 200
 
 n short rt 201
@@ -243,19 +247,19 @@ n short rt 203
 n long rt 204 206
 n short lt 204
 n catch lt 205
-n catch lt 205.75
+n catch lt 205.667
 n catch lt 206
 
 n long lt 207 209
 n short lc 207
 n catch lc 208
-n catch lc 208.75
+n catch lc 208.667
 n catch lc 209
 
 n long lc 210 212
 n short lb 210
 n catch lb 211
-n catch lb 211.75
+n catch lb 211.667
 n catch lb 212
 //回原點
 
@@ -266,19 +270,19 @@ n short lb 215
 n long lb 216 218
 n short rb 216
 n catch rb 217
-n catch rb 217.75
+n catch rb 217.667
 n catch rb 218
 
 n long rb 219 221
 n short lb 219
 n catch lb 220
-n catch lb 220.75
+n catch lb 220.667
 n catch lb 221
 
 n long lb 222 224
 n short rb 222
 n catch rb 223
-n catch rb 223.75
+n catch rb 223.667
 n catch rb 224
 
 n short rb 225
@@ -311,9 +315,9 @@ n long rb 255 257
 n short lb 257
 n long lc 258 261
 n swipe in rb 261
-n short rt 263.25
-n short lt 263.5
-n short rt 263.75
+n short rt 263
+n short lt 263.333
+n short rt 263.667
 n long lt 264 267
 n short rc 266
 n long rc 267 270
@@ -322,9 +326,9 @@ n long lb 270 273
 n short rb 272
 n long rb 273 275
 n long lb 275 279
-n short lb 281.25
-n short rb 281.5
-n short lb 281.75
+n short lb 281
+n short rb 281.333
+n short lb 281.667
 n long rb 282 285
 n long lc 285 287
 n short rt 287
