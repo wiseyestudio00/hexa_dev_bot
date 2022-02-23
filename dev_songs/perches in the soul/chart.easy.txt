@@ -1,0 +1,104 @@
+section offset:4780 bpm:181
+beat range 0:450 offset:4780 bpm:181
+a MoveCamera Angle 396 39 0 0 60 easeinoutsine
+n long rb 0 6
+n long lc 6 12
+n long rc 12 18
+n long lb 18 24
+n long rb 24 30
+n long lc 30 36
+n long rc 36 42
+n long lb 42 48
+n short rt 48
+n short lt 54
+n short rt 60
+n short lt 66
+n short rb 72
+n short lb 78
+n short rb 84
+n short lb 90
+n short lc 93
+n short rc 93
+n short rt 96
+n catch rt 99
+n short lt 102
+n catch lt 105
+n short rt 108
+n catch rt 111
+n short lt 114
+n catch lt 117
+n short rc 120
+n catch rc 123
+n short lc 126
+n catch lc 129
+n short rc 132
+n catch rc 135
+n short lc 138
+n catch lc 141
+n short rb 144
+n catch rb 147
+n short lb 150
+n catch lb 153
+n short rb 156
+n catch rb 159
+n short lb 162
+n catch lb 165
+n short rc 168
+n catch rc 171
+n short lc 174
+n catch lc 177
+n short rc 180
+n catch rc 183
+n short lc 186
+n catch lc 189
+n long rt 192 195
+n long rt 198 201
+n long lc 204 207
+n long lc 210 213
+n long rb 216 219
+n long rb 222 225
+n long lc 228 231
+n long lc 234 237
+n long rt 240 243
+n long lt 246 249
+n long rc 252 255
+n long lc 258 261
+n long rb 264 267
+n long lb 270 273
+n long rc 276 279
+n long lc 282 285
+n long rc 285 292
+n short lt 294
+n short lt 297
+n short lt 300
+n catch lt 303
+n short rt 306
+n short rt 309
+n short rt 312
+n catch rt 315
+n short lc 318
+n short lc 321
+n short lc 324
+n catch lc 327
+n short rc 330
+n short rc 333
+n short rc 336
+n catch rc 339
+n short lb 342
+n short lb 345
+n short lb 348
+n catch lb 351
+n short rb 354
+n short rb 357
+n short rb 360
+n catch rb 363
+n short lc 366
+n short lc 369
+n short lc 372
+n short lc 375
+n short rc 378
+n short rc 381
+n short rc 384
+n short rc 387
+n long lb 390 435
+n long rt 396 435
