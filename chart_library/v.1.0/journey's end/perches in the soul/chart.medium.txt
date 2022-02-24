@@ -1,0 +1,177 @@
+section offset:4780 bpm:181
+beat range 0:450 offset:4780 bpm:181
+a MoveCamera Angle 96 24 0 0 -60 easeinoutsine
+a MoveCamera Angle 120 24 0 0 60 easeinoutsine
+a MoveCamera Angle 144 24 0 0 60 easeinoutsine
+a MoveCamera Angle 168 24 0 0 -60 easeinoutsine
+a MoveCamera Position 192 45 0 0 -1.5 easeinoutsine
+a MoveCamera Position 239 40 0 0 1.5 easeinoutsine
+a MoveCamera Angle 282 3 0 0 3.75 easeinoutsine
+a MoveCamera Position 282 3 0 0 0.5 easeinoutsine
+a MoveCamera Position 285 6 0 0 -0.5 easeinoutsine
+a MoveCamera Angle 285 6 0 0 -3.75 easeinoutsine
+a MoveCamera Angle 294 96 0 0 180 linear
+a MoveCamera Position 390 6 0 0 -2 easeinoutsine
+a MoveCamera Position 396 3 0 0 54 easeinoutsine
+a ChangeOpacity Trail lb 403 0 0 easeinoutsine
+a ChangeOpacity Trail lc 403 0 0 easeinoutsine
+a ChangeOpacity Trail lt 403 0 0 easeinoutsine
+a ChangeOpacity Trail rt 403 0 0 easeinoutsine
+a ChangeOpacity Trail rc 403 0 0 easeinoutsine
+a ChangeOpacity Trail rb 403 0 0 easeinoutsine
+a MoveCamera Position 406 0 0 0 -154 easeinoutsine
+a ChangeOpacity Trail lb 414 10 1 easeinoutsine
+a ChangeOpacity Trail lc 414 10 1 easeinoutsine
+a ChangeOpacity Trail rb 414 10 1 easeinoutsine
+a ChangeOpacity Trail rc 414 10 1 easeinoutsine
+a ChangeOpacity Trail rt 414 10 1 easeinoutsine
+a ChangeOpacity Trail lt 414 10 1 easeinoutsine
+a MoveCamera Position 418 17 0 0 100 linear
+n long lc 0 3
+n long rc 0 3
+n long lc 6 9
+n long rc 6 9
+n long rc 12 15
+n long lb 12 15
+n long lc 18 21
+n long rb 18 21
+n long lc 24 27
+n long rc 24 27
+n long lc 30 33
+n long rc 30 33
+n long lt 36 39
+n long rc 36 39
+n long rt 42 45
+n long lc 42 45
+n long rc 48 51
+n short lb 51
+n long lc 54 57
+n short rb 57
+n long rc 60 63
+n short lb 63
+n long lc 66 69
+n short rb 69
+n long rc 72 75
+n short lt 75
+n long lc 78 81
+n short rt 81
+n long rc 84 87
+n short lt 87
+n long lc 90 93
+n short rt 93
+n catch rt 94
+n catch rt 95
+n long lb 96 99
+n long rt 99 102
+n long lc 102 105
+n long rc 105 108
+n long lt 108 111
+n long rb 111 114
+n long lc 114 117
+n long rb 120 123
+n long lt 123 126
+n long rc 126 129
+n long lc 129 132
+n long rt 132 135
+n long lb 135 138
+n long rc 138 141
+n long rb 144 147
+n long lt 147 150
+n long rc 150 153
+n long lc 153 156
+n long rt 156 159
+n long lb 159 162
+n long rc 162 165
+n long lb 168 171
+n long rt 171 174
+n long lc 174 177
+n long rc 177 180
+n long lt 180 183
+n long rb 183 186
+n long lc 186 189
+n short rb 192
+n catch lb 195
+n short rb 197
+n short rb 198
+n catch lc 201
+n short rb 203
+n short rb 204
+n catch lb 207
+n short rb 209
+n short rb 210
+n catch lc 213
+n short rb 215
+n short rb 216
+n catch lb 219
+n short rb 221
+n short rb 222
+n catch lc 225
+n short rb 227
+n short rb 228
+n catch lb 231
+n short rt 233
+n short rt 234
+n short lc 236
+n short lc 237
+n short lb 239
+n short lb 240
+n catch rb 243
+n short lb 245
+n short lb 246
+n catch rc 249
+n short lb 251
+n short lb 252
+n catch rb 255
+n short lb 257
+n short lb 258
+n catch rc 261
+n catch rc 262
+n catch rc 263
+n catch rc 264
+n short lb 267
+n catch rb 269
+n catch rb 270
+n catch rc 272.5
+n catch rc 272.75
+n catch rc 273
+n catch rc 274
+n catch rc 275
+n catch rc 276
+n short lb 279
+n long rc 282 292
+n long lc 285 292
+n long lb 294 295.5
+n long lb 297 298.5
+n long rt 300 301.5
+n long rt 303 304.5
+n long lc 306 307.5
+n long lc 309 310.5
+n clong rc 312 315
+n catch rt 316
+n catch rt 317
+n long lb 318 319.5
+n long lb 321 322.5
+n long rt 324 325.5
+n long rt 327 328.5
+n long rb 330 331.5
+n long rb 333 334.5
+n clong lt 336 339
+n catch lt 340
+n catch lt 341
+n long lt 342 343.5
+n long lt 345 346.5
+n long rb 348 349.5
+n long rb 351 352.5
+n long lc 354 355.5
+n long lc 357 358.5
+n clong rc 360 363
+n catch rb 364
+n catch rb 365
+n long lt 366 367.5
+n long lt 369 370.5
+n long rb 372 373.5
+n long rb 375 376.5
+n long lc 378 379.5
+n long lc 381 382.5
+n compound rc 384 390 5
+n compound lc 384 390 5
