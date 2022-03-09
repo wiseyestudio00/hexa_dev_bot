@@ -1,4 +1,6 @@
 section offset:115 bpm:143
+beat range 0:400 offset:115 bpm:143
+
 define stageposition classichexagon 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
 define stageposition turn 1.35,2.35,0 0,-360,240 2.7,0,0 0,-360,180 1.35,-2.35,0 0,-360,120 -1.35,-2.35,0 0,360,60 -2.7,0,0 0,360,0 -1.35,2.35,0 0,360,300
 
@@ -1295,4 +1297,3 @@ n long lc lt 348 351
 a s_movecamera position z 348 4 1 linear
 n swipe out lb rt 352
 a s_movecamera position z 352.25 1 27 easeoutsine
-

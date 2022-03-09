@@ -1,4 +1,6 @@
 section offset:115 bpm:143
+beat range 0:400 offset:115 bpm:143
+
 n short lb 0
 n short lb 1
 n short rb 2
