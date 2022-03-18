@@ -1,5 +1,4 @@
 section offset:832 bpm:142
-// test
 define StagePosition stagefade 1.35,18.35,0 0,0,240 28.7,0,0 0,0,180 1.35,-19.35,0 0,0,120 -1.35,-19.35,0 0,0,60 -29.7,0,0 0,0,0 -1.35,18.1,0 0,0,300
 a MoveCamera Position -3 0 0 0 -2 linear
 a MoveCamera Position 0 18 0 0 2 easeinoutsine
