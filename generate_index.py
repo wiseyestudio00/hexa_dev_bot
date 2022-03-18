@@ -25,8 +25,9 @@ def generate_dev_songs_catalog():
                 for file in files:
 
                     if file.startswith(".") or file.endswith(".meta"):
+                        print(file)
                         continue
-                        
+
                     file = f"{song_directory}/{file}"
 
                     result[file] = { }
