@@ -125,3 +125,4 @@
 2022-03-17 20:00:41.130496: Jmak 更新 Dev-Songs的 freesia
 2022-03-17 20:00:40.336533：Jmak 更新 chart-library v.1.0/core collection 1.0/freesia
 2022-03-17 20:01:36.061025：Jmak 刪除 chart-library v.1.0/core collection 1.0/freesia/chart.hardprototype.txt
+2022-03-17 22:57:24.172174: Sherwin Chen 更新 Dev-Songs的 freesia
