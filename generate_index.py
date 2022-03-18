@@ -17,20 +17,20 @@ def generate_dev_songs_catalog():
     for _, dirs, _ in os.walk(target_dir):
 
         for song_directory in dirs:
-            
+
             if song_directory.startswith("."):
                 continue
 
             for _, _, files in os.walk(f"{target_dir}/{song_directory}"):
                 for file in files:
 
-                    file = f"{song_directory}/{file}"
-
                     if file.startswith(".") or file.endswith(".meta"):
                         continue
-                    
+                        
+                    file = f"{song_directory}/{file}"
+
                     result[file] = { }
-                    
+
                     modification_sec = os.path.getmtime(f"{target_dir}/{file}")
                     m_date = str(datetime.fromtimestamp(modification_sec))
 
