@@ -150,3 +150,4 @@
 2022-03-19 19:21:53.270004: Sherwin Chen 更新 Dev-Songs的 freesia
 2022-03-19 19:21:53.045492：Sherwin Chen 更新 chart-library v.1.0/core collection 1.0/freesia
 2022-03-20 00:18:36.404857: Sherwin Chen 更新 Dev-Songs的 freesia
+2022-03-20 00:18:36.168080：Sherwin Chen 更新 chart-library v.1.0/core collection 1.0/freesia
