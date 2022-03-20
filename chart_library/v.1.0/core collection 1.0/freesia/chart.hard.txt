@@ -959,4 +959,3 @@ n catch rc 316
 n long rt 316.25 319
 n swipe Out rc 320
 n swipe In lc 320
-n short rt 421
