@@ -1,582 +1,530 @@
 section offset:125 bpm:130
-#2020.12.12
-
-n long lc 0 6
+beat range 0:332 offset:125 bpm:130
+a MoveCamera Position 16.05 1 0 0 -0.2 easeinoutsine
+a MoveCamera Position 17.05 1 0 0 0.2 easeinoutsine
+a MoveCamera Position 18.05 1 0 0 -0.2 easeinoutsine
+a MoveCamera Position 19.05 1 0 0 0.2 easeinoutsine
+a MoveCamera Position 20.05 1 0 0 -0.2 easeinoutsine
+a MoveCamera Position 21.05 1 0 0 0.2 easeinoutsine
+a MoveCamera Position 22.05 1 0 0 -0.2 easeinoutsine
+a MoveCamera Position 23.05 1 0 0 0.2 easeinoutsine
+a MoveCamera Position 24.05 1 0 0 -0.2 easeinoutsine
+a MoveCamera Position 25.05 1 0 0 0.2 easeinoutsine
+a MoveCamera Position 26.05 1 0 0 -0.2 easeinoutsine
+a MoveCamera Position 27.05 1 0 0 0.2 easeinoutsine
+a MoveCamera Position 28.05 1 0 0 -0.2 easeinoutsine
+a MoveCamera Position 29.05 1 0 0 0.2 easeinoutsine
+a MoveCamera Position 30.05 1 0 0 -0.2 easeinoutsine
+a MoveCamera Position 31.05 1 0 0 0.2 easeinoutsine
+a MoveCamera Position 39 2.5 0 0 0.8 easeinoutsine
+a MoveCamera Angle 39 2.5 15 0 0 easeinoutsine
+a MoveCamera Angle 45.5 2.5 -15 0 0 easeinoutsine
+a MoveCamera Position 45.5 2.5 0 0 -0.8 easeinoutsine
+a MoveCamera Angle 55 2.5 -15 0 0 easeinoutsine
+a MoveCamera Position 55 2.5 0 0 0.8 easeinoutsine
+a MoveCamera Position 60 6 0 0 0.5 easeinoutsine
+a MoveCamera Angle 62 2 15 0 0 easeinoutsine
+a MoveCamera Position 62 2 0 0 -0.8 easeinoutsine
+a MoveCamera Position 64 1 -0.2 0.2 0 easeinoutsine
+a MoveCamera Position 65 1 0.4 -0.2 0 easeinoutsine
+a MoveCamera Position 66 1 -0.4 -0.2 0 easeinoutsine
+a MoveCamera Position 67 1 0.4 0 0 easeinoutsine
+a MoveCamera Position 68 1 -0.4 0.4 0 easeinoutsine
+a MoveStage Position 69 3 0 0 0.3 easeinoutsine
+a MoveCamera Position 69 1 0.2 -0.2 0 easeinoutsine
+a MoveCamera Position 72 1 0.2 0.2 0 easeinoutsine
+a MoveCamera Position 73 1 -0.4 -0.2 0 easeinoutsine
+a MoveCamera Position 74 1 0.4 -0.2 0 easeinoutsine
+a MoveCamera Position 75 1 -0.4 0 0 easeinoutsine
+a MoveStage Position 76 3 0 0 -0.3 easeinoutsine
+a MoveCamera Position 76 1 0.2 0.2 0 easeinoutsine
+a MoveCamera Position 80 8 0 0 -0.5 easeinoutsine
+a MoveCamera Angle 88 6 0 0 -60 easeinoutsine
+a MoveCamera Angle 96 3.5 0 0 10 spring
+a MoveCamera Angle 100 3.5 0 0 -10 spring
+a MoveCamera Angle 104 8 0 0 60 easeinoutsine
+a MoveCamera Position 104 1 0 0 -0.3 easeinoutsine
+a MoveCamera Position 105 1 0 0 0.3 easeinoutsine
+a MoveCamera Position 106 1 0 0 -0.3 easeinoutsine
+a MoveCamera Position 107 1 0 0 0.3 easeinoutsine
+a MoveCamera Position 108 1 0 0 -0.3 easeinoutsine
+a MoveCamera Position 109 1 0 0 0.3 easeinoutsine
+a MoveCamera Position 110 1 0 0 -0.3 easeinoutsine
+a MoveCamera Position 111 1 0 0 0.3 easeinoutsine
+a MoveCamera Angle 112 3.5 0 0 -10 spring
+a MoveCamera Angle 116 3.5 0 0 10 spring
+a MoveCamera Position 120 1 0 0 -0.3 easeinoutsine
+a MoveCamera Angle 120 8 0 0 -60 easeinoutsine
+a MoveCamera Position 121 1 0 0 0.3 easeinoutsine
+a MoveCamera Position 122 1 0 0 -0.3 easeinoutsine
+a MoveCamera Position 123 1 0 0 0.3 easeinoutsine
+a MoveCamera Position 124 1 0 0 -0.3 easeinoutsine
+a MoveCamera Position 125 1 0 0 0.3 easeinoutsine
+a MoveCamera Position 126 1 0 0 -0.3 easeinoutsine
+a MoveCamera Position 127 1 0 0 0.3 easeinoutsine
+a MoveCamera Position 128 1.5 0 0 -0.8 spring
+a MoveCamera Position 130 0.5 0 0 0.2 easeinoutsine
+a MoveCamera Position 131 0.5 0 0 0.2 easeinoutsine
+a MoveCamera Position 132 0.5 0 0 0.2 easeinoutsine
+a MoveCamera Position 133 0.5 0 0 0.2 easeinoutsine
+a MoveCamera Position 136 1 0 0 -0.2 easeinoutsine
+a MoveCamera Position 137 1 0 0 0.2 easeinoutsine
+a MoveCamera Position 138 1 0 0 -0.2 easeinoutsine
+a MoveCamera Position 139 1 0 0 0.2 easeinoutsine
+a MoveCamera Position 140 1.5 0 0 -0.15 easeinoutsine
+a MoveCamera Position 141.5 1.5 0 0 0.15 easeinoutsine
+a MoveCamera Position 143 1 0 0 -0.15 easeinoutsine
+a MoveCamera Position 144 1 0 0 -0.15 easeinoutsine
+a MoveCamera Position 145 2 0 0 0.3 easeinoutsine
+a MoveCamera Position 147 1 0 0 -0.15 easeinoutsine
+a MoveCamera Position 148 1 0 0 -0.15 easeinoutsine
+a MoveCamera Position 149 2 0 0 0.3 easeinoutsine
+a MoveCamera Angle 152 7 0 0 60 easeinoutsine
+a MoveCamera Position 159 24.5 0 0 -2 easeinoutsine
+a MoveCamera Angle 159 33 0 0 -180 easeinoutsine
+a MoveCamera Position 183.5 24.5 0 0 2 easeinoutsine
+a MoveCamera Angle 192 33 0 0 180 easeinoutsine
+a MoveCamera Angle 224 2 0 0 -20 easeinoutsine
+a MoveCamera Angle 226 2 0 0 20 easeinoutsine
+a MoveCamera Angle 228 2 0 0 20 easeinoutsine
+a MoveCamera Angle 230 2 0 0 -20 easeinoutsine
+a MoveCamera Angle 232 2 0 0 -20 easeinoutsine
+a MoveCamera Angle 234 2 0 0 20 easeinoutsine
+a MoveCamera Angle 236 2 0 0 20 easeinoutsine
+a MoveCamera Angle 238 2 0 0 -20 easeinoutsine
+a MoveCamera Angle 240 2 0 0 -20 easeinoutsine
+a MoveCamera Angle 242 2 0 0 20 easeinoutsine
+a MoveCamera Angle 244 2 0 0 20 easeinoutsine
+a MoveCamera Angle 246 2 0 0 -20 easeinoutsine
+a MoveCamera Angle 248 2 0 0 -20 easeinoutsine
+a MoveCamera Angle 250 2 0 0 20 easeinoutsine
+a MoveCamera Position 252 1 0.15 -0.15 0 easeinoutsine
+a MoveCamera Position 253 1 -0.3 0.3 0 easeinoutsine
+a MoveCamera Position 254 1 -0.2 -0.15 0 easeinoutsine
+a MoveCamera Position 255 1 0.35 0 0 easeinoutsine
+a MoveCamera Position 256 1 0 0 -0.3 easeinoutsine
+a MoveCamera Position 257 1 0 0 -0.3 easeinoutsine
+a MoveCamera Position 258 1 0 0 -0.3 easeinoutsine
+a MoveCamera Position 259 1 0 0 -0.3 easeinoutsine
+a MoveCamera Position 260 1 0 0 0.3 easeinoutsine
+a MoveCamera Position 261 1 0 0 0.3 easeinoutsine
+a MoveCamera Position 263 1 0 0 0.2 spring
+a MoveCamera Position 264 1 0 0 0.2 spring
+a MoveCamera Position 265 1 0 0 0.2 spring
+a MoveCamera Position 268 3 0 0 -1 easeinoutsine
+a MoveCamera Angle 276.2 4.8 0 0 60 easeinoutsine
+a MoveCamera Angle 281 3.5 0 0 40 easeinoutsine
+a MoveCamera Angle 284.5 3.5 0 0 -40 easeinoutsine
+a MoveCamera Angle 288 7.2 0 0 -1140 easeinoutsine
+a MoveCamera Position 288 3 0 0 -3 easeinoutsine
+a MoveCamera Position 291 3 0 0 3 easeinoutsine
+a MoveCamera Position 296 1 0 0 -0.3 easeinoutsine
+a MoveCamera Position 297 0.6 0 0 0.15 easeinoutsine
+a MoveCamera Position 297.666 5.6 0 0 -0.8 easeinoutsine
+a MoveCamera Position 304 1 0 0 0.2 easeinoutsine
+a MoveCamera Position 305 1 0 0 -0.4 easeinoutsine
+a MoveCamera Position 306 1 0 0 0.4 easeinoutsine
+a MoveCamera Position 307 1 0 0 -0.4 easeinoutsine
+a MoveCamera Position 308 1 0 0 0.4 easeinoutsine
+a MoveCamera Position 309 1 0 0 -0.4 easeinoutsine
+a MoveCamera Position 310 1 0 0 0.4 easeinoutsine
+a MoveCamera Position 311 5 0 0 -1 easeinoutsine
+a MoveCamera Position 319.8 5 0 0 1.5 easeinoutsine
+n long lc 0 7
 n long rt 0 1
 n long rc 2 3
 n long rb 4 5
 n long rc 6 7
-
-n long rc 8 14
+n long rc 8 15
 n long lt 8 9
 n long lc 10 11
 n long lb 12 13
 n long lc 14 15
-
-#來回拉扯
-a movecamera position 16 1 0 0 -0.2 easeinoutsine
-n swipe out lc rc 16
-
-a movecamera position 17 1 0 0 0.2 easeinoutsine
-n swipe in lc rc 17
-
-a movecamera position 18 1 0 0 -0.2 easeinoutsine
-n swipe out lc rc 18
-
-a movecamera position 19 1 0 0 0.2 easeinoutsine
-n swipe in lc rc 19
-
-a movecamera position 20 1 0 0 -0.2 easeinoutsine
-n swipe out lc rc 20
-
-a movecamera position 21 1 0 0 0.2 easeinoutsine
-n swipe in lc rc 21
-
-a movecamera position 22 1 0 0 -0.2 easeinoutsine
-n swipe out lc rc 22
-
-a movecamera position 23 1 0 0 0.2 easeinoutsine
-n swipe in lc rc 23
-
-a movecamera position 24 1 0 0 -0.2 easeinoutsine
-n swipe out lc rc 24
-
-a movecamera position 25 1 0 0 0.2 easeinoutsine
-n swipe in lc rc 25
-
-a movecamera position 26 1 0 0 -0.2 easeinoutsine
-n swipe out lc rc 26
-
-a movecamera position 27 1.9 0 0 1 easeinoutsine
-n long lc rc 27 28.8
-
-a movecamera position 29 2 0 0 -1 easeinoutsine
-a movecamera angle 29 2 0 0 360 easeinoutsine
-n swipe out lc rc 29
-
+n swipe In lc 16
+n swipe In rc 16
+n swipe Out lc 17
+n swipe Out rc 17
+n swipe In rc 18
+n swipe In lc 18
+n swipe Out rc 19
+n swipe Out lc 19
+n swipe In lc 20
+n swipe In rc 20
+n swipe Out lc 21
+n swipe Out rc 21
+n swipe In lc 22
+n swipe In rc 22
+n swipe Out lc 23
+n swipe Out rc 23
+n swipe In lc 24
+n swipe In rc 24
+n swipe Out lc 25
+n swipe Out rc 25
+n swipe In lc 26
+n swipe In rc 26
+n swipe Out lc 27
+n swipe Out rc 27
+n swipe In rc 28
+n swipe In lc 28
+n swipe Out lc 29
+n swipe Out rc 29
+n swipe In lc 30
+n swipe In rc 30
+n swipe Out rc 31
+n swipe Out lc 31
 n long lc 32 35
 n long rb 32 33
-n long rb 34 35
-
+n long lb 34 35
 n long rc 36 39
 n long lb 36 37
-n long lb 38 39
-
-#鏡頭拉近
-a movecamera position 39 2.5 0 0 1 easeinoutsine
-a movecamera angle 39 2.5 20 0 0 easeinoutsine
-#長滑合體
+n long rb 38 39
 n long lb 40 41
-n swipe out rb 40
-n swipe out rb 41
-
+n swipe In rb 40
+n swipe In rb 41
 n long rb 42 43
-n swipe in lb 42
-n swipe in lb 43
-
+n swipe Out lb 42
+n swipe Out lb 43
 n long lb 44 45
-n swipe out rb 44
-n swipe out rb 45
-
+n swipe In rb 44
+n swipe In rb 45
+n swipe Out lb 46
 n long rb 46 47
-n swipe in lb 46
-n swipe in lb 47
-#拉遠
-a movecamera position 47 1 0 0 -1 easeinoutsine
-a movecamera angle 47 1 -20 0 0 easeinoutsine
-
-n long rc 49 52
-n long lc 49 50
-n long lc 51 52
-
-n long lc 53 56
-n long rc 53 54
-n long rc 55 56
-
-#拉近
-a movecamera position 56 2.5 0 0 1 easeinoutsine
-a movecamera angle 56 2.5 -20 0 0 easeinoutsine
-#長滑合體2
-n long rt 57 58
-n swipe in lt 57
-n swipe in lt 58
-
-n long lt 59 60
-n swipe out rt 59
-n swipe out rt 60
-
-n long rt 61 62
-n swipe in lt 61
-n swipe in lt 62
-
-#拉遠
-a movecamera position 62 1 0 0 -1 easeinoutsine
-a movecamera angle 62 1 20 0 0 easeinoutsine
-
-#跟著長音的位置擺動
-a movecamera position 64 1 -0.3 0.3 0 easeinoutsine
+n swipe Out lb 47
+n long lt 48 49
+n long rc 48 51
+n long rt 50 51
+n long lc 52 55
+n long rt 52 53
+n long lt 54 55
+n long rt 56 57
+n swipe In lt 56
+n swipe In lt 57
+n swipe Out rt 58
+n long lt 58 59
+n swipe Out rt 59
+n long rt 60 61
+n swipe In lt 60
+n swipe In lt 61
+n swipe Out rt 62
+n long lt 62 63
+n swipe Out rt 63
 n long lt 64 65
-a movecamera position 65 1 0.3 -0.3 0 easeinoutsine
 n long rc 65 66
-a movecamera position 66 1 -0.3 -0.3 0 easeinoutsine
 n long lb 66 67
-a movecamera position 67 1 0.3 -0.3 0 easeinoutsine
 n long rb 67 68
-a movecamera position 68 1 0 0.3 0 easeinoutsine
 n long lt 68 69
-a movecamera position 69 1 0 0.3 0 easeinoutsine
-n compound rc 69 71 6
-
-#a movecamera position 72 1 0.5 0 0 easeinoutsine
-n swipe in rc 72
-n swipe out lc 72
-
-#a movecamera position 73 1 -0.5 0 0 easeinoutsine
-n swipe out rc 73
-n swipe in lc 73
-
-#a movecamera position 74 1 0.5 0 0 easeinoutsine
-n swipe in rc 74
-n swipe out lc 74
-
-#a movecamera position 75 1 -0.5 0 0 easeinoutsine
-n swipe out rc 75
-n swipe in lc 75
-
-n long lt 76 79
-n swipe in rb 77
-n swipe out rb 78
-n swipe in rb 79
-
-#隔一拍長音
-a movecamera position 80 1 -0.3 0 0 easeinoutsine
-n long lc 80 82
-a movecamera position 81 2 0.6 0 0 easeinoutsine
-n long rt 81 83
-a movecamera position 83 1 -0.3 0 0 easeinoutsine
-n short lc 83
-
-a movecamera position 84 1 -0.3 -0.3 0 easeinoutsine
-n long lb 84 86
-a movecamera position 85 2 0.6 0.6 0 easeinoutsine
-n long rt 85 87
-a movecamera position 87 1 -0.3 -0.3 0 easeinoutsine
-n short lb 87
-
-a movecamera position 88 1 0.3 -0.3 0 easeinoutsine
-n long rb 88 90
-a movecamera position 89 2 -0.6 0.3 0 easeinoutsine
-n long lc 89 91
-a movecamera position 91 1 0.3 0 0 easeinoutsine
-n short rc 91
-
-n long lt rb 92 93
-
-#打打打打
-n short rc 94
-n short lc 94.25
-n short rc 94.5
-n short lc 94.75
-
-a movecamera position 96 1 -0.3 0.3 0 easeinoutsine
-n long lt 96 99
-a movecamera position 97 1 0.3 0 0 easeinoutsine
-n long rc 97 98
-a movecamera position 99 1 0 -0.3 0 easeinoutsine
-n swipe out rc 99
-
-a movecamera position 100 1 -0.3 -0.3 0 easeinoutsine
-n long lb 100 103
-a movecamera position 101 1 0.3 0 0 easeinoutsine
-n long rc 101 102
-a movecamera position 103 1 0 0.3 0 easeinoutsine
-n swipe out rc 103
-
-#長音旋轉1(副歌1)
-a movecamera angle 104 8 0 0 60 easeinoutsine
-n long lc 104 111
-
-a movecamera position 104 1 0 0 -0.3 easeinoutsine
-n swipe in rc 104
-a movecamera position 105 1 0 0 0.3 easeinoutsine
-n swipe out rc 105
-a movecamera position 106 1 0 0 -0.3 easeinoutsine
-n swipe in rc 106
-a movecamera position 107 1 0 0 0.3 easeinoutsine
-n swipe out rc 107
-a movecamera position 108 1 0 0 -0.3 easeinoutsine
-n swipe in rc 108
-a movecamera position 109 1 0 0 0.3 easeinoutsine
-n swipe out rc 109
-a movecamera position 110 1 0 0 -0.3 easeinoutsine
-n swipe in rc 110
-a movecamera position 111 1 0 0 0.3 easeinoutsine
-n swipe out rc 111
-a movecamera position 112 1 0 0 -0.3 easeinoutsine
-n swipe in rc 112
-
-n swipe out rb lt 113
-
-n swipe out lc rc 114
-
-n swipe out lb rt 115
-
-n swipe out rb lt 116
-
-n swipe out lc rc 117
-
-n swipe out rt lb 118
-
-#長音旋轉2
-a movecamera angle 120 8 0 0 -60 easeinoutsine
-n long rc 120 127
-
-a movecamera position 120 1 0 0 0.3 easeinoutsine
-n swipe out lc 120
-a movecamera position 121 1 0 0 -0.3 easeinoutsine
-n swipe in lc 121
-a movecamera position 122 1 0 0 0.3 easeinoutsine
-n swipe out lc 122
-a movecamera position 123 1 0 0 -0.3 easeinoutsine
-n swipe in lc 123
-a movecamera position 124 1 0 0 0.3 easeinoutsine
-n swipe out lc 124
-a movecamera position 125 1 0 0 -0.3 easeinoutsine
-n swipe in lc 125
-a movecamera position 126 1 0 0 0.3 easeinoutsine
-n swipe out lc 126
-a movecamera position 127 1 0 0 -0.3 easeinoutsine
-n swipe in lc 127
-
-#大旋轉1
-n swipe out rc lc 128
-a movecamera position 128 2 0 0 -1 easeinoutsine
-a movecamera angle 128 1.75 0 0 360 easeinoutsine
-
-n swipe in lt 130
-a movecamera position 130 0.5 0 0 0.2 easeinoutsine
-
-n swipe in lc 131
-a movecamera position 131 0.5 0 0 0.2 easeinoutsine
-
-n swipe in lb 132
-a movecamera position 132 0.5 0 0 0.2 easeinoutsine
-
-n swipe in rb 133
-a movecamera position 133 0.5 0 0 0.2 easeinoutsine
-
-n swipe in rc 134
-a movecamera position 134 0.5 0 0 0.2 easeinoutsine
-
-n swipe in rt 135
-a movecamera position 135 0.5 0 0 0.2 easeinoutsine
-
-n long rt lc 136 137
-n long lb rc 138 139
-
-n long rt 140 141
-n swipe out lc 141
-n long lb 142 143
-n swipe out rc 143
-
-#差一拍長音符
-n long rc 144 146
+n long rc 69 71
+n short lc 71
+n long rt 72 73
+n long lc 73 74
+n long rb 74 75
+n long lb 75 76
+n long rt 76 79
+n catch lc 77
+n catch lb 78
+n long lc 80 83
+n short rc 80
+n short lb 81
+n short lb 82
+n short rb 83
+n long rc 84 87
+n short rt 85
+n short rt 86
+n short lt 87
+n long lc 88 94
+n catch rc 94
+n catch rc 94.33
+n catch rc 94.66
+n catch rc 95
+n catch rc 95.33
+n catch rc 95.66
+n short rb 96
+n swipe Out lt 96
+n long lt 97 98
+n swipe In lb 98
+n swipe In lc 99
+n short lt 100
+n swipe Out rb 100
+n long lc 101 102
+n swipe In lb 102
+n swipe In lc 103
+n short rt 104
+n long rc 104 111
+n swipe Out rt 105
+n short lt 106
+n swipe Out lt 107
+n short lc 108
+n swipe Out lc 109
+n short lb 110
+n swipe Out lb 111
+n short lc 112
+n swipe Out rc 112
+n long rc 113 114
+n swipe In lb 114
+n swipe In rb 115
+n short rc 116
+n swipe Out lc 116
+n long rc 117 118
+n swipe In lb 118
+n swipe In rb 119
+n long lt 120 127
+n short rt 120
+n swipe Out rt 121
+n short rc 122
+n swipe Out rc 123
+n short rb 124
+n swipe Out rb 125
+n short lb 126
+n swipe Out lb 127
+n swipe Out lt 128
+n swipe Out rb 128
+n swipe In lt 130
+n swipe In lc 131
+n swipe In lb 132
+n compound rb 133 135 5
+n short rt 135
+n long lt 136 137
+n long rc 136 137
+n long rt 138 139
+n long rb 138 139
+n short rb 140
+n long lc 140 143
+n swipe In lb 141
+n swipe Out lb 142
+n long rb 143 144
+n long rc 144 145
 n long lb 145 147
-n short rt 147
-
-n long lt 148 150
-n long rc 149 151
-n short lt 151
-
-n long rt 152 154
-n long lc 153 155
-n short rc 155
-
-n catch rc 156
-n catch lc 156.3333
-n catch rc 156.6666
-n catch lc 157
-n catch rc 157.3333
-n catch lc 157.6666
-n catch rc 158
-n catch lc 158.3333
-n catch rc 158.6666
-n swipe out lc rc 159
-
-#旋轉直到副歌2
-a movecamera angle 159 49 0 0 -360 easeinoutsine
-a movecamera position 159 24.5 0 0 -2 easeinoutsine
-a movecamera position 183.5 24.5 0 0 2 easeinoutsine
-
-#交互 in out
-#節奏
-n swipe out rc 161
-n swipe in rc 162
-n swipe out rc 163
-n swipe in rc 163.75
-
-n swipe out rc 165
-n swipe in rc 166
-n swipe out rc 166.75
-n swipe in rc 167
-n swipe out rc 168
-n swipe in rc 169
-n swipe out rc 169.75
-
-#一般拍
-n short lc 171
-n short lc 172
-n short lc 173
-n short lc 174
-n short lc 175
-
-#節奏
-n swipe in rc 176
-n swipe out rc 177
-n swipe in rc 178
-n swipe out rc 179
-n swipe in rc 179.5
-n swipe out rc 181
-n swipe in rc 182
-n swipe out rc 183
-n swipe in rc 184
-
-#一般拍
-n short lc 185
-n short lc 186
-n short lc 187
-n short lc 188
-n short lc 189
-n short lc 190
-n short lc 191
-
-n swipe in rc 192
-n swipe out rc 193
-n swipe in rc 194
-n swipe out rc 195
-n swipe in rc 195.66666
-n swipe out rc 197
-n swipe in rc 197.6666
-n swipe out rc 199
-n swipe in rc 199.666
-
-n swipe out rc 201.75
-n swipe in rc 202
-
-n swipe out rc 203.75
-n swipe in rc 204
-
-n swipe out rc 206
-n swipe in rc 207
-
-#進副歌
-n swipe out lb 208
-n swipe out rb 209
-n swipe in lb 210
-n swipe in rb 211
-n swipe out lb 212
-n swipe out rb 213
-n swipe in lb 214
-n swipe in rb 215
-
+n long lt 147 148
+n long rt 148 149
+n long lc 149 151
+n short lb 151
+n long rb 152 159
+n compound lt 152 159 13
+n long lc 160 169.66
+n swipe Out rc 161
+n swipe In rc 162
+n swipe Out rc 163
+n swipe In rc 163.66
+n swipe Out rc 165.66
+n swipe In rc 165.99
+n swipe Out rc 166.66
+n swipe In rc 166.99
+n swipe Out rc 168
+n swipe In rc 169
+n swipe Out rc 169.66
+n short lb 172.66
+n short lb 173.66
+n short lt 174
+n short lt 174.66
+n long lb 175 185
+n swipe Out rt 176
+n swipe In rt 177
+n swipe Out rt 178
+n swipe In rt 179
+n swipe Out rt 179.66
+n swipe In rt 180.66
+n swipe Out rt 181.66
+n swipe In rt 182.66
+n swipe Out rt 183.66
+n catch rt 185
+n catch rt 186
+n catch rt 187
+n catch rt 188
+n short lt 189
+n short lt 189.66
+n short rt 190
+n short rt 190.66
+n long lc 191 199.66
+n swipe In rc 192
+n swipe Out rc 193
+n swipe In rc 194
+n swipe Out rc 195
+n swipe In rc 195.6667
+n swipe Out rc 196.66
+n swipe In rc 197.66
+n swipe Out rc 197.91
+n swipe In rc 199
+n swipe Out rc 199.66
+n swipe In lc 201.67
+n swipe Out lc 202
+n swipe In rt 203.67
+n swipe Out rt 204
+n swipe In lb 205.67
+n swipe Out lb 206
+n swipe Out rt 207
+n short lt 208
+n short lc 209
+n short lb 210
+n short rb 211
+n short rc 212
+n short rt 213
+n short lt 214
+n short lc 215
 n short lb 216
-n short rb 216.25
-n short lb 216.5
-n short rb 216.75
-
-n short rb 218
-n short lb 218.25
-n short rb 218.5
-n short lb 218.75
-
-n catch rb 220
-n catch lb 220.25
-n catch rb 220.5
-n catch lb 220.75
-
-n catch rb 221
-n catch lb 221.25
-n catch rb 221.5
-n catch lb 221.75
-
-n catch rb 222
-n catch lb 222.25
-n catch rb 222.5
-n catch lb 222.75
-
-#真的要這樣做嗎:要
-//超長音符
-n long lc 224 278
-
-a movecamera angle 224 2 0 0 -20 easeinoutsine
-n swipe out rt 224
-a movecamera angle 226 2 0 0 20 easeinoutsine
-n swipe in rb 226
-
-a movecamera angle 228 2 0 0 -20 easeinoutsine
-n swipe out rc 228
-a movecamera angle 230 2 0 0 -20 easeinoutsine
-n swipe out rc 230
-
-a movecamera angle 232 2 0 0 20 easeinoutsine
-n swipe out lb 232
-n short rb 233
-n short rb 233.5
-a movecamera angle 234 2 0 0 20 easeinoutsine
-n swipe out rb 234
-
-a movecamera angle 236 2 0 0 -20 easeinoutsine
-n swipe out rc 236
-n short rb 237
-n short rb 237.5
-a movecamera angle 238 2 0 0 -20 easeinoutsine
-n swipe out rb 238
-
-n short rc 240
-n short rc 240.5
-n short rc 241
-
-n long rc 242 243
-
-n short rb 244
-n short rb 244.5
-n short rb 245
-
-n long rb 246 247
-
-a movecamera angle 248 2 0 0 20 easeinoutsine
-n swipe in rb 248
-n short rc 249
-n short rc 249.5
-a movecamera angle 250 2 0 0 20 easeinoutsine
-n swipe in rc 250
-
-a movecamera angle 252 2 0 0 -20 easeinoutsine
-n swipe out rc 252
-n short rc 253
-n short rc 253.5
-a movecamera angle 254 2 0 0 -20 easeinoutsine
-n swipe out rc 254
-
-n catch rb 256
-n catch rb 256.25
-n catch rb 256.5
-
-n catch rc 257
-n catch rc 257.25
-n catch rc 257.5
-
-n catch rb 258
-n catch rb 258.25
-n catch rb 258.5
-
-n catch rc 259
-n catch rc 259.25
-n catch rc 259.5
-
-n long rb 260 261
-n long rc 261 262
-
-a movecamera angle 263 2 0 0 20 easeinoutsine
-n swipe in rb 263
-a movecamera angle 265 2 0 0 20 easeinoutsine
-n swipe in rc 265
-a movecamera angle 267 2 0 0 20 easeinoutsine
-n swipe in rc 267
-a movecamera angle 269 2 0 0 -20 easeinoutsine
-n swipe out rc 269
-a movecamera angle 271 2 0 0 -20 easeinoutsine
-n swipe out rb 271
-
-n long rb 272 273
+n short lb 216.66
+n short rb 216.99
+n short rb 217.66
+n short lc 217.99
+n short lc 218.66
+n short rc 218.99
+n short rc 219.66
+n short lt 219.99
+n short lt 220.66
+n short rt 220.99
+n short rt 221.66
+n short lc 221.99
+n short lc 222.66
+n short rc 222.99
+n short rc 223.66
+n swipe Out rt 224
+n long lc 224 232
+n short rc 225
+n catch rc 225.33
+n catch rc 225.66
+n swipe In rc 226
+n short rb 227
+n swipe Out rb 227.99
+n short rc 229
+n swipe In rc 229.99
+n short rt 231
+n swipe Out rt 231.99
+n catch lc 233
+n short rc 233
+n catch lc 233.33
+n catch lc 233.66
+n swipe In rc 233.99
+n catch lc 234.66
+n catch lc 235
+n short rb 235
+n catch lc 235.33
+n catch lc 235.66
+n swipe Out rb 235.99
+n catch lc 235.99
+n catch lc 236.33
+n catch lc 236.66
+n catch lc 236.99
+n short rc 237
+n catch lc 237.33
+n catch lc 237.66
+n swipe In rc 238
+n catch lc 238.66
+n catch lc 239
+n catch lc 239.33
+n catch lc 239.67
+n swipe Out lb 240
+n long rc 240 248
+n catch lc 241
+n catch lc 241.33
+n catch lc 241.66
+n swipe In lc 241.99
+n short lt 243
+n swipe Out lt 243.99
+n short lc 245
+n swipe In lc 245.99
+n short lb 247
+n swipe Out lb 247.99
+n short lc 249
+n catch rc 249
+n catch rc 249.33
+n catch rc 249.66
+n catch rc 249.99
+n swipe In lc 249.99
+n catch rc 250.66
+n catch rc 251
+n short lt 251
+n catch rc 251.33
+n catch rc 251.66
+n swipe Out lt 251.99
+n swipe Out rb 253
+n swipe In lc 254
+n swipe In rc 255
+n short lb 256
+n catch lb 256.33
+n catch lb 256.66
+n short rt 257
+n catch rt 257.33
+n catch rt 257.66
+n short lc 258
+n catch lc 258.33
+n catch lc 258.66
+n short rc 259
+n catch rc 259.33
+n catch rc 259.66
+n long lt 260 261
+n long rb 261 263
+n swipe In lt 263
+n swipe In rc 264
+n swipe In lc 264
+n swipe In rt 265
+n long lb 265 266
+n short rc 266
+n short lc 266.33
+n short rb 266.66
+n long lt 267 271
+n long rt 268 271
+n long lc 272 273
+n short rb 273
 n long rc 274 275
-n long rb 276 277
-
+n short lb 275
+n short lc 275.67
+n short lc 276
+n short lt 277
+n short rb 277
 n short rc 278
-a movecamera angle 279 2 0 0 -20 easeinoutsine
-n swipe out rc 279
-n short rc 281
-a movecamera angle 282 2 0 0 -20 easeinoutsine
-n swipe out rb 282
-n short rb 283
-a movecamera angle 284 2 0 0 -20 easeinoutsine
-n swipe out rb 284
-n short rb 285
-a movecamera angle 286 2 0 0 -20 easeinoutsine
-n swipe out rb 286
-n short rb 287
-
-n swipe out rb 288
-
-a movecamera angle 288 6 0 0 -980 easeinoutsine
-a movecamera position 288 3 0 0 -3 easeinoutsine
-a movecamera position 291 3 0 0 3 easeinoutsine
-
-#結尾
-a movecamera position 295 0.5 0 0 0.2 easeinoutsine
-n swipe out rc lc 295
-a movecamera position 296 0.5 0 0 -0.2 easeinoutsine
-n swipe in rc lc 296
-
-a movecamera position 297 0.5 0 0 0.2 easeinoutsine
-n swipe out rc lc 297
-a movecamera position 297.666 0.333 0 0 0.2 easeinoutsine
-n swipe out rc lc 297.6666
-
-a movecamera position 301 0.5 0 0 -0.2 easeinoutsine
-n swipe in rc lc 301
-a movecamera position 302 0.5 0 0 -0.2 easeinoutsine
-n swipe in rc lc 302
-
-a movecamera position 302.75 .25 0 0 0.2 easeinoutsine
-n swipe out rc lc 302.75
-
-a movecamera position 303 .5 0 0 -0.2 easeinoutsine
-n swipe in rc lc 303
-
-a movecamera position 304 .5 0 0 0.2 easeinoutsine
-n swipe out rc lc 304
-
-a movecamera position 305 .5 0 0 -0.2 easeinoutsine
-n swipe in rc lc 305
-
-a movecamera position 306 .5 0 0 0.2 easeinoutsine
-n swipe out rc lc 306
-
-a movecamera position 307 .5 0 0 -0.2 easeinoutsine
-n swipe in rc lc 307
-
-a movecamera position 307.5 .5 0 0 0.2 easeinoutsine
-n swipe out rc lc 307.5
-
-a movecamera position 309 .5 0 0 -0.2 easeinoutsine
-n swipe in rc lc 309
-
-a movecamera position 310 .5 0 0 0.2 easeinoutsine
-n swipe out rc lc 310
-
-a movecamera position 311 .5 0 0 -0.2 easeinoutsine
-n swipe in rc lc 311
-
-a movecamera position 312 .5 0 0 0.2 easeinoutsine
-n swipe out rc lc 312
-
-n short rb 313
-n short rb 314
-n short rb 315
-n short rb 316
-
-a movecamera position 317 .5 0 0 -0.2 easeinoutsine
-n swipe in rt 317
-
-a movecamera position 318 .5 0 0 0.2 easeinoutsine
-n swipe out rc 318
-
-a movecamera position 318.75 .25 0 0 -0.2 easeinoutsine
-n swipe in rb 318.75
-
-a movecamera position 319 .5 0 0 0.2 easeinoutsine
-n swipe out lb 319
-
-a movecamera position 320 .5 0 0 -0.2 easeinoutsine
-n swipe in lc 320
+n short lc 278
+n short rt 279
+n short lb 279
+n long rb 280 283
+n long lt 280 283
+n long lt 284 287
+n long rb 284 287
+n swipe Out rt 288
+n swipe Out lb 288
+n swipe In lc 296
+n swipe In rc 296
+n swipe Out lc 297
+n swipe Out rc 297
+n swipe In rc 297.66
+n swipe In lc 297.66
+n swipe In lc 300.67
+n swipe In rc 300.67
+n swipe Out rc 301.67
+n swipe Out lc 301.67
+n swipe In rc 302.67
+n swipe In lc 302.67
+n swipe Out rc 303
+n swipe Out lc 303
+n swipe In lc 304
+n swipe In rc 304
+n swipe Out lc 305
+n swipe Out rc 305
+n swipe In lc 306
+n swipe In rc 306
+n swipe Out rc 307
+n swipe Out lc 307
+n swipe In lc 307.99
+n swipe In rc 307.99
+n swipe Out lc 309
+n swipe Out rc 309
+n swipe In rc 310
+n swipe In lc 310
+n swipe Out rc 311
+n swipe Out lc 311
+n swipe In lc 311.99
+n swipe In rc 311.99
+n swipe Out lc 313
+n swipe Out rc 313
+n swipe In rc 314
+n swipe In lc 314
+n swipe Out rc 315
+n swipe Out lc 315
+n swipe In lc 316
+n swipe In rc 316
+n short rt 317
+n short lt 317
+n short rc 317.66
+n short lc 318
+n short lb 318.66
+n short rb 319
+n swipe Out lc 320
+n swipe Out rc 320
