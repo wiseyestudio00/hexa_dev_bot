@@ -1,4 +1,4 @@
-section offset:-600000 bpm:60
+section offset:-60000 bpm:60
 a S_MoveStage Abs_Angle z 0 0 -180 easeinoutsine
 a S_MoveStage Abs_Angle x 0 0 20 easeinoutsine
 a S_MoveStage Abs_Position y 0 0 -10 easeinoutsine
