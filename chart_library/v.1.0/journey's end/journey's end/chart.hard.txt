@@ -1,10 +1,11 @@
+section offset:-600000 bpm:60
+a S_MoveStage Abs_Angle z 0 0 -180 easeinoutsine
+a S_MoveStage Abs_Angle x 0 0 20 easeinoutsine
+a S_MoveStage Abs_Position y 0 0 -10 easeinoutsine
+a S_MoveStage Abs_Position z 0 0 3 easeinoutsine
+
 section offset:120 bpm:165
 beat range 0:420 offset:120 bpm:165
-
-a S_MoveStage Abs_Angle z -0.01 0 -180 easeinoutsine
-a S_MoveStage Abs_Angle x -0.01 0 20 easeinoutsine
-a S_MoveStage Abs_Position y -0.01 0 -10 easeinoutsine
-a S_MoveStage Abs_Position z -0.01 0 3 easeinoutsine
 a S_MoveStage Abs_Angle z 0 12 0 easeoutsine
 a S_MoveStage Abs_Angle x 0 12 0 easeinoutsine
 a S_MoveStage Abs_Position y 0 12 0 easeinoutsine
