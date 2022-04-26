@@ -1,0 +1,232 @@
+# 前奏
+n long rt 0 1
+n long rc 2 3
+n long rb 4 7
+
+# 鼓點
+n short lt 7
+n short lt 7.35
+n short lt 7.7
+
+n long rt 8 9
+n long rc 10 11
+n long rb 12 13
+
+n short lc 13.5
+n short lc 13.75
+
+n long rt 14 15
+n long rc 16 17
+n long rb 18 19
+
+n short lc 19.5
+n short lc 19.75
+
+n long rt 20 21
+n long rc 22 23
+
+# 副歌
+n long lt 24 25
+n long lc 25 26
+n long lb 26 27
+n long rb 27 28
+n long rc 28 29
+n long rt 29 30
+
+# 再一次
+
+n long lt 30 31
+n long lc 31 32
+n long lb 32 33
+n long rb 33 34
+n long rc 34 35
+n long rt 35 36
+
+# 再一次
+n long lt 36 37
+n long lc 37 38
+n long lb 38 39
+
+#華爾滋
+n long rt rc rb 40 40.5
+
+n short lt lc lb 41
+n short lt lc lb 41.25
+
+n short lt lc lb 42
+n short lt lc lb 42.25
+
+#華爾滋
+n long rt rc rb 43 43.5
+
+n short lt lc lb 44
+n short lt lc lb 44.25
+
+n short lt lc lb 45
+n short lt lc lb 45.25
+
+n short rt rc rb 46
+n short rt rc rb 46.25
+
+n short lt lc lb 47
+n short lt lc lb 47.25
+
+# 連長音
+n long rt 48 49
+n long rc 49 50
+n long rb 50 51
+n long lt 51 52
+n long lc 52 53
+n long lb 53 53.9
+
+n long lb 54 55
+n long lc 55 56
+n long lt 56 57
+
+#雙邊連打
+n long lt 58 59
+n short rt 58.5
+n short rt 58.75
+
+n long lt 60 61
+n short rt 60.5
+n short rt 60.75
+
+n long lc 62 63
+n short rc 62.5
+n short rc 62.75
+
+n long lc 64 65
+n short rc 64.5
+n short rc 64.75
+
+n long rb 66 67
+n short lb 66.5
+n short lb 66.75
+
+n long rb 68 69
+n short lb 68.5
+n short lb 68.75
+
+n long rc 70 71
+n short lc 70.5
+n short lc 70.75
+
+# 對面長音
+n long lb rt 72 73
+n long lc rc 73 74
+n long lt rb 74 75
+
+# 再一次
+n long lb rt 75 76
+n long lc rc 76 77
+n long lt rb 77 78
+
+# 再一次
+n long lt rb 78 79
+
+n long lb rt 79 80
+
+# 換行
+n long lt rt 81 82
+n long lc rc 82 83
+n long lb rb 83 83.9
+
+# 換行（下至上）
+n long lb rb 84 85
+n long lc rc 85 86
+n long lt rt 86 87.9
+
+# 副歌二
+n long lt rt 88 88.9
+n long lt rt 89 90
+
+n short lt rt 90.25
+n short lt rt 90.5
+n short lt rt 90.75
+
+n long lt rt 91 91.9
+
+#再一次
+n long lc rc 92 92.9
+n long lc rc 93 94
+
+n short lc rc 94.25
+n short lc rc 94.5
+n short lc rc 94.75
+
+n long lc rc 95 95.9
+
+# 全體一起來
+n long lc rc lt rt lb rb 96 96.9
+n long lc rc lt rt lb rb 97 98
+
+# 短音
+n short lc rc lt rt lb rb 98.25
+n short lc rc lt rt lb rb 98.5
+n short lc rc lt rt lb rb 98.75
+
+n long lc rc lt rt lb rb 99 99.5
+n long lc rc lt rt lb rb 100 100.5
+n long lc rc lt rt lb rb 101 101.5
+n long lc rc lt rt lb rb 102 102.5
+n long lc rc lt rt lb rb 103 103.5
+
+# 尾聲
+n long lt 104 104.5
+n short rt 104.75
+
+n long rt 105 105.5
+n short lt 105.75
+
+n long lt 106 106.5
+n short rt 106.75
+
+n long rt 107 107.5
+n short lt 107.75
+
+n long lt 108 108.5
+n short rt 108.75
+
+n long rt 109 109.5
+n short lt 109.75
+
+n long lt 110 110.5
+n short rt 110.75
+
+n long rt 111 111.5
+n short lt 111.75
+
+n long lt 112 112.5
+n short rt 112.75
+
+# 再一次
+n long rc 113 113.5
+n short lc 113.75
+
+n long lc 114 114.5
+n short rc 114.75
+
+n long rc 115 115.5
+n short lc 115.75
+
+n long lc 116 116.5
+n short rc 116.75
+
+n long rc 117 117.5
+n short lc 117.75
+
+n long lc 118 118.5
+n short rc 118.75
+
+n long rc 119 119.5
+n short lc 119.75
+
+n short rt 120
+n short rc 120.25
+n short rb 120.5
+n short lb 120.75
+n short lc 121
+n long lt 121.25 121.5
+n short rt 121.65
+
