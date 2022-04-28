@@ -1,4 +1,6 @@
 section offset:1910 bpm:136.136
+beat range 0:350 offset:1910 bpm:136.136
+
 n long lb 0 21
 n short rb 0
 n short rb 3
