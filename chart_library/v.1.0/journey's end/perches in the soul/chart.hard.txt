@@ -1,6 +1,4 @@
 section offset:4780 bpm:181
-beat range 0:450 offset:4780 bpm:181
-
 n long rc 24 27
 n short lc 29
 n long lc 30 33
@@ -9,68 +7,68 @@ n long rc 36 39
 n short lt 41
 n long lc 42 45
 n catch rc 48
-n swipe In lc 48
+n short lc 48
 n catch rc 49
 n catch rc 50
-n short lb 51
 n catch rc 51
+n swipe In lb 51
 n catch rc 52
 n catch rc 53
-n swipe In lc 54
+n short lc 54
 n catch rc 54
 n catch rc 55
 n catch rc 56
-n short lt 57
+n swipe In lt 57
 n catch rc 57
 n catch rc 58
 n catch rc 59
-n swipe Out lc 60
+n short lc 60
 n catch rc 60
 n catch rc 61
 n catch rc 62
-n short lb 63
 n catch rc 63
+n swipe In lb 63
 n catch rc 64
 n catch rc 65
-n swipe Out lc 66
+n short lc 66
 n catch rc 66
 n catch rc 67
 n catch rc 68
 n catch rc 69
-n short lt 69
+n swipe In lt 69
 n catch rc 70
 n catch rc 71
 n catch rc 72
 n catch lc 72
 n catch lc 73
 n catch lc 74
-n swipe Out rt 75
 n catch lc 75
+n swipe Out rb 75
 n catch lc 76
 n catch lc 77
-n catch lc 78
 n short rc 78
+n catch lc 78
 n catch lc 79
 n catch lc 80
+n swipe Out rt 81
 n catch lc 81
-n swipe Out rb 81
 n catch lc 82
 n catch lc 83
-n catch lc 84
 n short rc 84
+n catch lc 84
 n catch lc 85
 n catch lc 86
+n swipe Out rb 87
 n catch lc 87
-n swipe In rt 87
 n catch lc 88
 n catch lc 89
 n catch lc 90
 n short rc 90
 n catch lc 91
 n catch lc 92
-n swipe In rb 93
-n catch rb 94
-n catch rb 95
+n swipe Out rt 93
+n short lb 94
+n short lb 95
 n long lc 96 97.5
 n short rc 96
 n short rt 97.5
@@ -83,8 +81,8 @@ n short rb 103.5
 n short lc 105
 n long rc 105 106.5
 n short lb 106.5
-n long lc 108 109.5
 n short rc 108
+n long lc 108 109.5
 n short rt 109.5
 n long rc 111 112.5
 n short lc 111
@@ -95,140 +93,114 @@ n short rb 119
 n short lc 120
 n long rc 120 121.5
 n short lt 121.5
-n short rc 123
 n long lc 123 124.5
+n short rc 123
 n short rt 124.5
-n long rc 126 127.5
 n short lc 126
-n short lt 127.5
-n long lc 129 130.5
+n long rc 126 127.5
+n short lb 127.5
 n short rc 129
-n short rt 130.5
-n long rc 132 133.5
+n long lc 129 130.5
+n short rb 130.5
 n short lc 132
+n long rc 132 133.5
 n short lt 133.5
-n short rc 135
 n long lc 135 136.5
+n short rc 135
 n short rt 136.5
 n compound rc 138 142 5
 n short lb 142
 n short lb 143
-n swipe In rb 144
 n long lc 144 145.5
-n short rc 145.5
+n swipe Out rc 144
+n short rb 145.5
 n swipe Out lc 147
 n long rc 147 148.5
-n short lt 148.5
-n swipe In rc 150
+n short lb 148.5
+n swipe Out rc 150
 n long lc 150 151.5
-n short rb 151.5
-n swipe Out lc 153
+n short rt 151.5
 n long rc 153 154.5
-n short lb 154.5
-n swipe In rc 156
+n swipe Out lc 153
+n short lt 154.5
 n long lc 156 157.5
+n swipe Out rc 156
 n short rb 157.5
 n long rc 159 160.5
 n swipe Out lc 159
-n short lt 160.5
+n short lb 160.5
 n compound rc 162 166 5
-n short lc 166
-n short lc 167
+n short lb 166
+n short lb 167
+n swipe Out lc 168
 n long rc 168 169.5
-n short lc 168
-n swipe In lc 169.5
-n long lb 171 172.5
-n short rc 171
-n swipe Out rc 172.5
-n short lt 174
+n short lb 169.5
+n long lc 171 172.5
+n swipe Out rc 171
+n short rb 172.5
 n long rc 174 175.5
-n swipe In lt 175.5
-n short rb 177
+n swipe Out lc 174
+n short lt 175.5
 n long lc 177 178.5
-n swipe Out rb 178.5
-n short lc 180
+n swipe Out rc 177
+n short rt 178.5
+n swipe Out lc 180
 n long rc 180 181.5
-n swipe In lc 181.5
-n long rc 183 189
-n short lb 184.5
+n short lb 181.5
+n long lc 183 184.5
+n swipe Out rc 183
+n short rb 184.5
+n long rc 186 189
 n long lc 186 189
 n catch rb 191
-n swipe In lb 192
 n swipe In rb 192
-n swipe Out lb 195
-n swipe Out rb 195
+n swipe In lt 195
 n catch rb 197
 n swipe In rb 198
-n swipe In lb 198
-n swipe Out lb 201
-n swipe Out rb 201
+n swipe In lt 201
 n catch rb 203
-n swipe In lb 204
 n swipe In rb 204
-n swipe Out lb 207
-n swipe Out rb 207
+n swipe In lt 207
 n catch rb 209
 n swipe In rb 210
-n swipe In lb 210
-n swipe Out rb 213
-n swipe Out lb 213
-n catch lt 215
-n swipe In lc 216
-n swipe In lt 216
-n swipe Out lt 219
-n swipe Out lc 219
-n catch lt 221
-n swipe In lt 222
-n swipe In lc 222
-n swipe Out lt 225
-n swipe Out lc 225
-n catch lt 227
-n swipe In lc 228
-n swipe In lt 228
-n swipe Out lc 231
-n swipe Out lt 231
+n swipe In lt 213
+n catch rb 215
+n swipe In rb 216
+n swipe In lt 219
+n catch rb 221
+n swipe In rb 222
+n swipe In lt 225
+n catch rb 227
+n swipe In rb 228
+n swipe In lt 231
 n swipe In lb 233
 n swipe Out lb 234
 n swipe In rt 236
 n swipe Out rt 237
 n catch lt 239
-n swipe In lt 240
-n short lc 240
-n short lt 243
-n swipe In lc 243
+n swipe Out lt 240
+n swipe Out rb 243
 n catch lt 245
-n swipe In lt 246
-n short lc 246
-n short lt 249
-n swipe In lc 249
+n swipe Out lt 246
+n swipe Out rb 249
 n catch lt 251
-n swipe In lt 252
-n short lc 252
-n short lt 255
-n swipe In lc 255
+n swipe Out lt 252
+n swipe Out rb 255
 n catch lt 257
-n swipe In lt 258
-n catch rb 261
-n catch rb 262
-n catch rb 263
+n swipe Out lt 258
+n swipe Out rb 261
+n swipe In rb 262
+n swipe Out rb 263
 n swipe In rb 264
-n short lb 264
-n swipe Out rb 267
-n short lb 267
+n swipe Out lt 267
 n catch rb 269
-n short lb 270
-n swipe In rb 270
-n catch rb 272.5
-n catch rb 272.75
-n catch rb 273
-n short lb 274
-n swipe In rb 274
-n swipe Out rb 275
-n short lb 275
-n swipe In rb 276
-n short lb 276
-n short lb 277
-n short lb 278
+n swipe Out rb 270
+n catch lt 272.5
+n catch lt 272.75
+n catch lt 273
+n swipe Out lt 274
+n swipe In lt 275
+n swipe Out lt 276
 n swipe Out rb 279
 n long rb 294 296
 n short lc 295
@@ -243,14 +215,14 @@ n long lt 303 305
 n short rc 304
 n short rc 305
 n long rb 306 308
-n short lb 307
+n short lc 307
 n swipe In lc 308
 n long lb 309 311
-n short rb 310
+n short rc 310
 n swipe In rc 311
-n long rt 312 315
-n short rb 316
-n short rb 317
+n long rt 312 316
+n short lt 316
+n swipe Out lc 317
 n long lb 318 320
 n short rc 319
 n short rc 320
@@ -264,71 +236,68 @@ n long rt 327 329
 n short lc 328
 n short lc 329
 n long lb 330 332
-n short rb 330
 n short rc 331
 n swipe In rc 332
 n long rb 333 335
-n short lb 333
 n short lc 334
 n swipe In lc 335
-n long lt 336 339
-n swipe Out lt 340
-n swipe In lt 341
-n long rt 342 344
-n short lc 342
+n long lt 336 340
+n short rt 340
+n swipe Out rc 341
+n short lb 342
+n long rb 342 344
 n short lc 343
 n short lc 344
-n short rc 345
-n long lt 345 347
+n short rb 345
+n long lb 345 347
 n short rc 346
 n short rc 347
-n short lc 348
-n long rb 348 350
+n short lt 348
+n long rt 348 350
 n short lc 349
 n short lc 350
-n long lb 351 353
-n short rc 351
+n short rt 351
+n long lt 351 353
 n short rc 352
 n short rc 353
-n long rt 354 356
-n short lt 354
+n short lb 354
+n long rb 354 356
 n short lc 355
 n swipe In lc 356
-n short rt 357
-n long lt 357 359
+n short rb 357
+n long lb 357 359
 n short rc 358
 n swipe In rc 359
-n long lc 360 363
-n swipe Out lc 364
-n swipe In lc 365
-n long lt 366 368
-n short rc 366
+n long rt 360 364
+n short lt 364
+n swipe Out lc 365
+n long lb 366 368
+n short rb 366
 n short rc 367
 n short rc 368
-n long rt 369 371
-n short lc 369
+n long rb 369 371
+n short lb 369
 n short lc 370
 n short lc 371
-n long lb 372 374
-n short rc 372
+n long lt 372 374
+n short rt 372
 n short rc 373
 n short rc 374
-n long rb 375 377
-n short lc 375
+n long rt 375 377
+n short lt 375
 n short lc 376
 n short lc 377
-n long lt 378 380
-n short rt 378
+n long lb 378 380
+n short rb 378
 n short rc 379
-n swipe In rc 380
-n long rt 381 383
-n short lt 381
+n swipe In rt 380
+n short lb 381
+n long rb 381 383
 n short lc 382
-n swipe In lc 383
-n long rc 384 389
+n swipe In lt 383
 n long lc 384 389
+n long rc 384 389
 n catch rb 390
-n swipe Out lb 390
 n catch rb 390.5
 n catch rb 391
 n catch rb 391.5
@@ -379,15 +348,14 @@ n catch rb 412
 n catch lb 412.5
 n catch rb 413
 n catch rc 413.5
-n swipe Out lb 414
 n catch rb 414
 n catch rb 414.5
 n catch rb 415
 n catch rb 415.5
 n catch rb 416
 n catch rb 416.5
-n swipe In rb 417
 n catch lb 417
+n swipe In rb 417
 n catch lb 417.5
 n catch lb 418
 n catch lb 418.5
@@ -400,8 +368,8 @@ n catch rb 421
 n catch rb 421.5
 n catch rb 422
 n catch rb 422.5
-n swipe In rb 423
 n catch lb 423
+n swipe In rb 423
 n catch lb 423.5
 n catch lb 424
 n catch lb 424.5
@@ -447,8 +415,8 @@ a MoveCamera Position 102 3 0.7 0 0 spring
 a MoveCamera Position 105 3 -0.7 0 0 spring
 a MoveCamera Position 108 3 0.7 0 0 spring
 a MoveCamera Position 111 3 -0.7 0 0 spring
-a S_MoveCamera Position z 114 4 -0.2 easeinoutsine
 a S_MoveCamera Position x 114 4 0.35 easeinoutsine
+a S_MoveCamera Position z 114 4 -0.2 easeinoutsine
 a MoveCamera Position 120 3 -0.35 0 0 spring
 a MoveCamera Position 123 3 0.7 0 0 spring
 a MoveCamera Position 126 3 -0.7 0 0 spring
@@ -465,42 +433,49 @@ a MoveCamera Position 156 3 -0.7 0 0 spring
 a MoveCamera Position 159 3 0.7 0 0 spring
 a S_MoveCamera Position z 162 4 -0.2 easeinoutsine
 a S_MoveCamera Position x 162 4 -0.35 easeinoutsine
-a MoveCamera Position 168 3 -0.35 0 0 spring
-a MoveCamera Position 171 3 0.7 0 0 spring
-a MoveCamera Position 174 3 -0.7 0 0 spring
-a MoveCamera Position 177 3 0.7 0 0 spring
-a MoveCamera Position 180 3 -0.7 0 0 spring
-a MoveCamera Position 183 3 0.7 0 0 spring
-a S_MoveCamera Position x 186 3 -0.35 easeinoutsine
+a MoveCamera Position 168 3 0.35 0 0 spring
+a MoveCamera Position 171 3 -0.7 0 0 spring
+a MoveCamera Position 174 3 0.7 0 0 spring
+a MoveCamera Position 177 3 -0.7 0 0 spring
+a MoveCamera Position 180 3 0.7 0 0 spring
+a MoveCamera Position 183 3 -0.7 0 0 spring
 a S_MoveCamera Position z 186 3 0.4 easeinoutsine
+a S_MoveCamera Position x 186 3 0.35 easeinoutsine
 a MoveCamera Angle 191 48 0 0 -120 easeinoutsine
 a MoveCamera Angle 239 43 0 0 120 linear
-a MoveCamera Angle 282 0 0 0 20 easeinoutsine
 a MoveCamera Position 282 0 0 0 0.2 easeinoutsine
+a MoveCamera Angle 282 0 0 0 20 easeinoutsine
 a MoveCamera Angle 282.5 0 0 0 20 easeinoutsine
 a MoveCamera Position 282.5 0 0 0 0.2 easeinoutsine
-a MoveCamera Angle 283 0 0 0 20 easeinoutsine
 a MoveCamera Position 283 0 0 0 0.2 easeinoutsine
-a MoveCamera Position 283.5 0 0 0 0.2 easeinoutsine
+a MoveCamera Angle 283 0 0 0 20 easeinoutsine
 a MoveCamera Angle 283.5 0 0 0 20 easeinoutsine
+a MoveCamera Position 283.5 0 0 0 0.2 easeinoutsine
 a MoveCamera Angle 284 0 0 0 20 easeinoutsine
 a MoveCamera Position 284 0 0 0 0.2 easeinoutsine
-a MoveCamera Angle 284.25 0 0 0 20 easeinoutsine
 a MoveCamera Position 284.25 0 0 0 0.2 easeinoutsine
+a MoveCamera Angle 284.25 0 0 0 20 easeinoutsine
 a MoveCamera Angle 284.5 0 0 0 20 easeinoutsine
 a MoveCamera Position 284.5 0 0 0 0.2 easeinoutsine
 a MoveCamera Position 284.75 0 0 0 0.2 easeinoutsine
 a MoveCamera Angle 284.75 0 0 0 20 easeinoutsine
-a MoveCamera Angle 285 0 0 0 20 easeinoutsine
 a MoveCamera Position 285 1.5 0 0 30 linear
-a ChangeOpacity Trail lc 287 0 0 easeinoutsine
-a ChangeOpacity Trail lt 287 0 0 easeinoutsine
-a ChangeOpacity Trail lb 287 0 0 easeinoutsine
-a ChangeOpacity Trail rc 287 0 0 easeinoutsine
+a MoveCamera Angle 285 0 0 0 20 easeinoutsine
 a ChangeOpacity Trail rb 287 0 0 easeinoutsine
 a ChangeOpacity Trail rt 287 0 0 easeinoutsine
-a MoveCamera Position 287.5 0 0 0 -31.6 linear
-a MoveCamera Angle 287.5 0 0 0 180 easeinoutsine
+a ChangeOpacity Trail lb 287 0 0 easeinoutsine
+a ChangeOpacity Trail lc 287 0 0 easeinoutsine
+a ChangeOpacity Trail rc 287 0 0 easeinoutsine
+a ChangeOpacity Trail lt 287 0 0 easeinoutsine
+a MoveCamera Angle 287.1 0 0 0 180 easeinoutsine
+a MoveCamera Position 287.1 0 0 0 -32.6 linear
+a ChangeOpacity Trail lt 287.5 3.5 0.2 linear
+a ChangeOpacity Trail rt 287.5 3.5 0.2 linear
+a ChangeOpacity Trail rc 287.5 3.5 0.2 linear
+a ChangeOpacity Trail lb 287.5 3.5 0.2 linear
+a ChangeOpacity Trail rb 287.5 3.5 0.2 linear
+a ChangeOpacity Trail lc 287.5 3.5 0.2 linear
+a MoveCamera Position 289.5 4 0 0 1 easeinoutsine
 a ChangeOpacity Trail rb 291 1.25 1 easeinoutsine
 a ChangeOpacity Trail lb 291.25 1.25 1 easeinoutsine
 a ChangeOpacity Trail lc 291.5 1.25 1 easeinoutsine
@@ -521,24 +496,24 @@ a MoveCamera Position 327 3 -0.5 0 0.2 spring
 a MoveCamera Position 330 3 0.5 0.5 -0.2 spring
 a MoveCamera Position 333 3 -0.5 0 0.2 spring
 a MoveCamera Position 336 3 0.25 -0.25 0 spring
-a MoveCamera Position 342 3 -0.25 -0.25 -0.2 spring
-a MoveCamera Position 345 3 0.5 0 0.2 spring
-a MoveCamera Position 348 3 -0.5 0.5 -0.2 spring
-a MoveCamera Position 351 3 0.5 0 0.2 spring
-a MoveCamera Position 354 3 -0.5 -0.5 -0.2 spring
-a MoveCamera Position 357 3 0.5 0 0.2 spring
-a MoveCamera Position 360 3 -0.25 0.25 0 spring
-a MoveCamera Position 366 3 0.25 -0.25 -0.2 spring
+a MoveCamera Position 342 3 -0.25 0.25 0.2 spring
+a MoveCamera Position 345 3 0.5 0 -0.2 spring
+a MoveCamera Position 348 3 -0.5 -0.5 0.2 spring
+a MoveCamera Position 351 3 0.5 0 -0.2 spring
+a MoveCamera Position 354 3 -0.5 0.5 0.2 spring
+a MoveCamera Position 357 3 0.5 0 -0.2 spring
+a MoveCamera Position 360 3 -0.25 -0.25 0 spring
+a MoveCamera Position 366 3 0.25 0.25 -0.2 spring
 a MoveCamera Position 369 3 -0.5 0 0.2 spring
-a MoveCamera Position 372 3 0.5 0.5 -0.2 spring
+a MoveCamera Position 372 3 0.5 -0.5 -0.2 spring
 a MoveCamera Position 375 3 -0.5 0 0.2 spring
-a MoveCamera Position 378 3 0.5 -0.5 -0.2 spring
+a MoveCamera Position 378 3 0.5 0.5 -0.2 spring
 a MoveCamera Position 381 3 -0.5 0 0.2 spring
-a MoveCamera Position 384 3 0.25 0.25 1.5 linear
+a MoveCamera Position 384 5 0.25 -0.25 1.5 spring
 a MoveCamera Angle 384 6 10 0 0 easeinoutsine
-a ChangeOpacity Trail lt 396 6 0 easeinoutsine
 a ChangeOpacity Trail rt 396 6 0 easeinoutsine
+a ChangeOpacity Trail lt 396 6 0 easeinoutsine
 a ChangeOpacity Trail rb 435 5 0 easeinoutsine
+a ChangeOpacity Trail lc 435 5 0 easeinoutsine
 a ChangeOpacity Trail rc 435 5 0 easeinoutsine
 a ChangeOpacity Trail lb 435 5 0 easeinoutsine
-a ChangeOpacity Trail lc 435 5 0 easeinoutsine
