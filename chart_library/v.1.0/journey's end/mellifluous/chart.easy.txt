@@ -1,0 +1,105 @@
+section offset:125 bpm:130
+n short lc 0
+n short lb 4
+n short rb 8
+n short rc 12
+n short lc 16
+n short lt 20
+n short rt 24
+n short rc 28
+n long lc 32 36
+n long rc 40 44
+n long lb 48 52
+n long rb 56 60
+n short lc 64
+n short lc 66
+n short lc 68
+n short rc 72
+n short rc 74
+n short rc 76
+n long lt 80 84
+n long rt 88 92
+n short lt 96
+n short lt 97
+n short lt 98
+n short lc 100
+n short lc 101
+n short lc 102
+n long lb 104 108
+n short rt 112
+n short rt 113
+n short rt 114
+n short rc 116
+n short rc 117
+n short rc 118
+n long rb 120 124
+n short lt 128
+n short rt 128
+n short lc 132
+n short rc 132
+n short lb 136
+n short rb 136
+n short lc 140
+n short rc 140
+n short rt 144
+n short lt 144
+n short rc 148
+n short lc 148
+n long lb 152 156
+n long rb 152 156
+n short lc 160
+n short lt 164
+n short rt 168
+n short rc 172
+n short rb 176
+n short lb 180
+n short lc 184
+n short lt 188
+n short rt 192
+n short rc 196
+n short rb 200
+n short lb 204
+n short lc 208
+n short lt 212
+n short rt 216
+n short rc 220
+n short rb 224
+n short rb 225
+n short rb 226
+n short rc 228
+n short rc 229
+n short rc 230
+n long rt 232 236
+n short lb 240
+n short lb 241
+n short lb 242
+n short lc 244
+n short lc 245
+n short lc 246
+n long lt 248 252
+n catch rc 256
+n catch rc 257
+n catch rc 258
+n catch rc 259
+n clong rc 260 262
+n catch lc 264
+n catch lc 265
+n catch lc 266
+n catch lc 267
+n clong lc 268 270
+n short rt 272
+n short lt 272
+n short rc 276
+n short lc 276
+n short rb 280
+n short lb 280
+n short lc 284
+n short rc 284
+n compound rc 288 300 8
+n compound lc 288 300 8
+n short rt 304
+n short rc 308
+n short rb 312
+n short lb 316
+n short lc 320
+n short rc 320
