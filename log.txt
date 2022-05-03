@@ -231,3 +231,4 @@
 2022-04-30 09:21:43.392084：Jakasy 更新 chart-library v.1.0/journey's end/mellifluous
 2022-04-30 12:01:17.024134: Jakasy 更新 Dev-Songs的 perches in the soul
 2022-04-30 12:01:16.771693：Jakasy 更新 chart-library v.1.0/journey's end/perches in the soul
+2022-05-03 04:44:30.240300: Sherwin Chen 更新 Dev-Songs的 perches in the soul
