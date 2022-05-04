@@ -144,10 +144,10 @@ n short rb 151
 n short rb 151.66
 n short lb 152
 
-n swipe Out rb 153
-n short rc 154
-n short rc 154.66
-n short rb 155
+n swipe Out rc 153
+n short rb 154
+n short rb 154.66
+n short rc 155
 
 n long lb 156 157
 n short rb 157
