@@ -1,6 +1,4 @@
 section offset:4780 bpm:181
-beat range 0:450 offset:4780 bpm:181
-a MoveCamera Angle 396 39 0 0 60 easeinoutsine
 n long rb 0 6
 n long lc 6 12
 n long rc 12 18
@@ -18,7 +16,6 @@ n short lb 78
 n short rb 84
 n short lb 90
 n short lc 93
-n short rc 93
 n short rt 96
 n catch rt 99
 n short lt 102
@@ -102,3 +99,4 @@ n short rc 384
 n short rc 387
 n long lb 390 435
 n long rt 396 435
+a MoveCamera Angle 396 39 0 0 60 easeinoutsine
