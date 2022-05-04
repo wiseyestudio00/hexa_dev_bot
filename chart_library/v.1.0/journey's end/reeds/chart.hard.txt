@@ -97,12 +97,12 @@ n swipe In rc 120
 n catch rc 121
 n catch rc 121.667
 n catch rc 122
-n short lt 123
+n short rt 123
 n swipe In lc 123
 n catch lc 124
 n catch lc 124.667
 n catch lc 125
-n short lb 126
+n short lt 126
 n swipe In rb 126
 n catch rb 127
 n catch rb 127.667
@@ -371,7 +371,7 @@ a ChangeOpacity Trail rt 90 1 0 easeinoutsine
 a S_MoveCamera Position z 90 1 -2 easeinoutsine
 a ChangeOpacity Trail lt 90 1 0 easeinoutsine
 a ChangeOpacity Trail lb 90 1 0 easeinoutsine
-a S_MoveCamera Angle z 90 2 465 easeinoutsine
+a S_MoveCamera Angle z 90 3 465 easeinoutsine
 a ChangeOpacity Trail rt 91 2 1 easeinoutsine
 a ChangeOpacity Trail rc 91 2 1 easeinoutsine
 a ChangeOpacity Trail lt 91 2 1 easeinoutsine
