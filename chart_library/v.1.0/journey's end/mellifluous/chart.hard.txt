@@ -1,4 +1,5 @@
 section offset:125 bpm:130
+beat range 0:350 offset:125 bpm:130
 n long lc 0 7
 n long rt 0 1
 n long rc 2 3
