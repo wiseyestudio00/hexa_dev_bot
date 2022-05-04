@@ -258,3 +258,4 @@
 2022-05-04 04:39:24.425407: DarkM(闇靈) 更新 Dev-Songs的 reeds
 2022-05-04 04:39:24.208071：DarkM(闇靈) 更新 chart-library v.1.0/journey's end/reeds
 2022-05-04 04:46:57.764778: DarkM(闇靈) 更新 Dev-Songs的 reeds
+2022-05-04 04:46:57.555423：DarkM(闇靈) 更新 chart-library v.1.0/journey's end/reeds
