@@ -1,48 +1,12 @@
 section offset:4780 bpm:181
-beat range 0:450 offset:4780 bpm:181
-a MoveCamera Angle 96 24 0 0 -60 easeinoutsine
-a MoveCamera Angle 120 24 0 0 60 easeinoutsine
-a MoveCamera Angle 144 24 0 0 60 easeinoutsine
-a MoveCamera Angle 168 24 0 0 -60 easeinoutsine
-a MoveCamera Position 192 45 0 0 -1.5 easeinoutsine
-a MoveCamera Position 239 40 0 0 1.5 easeinoutsine
-a MoveCamera Angle 282 3 0 0 3.75 easeinoutsine
-a MoveCamera Position 282 3 0 0 0.5 easeinoutsine
-a MoveCamera Position 285 6 0 0 -0.5 easeinoutsine
-a MoveCamera Angle 285 6 0 0 -3.75 easeinoutsine
-a MoveCamera Angle 294 96 0 0 180 linear
-a MoveCamera Position 390 6 0 0 -2 easeinoutsine
-a MoveCamera Position 396 3 0 0 54 easeinoutsine
-a ChangeOpacity Trail lb 403 0 0 easeinoutsine
-a ChangeOpacity Trail lc 403 0 0 easeinoutsine
-a ChangeOpacity Trail lt 403 0 0 easeinoutsine
-a ChangeOpacity Trail rt 403 0 0 easeinoutsine
-a ChangeOpacity Trail rc 403 0 0 easeinoutsine
-a ChangeOpacity Trail rb 403 0 0 easeinoutsine
-a MoveCamera Position 406 0 0 0 -154 easeinoutsine
-a ChangeOpacity Trail lb 414 10 1 easeinoutsine
-a ChangeOpacity Trail lc 414 10 1 easeinoutsine
-a ChangeOpacity Trail rb 414 10 1 easeinoutsine
-a ChangeOpacity Trail rc 414 10 1 easeinoutsine
-a ChangeOpacity Trail rt 414 10 1 easeinoutsine
-a ChangeOpacity Trail lt 414 10 1 easeinoutsine
-a MoveCamera Position 418 17 0 0 100 linear
-n long lc 0 3
 n long rc 0 3
 n long lc 6 9
-n long rc 6 9
 n long rc 12 15
-n long lb 12 15
 n long lc 18 21
-n long rb 18 21
-n long lc 24 27
-n long rc 24 27
-n long lc 30 33
-n long rc 30 33
-n long lt 36 39
-n long rc 36 39
-n long rt 42 45
-n long lc 42 45
+n long rb 24 27
+n long lb 30 33
+n long rb 36 39
+n long lb 42 45
 n long rc 48 51
 n short lb 51
 n long lc 54 57
@@ -175,3 +139,30 @@ n long lc 378 379.5
 n long lc 381 382.5
 n compound rc 384 390 5
 n compound lc 384 390 5
+a MoveCamera Angle 96 24 0 0 -60 easeinoutsine
+a MoveCamera Angle 120 24 0 0 60 easeinoutsine
+a MoveCamera Angle 144 24 0 0 60 easeinoutsine
+a MoveCamera Angle 168 24 0 0 -60 easeinoutsine
+a MoveCamera Position 192 45 0 0 -1.5 easeinoutsine
+a MoveCamera Position 239 40 0 0 1.5 easeinoutsine
+a MoveCamera Angle 282 3 0 0 3.75 easeinoutsine
+a MoveCamera Position 282 3 0 0 0.5 easeinoutsine
+a MoveCamera Position 285 6 0 0 -0.5 easeinoutsine
+a MoveCamera Angle 285 6 0 0 -3.75 easeinoutsine
+a MoveCamera Angle 294 96 0 0 180 linear
+a MoveCamera Position 390 6 0 0 -2 easeinoutsine
+a MoveCamera Position 396 3 0 0 54 easeinoutsine
+a ChangeOpacity Trail lb 403 0 0 easeinoutsine
+a ChangeOpacity Trail lc 403 0 0 easeinoutsine
+a ChangeOpacity Trail lt 403 0 0 easeinoutsine
+a ChangeOpacity Trail rt 403 0 0 easeinoutsine
+a ChangeOpacity Trail rc 403 0 0 easeinoutsine
+a ChangeOpacity Trail rb 403 0 0 easeinoutsine
+a MoveCamera Position 406 0 0 0 -154 easeinoutsine
+a ChangeOpacity Trail rb 414 10 1 easeinoutsine
+a ChangeOpacity Trail rc 414 10 1 easeinoutsine
+a ChangeOpacity Trail rt 414 10 1 easeinoutsine
+a ChangeOpacity Trail lt 414 10 1 easeinoutsine
+a ChangeOpacity Trail lb 414 10 1 easeinoutsine
+a ChangeOpacity Trail lc 414 10 1 easeinoutsine
+a MoveCamera Position 418 17 0 0 100 linear
