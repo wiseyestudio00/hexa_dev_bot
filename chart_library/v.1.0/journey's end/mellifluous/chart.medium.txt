@@ -1,5 +1,4 @@
 section offset:125 bpm:130
-beat range 0:350 offset:125 bpm:130
 n long lc 0 1
 n long lc 2 3
 n long rc 4 5
@@ -181,6 +180,8 @@ n long lt 240 241
 n short lb 242
 n short lb 243
 n long lt 244 245
+n short lb 246
+n short lb 247
 n long rt 248 255
 n catch rb 256
 n catch rb 256.33
