@@ -1028,4 +1028,3 @@ n catch rb 315.75
 n long rc 316 319
 n swipe Out lc 320
 n swipe Out rc 320
-n short rt 421
