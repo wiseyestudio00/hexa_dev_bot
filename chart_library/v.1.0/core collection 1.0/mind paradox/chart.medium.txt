@@ -1,0 +1,779 @@
+section offset:115 bpm:143
+n long lt 16 19
+n short lb 17
+n short lb 18
+n short lb 19
+n long rb 20 23
+n short lc 21
+n short lc 22
+n short lc 23
+n long lt 24 25
+n long lb 25 26
+n long lc 26 27
+n long rc 27 28
+n catch lt 28
+n catch lt 28.25
+n catch lt 28.5
+n catch lt 28.75
+n catch lt 29
+n catch lt 29.25
+n catch lt 29.5
+n catch lt 29.75
+n catch lt 30
+n catch lt 30.25
+n catch lt 30.5
+n catch lt 30.75
+n catch lt 31
+n catch lt 31.25
+n catch lt 31.5
+n catch lt 31.75
+n long rc 48 49
+n short rb 49
+n long lc 50 51
+n short lb 51
+n long rc 52 53
+n short rb 53
+n long lc 54 55
+n short lb 55
+n long rt 56 57
+n short rb 57
+n long lt 58 59
+n short lb 59
+n long rc 60 61
+n short rb 61
+n long lc 62 63
+n short lb 63
+n long rc 64 65
+n short lc 65
+n long rc 66 67
+n short lc 67
+n long rb 68 69
+n short lc 69
+n long rb 70 71
+n short lc 71
+n long rc 72 73
+n short lc 73
+n long rc 74 75
+n short lc 75
+n long rt 76 77
+n short lc 77
+n short rt 78
+n short lb 79
+n short lb 79.5
+n long lc 80 81
+n short rc 81
+n long lc 82 83
+n short rc 83
+n long lb 84 85
+n short rc 85
+n long lb 86 87
+n short rc 87
+n long lc 88 89
+n short rc 89
+n long lc 90 91
+n short rc 91
+n short rt 96
+n long rt 96.5 97.5
+n short lc 97.5
+n short lc 98
+n short lb 98.5
+n short lb 99
+n short lt 100
+n long lt 100.5 101.5
+n short rc 101.5
+n short rc 102
+n short rb 102.5
+n short rb 103
+n short rt 104
+n long rt 104.5 105.5
+n short lc 105.5
+n short lc 106
+n short lb 106.5
+n short lb 107
+n short lt 108
+n long lt 108.5 109.5
+n short rc 109.5
+n short rc 110
+n short lc 110.5
+n short lc 111
+n short rb 112
+n long rb 112.5 113.5
+n short lc 113.5
+n short lc 114
+n short lt 114.5
+n short lt 115
+n short lb 116
+n long lb 116.5 117.5
+n short rc 117.5
+n short rc 118
+n short rt 118.5
+n short rt 119
+n short rb 120
+n long rb 120.5 121.5
+n short lc 121.5
+n short lc 122
+n short lt 122.5
+n short lt 123
+n short lb 124
+n long lb 124.5 125.5
+n short rt 125.5
+n short rt 126
+n short lt 126.5
+n short lt 127
+n short rb 128
+n short rb 128.5
+n short lb 129
+n short rc 129.5
+n short lc 130
+n short rt 130.5
+n short lt 131
+n short rt 132
+n short rt 132.5
+n short lt 133
+n short rc 133.5
+n short lc 134
+n short rb 134.5
+n short lb 135
+n short rb 136
+n short rb 136.5
+n short lb 137
+n short rc 137.5
+n short lc 138
+n short rt 138.5
+n short lt 139
+n short rt 140
+n short rt 140.5
+n short lt 141
+n short rc 141.5
+n short lc 142
+n short lc 142.5
+n short rb 143
+n short lt 144
+n short lt 144.5
+n short rt 145
+n short lc 145.5
+n short rc 146
+n short lb 146.5
+n short rb 147
+n short rt 148
+n short rt 148.5
+n short lt 149
+n short rc 149.5
+n short lc 150
+n short rb 150.5
+n short lb 151
+n short lt 152
+n short lt 152.5
+n short rt 153
+n short rt 153.5
+n short lc 154
+n short lc 154.5
+n short rc 155
+n clong rb 156 160
+n long rt 192 197.5
+n short lb 197.5
+n long lb 198 200
+n long lt 200 207
+n long rt 208 215
+n long rb 216 223
+n long lc 224 228
+n long rc 228 232
+n long lt 232 236
+n long rb 236 240
+n catch lt 240
+n catch lt 240.5
+n catch lt 241
+n catch lt 241.5
+n catch rt 242
+n catch rt 242.5
+n catch rt 243
+n catch rt 243.5
+n catch rc 244
+n catch rc 244.5
+n catch rc 245
+n catch rc 245.5
+n catch rb 246
+n catch rb 246.5
+n catch rb 247
+n catch rb 247.5
+n compound lb 248 252 6
+n compound rc 248 252 6
+n short rb 256
+n short rc 256
+n short lc 257
+n short rc 258
+n short rc 258.5
+n short rb 259
+n short lb 260
+n short lc 260
+n short rc 261
+n short lc 262
+n short lc 262.5
+n short lb 263
+n short rc 264
+n short rb 264
+n short lc 265
+n short rc 266
+n short rc 266.5
+n short rb 267
+n short lc 268
+n short lb 268
+n short rc 269
+n short lt 270
+n short lt 270.5
+n short rt 271
+n short rt 272
+n short rc 272
+n short lc 273
+n short rc 274
+n short rc 274.5
+n short rt 275
+n short lc 276
+n short lt 276
+n short rc 277
+n short lc 278
+n short lc 278.5
+n short lt 279
+n short rt 280
+n short rc 280
+n short lc 281
+n short rc 282
+n short rc 282.5
+n short rt 283
+n short lc 284
+n short lt 284
+n short rc 285
+n short rc 285.5
+n short lb 286
+n short rb 287
+n short rb 287.5
+n short lc 288
+n short lb 288
+n short rb 289
+n short lt 289
+n short rc 290
+n short rc 290.5
+n short rt 291
+n short rc 292
+n short rb 292
+n short rt 293
+n short lb 293
+n short lc 294
+n short lc 294.5
+n short lt 295
+n short lc 296
+n short lb 296
+n short rb 297
+n short lt 297
+n short rc 298
+n short rc 298.5
+n short rt 299
+n short rb 300
+n short rc 300
+n short rt 301
+n short lb 301
+n short lc 302
+n short lc 302.5
+n short rc 303
+n short lt 304
+n short lc 304
+n short rt 305
+n short lb 305
+n short rc 306
+n short rc 306.5
+n short rb 307
+n short rt 308
+n short rc 308
+n short rb 309
+n short lt 309
+n short lc 310
+n short lc 310.5
+n short lb 311
+n short lt 312
+n short lc 312
+n short lb 313
+n short rt 313
+n short rc 314
+n short rc 314.5
+n short rb 315
+n short rc 316
+n short rt 316
+n short rb 317
+n short lt 317
+n short lc 318
+n short lc 318.5
+n short rc 319
+n long lb 320 321
+n short rb 320
+n long rt 321 322
+n short rc 322
+n short rc 322.5
+n short rb 323
+n short rb 323.5
+n short lb 324
+n long rb 324 325
+n long lt 325 326
+n short lc 326
+n short lc 326.5
+n short lb 327
+n long lb 328 329
+n short rb 328
+n long rt 329 330
+n short rc 330
+n short rc 330.5
+n short rb 331
+n short rb 331.5
+n short lb 332
+n long rb 332 333
+n long lt 333 334
+n short rt 334
+n short rt 334.5
+n short lc 335
+n short lc 335.5
+n long lc 336 337
+n short lt 336
+n long lb 337 338
+n short rb 338
+n short rb 338.5
+n short rc 339
+n short rc 339.5
+n long rc 340 341
+n short rt 340
+n long rb 341 342
+n short lb 342
+n short lb 342.5
+n short lc 343
+n short lt 344
+n long lc 344 345
+n long lb 345 346
+n short rb 346
+n short rb 346.5
+n short rc 347
+n short rc 347.5
+n long rc 348 352
+n short rt 348
+n swipe Out lb 352
+a ChangeStage classichexagon -1 1 linear
+a S_MoveCamera Angle z 0 0.01 20 easeinoutsine
+a MoveCamera Position 0 8 0 0 -8 easeoutcubic
+a S_MoveCamera Angle z 0.5 0.01 -10 easeinoutsine
+a S_MoveCamera Angle z 0.75 0.01 5 easeinoutsine
+a S_MoveCamera Angle z 1.25 0.01 -15 easeinoutsine
+a S_MoveCamera Angle z 1.5 0.01 10 easeinoutsine
+a S_MoveCamera Angle z 1.75 0.01 -15 easeinoutsine
+a S_MoveCamera Angle z 2 0.01 10 easeinoutsine
+a S_MoveCamera Angle z 2.5 0.01 -10 easeinoutsine
+a S_MoveCamera Angle z 2.75 0.01 5 easeinoutsine
+a S_MoveCamera Angle z 3.25 0.01 -15 easeinoutsine
+a S_MoveCamera Angle z 3.5 0.01 10 easeinoutsine
+a S_MoveCamera Angle z 3.75 0.01 -15 easeinoutsine
+a S_MoveCamera Angle z 4 0.01 10 easeinoutsine
+a S_MoveCamera Angle z 4.5 0.01 -10 easeinoutsine
+a S_MoveCamera Angle z 4.75 0.01 5 easeinoutsine
+a S_MoveCamera Angle z 5.25 0.01 -15 easeinoutsine
+a S_MoveCamera Angle z 5.5 0.01 10 easeinoutsine
+a S_MoveCamera Angle z 5.75 0.01 -15 easeinoutsine
+a S_MoveCamera Angle z 6 0.01 10 easeinoutsine
+a S_MoveCamera Angle z 6.5 0.01 -10 easeinoutsine
+a S_MoveCamera Angle z 6.75 0.01 5 easeinoutsine
+a S_MoveCamera Angle z 7.25 0.01 -15 easeinoutsine
+a S_MoveCamera Angle z 7.5 0.01 10 easeinoutsine
+a S_MoveCamera Angle z 7.75 0.01 -15 easeinoutsine
+a S_MoveCamera Angle z 8 0.01 10 easeinoutsine
+a MoveCamera Position 8 8 0 0 7 easeinsine
+a S_MoveCamera Angle z 8.5 0.01 -10 easeinoutsine
+a S_MoveCamera Angle z 8.75 0.01 5 easeinoutsine
+a S_MoveCamera Angle z 9.25 0.01 -15 easeinoutsine
+a S_MoveCamera Angle z 9.5 0.01 10 easeinoutsine
+a S_MoveCamera Angle z 9.75 0.01 -15 easeinoutsine
+a S_MoveCamera Angle z 10 0.01 10 easeinoutsine
+a S_MoveCamera Angle z 10.5 0.01 -10 easeinoutsine
+a S_MoveCamera Angle z 10.75 0.01 5 easeinoutsine
+a S_MoveCamera Angle z 11.25 0.01 -10 easeinoutsine
+a S_MoveCamera Angle z 11.5 0.01 10 easeinoutsine
+a S_MoveCamera Angle z 11.75 0.01 -10 easeinoutsine
+a S_MoveCamera Angle z 12 0.01 10 easeinoutsine
+a S_MoveCamera Angle z 12.5 0.01 -5 easeinoutsine
+a S_MoveCamera Angle z 12.75 0.01 5 easeinoutsine
+a S_MoveCamera Angle z 13.25 0.01 -5 easeinoutsine
+a S_MoveCamera Angle z 13.5 0.01 5 easeinoutsine
+a S_MoveCamera Angle z 13.75 0.01 -5 easeinoutsine
+a S_MoveCamera Angle z 14 0.01 5 easeinoutsine
+a S_MoveCamera Angle z 14.5 0.01 -2.5 easeinoutsine
+a S_MoveCamera Angle z 14.75 0.01 2.5 easeinoutsine
+a S_MoveCamera Angle z 15.25 0.01 -5 easeinoutsine
+a S_MoveCamera Angle z 15.5 0.01 5 easeinoutsine
+a S_MoveCamera Angle z 15.75 0.01 -5 easeinoutsine
+a MoveCamera Position 16 8 0 0 1 linear
+a S_MoveCamera Angle z 16 4 15 easeoutsine
+a S_MoveCamera Angle z 20 4 -10 easeoutsine
+a S_MoveCamera Position z 24 8 1 easeinsine
+a S_MoveCamera Angle z 24 8 60 easeinoutsine
+a S_MoveCamera Angle z 32.25 15 1440 easeoutsine
+a S_MoveCamera Position z 32.25 4 17.5 easeoutsine
+a S_MoveCamera Position z 40 7 -19 easeinoutsine
+a S_MoveCamera Position z 48 2 0.5 easeoutsine
+a S_MoveCamera Position z 50 2 -0.5 easeinsine
+a S_MoveCamera Position z 52 2 -0.5 easeoutsine
+a S_MoveCamera Position z 54 2 0.5 easeinsine
+a S_MoveCamera Position z 56 2 0.5 easeoutsine
+a S_MoveCamera Position z 58 2 -0.5 easeinsine
+a S_MoveCamera Position z 60 2 -0.5 easeoutsine
+a S_MoveCamera Position z 62 2 0.5 easeinsine
+a S_MoveCamera Angle z 63 0.1 2 easeinoutsine
+a S_MoveCamera Angle z 63.1 0.01 -2 easeinoutsine
+a S_MoveCamera Angle z 63.25 0.1 2 easeinoutsine
+a S_MoveCamera Angle z 63.35 0.01 -2 easeinoutsine
+a S_MoveCamera Angle z 63.5 0.1 2 easeinoutsine
+a S_MoveCamera Angle z 63.6 0.01 -2 easeinoutsine
+a S_MoveCamera Angle z 63.75 0.1 2 easeinoutsine
+a S_MoveCamera Angle z 63.85 0.01 -2 easeinoutsine
+a S_MoveCamera Angle y 64 1 -5 linear
+a S_MoveCamera Angle y 65 0.5 5 easeoutsine
+a S_MoveCamera Angle y 66 1 -5 linear
+a S_MoveCamera Angle y 67 0.5 5 easeoutsine
+a S_MoveCamera Angle y 68 1 -3 linear
+a S_MoveCamera Angle x 68 1 -3 linear
+a S_MoveCamera Angle y 69 0.5 3 easeoutsine
+a S_MoveCamera Angle x 69 0.5 3 easeoutsine
+a S_MoveCamera Angle y 70 1 -3 linear
+a S_MoveCamera Angle x 70 1 -3 linear
+a S_MoveCamera Angle x 71 0.5 3 easeoutsine
+a S_MoveCamera Angle y 71 0.5 3 easeoutsine
+a S_MoveCamera Angle y 72 1 -5 linear
+a S_MoveCamera Angle y 73 0.5 5 easeoutsine
+a S_MoveCamera Angle y 74 1 -5 linear
+a S_MoveCamera Angle y 75 0.5 5 easeoutsine
+a S_MoveCamera Angle x 76 1 3 linear
+a S_MoveCamera Angle y 76 1 -3 linear
+a S_MoveCamera Angle y 77 0.5 3 easeoutsine
+a S_MoveCamera Angle x 77 0.5 -3 easeoutsine
+a S_MoveCamera Angle y 78 1 -3 linear
+a S_MoveCamera Angle x 78 1 3 linear
+a S_MoveCamera Angle x 79 1 -3 easeoutsine
+a S_MoveCamera Angle y 79 1 3 easeoutsine
+a S_MoveCamera Angle y 80 1 5 linear
+a S_MoveCamera Angle y 81 0.5 -5 easeoutsine
+a S_MoveCamera Angle y 82 1 5 linear
+a S_MoveCamera Angle y 83 0.5 -5 easeoutsine
+a S_MoveCamera Angle x 84 1 -3 linear
+a S_MoveCamera Angle y 84 1 3 linear
+a S_MoveCamera Angle x 85 0.5 3 easeoutsine
+a S_MoveCamera Angle y 85 0.5 -3 easeoutsine
+a S_MoveCamera Angle y 86 1 3 linear
+a S_MoveCamera Angle x 86 1 -3 linear
+a S_MoveCamera Angle x 87 0.5 3 easeoutsine
+a S_MoveCamera Angle y 87 0.5 -3 easeoutsine
+a S_MoveCamera Angle y 88 1 5 linear
+a S_MoveCamera Angle y 89 0.5 -5 easeoutsine
+a S_MoveCamera Angle y 90 1 5 linear
+a S_MoveCamera Angle y 91 0.5 -5 easeoutsine
+a S_MoveCamera Angle z 92 3.5 -360 easeoutsine
+a S_MoveCamera Position z 92 2 2 easeoutsine
+a S_MoveCamera Position z 94 1.5 -2 easeinoutquart
+a S_MoveCamera Position z 97 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 97.25 1.75 -0.5 easeoutsine
+a S_MoveCamera Position z 99 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 99.25 1.75 -0.5 easeoutsine
+a S_MoveCamera Position z 101 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 101.25 1.75 -0.5 easeoutsine
+a S_MoveCamera Position z 103 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 103.25 1.75 -0.5 easeoutsine
+a S_MoveCamera Position z 105 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 105.25 1.75 -0.5 easeoutsine
+a S_MoveCamera Position z 107 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 107.25 1.75 -0.5 easeoutsine
+a S_MoveCamera Position z 109 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 109.25 1.75 -0.5 easeoutsine
+a S_MoveCamera Position z 111 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 111.25 1.75 -0.5 easeoutsine
+a S_MoveCamera Position z 113 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 113.25 1.75 -0.5 easeoutsine
+a S_MoveCamera Position z 115 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 115.25 1.75 -0.5 easeoutsine
+a S_MoveCamera Position z 117 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 117.25 1.75 -0.5 easeoutsine
+a S_MoveCamera Position z 119 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 119.25 1.75 -0.5 easeoutsine
+a S_MoveCamera Position z 121 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 121.25 1.75 -0.5 easeoutsine
+a S_MoveCamera Position z 123 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 123.25 1.75 -0.5 easeoutsine
+a S_MoveCamera Position z 125 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 125.25 1.75 -0.5 easeoutsine
+a S_MoveCamera Angle z 127 0.1 2 easeinoutsine
+a S_MoveCamera Angle z 127.1 0.01 -2 easeinoutsine
+a S_MoveCamera Angle z 127.25 0.1 2 easeinoutsine
+a S_MoveCamera Angle z 127.35 0.01 -2 easeinoutsine
+a S_MoveCamera Angle z 127.5 0.1 2 easeinoutsine
+a S_MoveCamera Angle z 127.6 0.01 -2 easeinoutsine
+a S_MoveCamera Angle z 127.75 0.1 2 easeinoutsine
+a S_MoveCamera Angle z 127.85 0.01 -2 easeinoutsine
+a S_MoveCamera Angle z 128 4 15 easeinoutsine
+a S_MoveCamera Position z 128 2 0.5 easeoutsine
+a S_MoveCamera Position z 130 2 -0.5 easeinsine
+a S_MoveCamera Angle z 132 4 -15 easeinoutsine
+a S_MoveCamera Position z 132 2 -0.5 easeoutsine
+a S_MoveCamera Position z 134 2 0.5 easeinsine
+a S_MoveCamera Position z 136 2 0.5 easeoutsine
+a S_MoveCamera Angle z 136 4 15 easeinoutsine
+a S_MoveCamera Position z 138 2 -0.5 easeinsine
+a S_MoveCamera Position z 140 2 -0.5 easeoutsine
+a S_MoveCamera Angle z 140 4 -15 easeinoutsine
+a S_MoveCamera Position z 142 2 0.5 easeinsine
+a S_MoveCamera Angle z 144 4 -10 easeinoutsine
+a S_MoveCamera Position z 144 2 0.5 easeoutsine
+a S_MoveCamera Position z 146 2 -0.5 easeinsine
+a S_MoveCamera Angle z 148 4 15 easeinoutsine
+a S_MoveCamera Position z 148 2 -0.5 easeoutsine
+a S_MoveCamera Position z 150 2 0.5 easeinsine
+a S_MoveCamera Angle z 152 4 -20 easeinsine
+a S_MoveCamera Angle z 156 4 -45 easeoutsine
+a MoveCamera Angle 160 32 720 720 60 easeinoutsine
+a S_MoveCamera Position z 190.5 0.25 0.5 easeoutcubic
+a S_MoveCamera Position z 191 0.25 -0.5 easeoutcubic
+a S_MoveCamera Angle z 192 8 90 easeinoutsine
+a S_MoveCamera Angle z 200 8 90 easeinoutsine
+a S_MoveCamera Angle z 208 8 90 easeinoutsine
+a S_MoveCamera Position z 216 4 -1.5 easeinoutsine
+a S_MoveCamera Angle z 216 8 90 easeinoutsine
+a S_MoveCamera Position z 220 4 1.5 easeinoutsine
+a S_MoveCamera Position z 224 2 0.5 easeoutsine
+a ChangeOpacity Trail rc 226 0.125 0.5 easeoutsine
+a S_MoveCamera Position z 226 2 -0.5 easeinsine
+a ChangeOpacity Trail rc 226.25 0.125 1 easeoutsine
+a ChangeOpacity Trail rc 226.5 0.125 0.5 easeoutsine
+a ChangeOpacity Trail rc 226.75 0.125 1 easeoutsine
+a S_MoveCamera Position z 228 2 -0.5 easeoutsine
+a S_MoveCamera Position z 230 2 0.5 easeinsine
+a ChangeOpacity Trail lt 230 0.125 0.5 easeoutsine
+a ChangeOpacity Trail lt 230.25 0.125 1 easeoutsine
+a ChangeOpacity Trail lt 230.5 0.125 0.5 easeoutsine
+a ChangeOpacity Trail lt 230.75 0.125 1 easeoutsine
+a S_MoveCamera Position z 232 2 0.5 easeoutsine
+a ChangeOpacity Trail rb 234 0.125 0.5 easeoutsine
+a S_MoveCamera Position z 234 2 -0.5 easeinsine
+a ChangeOpacity Trail rb 234.25 0.125 1 easeoutsine
+a ChangeOpacity Trail rb 234.5 0.125 0.5 easeoutsine
+a ChangeOpacity Trail rb 234.75 0.125 1 easeoutsine
+a S_MoveCamera Position z 236 2 -0.5 easeoutsine
+a ChangeOpacity Trail lt 238 0.125 0.5 easeoutsine
+a S_MoveCamera Position z 238 2 0.5 easeinsine
+a ChangeOpacity Trail lt 238.25 0.125 1 easeoutsine
+a ChangeOpacity Trail lt 238.5 0.125 0.5 easeoutsine
+a ChangeOpacity Trail lt 238.75 0.125 1 easeoutsine
+a S_MoveCamera Position z 240 2 0.5 easeoutsine
+a S_MoveCamera Angle z 240 8 30 linear
+a S_MoveCamera Position z 242 2 -0.5 easeinsine
+a S_MoveCamera Position z 244 2 -0.5 easeoutsine
+a S_MoveCamera Position z 246 2 0.5 easeinsine
+a S_MoveCamera Position z 248 4 2 easeinsine
+a S_MoveCamera Angle z 252 2 330 easeoutsine
+a S_MoveCamera Position z 252 1 -6 easeoutsine
+a ChangeOpacity Trail lb 252.25 0.75 0 easeoutsine
+a ChangeOpacity Trail rt 252.25 0.75 0 easeoutsine
+a ChangeOpacity Trail lc 252.25 0.75 0 easeoutsine
+a ChangeOpacity Trail lt 252.25 0.75 0 easeoutsine
+a ChangeOpacity Trail rb 252.25 0.75 0 easeoutsine
+a ChangeOpacity Trail rc 252.25 0.75 0 easeoutsine
+a ChangeOpacity Trail lb 253 2.5 1 easeinsine
+a ChangeOpacity Trail lc 253 2.5 1 easeinsine
+a S_MoveCamera Position z 253 3 4 easeinsine
+a ChangeOpacity Trail rc 253 2.5 1 easeinsine
+a ChangeOpacity Trail lt 253 2.5 1 easeinsine
+a ChangeOpacity Trail rb 253 2.5 1 easeinsine
+a ChangeOpacity Trail rt 253 2.5 1 easeinsine
+a S_MoveCamera Position z 256 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 256.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 257 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 257.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 258 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 258.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 259 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 259.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 260 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 260.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 261 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 261.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 262 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 262.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 263 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 263.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 264 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 264.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 265 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 265.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 266 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 266.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 267 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 267.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 268 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 268.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 269 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 269.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 270 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 270.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 271 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 271.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 272 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 272.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 273 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 273.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 274 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 274.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 275 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 275.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 276 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 276.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 277 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 277.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 278 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 278.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 279 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 279.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 280 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 280.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 281 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 281.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 282 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 282.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 283 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 283.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 284 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 284.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 285 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 285.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 286 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 286.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 287 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 287.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 288 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 288.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 289 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 289.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 290 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 290.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 291 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 291.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 292 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 292.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 293 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 293.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 294 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 294.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 295 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 295.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 296 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 296.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 297 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 297.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 298 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 298.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 299 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 299.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 300 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 300.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 301 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 301.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 302 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 302.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 303 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 303.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 304 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 304.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 305 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 305.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 306 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 306.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 307 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 307.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 308 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 308.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 309 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 309.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 310 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 310.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 311 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 311.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 312 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 312.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 313 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 313.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 314 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 314.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 315 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 315.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 316 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 316.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 317 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 317.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 318 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 318.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 319 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 319.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Angle y 320 4 5 easeinoutsine
+a S_MoveCamera Position z 320 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 320.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 321 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 321.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 322 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 322.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 323 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 323.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Angle y 324 4 -10 easeinoutsine
+a S_MoveCamera Position z 324 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 324.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 325 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 325.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 326 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 326.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 327 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 327.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Angle y 328 4 10 easeinoutsine
+a S_MoveCamera Position z 328 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 328.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 329 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 329.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 330 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 330.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 331 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 331.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Angle y 332 4 -10 easeinoutsine
+a S_MoveCamera Position z 332 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 332.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 333 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 333.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 334 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 334.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 335 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 335.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Angle y 336 4 10 easeinoutsine
+a S_MoveCamera Position z 336 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 336.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 337 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 337.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 338 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 338.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 339 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 339.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Angle y 340 4 -10 easeinoutsine
+a S_MoveCamera Position z 340 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 340.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 341 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 341.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 342 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 342.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 343 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 343.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Angle y 344 4 5 easeinoutsine
+a S_MoveCamera Position z 344 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 344.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 345 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 345.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 346 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 346.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 347 0.25 0.5 easeoutquad
+a S_MoveCamera Position z 347.25 0.75 -0.5 easeoutsine
+a S_MoveCamera Position z 348 4 1 easeinsine
+a S_MoveCamera Position z 352.25 3.75 28 easeoutsine
+define StagePosition classichexagon 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
