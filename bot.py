@@ -8,16 +8,18 @@ import discord
 import chart
 import dev_song_uploader
 
-from authorize import user_is_authorized
+from authorize import user_id_is_authorized
 from tree import DisplayablePath
 
 TOKEN = ""
 
+# Load in setting
 with open("setting.json") as setting:
     text = setting.read()
     json_data = json.loads(text)
     TOKEN = json_data["token"]
 
+# Bot instance is created here.
 BOT = commands.Bot(".", help_command=None)
 
 
@@ -115,6 +117,7 @@ async def help(ctx):
 
     await ctx.send(embed=embd)
 
+
 def get_success_embed(description):
     return discord.Embed(
         title="成功",
@@ -201,20 +204,19 @@ async def add_to_dev_song_skip_authorize(ctx, song_name):
 
 @BOT.command()
 async def delete_from_dev_song(ctx, path):
-    song_name = path.lower()
-
     success, message = await dev_song_uploader.delete_from_dev_songs(ctx, path)
 
     embed = get_success_embed(message) if success else get_fail_embed(message)
     await ctx.send(embed=embed)
 
     if success:
+        song_name = path.lower()
         log = f"{datetime.datetime.now()}: {ctx.author.name} 刪除 Dev-Songs的 {song_name}\n"
         push_github(log)
 
 
 @BOT.command()
-async def chart_library_tree(ctx, path=""):
+async def chart_library_tree(ctx, path = ""):
     path = f"{os.getcwd()}/chart_library/{path}"        
 
     for text in make_tree(path):
@@ -222,11 +224,21 @@ async def chart_library_tree(ctx, path=""):
 
 
 @BOT.command()
-async def dev_song_tree(ctx, path=""):
+async def dev_song_tree(ctx, path = ""):
+    """
+    Send the Tree of the Dev-Song directory to the channel which calls command.
+    """
+
     path = f"{os.getcwd()}/dev_songs/{path}"
 
     for text in make_tree(path):
         await ctx.send(f"```\n{text}\n```")
+
+
+async def tester_report(ctx, ):
+    """
+    The testers report either a suggestion or a bug through this command.
+    """
 
 
 def make_tree(path):
@@ -254,7 +266,7 @@ async def on_message(message):
     if message.author.id == BOT.user.id:
         return
 
-    if not user_is_authorized(message.author.id) \
+    if not user_id_is_authorized(message.author.id) \
         and message.guild == None:
         await message.channel.send("你只能在伺服器裡使用我！")
         return

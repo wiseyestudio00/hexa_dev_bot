@@ -1,13 +1,6 @@
-from os import path
-import pathlib
-import discord
-from datetime import datetime
 from pathlib import Path
-from discord import widget
 
-from discord.file import File
-from authorize import user_is_authorized
-from authorize import context_sender_is_authorized
+from authorize import discord_user_is_authorized
 from generate_index import generate_dev_songs_catalog
 
 
@@ -23,7 +16,7 @@ async def add_to_dev_songs(ctx, song_name):
     Add all the attachments to the specified path in Dev-Songs. Update Catalog. 
     """
 
-    if not context_sender_is_authorized(ctx):
+    if not discord_user_is_authorized(ctx.message.author):
         return False, "上傳者無權限更改Dev-Song。"
 
     return await add_to_dev_song_skip_authorize(ctx, song_name)
@@ -77,7 +70,7 @@ async def delete_from_dev_songs(ctx, path):
     Delete the specified file from dev-Songs.
     """
 
-    if not context_sender_is_authorized(ctx):
+    if not discord_user_is_authorized(ctx.message.author):
         return False, "上傳者無權限更改Dev-Song。"
 
     return await delete_from_dev_songs_skip_authorize(ctx, path)

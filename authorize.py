@@ -8,7 +8,8 @@ with open("setting.json") as setting:
     json_data = json.loads(text)
     AUTHORIZED_USERS = json_data["authorized"]
 
-def user_is_authorized(id):
+
+def user_id_is_authorized(id):
     """
     Takes in a Discord User ID. Return true if the User is authorized.
     """
@@ -16,11 +17,13 @@ def user_is_authorized(id):
     return str(id) in AUTHORIZED_USERS
 
 
-def context_sender_is_authorized(ctx):
-    """
-    Takes in a Discord-Context. Checks if its author is autorized
-    """
+def discord_user_is_authorized(user):
+    """Returns if the discord user is authorized.
 
-    print(ctx.message.author.id)
+    Args:
+        user (Discord User): The user to be tested.
 
-    return str(ctx.message.author.id) in AUTHORIZED_USERS
+    Returns:
+        [bool]: Is the user authorized?
+    """
+    return str(user.id) in AUTHORIZED_USERS

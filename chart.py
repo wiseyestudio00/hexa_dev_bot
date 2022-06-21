@@ -1,7 +1,7 @@
 import discord
 from datetime import datetime
 from pathlib import Path
-from authorize import user_is_authorized
+from authorize import user_id_is_authorized
 
 
 def get_charts_path(path):
@@ -38,7 +38,7 @@ async def checkin(ctx, path):
     directory = Path(get_charts_path(path))
 
     if not directory.exists():
-        if user_is_authorized(ctx.message.author.id):
+        if user_id_is_authorized(ctx.message.author.id):
             directory.mkdir(parents=True, exist_ok=True)
         else:
             print("ERROR: User-specified directory does not exist")
@@ -108,7 +108,7 @@ async def delete(ctx, path):
 
     # todo: if the user wants to delete a directory
     # only authroize user can do that
-    if user_is_authorized(ctx.message.author.id):
+    if user_id_is_authorized(ctx.message.author.id):
 
         for child in path.glob('*'):
             if child.is_file():
