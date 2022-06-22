@@ -1,0 +1,19 @@
+{
+    "SongName": "Mellifluous",
+    "Composer": "Sweet Dove",
+    "Illustrator": "TODO",
+
+    "BPM": 130,
+    "FirstBeatOffset": 0.115,
+
+    "OrderIndex": 100,
+
+    "charts": [
+        {
+            "Name": "hard",
+            "Charter": "TODO",
+            "Difficulty_level": 3,
+            "Duration": "2:32"
+        }
+    ]
+}

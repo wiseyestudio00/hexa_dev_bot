@@ -1,0 +1,259 @@
+section offset:1910 bpm:136.136
+beat range 0:350 offset:1910 bpm:136.136
+
+//Easy Chart
+n short lb 0
+n short rb 0
+n short rb 6
+n short rb 12
+n short rc 18
+
+n short rc 24
+n short lc 24
+n short lc 27
+n short lc 30
+n short lc 33
+
+n short lc 36
+n short rc 36
+
+n short lb 42
+n short rb 42
+
+
+n short rb 48
+n short lb 48
+n short lb 51
+
+
+n short lc 54
+n short rc 54
+n short rc 57
+
+n short lb 60
+n short rc 60
+n short rc 63
+
+n short rb 66
+n short lc 66
+n short lc 69
+
+n short rc 72
+n short lt 72
+n short lt 75
+
+n short lc 78
+n short rt 78
+n short rt 81
+
+
+
+n short lb 84
+n short rb 84
+n short rb 87
+n compound rb 90 93 6
+
+n catch lb 96
+n catch lb 97
+n catch lb 97.667
+n catch lb 98
+
+n catch lc 99
+n catch lc 100
+n catch lc 100.667
+n catch lc 101
+
+n catch lt 102
+n catch lt 103
+n catch lt 103.667
+n catch lt 104
+
+n catch lt 105
+n catch lc 106
+n catch lb 107
+
+n catch rb 108
+n catch rb 109
+n catch rb 109.667
+n catch rb 110
+
+n catch rc 111
+n catch rc 112
+n catch rc 112.667
+n catch rc 113
+
+n catch rt 114
+n catch rt 115
+n catch rt 115.667
+n catch rt 116
+
+
+n catch rt 117
+n catch rc 118
+n catch rb 119
+
+
+n catch lb 120
+n catch lb 121
+n catch lb 121.667
+n catch lb 122
+
+n catch lc 123
+n catch lc 124
+n catch lc 124.667
+n catch lc 125
+
+n catch lt 126
+n catch lt 127
+n catch lt 127.667
+n catch lt 128
+
+n catch rt 129
+n catch rc 130
+n catch rb 131
+
+n catch rb 132
+n catch rb 133
+n catch rb 133.667
+n catch rb 134
+
+n catch rc 135
+n catch rc 136
+n catch rc 136.667
+n catch rc 137
+
+n catch rt 138
+n catch rt 139
+n catch rt 139.667
+n catch rt 140
+
+n catch lt 141
+n catch lc 142
+n catch lb 143
+
+n long lb 144 165
+n short rc 147
+n short rb 150
+n short rt 153
+n short rb 156
+n short rc 159
+n short rb 162
+n short rt 165
+
+n long rb 168 189
+n short lc 171
+n short lb 174
+n short lt 177
+n short lb 180
+n short lc 183
+n short lb 186
+n short lt 189
+
+//順時針旋轉
+
+n short rb 192
+n catch rb 193
+n catch rb 193.667
+n catch rb 194
+
+n short rc 195
+n catch rc 196
+n catch rc 196.667
+n catch rc 197
+
+n short rt 198
+n catch rt 199
+n catch rt 199.667
+n catch rt 200
+
+n catch rt 201
+n catch rt 202
+n catch rt 203
+
+n short lt 204
+n catch lt 205
+n catch lt 205.667
+n catch lt 206
+
+n short lc 207
+n catch lc 208
+n catch lc 208.667
+n catch lc 209
+
+n short lb 210
+n catch lb 211
+n catch lb 211.667
+n catch lb 212
+//回原點
+
+n catch lb 213
+n catch lb 214
+n catch lb 215
+
+n short rb 216
+n catch rb 217
+n catch rb 217.667
+n catch rb 218
+
+n short lb 219
+n catch lb 220
+n catch lb 220.667
+n catch lb 221
+
+n short rb 222
+n catch rb 223
+n catch rb 223.667
+n catch rb 224
+
+n catch rb 225
+n catch rb 226
+n catch rb 227
+
+n long lb 228 229
+n long rb 229 232
+n catch lb 233
+n catch lb 233.3333
+n catch lb 233.6666
+n catch lb 234
+n catch lb 236
+n catch lb 237
+n catch lb 239
+
+
+n long rc 240 243
+n long lc 241 243
+
+n short rt 247
+n short rt 248
+n short rt 249
+n short rc 250
+n short rb 251
+n short rb 252
+
+n long rb 255 258
+n long lc 258 261
+n long rb 261 264
+n long lt 264 267
+n long rc 267 270
+n long lb 270 273
+n long rb 273 276
+n long lb 276 282
+n long rc 282 285
+n long lc 285 287
+n short rt 287
+n short rt 288
+
+n short lt 291
+n short lt 294
+n short rt 297
+n short rt 300
+n short lt 303
+n short rc 306
+n short lc 309
+n short lc 312
+n short rc 315
+n short lb 318
+n short rb 321
+n long rb 324 330
+n long lb 330 336
+n compound rb 336 342 10

@@ -1,0 +1,141 @@
+section offset:885 bpm:80
+beat range 0:210 offset:885 bpm:80
+n long rb 0 3
+n long lc 4 7
+n long rt 8 11
+n long lt 12 15
+n long rc 16 19
+n long lb 20 23
+n long rb 24 27
+n long lc 28 31
+n short rb 32
+n short rb 34
+n short lb 36
+n short lb 38
+n short rb 40
+n short lb 42
+n long lc 44 47
+n short rt 48
+n short rt 50
+n short lt 52
+n short lt 54
+n short rt 56
+n short lt 58
+n long rc 60 63
+n catch lc 64
+n catch lc 66
+n catch lb 68
+n catch lb 70
+n catch rb 72
+n catch rb 74
+n catch rc 76
+n catch rc 78
+n long lb 80 84
+n long rb 80 84
+n short rt 86
+n short lc 86
+n long lc 87 89
+n long rt 87 89
+n short rc 90
+n short lt 90
+n long rc 91 93
+n long lt 91 93
+n short lc 94
+n short rb 94
+n long lc 95 97
+n long rb 95 97
+n catch lb 98
+n catch rc 98
+n catch rc 99
+n catch lb 99
+n catch lb 99.5
+n catch rc 99.5
+n short rc 102
+n short lt 102
+n long rc 103 105
+n long lt 103 105
+n short rt 106
+n short lc 106
+n long rt 107 109
+n long lc 107 109
+n short lb 110
+n short rc 110
+n long lb 111 113
+n long rc 111 113
+n catch rb 114
+n catch lc 114
+n catch rb 115
+n catch lc 115
+n catch lc 115.5
+n catch rb 115.5
+n long lt 120 121
+n long lt 122 123
+n short rt 124
+n catch lc 124.75
+n catch lc 125
+n catch lc 125.5
+n long rc 126.5 127
+n clong lb 128 128.5
+n clong lb 128.75 129.25
+n clong lb 129.5 130
+n clong lb 130.25 130.75
+n clong lb 131 131.5
+n short rc 132
+n short rc 133
+n long lt 134 135
+n long rt 136 137
+n long rt 138 139
+n short lc 140
+n catch rb 141
+n catch rb 141.25
+n catch rb 141.5
+n catch rb 141.75
+n short lb 142
+n short rb 143
+n clong lb 144 144.5
+n clong lb 144.75 145.25
+n clong lb 145.5 146
+n clong lb 146.25 146.75
+n clong lb 147 147.5
+n long rt 148 150
+n short lc 152
+n short rc 152
+n short rt 168
+n short lc 168
+n long rt 169 171
+n long lc 169 171
+n short rc 172
+n short lt 172
+n long rc 173 175
+n long lt 173 175
+n short lc 176
+n short rb 176
+n long rb 177 179
+n long lc 177 179
+n catch lb 180
+n catch rc 180
+n catch lb 180.75
+n catch rc 180.75
+n catch rc 181.25
+n catch lb 181.25
+n catch rc 181.75
+n catch lb 181.75
+n short rc 184
+n short lt 184
+n long rc 185 187
+n long lt 185 187
+n short rt 188
+n short lc 188
+n long rt 189 191
+n long lc 189 191
+n short lb 192
+n short rc 192
+n long lb 193 195
+n long rc 193 195
+n catch lc 196
+n catch rb 196
+n catch rb 197
+n catch lc 197
+n catch rb 197.5
+n catch lc 197.5
+n short rt 200
