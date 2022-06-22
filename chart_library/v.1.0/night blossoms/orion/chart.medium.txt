@@ -1,0 +1,219 @@
+section offset:620 bpm:149
+n long lb 3 5
+n long rb 7 9
+n short lc 11
+n short lt 13
+n short rt 15
+n long lt 19 21
+n long rt 23 25
+n short lt 27
+n short rt 29
+n short rc 31
+section offset:14581 bpm:158
+n short lb 0
+n short lc 1
+n short lt 2
+n long rt 3 4
+n short lt 5
+n short rt 6
+n short rc 7
+n short rb 8
+n short rc 9
+n short rt 10
+n long lt 11 12
+n short lt 13
+n short lc 14
+n short lb 15
+n short rb 16
+n short rc 17
+n short rt 18
+n long lt 19 20
+n short rt 21
+n short lt 22
+n short lc 23
+n short lb 24
+n short lc 25
+n short lt 26
+n long rt 27 28
+n short lt 32
+n short lt 34
+n short lc 36
+n short lc 37
+n short lc 38
+n short rt 40
+n short rt 42
+n short rc 44
+n short rc 45
+n short rc 46
+n short lt 48
+n short lc 50
+n short lb 52
+n short lb 53
+n short lb 54
+n catch rb 56
+n catch lc 57
+n catch rt 58
+n catch rb 59
+n long lc 60 62
+n short rt 64
+n short rt 66
+n short rc 68
+n short rc 69
+n short rc 70
+n short lt 72
+n short lt 74
+n short lc 76
+n short lc 77
+n short lc 78
+n short rt 80
+n short rc 82
+n short rb 84
+n short rb 85
+n short rb 86
+n catch lb 88
+n catch rc 89
+n catch lt 90
+n catch lb 91
+n catch rc 92
+n short rt 98
+n short rc 102
+n short rb 106
+n short lb 110
+n short lc 114
+n short lt 118
+n short rt 122
+n short rc 124
+n short rc 125
+n short rb 126
+n short rb 127
+n swipe In lb 132
+n short lc 133
+n short lt 134
+n short lt 135
+n swipe In rb 136
+n short rc 137
+n short rt 138
+n short rt 139
+n short lc 140
+n short rc 140
+n short rb 141
+n short lc 142
+n short rc 142
+n short lt 143
+n short rc 144
+n short lc 144
+n swipe In rb 145
+n short rc 146
+n short rt 147
+n short rt 148
+n swipe In lb 149
+n short lc 150
+n short lt 151
+n short lt 152
+n swipe Out rc 153
+n catch lb 155
+n catch lb 155.5
+n catch lc 157
+n catch lc 157.5
+n catch lt 159
+n catch lt 159.5
+n short lb 161
+n short lc 162
+n short lt 163
+n swipe In rb 164
+n short rc 165
+n short rt 166
+n short rt 167
+n swipe In lb 168
+n short lc 169
+n short lt 170
+n short lt 171
+n short rc 172
+n short lc 172
+n short lb 173
+n short rc 174
+n short lc 174
+n short rt 175
+n short rc 176
+n short lc 176
+n swipe In lb 177
+n short lc 178
+n short lt 179
+n short lt 180
+n swipe In rb 181
+n short rc 182
+n short rt 183
+n short rt 184
+n swipe Out lc 185
+n catch rb 187
+n catch rb 187.5
+n catch rc 189
+n catch rc 189.5
+n catch rt 191
+n catch rt 191.5
+n long lb 196 198
+n long lb 200 202
+n long rb 204 206
+n long rb 208 210
+n long rc 212 214
+n long rc 216 218
+n short rt 220
+n short rt 222
+n long rt 224 226
+n short rc 228
+n short rc 230
+n short rb 232
+n short rb 234
+n short lb 236
+n short lb 238
+n short lc 240
+n short lc 242
+n short lt 244
+n short lt 246
+n short rt 248
+n short rt 250
+n short rc 252
+n short rc 254
+n long rb 256 260
+n short lt 262
+n short rb 264
+n short lc 266
+n short rb 268
+n short lb 270
+n short rb 272
+n short rc 274
+n short rt 276
+n short rt 278
+n short lb 280
+n short rc 282
+n short lb 284
+n short rb 286
+n short lb 288
+n short lc 290
+n short lt 292
+n short rc 307
+n short rc 307
+n short rc 308
+n short rc 308
+n short lt 310
+n short lt 310
+n short lt 311
+n short lt 311
+n short lt 312
+n short lt 312
+n short rt 314
+n short rt 314
+n short rt 315
+n short rt 315
+n short rt 316
+n short rt 316
+n short rc 318
+n short rc 318
+n short rb 320
+n short rb 320
+n short lb 322
+n short lb 322
+n long lc 324 326
+n long lc 324 326
+a S_MoveStage Abs_Angle z 93 36 180 easeinoutquad
+a S_MoveStage Angle z 192 67 -180 easeinoutsine
