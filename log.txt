@@ -283,3 +283,4 @@
 2022-06-22 11:37:53.070328：Sherwin Chen 更新 chart-library v.1.0/night blossoms/blue
 2022-06-22 11:52:12.791888: DarkM(闇靈) 更新 Dev-Songs的 blue
 2022-06-22 11:52:12.394415：DarkM(闇靈) 更新 chart-library v.1.0/night blossoms/blue
+2022-06-22 12:38:21.261574: DarkM(闇靈) 更新 Dev-Songs的 blue
