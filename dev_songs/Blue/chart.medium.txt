@@ -1,3 +1,4 @@
+section offset:885 bpm:80
 a MoveCamera Position 80 3 0 0 -2 easeinoutsine
 a MoveCamera Angle 80 4 0 0 -60 easeinsine
 a MoveCamera Position 83 3 0 0 2 easeinoutsine
