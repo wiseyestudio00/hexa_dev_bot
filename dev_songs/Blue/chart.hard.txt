@@ -130,8 +130,8 @@ n short lc 74
 n long rc 74 74.5
 n short lc 74.25
 n short lc 74.5
-n long rb 75 75.5
 n short lt 75
+n long rb 75 75.5
 n short lt 75.25
 n short lt 75.5
 n catch rc 76
@@ -144,8 +144,8 @@ n catch rc 76.75
 n catch lc 76.75
 n catch rb 77
 n catch lt 77
-n catch lt 77.25
 n catch rb 77.25
+n catch lt 77.25
 n catch rb 77.5
 n catch lt 77.5
 n catch lt 77.75
@@ -219,8 +219,8 @@ n short rc 105
 n short rc 105.25
 n short lc 105.5
 n short lc 105.75
-n long rb 106 106.5
 n long lb 106 106.5
+n long rb 106 106.5
 n long rb 107 107.5
 n long rc 107 107.5
 n short rt 108.75
@@ -279,8 +279,8 @@ n catch rt 132.563
 n catch lb 132.563
 n catch lb 132.75
 n catch rt 132.75
-n catch lb 133
 n catch rt 133
+n catch lb 133
 n short lt 133.5
 n short rb 133.5
 n compound rt 134 135.5 3
@@ -291,7 +291,6 @@ n catch rt 137.125
 n catch rt 137.25
 n catch rt 137.375
 n catch rt 137.5
-n catch rt 137.625
 n catch rt 137.625
 n catch rt 137.75
 n catch rt 137.875
@@ -340,8 +339,8 @@ n long rt 167.75 168.5
 n long lt 168 168.5
 n long lt 169 169.25
 n long rt 169 169.25
-n swipe Out rt 169.5
 n swipe Out lt 169.5
+n swipe Out rt 169.5
 n short rb 170.75
 n short lb 171
 n short rb 171.25
@@ -369,8 +368,8 @@ n short rt 180.5
 n short rt 180.75
 n short rc 181.25
 n short lc 181.25
-n short rt 181.75
 n short lb 181.75
+n short rt 181.75
 n short rt 182.75
 n short lb 183
 n short rc 183.25
@@ -523,9 +522,9 @@ a S_MoveCamera Position z 79.5 0.25 0.25 easeinoutsine
 a S_MoveCamera Position y 79.75 2 -0.5 easeinoutsine
 a S_MoveCamera Position z 79.75 2 3 easeinoutsine
 a S_MoveCamera Angle x 79.75 2 25 easeinoutsine
-a S_MoveCamera Angle x 84 1 -25 easeinoutsine
 a S_MoveCamera Position z 84 1 -3 easeinoutsine
 a S_MoveCamera Position y 84 1 0.5 easeinoutsine
+a S_MoveCamera Angle x 84 1 -25 easeinoutsine
 a S_MoveCamera Position z 86 0.125 0.75 easeoutsine
 a S_MoveCamera Position z 86.125 1.375 -0.75 easeinsine
 a S_MoveCamera Position z 87.5 0.125 0.75 easeoutsine
@@ -604,9 +603,9 @@ a S_MoveCamera Angle z 128 0.75 -10 easeinoutsine
 a S_MoveCamera Angle z 128.75 0.75 10 easeinoutsine
 a S_MoveCamera Position x 129.5 0.75 -1 easeinoutsine
 a S_MoveCamera Position x 130.25 0.75 1 easeinoutsine
-a ChangeOpacity Trail rb 136 0.33 0.5 easeinoutsine
-a S_MoveCamera Position x 136 1 1 easeinoutsine
 a ChangeOpacity Trail rt 136 0.33 0.5 easeinoutsine
+a S_MoveCamera Position x 136 1 1 easeinoutsine
+a ChangeOpacity Trail rb 136 0.33 0.5 easeinoutsine
 a ChangeOpacity Trail rb 137 0.33 1 easeinoutsine
 a S_MoveCamera Position x 137 0.5 -1 easeoutbounce
 a ChangeOpacity Trail lb 137 0.33 0.5 easeinoutsine
@@ -617,11 +616,11 @@ a ChangeOpacity Trail lt 138 0.33 1 easeinoutsine
 a ChangeOpacity Trail rt 138 0.33 0.5 easeinoutsine
 a ChangeOpacity Trail rb 138 0.33 0.5 easeinoutsine
 a ChangeOpacity Trail lb 138 0 1 easeinoutsine
-a ChangeOpacity Trail rt 139 0.25 1 easeinoutsine
-a ChangeOpacity Trail lb 139 0.25 0.5 easeinoutsine
-a ChangeOpacity Trail lt 139 0.25 0.5 easeinoutsine
-a S_MoveCamera Position x 139 0.5 -1 easeoutbounce
 a ChangeOpacity Trail rb 139 0 1 easeinoutsine
+a S_MoveCamera Position x 139 0.5 -1 easeoutbounce
+a ChangeOpacity Trail lb 139 0.25 0.5 easeinoutsine
+a ChangeOpacity Trail rt 139 0.25 1 easeinoutsine
+a ChangeOpacity Trail lt 139 0.25 0.5 easeinoutsine
 a ChangeOpacity Trail lb 140 0.25 1 easeinoutsine
 a ChangeOpacity Trail lt 140 0.25 1 easeinoutsine
 a S_MoveCamera Position z 141 0.125 0.25 easeoutsine
@@ -631,8 +630,8 @@ a S_MoveCamera Position z 141.75 0.125 0.25 easeoutsine
 a MoveCamera Position 143 0.25 0 0 0.5 easeoutcubic
 a MoveCamera Position 143.25 0.25 0 0 -0.5 easeoutcubic
 a MoveCamera Position 143.5 0.25 0 0 0.5 easeoutcubic
-a ChangeStage rightopen 144 0.75 easeinoutquint
 a S_MoveCamera Position z 144 0.75 -1 easeinoutcubic
+a ChangeStage rightopen 144 0.75 easeinoutquint
 a ChangeStage leftrightopen 144.75 0.75 easeinoutquint
 a S_MoveCamera Position z 144.75 0.75 -1 easeinoutcubic
 a ChangeStage rightback 145.5 0.75 easeinoutquint
