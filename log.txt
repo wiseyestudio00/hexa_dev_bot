@@ -292,3 +292,4 @@
 2022-06-23 22:20:29.578504: DarkM(闇靈) 更新 Dev-Songs的 blue
 2022-06-23 22:20:29.165478：DarkM(闇靈) 更新 chart-library v.1.0/night blossoms/blue
 2022-06-23 22:47:52.500026: Sherwin Chen 更新 Dev-Songs的 gravitizer
+2022-06-23 22:47:52.003635：Sherwin Chen 更新 chart-library v.1.0/core collection 1.0/gravitizer
