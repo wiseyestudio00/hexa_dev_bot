@@ -1,4 +1,7 @@
 section offset:-29 bpm:185
+
+define stageposition skewed 1.65,2.86,1 3.46,-2,240 3.3,0,1 0,-4,180 1.65,-2.86,1 -3.46,-2,120 -1.65,-2.86,1 -3.46,2,60 -3.3,0,1 0,4,0 -1.65,2.86,1 3.46,2,300
+
 define stageposition rtbounce 1.5,2.6098075,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
 define stageposition rcbounce 1.35,2.35,0 0,0,240 3.0,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
 define stageposition rbbounce 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.5,-2.6098075,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
@@ -8,6 +11,7 @@ define stageposition ltbounce 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0
 
 define stageposition cluster 0.9,1.56667,-1 0,0,240 1.8,0,-1 0,0,180 0.9,-1.56667,-1 0,0,120 -0.9,-1.56667,-1 0,0,60 -1.8,0,-1 0,0,0 -0.9,1.56667,-1 0,0,300
 define stageposition spread 2.025,3.525,1 0,0,240 4.05,0,1 0,0,180 2.025,-3.525,1 0,0,120 -2.025,-3.525,1 0,0,60 -4.05,0,1 0,0,0 -2.025,3.525,1 0,0,300
+define stageposition original 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
 
 
 /a movecamera angle 1 4 0 0 60 EaseInSine
@@ -18,7 +22,7 @@ define stageposition spread 2.025,3.525,1 0,0,240 4.05,0,1 0,0,180 2.025,-3.525,
 //zoom out, sway and zoom in
 a movecamera position 5 8 0 0 -2 Linear
 a movecamera angle 5 4 0 0 15 EaseInOutSine
-a movecamera angle 9 8 0 0 -30 EaseInOutSine
+a movecamera angle 9 8 0 0 -30 EaseInOutSine 
 a movecamera angle 17 8 0 0 30 EaseInOutSine
 a movecamera angle 25 8 0 0 -30 EaseInOutSine
 a movecamera angle 33 4 0 0 75 EaseInSine
@@ -105,11 +109,16 @@ a movecamera angle 60 1 0 0 -3.75 Linear
 /a s_movestage angle z 59 2 -7.5 EaseInOutSine
 
 //6hours of work: rotate zoom out and ready
-a movecamera angle 61 8 0 0 240 EaseInSine
-a movecamera angle 69 4 0 0 60 EaseOutCubic
-a movecamera angle 73 4 0 0 -360 EaseOutCubic
-a movecamera position 69 4 0 0 -2.5 EaseOutCirc
-a movecamera position 73 4 0 0 +2.5 EaseOutCirc
+/a movecamera angle 61 8 0 0 240 EaseInSine
+/a movecamera angle 69 4 0 0 60 EaseOutCubic
+/a movecamera angle 73 4 0 0 -360 EaseOutCubic
+
+a movecamera angle 61 5 0 0 110 EaseInSine
+a movecamera angle 66 7 0 0 70 EaseOutCubic
+a movecamera angle 73 4 0 0 -240 EaseOutCubic
+
+a movecamera position 69 4 0 0 -3.5 EaseOutCirc
+a movecamera position 73 4 0 0 +3.5 EaseOutCirc
 
 /*
 //16th-note pump (NOT FINISHED)
@@ -178,7 +187,7 @@ a s_movestage angle z 125 16 180 EaseInOutQuad
 
 
 
-//(EXPERIMENTAL)
+//(EXPERIMENTAL) 
 /*
 a s_movecamera abs_position x 124.5 1 0.5 Linear
 a s_movecamera abs_position x 125.5 1 0.25 Linear
@@ -429,7 +438,7 @@ a s_movecamera position z 190 1 -1 EaseOutSine
 a movecamera angle 197 4 0 0 -120 EaseInSine
 a movecamera angle 201 4 0 0 -60 EaseOutCubic
 
-/,,1,1, stutter
+/,,1,1, stutter 
 a movecamera angle 221.5 0.5 0 0 -7.5 Linear
 a movecamera angle 222.5 0.5 0 0 +7.5 Linear
 a movecamera angle 223.5 0.5 0 0 +7.5 Linear
@@ -446,7 +455,7 @@ a movecamera angle 241 0.5 0 0 4 EaseOutSine
 a movecamera angle 242 0.5 0 0 -2 EaseOutSine
 
 
-/8th stutter
+/8th stutter 
 a movecamera angle 243 0 0 0 -2 Linear
 a movecamera angle 243.5 0 0 0 +2 Linear
 a movecamera angle 244 0 0 0 +2 Linear
@@ -467,7 +476,7 @@ a movecamera angle 250 0.5 0 0 2 EaseOutSine
 
 
 
-/16th stutter
+/16th stutter 
 a movecamera angle 251 0 0 0 3.75 Linear
 a movecamera angle 251.25 0 0 0 3.75 Linear
 a movecamera angle 251.5 0 0 0 3.75 Linear
@@ -478,7 +487,7 @@ a movecamera angle 252.5 0 0 0 3.75 Linear
 a movecamera angle 252.75 0 0 0 3.75 Linear
 
 /bridge rotate
-a s_movecamera angle z 253 16 120 EaseInOutSine
+a s_movecamera angle z 253 16 120 EaseInOutSine 
 
 a s_movecamera position z 263 0 0.1 Linear
 a s_movecamera position z 263.25 0 0.1 Linear
@@ -490,7 +499,7 @@ a s_movecamera position z 265 4 -0.5 EaseOutSine
 /quiet part zoom out sway
 a movecamera position 269 8 0 0 -2 Linear
 a movecamera angle 269 4 0 0 -15 EaseInOutSine
-a movecamera angle 273 8 0 0 30 EaseInOutSine
+a movecamera angle 273 8 0 0 30 EaseInOutSine 
 a movecamera angle 281 8 0 0 -30 EaseInOutSine
 a movecamera angle 289 8 0 0 30 EaseInOutSine
 a movecamera angle 297 8 0 0 -30 EaseInOutSine
@@ -498,7 +507,8 @@ a movecamera angle 305 8 0 0 30 EaseInOutSine
 a movecamera angle 313 8 0 0 -30 EaseInOutSine
 a movecamera angle 321 8 0 0 30 EaseInOutSine
 a movecamera angle 329 4 0 0 -15 EaseInSine
-a movecamera position 329 4 0 0 2 EaseInQuad
+a movecamera position 325 4 0 0 1 EaseOutBack
+a movecamera position 329 4 0 0 1 EaseOutBack
 
 //實驗性質(Sine前半峰)
 /*
@@ -584,19 +594,19 @@ a s_movestage abs_position z 310.008333333 0 0.0 Linear
 */
 
 //啊~~變色
-a changecolor trial 305 8 0_0_0_0 rt rc rb lb lc lt Linear
-a changecolor trial 314 6 0_0_0_145 lb EaseOutSine
-a changecolor trial 316.75 3.25 0_0_0_145 rb EaseOutSine
-a changecolor trial 320 11 0_0_0_145 rc EaseOutSine
-a changecolor trial 321.25 9.75 0_0_0_145 lc EaseOutSine
-a changecolor trial 325 3 0_0_0_145 lt Linear
-a changecolor trial 329 3 0_0_0_145 rt Linear
+a changecolor trial 305 8 0_0_0_0 rt rc lc lt Linear
+a changecolor trial 314 6 0_0_0_145 lc EaseOutSine
+a changecolor trial 316.75 3.25 0_0_0_145 rc EaseOutSine
+a changecolor trial 320 11 0_0_0_145 rt EaseOutSine
+a changecolor trial 321.25 9.75 0_0_0_145 lt EaseOutSine
+/a changecolor trial 325 3 0_0_0_145 lt Linear
+/a changecolor trial 329 3 0_0_0_145 rt Linear
 
-/a changecolor hitbox_default 305 8 255_255_255_0 rt rc rb lb lc lt Linear
-/a changecolor hitbox_default 314 6 255_255_255_255 lb EaseOutSine
-/a changecolor hitbox_default 316.75 3.25 255_255_255_255 rb EaseOutSine
-/a changecolor hitbox_default 320 11 255_255_255_255 rc EaseOutSine
-/a changecolor hitbox_default 321.25 9.75 255_255_255_255 lc EaseOutSine
+a changecolor hitbox_default 305 8 255_255_255_0 rt rc lc lt Linear
+a changecolor hitbox_default 314 6 255_255_255_255 lc EaseOutSine
+a changecolor hitbox_default 316.75 3.25 255_255_255_255 rc EaseOutSine
+a changecolor hitbox_default 320 11 255_255_255_255 rt EaseOutSine
+a changecolor hitbox_default 321.25 9.75 255_255_255_255 lt EaseOutSine
 /a changecolor hitbox_default 325 3 255_255_255_255 lt Linear
 /a changecolor hitbox_default 329 3 255_255_255_255 rt Linear
 
@@ -654,8 +664,27 @@ a s_movecamera abs_angle x 361.00 0 0 Linear
 a s_movecamera abs_angle y 361.00 0 0 Linear
 a s_movecamera abs_position x 361.00 0 0 Linear
 a s_movecamera abs_position y 361.00 0 0 Linear
-a s_movecamera abs_position z 361.00 3 -6.2 Linear
+a s_movecamera abs_position z 361.00 0 5 Linear
+a s_movecamera abs_position z 361.01 3.99 -6.2 EaseOutCubic
 /a s_movecamera position y 361.01 2.99 1 EaseInQuad
+
+///
+1.35,2.35,0 0,0,240 
+2.7,0,0 0,0,180 
+1.35,-2.35,0 0,0,120 
+-1.35,-2.35,0 0,0,60 
+-2.7,0,0 0,0,0 
+-1.35,2.35,0 0,0,300
+//軌道？
+a changestage skewed 361 0 Linear
+a changestage classichexagon 361.01 2.99 EaseOutSine
+
+
+
+//閃
+/*
+/a s_movetrail rt rc rb lb lc lt abs_position z 361.00 0 -30 Linear
+
 
 a s_movestage position z 361.00 0 -30 Linear
 a s_movestage position z 361.125 0 30 Linear
@@ -681,7 +710,7 @@ a s_movestage position z 363.50 0 -30 Linear
 a s_movestage position z 363.625 0 30 Linear
 a s_movestage position z 363.75 0 -30 Linear
 a s_movestage position z 363.875 0 30 Linear
-
+*/
 
 a s_movestage position z 394.5 1 2 EaseOutQuad
 a s_movestage position z 395.5 1 -2 EaseOutQuad
@@ -784,7 +813,7 @@ a s_movecamera position z 490 3 -12.2 EaseOutQuad
 
 
 
-a movecamera position 501.5 16 0 0 -7.5 EaseOutQuad
+a movecamera position 501.5 16 0 0 -7.5 EaseOutQuad 
 a movecamera angle 501.5 4 0 0 15 EaseOutSine
 a movecamera angle 505.5 8 0 0 -30 EaseInOutSine
 a movecamera angle 513.5 8 0 0 20 EaseInOutSine
@@ -923,14 +952,15 @@ n catch rt 67.25
 n catch rt 67.50
 n catch rt 67.75
 n catch rt 68.00
-n catch rt 68.50
+/n catch rt 68.50
 n swipe in rt lb 69
 
 n catch lb 67.125
 n catch lb 67.375
 n catch lb 67.625
 n catch lb 67.875
-n catch lb 68.50
+/n catch lb 68.50
+
 
 n short lb 77
 n short lb 79
@@ -1309,7 +1339,7 @@ n catch lt 203.25
 n catch lt 203.50
 n catch lt 203.75
 n catch lt 204.00
-n catch lt rb 204.50
+/n catch lc rc 204.50
 
 
 n catch rb 203.125
@@ -1318,7 +1348,7 @@ n catch rb 203.625
 n catch rb 203.875
 
 
-n short rc lc 205
+n short lb 205
 
 n long lc 205.5 206.5
 n long rb 206.5 207.5
@@ -1540,24 +1570,25 @@ n catch rt 296.5
 n catch lt 296.75
 
 
-n short rb 297
-n catch lb 297.25
-n catch lc 297.5
-n catch lt 297.75
-n catch rt 298
-n catch rc 298.25
-n catch rb 298.5
-n catch lb 298.75
-n catch lc 299
+n short lb 297
+n catch lc 297.25
+n catch lt 297.5
+n catch rt 297.75
+n catch rc 298
+n catch rb 298.25
+n catch lb 298.5
+n catch lc 298.75
+n catch lt 299
+
 
 n short rc 299.5
-n short lc 300
+n short lb 300
 n short rb 300.5
-n long lb 301 304
+n long lc 301 304
 
 n short rc 304
-n long rb 304.5 316.75
-n long lb 305 314
+n long lb 304.5 314
+n long rb 305 316.75
 
 n long rc 320 332
 n long lc 321.25 332
@@ -1680,7 +1711,7 @@ n short lc 381.5
 n short rc 382
 n long lb 382.5 383.5
 n swipe in rt 383.5
-
+ 
 
 n short rb 384.5
 n short lc 385
@@ -1842,27 +1873,29 @@ n catch rt 436.25
 n catch lt 436.5
 /n catch lc 436.75
 
-n short rc 437
-n catch rb 437.25
-n catch lb 437.5
-n catch lc 437.75
-n catch lt 438
-n catch rt 438.25
-n catch rc 438.5
-/n catch rb 438.75
+n short rb 437
+n catch lb 437.25
+n catch lc 437.5
+n catch lt 437.75
+n catch rt 438
+n catch rc 438.25
+n catch rb 438.5
+n catch lb 438.75
 
-n short lb 439
-n short rt 439.5
-n short rb 440
-n short lt 440.5
-n short rc 441
-n short rb 441.5
-n short lb 442
+
+n short lc 439
+n short rb 439.5
+n short rt 440
+n short lb 440.5
+n short lt 441
+n short rc 441.5
+n short rb 442
 n swipe in lc 442.5
+n short lb 442.5
 n swipe in rb 443.5
 n short lb 443.5
 
-n short lt 445
+n short rc 445
 n short lc 445.5
 n short lb 446.0
 n swipe out rc 446.5
@@ -1877,20 +1910,14 @@ n short lc 449.5
 n short lb 450
 n short rb 450.5
 
-n short rc 451
-n catch rt 451.25
-n catch lt 451.5
-n catch lc 451.75
-n catch lb 452
-n catch rb 452.25
-n catch rc 452.5
-/n catch rt 452.75
-
-
-
-
-
-
+n short rt 451
+n catch rc 451.25
+n catch rb 451.5
+n catch lb 451.75
+n catch lc 452
+n catch lt 452.25
+n catch rt 452.5
+n catch rc 452.75
 
 
 
@@ -1898,22 +1925,23 @@ n catch rc 452.5
 
 
 n short lc 453
-n catch lt 453.25
-n catch rt 453.5
+n catch lb 453.25
+n catch rb 453.5
 n catch rc 453.75
-n catch rb 454
-n catch lb 454.25
+n catch rt 454
+n catch lt 454.25
 n catch lc 454.5
-/n catch lt 454.75
+n catch lb 454.75
 
 
 
-n short rc 455
-n catch rt 455.25
-n catch lt 455.5
-n catch lc 455.75
-n catch lb 456
-
+n short rt 455
+n catch rc 455.25
+n catch rb 455.5
+n catch lb 455.75
+n catch lc 456
+n catch lt 456.25
+n catch rt 456.5
 
 
 
@@ -2658,3 +2686,12 @@ changelog:
 2021-07-06 03:16 把部分short改成catch(迎合Build 38 short判定改變)
 2021-07-06 04:35 把部分long 改成clong
 2021-07-13 00:25 再把部分long改成clong，增加少量運鏡
+2021-07-28 07:18 根據譜面建議進行改動，另外調整了少部分配置
+
+(DONE 減慢了舞臺旋轉速度)[下修]Beat 69的swipe刪除或改為catch。
+(DONE) Beat 297的轉圈起始點改為lb。
+(DONE) Beat 305~332軌道上有note在跑時不能是透明的，會影響玩家讀譜，建議305全軌透明化的動畫不要將lb/rb透明掉，314與316.75改為將rc、lc亮起，320與321.25改lt與rt亮起。Beat 325與329的動畫可以考慮刪除或做其他的。，建議把未使用的打擊器動畫修改得跟上面軌道動畫相同。
+(DONE 改爲zoom效果)Beat 361這邊閃爍會傷害玩家眼睛，建議改成其他的動畫，像是舞台瞬間移位的動畫。
+(DONE)Beat 439這邊lb開始的按鍵配置有點卡，因為前面轉圈是右手轉，這邊放個同為右側的lb會有點怪，可以把lb改成catch變成這組轉圈的結尾。Beat 438.75未使用的catch也建議加回去。
+(DONE)[下修]Beat 453與455轉圈換手的時候有點卡，建議重新調整一下這段的轉圈配置。
+

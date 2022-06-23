@@ -1,4 +1,5 @@
 section offset:-29 bpm:185
+
 define stageposition skewed 1.65,2.86,1 3.46,-2,240 3.3,0,1 0,-4,180 1.65,-2.86,1 -3.46,-2,120 -1.65,-2.86,1 -3.46,2,60 -3.3,0,1 0,4,0 -1.65,2.86,1 3.46,2,300
 
 define stageposition rtbounce 1.5,2.6098075,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
@@ -21,7 +22,7 @@ define stageposition original 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0
 //zoom out, sway and zoom in
 a movecamera position 5 8 0 0 -2 Linear
 a movecamera angle 5 4 0 0 15 EaseInOutSine
-a movecamera angle 9 8 0 0 -30 EaseInOutSine
+a movecamera angle 9 8 0 0 -30 EaseInOutSine 
 a movecamera angle 17 8 0 0 30 EaseInOutSine
 a movecamera angle 25 8 0 0 -30 EaseInOutSine
 a movecamera angle 33 4 0 0 75 EaseInSine
@@ -186,7 +187,7 @@ a s_movestage angle z 125 16 180 EaseInOutQuad
 
 
 
-//(EXPERIMENTAL)
+//(EXPERIMENTAL) 
 /*
 a s_movecamera abs_position x 124.5 1 0.5 Linear
 a s_movecamera abs_position x 125.5 1 0.25 Linear
@@ -437,7 +438,7 @@ a s_movecamera position z 190 1 -1 EaseOutSine
 a movecamera angle 197 4 0 0 -120 EaseInSine
 a movecamera angle 201 4 0 0 -60 EaseOutCubic
 
-/,,1,1, stutter
+/,,1,1, stutter 
 a movecamera angle 221.5 0.5 0 0 -7.5 Linear
 a movecamera angle 222.5 0.5 0 0 +7.5 Linear
 a movecamera angle 223.5 0.5 0 0 +7.5 Linear
@@ -454,7 +455,7 @@ a movecamera angle 241 0.5 0 0 4 EaseOutSine
 a movecamera angle 242 0.5 0 0 -2 EaseOutSine
 
 
-/8th stutter
+/8th stutter 
 a movecamera angle 243 0 0 0 -2 Linear
 a movecamera angle 243.5 0 0 0 +2 Linear
 a movecamera angle 244 0 0 0 +2 Linear
@@ -475,7 +476,7 @@ a movecamera angle 250 0.5 0 0 2 EaseOutSine
 
 
 
-/16th stutter
+/16th stutter 
 a movecamera angle 251 0 0 0 3.75 Linear
 a movecamera angle 251.25 0 0 0 3.75 Linear
 a movecamera angle 251.5 0 0 0 3.75 Linear
@@ -486,7 +487,7 @@ a movecamera angle 252.5 0 0 0 3.75 Linear
 a movecamera angle 252.75 0 0 0 3.75 Linear
 
 /bridge rotate
-a s_movecamera angle z 253 16 120 EaseInOutSine
+a s_movecamera angle z 253 16 120 EaseInOutSine 
 
 a s_movecamera position z 263 0 0.1 Linear
 a s_movecamera position z 263.25 0 0.1 Linear
@@ -498,7 +499,7 @@ a s_movecamera position z 265 4 -0.5 EaseOutSine
 /quiet part zoom out sway
 a movecamera position 269 8 0 0 -2 Linear
 a movecamera angle 269 4 0 0 -15 EaseInOutSine
-a movecamera angle 273 8 0 0 30 EaseInOutSine
+a movecamera angle 273 8 0 0 30 EaseInOutSine 
 a movecamera angle 281 8 0 0 -30 EaseInOutSine
 a movecamera angle 289 8 0 0 30 EaseInOutSine
 a movecamera angle 297 8 0 0 -30 EaseInOutSine
@@ -668,11 +669,11 @@ a s_movecamera abs_position z 361.01 3.99 -6.2 EaseOutCubic
 /a s_movecamera position y 361.01 2.99 1 EaseInQuad
 
 ///
-1.35,2.35,0 0,0,240
-2.7,0,0 0,0,180
-1.35,-2.35,0 0,0,120
--1.35,-2.35,0 0,0,60
--2.7,0,0 0,0,0
+1.35,2.35,0 0,0,240 
+2.7,0,0 0,0,180 
+1.35,-2.35,0 0,0,120 
+-1.35,-2.35,0 0,0,60 
+-2.7,0,0 0,0,0 
 -1.35,2.35,0 0,0,300
 //軌道？
 a changestage skewed 361 0 Linear
@@ -812,7 +813,7 @@ a s_movecamera position z 490 3 -12.2 EaseOutQuad
 
 
 
-a movecamera position 501.5 16 0 0 -7.5 EaseOutQuad
+a movecamera position 501.5 16 0 0 -7.5 EaseOutQuad 
 a movecamera angle 501.5 4 0 0 15 EaseOutSine
 a movecamera angle 505.5 8 0 0 -30 EaseInOutSine
 a movecamera angle 513.5 8 0 0 20 EaseInOutSine
@@ -1710,7 +1711,7 @@ n short lc 381.5
 n short rc 382
 n long lb 382.5 383.5
 n swipe in rt 383.5
-
+ 
 
 n short rb 384.5
 n short lc 385
@@ -2693,3 +2694,4 @@ changelog:
 (DONE 改爲zoom效果)Beat 361這邊閃爍會傷害玩家眼睛，建議改成其他的動畫，像是舞台瞬間移位的動畫。
 (DONE)Beat 439這邊lb開始的按鍵配置有點卡，因為前面轉圈是右手轉，這邊放個同為右側的lb會有點怪，可以把lb改成catch變成這組轉圈的結尾。Beat 438.75未使用的catch也建議加回去。
 (DONE)[下修]Beat 453與455轉圈換手的時候有點卡，建議重新調整一下這段的轉圈配置。
+
