@@ -296,3 +296,4 @@
 2022-06-24 00:09:06.512527: nishida1217 更新 Dev-Songs的 depersonalization
 2022-06-24 00:09:05.952172：nishida1217 更新 chart-library v.1.0/core collection 1.0/depersonalization
 2022-06-25 16:41:26.566767: 大雄 更新 Dev-Songs的 orion
+2022-06-25 16:41:26.224771：大雄 更新 chart-library v.1.0/night blossoms/orion
