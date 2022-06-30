@@ -353,7 +353,6 @@ n short rc 347.5
 n long rc 348 352
 n short rt 348
 n swipe Out lb 352
-a ChangeStage classichexagon -1 1 linear
 a S_MoveCamera Angle z 0 0.01 20 easeinoutsine
 a MoveCamera Position 0 8 0 0 -8 easeoutcubic
 a S_MoveCamera Angle z 0.5 0.01 -10 easeinoutsine
@@ -776,4 +775,3 @@ a S_MoveCamera Position z 347 0.25 0.5 easeoutquad
 a S_MoveCamera Position z 347.25 0.75 -0.5 easeoutsine
 a S_MoveCamera Position z 348 4 1 easeinsine
 a S_MoveCamera Position z 352.25 3.75 28 easeoutsine
-define StagePosition classichexagon 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
