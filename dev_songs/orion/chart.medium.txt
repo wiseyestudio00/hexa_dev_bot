@@ -54,7 +54,7 @@ n catch rb 56
 n catch lc 57
 n catch rt 58
 n catch rb 59
-n long lc 60 62
+n clong lc 60 62
 n short rt 64
 n short rt 66
 n short rc 68
@@ -97,19 +97,19 @@ n short rt 139
 n short lc 140
 n short rc 140
 n short rb 141
-n short lc 142
 n short rc 142
+n short lc 142
 n short lt 143
 n short rc 144
 n short lc 144
-n swipe In rb 145
+n short rc 145
 n short rc 146
 n short rt 147
-n short rt 148
-n swipe In lb 149
-n short lc 150
+n swipe In lb 148
+n short lc 149
+n short lt 150
 n short lt 151
-n short lt 152
+n swipe In rb 152
 n swipe Out rc 153
 n catch lb 155
 n catch lb 155.5
@@ -134,16 +134,16 @@ n short lb 173
 n short rc 174
 n short lc 174
 n short rt 175
-n short rc 176
 n short lc 176
-n swipe In lb 177
+n short rc 176
+n short lc 177
 n short lc 178
 n short lt 179
-n short lt 180
-n swipe In rb 181
-n short rc 182
+n swipe In rb 180
+n short rc 181
+n short rt 182
 n short rt 183
-n short rt 184
+n swipe In lb 184
 n swipe Out lc 185
 n catch rb 187
 n catch rb 187.5
@@ -151,30 +151,46 @@ n catch rc 189
 n catch rc 189.5
 n catch rt 191
 n catch rt 191.5
-n long lb 196 198
-n long lb 200 202
-n long rb 204 206
-n long rb 208 210
-n long rc 212 214
-n long rc 216 218
+n short lb 196
+n short lb 198
+n short lb 200
+n short lb 202
+n short rb 204
+n short rb 206
+n short rb 208
+n short rb 210
+n short rc 212
+n short rc 214
+n short rc 216
+n short rc 218
 n short rt 220
 n short rt 222
 n long rt 224 226
 n short rc 228
+n short rc 229
 n short rc 230
 n short rb 232
+n short rb 233
 n short rb 234
 n short lb 236
+n short lb 237
 n short lb 238
+n short lb 239
 n short lc 240
+n short lc 241
 n short lc 242
 n short lt 244
+n short lt 245
 n short lt 246
+n short lt 247
 n short rt 248
+n short rt 249
 n short rt 250
-n short rc 252
-n short rc 254
+n short rt 251
+n long rc 252 253
+n long lc 254 255
 n long rb 256 260
+n long lb 256 260
 n short lt 262
 n short rb 264
 n short lc 266
@@ -217,3 +233,11 @@ n long lc 324 326
 n long lc 324 326
 a S_MoveStage Abs_Angle z 93 36 180 easeinoutquad
 a S_MoveStage Angle z 192 67 -180 easeinoutsine
+a S_MoveCamera Position z 262 4 -1 easeinoutsine
+a S_MoveCamera Position z 266 4 1 easeinoutsine
+a S_MoveCamera Position z 270 4 -1 easeinoutsine
+a S_MoveCamera Position z 274 4 1 easeinoutsine
+a S_MoveCamera Position z 278 4 -1 easeinoutsine
+a S_MoveCamera Position z 282 4 1 easeinoutsine
+a S_MoveCamera Position z 286 4 -1 easeinoutsine
+a S_MoveCamera Position z 290 4 1 easeinoutsine
