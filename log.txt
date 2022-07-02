@@ -302,3 +302,4 @@
 2022-06-30 17:54:31.734715: Sherwin Chen 更新 Dev-Songs的 mind paradox
 2022-06-30 17:54:31.197452：Sherwin Chen 更新 chart-library v.1.0/core collection 1.0/mind paradox
 2022-07-02 14:28:44.152936: Sherwin Chen 更新 Dev-Songs的 orion
+2022-07-02 14:28:43.757209：Sherwin Chen 更新 chart-library v.1.0/night blossoms/orion
