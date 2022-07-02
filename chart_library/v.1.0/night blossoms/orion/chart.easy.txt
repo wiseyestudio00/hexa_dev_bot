@@ -5,9 +5,7 @@ n short lt 11
 n short rt 15
 n short rc 19
 n short rb 23
-n short rb 25
 n short rb 27
-n short lb 29
 n short lb 31
 section offset:14581 bpm:158
 n short lc 0
@@ -28,7 +26,7 @@ n short rt 44
 n short rc 48
 n short rc 50
 n short rc 52
-n compound rb 56 60 12
+n compound rb 56 60 6
 n short rt 64
 n short rt 66
 n short rt 68
@@ -38,7 +36,7 @@ n short lt 76
 n short lc 80
 n short lc 82
 n short lc 84
-n compound lb 88 92 12
+n compound lb 88 92 6
 n catch rc 98
 n catch rt 102
 n catch lt 106
@@ -109,7 +107,7 @@ n catch rt 248
 n catch rt 250
 n catch lt 252
 n catch lt 254
-n compound lt 256 260 12
+n compound lt 256 260 6
 n short rb 264
 n short rb 268
 n short rb 272
