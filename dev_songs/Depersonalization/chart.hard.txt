@@ -714,16 +714,16 @@ a s_movestage position z 363.875 0 30 Linear
 
 a s_movestage position z 394.5 1 2 EaseOutQuad
 a s_movestage position z 395.5 1 -2 EaseOutQuad
-a s_movecamera angle z 411 10 180 EaseInOutSine
+a s_movecamera angle z 411 10 -180 EaseInOutSine
 
-a s_movecamera angle z 421 4 180 EaseInOutSine
+a s_movecamera angle z 421 4 -90 EaseInOutSine
 
-a s_movecamera angle z 427 2 -180 EaseOutQuad
+a s_movecamera angle z 427 2 90 EaseOutQuad
 
 
 a s_movecamera position z 419 2 -2 EaseOutSine
-a s_movecamera position z 421 4 4 EaseOutSine
-a s_movecamera position z 425 2 -2 EaseOutSine
+a s_movecamera position z 421 4 3 EaseOutSine
+a s_movecamera position z 425 2 -1 EaseOutSine
 a s_movecamera angle z 429 31 348.75 linear
 a s_movecamera angle z 460.0 0.25 5.625 EaseOutSine
 a s_movecamera angle z 460.5 0.25 5.625 EaseOutSine
@@ -868,11 +868,12 @@ n long lb 25 28
 
 n short rb 29
 n short lb 29.5
-n long rc 30 35
+n long rc 30 34.75
 n long lc 30.5 32.5
 
 n long rb 33 35
 
+n catch rc 35
 n catch rb 35.25
 n catch rc 35.50
 n catch rb 35.75
@@ -922,7 +923,7 @@ n long rc 58 59
 n short rb 58.5
 n long lb 59 60
 n short rb 59.5
-n short rc 60
+n long rc 60 61
 n short rb 60.5
 
 
@@ -930,36 +931,36 @@ n short rb 60.5
 
 
 
-n short lc 61.0
-n short rb 61.5
-n short lb 62.0
+n short lb 61.0
+n short lb 61.5
+n short rc 62.0
 n short rc 62.5
 n short rb 63.0
-n short rt 63.5
-n short rc 64.0
-n short lt 64.5
+n short rb 63.5
+n short rt 64.0
+n short rt 64.5
 
-n catch rt 65.00
-n catch rt 65.25
-n catch rt 65.50
-n catch rt 65.75
-n catch rt 66.00
-n catch rt 66.25
-n catch rt 66.50
-n catch rt 66.75
-n catch rt 67.00
-n catch rt 67.25
-n catch rt 67.50
-n catch rt 67.75
-n catch rt 68.00
-/n catch rt 68.50
+n catch rc 65.00
+n catch rc 65.25
+n catch rc 65.50
+n catch rc 65.75
+n catch rc 66.00
+n catch rc 66.25
+n catch rc 66.50
+n catch rc 66.75
+n catch rc 67.00
+n catch rc 67.25
+n catch rc 67.50
+n catch rc 67.75
+n catch rc 68.00
+
 n swipe in rt lb 69
 
-n catch lb 67.125
-n catch lb 67.375
-n catch lb 67.625
-n catch lb 67.875
-/n catch lb 68.50
+n catch lc 67.125
+n catch lc 67.375
+n catch lc 67.625
+n catch lc 67.875
+
 
 
 n short lb 77
@@ -1217,8 +1218,7 @@ n catch rt 171.25
 n catch rt 171.5
 n catch rt 171.75
 n catch rt 172
-n catch rt 172.25
-n catch rt 172.5
+
 
 
 
@@ -1371,8 +1371,8 @@ n short rc 217
 n long rb 217.5 220.5
 n swipe out lt 218.5
 n swipe in lt 219.5
-n long lc 220.5 224.5
-n long rc 221 224.5
+n long lc 220.5 224
+n long rc 221 224
 
 
 
@@ -1695,8 +1695,8 @@ n swipe out rc 376
 n swipe out lc 376.5
 
 n short lc 377.5
-n short rb 378.0
-n short lt 378.5
+n short rb lb 378.0
+
 n short lb 379
 n catch lc 379.25
 n catch lt 379.5
@@ -1706,70 +1706,71 @@ n catch lc 380.25
 n catch lt 380.5
 /n catch rt 380.75
 
-n short rb 381
-n short lc 381.5
-n short rc 382
-n long lb 382.5 383.5
-n swipe in rt 383.5
+n short lb 381
+n short rc 381.5
+n short lc 382
+n long rb 382.5 383.5
+n swipe in lt 383.5
  
 
-n short rb 384.5
-n short lc 385
-n short lb 385.5
-n short rc 386
-n short rb 386.5
+n short lb 384.5
+n short rc 385
+n short rb 385.5
+n short lc 386
+n short lb 386.5
 
-n short lb 387
-n catch lc 387.25
-n catch lt 387.5
-/n catch rt 387.75
+n short rb 387
+n catch rc 387.25
+n catch rt 387.5
+/n catch lt 387.75
 
-n short rc 388
-n short rt 388.5
-n swipe in lt 389
+n short lc 388
+n short lt 388.5
+n swipe in rt 389
 
-n short lb rt 390
+n short rb lt 390
 
-n long rc lc 390.5 391.5
-n short rb lt 392
-n short lc rc 392.5
+n long lc rc 390.5 391.5
+n short lb rt 392
+n short rc lc 392.5
 
-n short rt lb 393
-n long rc lc 393.5 394.25
-n swipe in rc lc 394.5
-n swipe out lt rb 395.5
+n short lt rb 393
+n long lc rc 393.5 394.25
+n swipe in lc rc 394.5
+n swipe out rt lb 395.5
 
 //chorus 2 again
-n short rb lb 397
-/n short lc 397
-n short lt rt 397.5
+n short lb rb 397
+/n short rc 397
+n short rt lt 397.5
 
-n swipe in lb 398.5
-n short rc 398.5
-n swipe in rb 399.5
-n short lc 399.5
+n swipe in rb 398.5
+n short lc 398.5
+n swipe in lb 399.5
+n short rc 399.5
 
 
-n short rt 400.5
-n long lc 401 402
-n short lb 401.5
-n long rc 402 403
-n short rb 402.5
-n swipe in lb 403
-n swipe in rb 403.5
-n swipe in lc 404
-n swipe in rc 404.5
+n short lt 400.5
+n long rc 401 402
+n short rb 401.5
+n long lc 402 403
+n short lb 402.5
+n swipe in rb 403
+n swipe in lb 403.5
+n swipe in rc 404
+n swipe in lc 404.5
 
-n short lt 405
-n short rt 405.5
-n short lc 406
-n long rc 406.5 408.5
-n swipe out lb 407.5
-n swipe in lb 408.5
-n short rc 409
-n short lc 409.5
-n short rb 410
-n short lt 410.5
+n short rt 405
+n short lt 405.5
+n short rc 406
+n long lc 406.5 408.5
+n swipe out rb 407.5
+n swipe in rb 408.5
+n short lc 409
+n short rc 409.5
+n short lb 410
+n short rt 410.5
+
 
 n short lb 411
 n catch lc 411.25
@@ -1786,26 +1787,26 @@ n catch lt 412.5
 
 
 
-n short rb 413
-n short rc 413.5
-n short rt 414
-n short lt 414.5
-n short lc 415
-n short lb 415.5
-n short rb 416
-n short rc 416.5
-n short rt 417
-n short lt 417.5
-n short lc 418
-n short lb 418.5
-n short rb 419
-n catch lb 419.25
-n catch lc 419.5
-n catch lt 419.75
-n catch rt 420
-n catch rc 420.25
-n catch rb 420.5
-n catch lb 420.75
+n short lb 413
+n short lc 413.5
+n short lt 414
+n short rt 414.5
+n short rc 415
+n short rb 415.5
+n short lb 416
+n short lc 416.5
+n short lt 417
+n short rt 417.5
+n short rc 418
+n short rb 418.5
+n short lb 419
+n catch rb 419.25
+n catch rc 419.5
+n catch rt 419.75
+n catch lt 420
+n catch lc 420.25
+n catch lb 420.5
+n catch rb 420.75
 
 
 
@@ -1813,29 +1814,30 @@ n catch lb 420.75
 
 
 
-n catch lc 421
-n catch lc 421.25
-n catch lc 421.5
-n catch lc 421.75
-n catch lc 422
-n catch lc 422.25
-n catch lc 422.5
-n catch lc 422.75
-n catch lc 423
-n catch lc 423.125
-n catch lc 423.25
-n catch lc 423.375
-n catch lc 423.5
-n catch lc 423.625
-n catch lc 423.75
-n catch lc 423.875
-n catch lc 424.000000
-n catch lc 424.083333
-n catch lc 424.166667
-n catch lc 424.250000
-n catch lc 424.333333
-n catch lc 424.416667
-n catch lc 424.5
+
+n catch rc 421
+n catch rc 421.25
+n catch rc 421.5
+n catch rc 421.75
+n catch rc 422
+n catch rc 422.25
+n catch rc 422.5
+n catch rc 422.75
+n catch rc 423
+n catch rc 423.125
+n catch rc 423.25
+n catch rc 423.375
+n catch rc 423.5
+n catch rc 423.625
+n catch rc 423.75
+n catch rc 423.875
+n catch rc 424.000000
+n catch rc 424.083333
+n catch rc 424.166667
+n catch rc 424.250000
+n catch rc 424.333333
+n catch rc 424.416667
+n catch rc 424.5
 
 n short lb 429
 n catch lc 429.25
@@ -2258,100 +2260,100 @@ a s_movecamera position z 130.25 0.25 -0.1 EaseOutsine
 missing 16/32th pump
 
 
-a s_movecamera position z 143.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 143.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 144.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 144.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 145.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 145.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 146.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 146.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 147.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 147.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 148.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 148.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 143.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 143.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 144.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 144.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 145.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 145.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 146.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 146.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 147.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 147.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 148.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 148.25 0.75 -0.2 EaseInSine
 
-a s_movecamera position z 151.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 151.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 152.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 152.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 153.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 153.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 154.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 154.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 155.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 155.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 156.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 156.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 151.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 151.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 152.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 152.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 153.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 153.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 154.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 154.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 155.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 155.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 156.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 156.25 0.75 -0.2 EaseInSine
 
-a s_movecamera position z 159.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 159.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 160.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 160.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 161.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 161.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 162.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 162.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 163.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 163.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 164.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 164.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 159.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 159.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 160.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 160.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 161.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 161.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 162.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 162.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 163.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 163.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 164.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 164.25 0.75 -0.2 EaseInSine
 
-a s_movecamera position z 165.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 165.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 166.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 166.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 167.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 167.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 168.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 168.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 169.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 169.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 170.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 170.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 171.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 171.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 172.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 172.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 165.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 165.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 166.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 166.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 167.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 167.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 168.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 168.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 169.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 169.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 170.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 170.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 171.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 171.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 172.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 172.25 0.75 -0.2 EaseInSine
 
-a s_movecamera position z 175.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 175.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 176.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 176.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 177.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 177.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 178.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 178.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 179.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 179.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 180.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 180.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 175.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 175.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 176.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 176.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 177.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 177.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 178.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 178.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 179.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 179.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 180.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 180.25 0.75 -0.2 EaseInSine
 
-a s_movecamera position z 183.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 183.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 184.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 184.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 185.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 185.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 186.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 186.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 187.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 187.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 188.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 188.25 0.75 -0.2 EaseInSine
-
-a s_movecamera position z 191.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 191.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 192.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 192.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 193.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 193.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 194.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 194.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 195.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 195.25 0.75 -0.2 EaseInSine
-a s_movecamera position z 196.00 0.25 0.2 EaseOutQuad
-a s_movecamera position z 196.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 183.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 183.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 184.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 184.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 185.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 185.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 186.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 186.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 187.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 187.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 188.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 188.25 0.75 -0.2 EaseInSine
+/
+/a s_movecamera position z 191.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 191.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 192.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 192.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 193.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 193.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 194.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 194.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 195.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 195.25 0.75 -0.2 EaseInSine
+/a s_movecamera position z 196.00 0.25 0.2 EaseOutQuad
+/a s_movecamera position z 196.25 0.75 -0.2 EaseInSine
 
 a s_movecamera position z 205.00 0.25 0.2 EaseOutQuad
 a s_movecamera position z 205.25 0.75 -0.2 EaseInSine
@@ -2687,6 +2689,12 @@ changelog:
 2021-07-06 04:35 把部分long 改成clong
 2021-07-13 00:25 再把部分long改成clong，增加少量運鏡
 2021-07-28 07:18 根據譜面建議進行改動，另外調整了少部分配置
+2022-07-01 01:46 根據譜面建議進行改動,
+刪除了141~205screen pump(眼痛)
+縮短220.5/221的long至224拍
+
+
+
 
 (DONE 減慢了舞臺旋轉速度)[下修]Beat 69的swipe刪除或改為catch。
 (DONE) Beat 297的轉圈起始點改為lb。
@@ -2695,3 +2703,7 @@ changelog:
 (DONE)Beat 439這邊lb開始的按鍵配置有點卡，因為前面轉圈是右手轉，這邊放個同為右側的lb會有點怪，可以把lb改成catch變成這組轉圈的結尾。Beat 438.75未使用的catch也建議加回去。
 (DONE)[下修]Beat 453與455轉圈換手的時候有點卡，建議重新調整一下這段的轉圈配置。
 
+Done1.Beat 60.5~61 這邊左手rb跨到lc跨位有點大，而且Beat 60是右手起交互，到了61變成左手起的有點不直覺，可能可以把Beat 61~65從交互改成兩顆兩顆的配置來跟前面做出區別，Beat 60.5~61的左手跨位也要減少為一格。
+Done2.Beat 172.5 這裡catch結束與Beat 173 swipe的時間與距離有點緊湊，建議把172.25、172.5這兩拍的按鍵刪除。
+3.Beat 379、411 這邊反手起的滑鍵配置先暫時不要出現，1.0來說有點難讀譜。改成同側起手的滑鍵就可以了
+4.Beat 427 這個迴轉的運鏡有點太急了，需要特別去背誦，需要刪除。

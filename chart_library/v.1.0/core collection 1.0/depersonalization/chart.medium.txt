@@ -2,14 +2,14 @@ section offset:-29 bpm:185
 a movecamera position 1 4 0 0 1 EaseInQuad
 a movecamera position 5 4 0 0 -1 EaseOutQuad
 
-a movecamera position 53 16 0 0 1 Linear
+a movecamera position 53 16 0 0 1 Linear 
 a movecamera position 69 8 0 0 -1 EaseOutSine
 
-a movecamera position 125 12 0 0 0.75 Linear
+a movecamera position 125 12 0 0 0.75 Linear 
 a movecamera position 137 4 0 0 -0.75 EaseOutSine
 
-a movecamera position 197 6 0 0 0.375 Linear
-a movecamera position 203 2 0 0 -0.375 EaseOutSine
+a movecamera position 197 6 0 0 0.375 Linear 
+a movecamera position 203 2 0 0 -0.375 EaseOutSine 
 
 a movecamera angle 221 1 0 0 2.5 EaseInOutSine
 a movecamera angle 222 2 0 0 -5 EaseInOutSine
@@ -21,8 +21,8 @@ a movecamera position 261 4 0 0 0.375 Linear
 a movecamera position 349 12 0 0 0.75 Linear
 a movecamera position 361 4 0 0 -0.75 EaseOutSine
 
-a movecamera position 413 12 0 0 0.75 Linear
-a movecamera position 425 4 0 0 -0.75 Linear
+a movecamera position 413 12 0 0 0.75 Linear 
+a movecamera position 425 4 0 0 -0.75 Linear 
 
 a movecamera position 485 4 0 0 0.25 Linear
 
@@ -183,13 +183,13 @@ n short lb 99.5
 n short rb 100
 n short lb 100.5
 
-n swipe in rc 101
-n swipe out rc 102
-n swipe in rc 103
-n swipe out rc 104
-n swipe in rc 105
-n swipe out rc 106
-n swipe in rc 107
+n long rc 101 102
+n long rb 102 103
+n long rc 103 104
+n long rb 104 105
+n long rt 105 106
+n long lb 106 107
+n long rt 107 108
 
 
 
@@ -197,19 +197,24 @@ n short lt 108
 n short lt 108.5
 n long lt 109 111
 
-n short rc 111
-n short rb 111.5
-n short rc 112
-n long lb 112.5 115.5
+/n short rc 111
+n short rc 111.5
+n short rb 112
+n long rc 112.5 115.5
 
 n short lc 116
 n short lb 116.5
 n short lc 117
 n long rb 117.5 120
+n swipe in lt 118.5
+n swipe out lt 119.5
 
-n short rt 121
+
+n short rc 121
+n short rb 121.5
 n short rc 122
-n short rb 123
+n short lb 123
+n short rb 123.5
 n short lb 124
 
 n short rc 125
@@ -363,8 +368,8 @@ n short rt rc 195
 n short rt rc 195.5
 n short lt rb 196
 
-n compound lc 197 205 16
-n compound lb 201 205 8
+n compound lc 197 203 8
+n compound lb 201 203 4
 
 n short lt 205
 n long lt 205.5 208.5
@@ -927,5 +932,15 @@ n catch lt 500.75
 n short lb 501
 n long lb 501.5 509
 
-a movecamera angle 493 6 0 0 -120 EaseInSine
+a movecamera angle 493 6 0 0 -120 EaseInSine 
 a movecamera angle 499 2 0 0 -30 EaseOutSine
+
+
+
+Medium
+(Done)1.Beat 101-107 這邊改成不用swipe的配置，跟前面搭配旋律的swipe配置做出區隔。
+(Done)2.Beat 111 刪除，111.5、112調整手順，加上115.5的拍子，後面接續116~117的按鍵可能也要一同調整。
+(Done)3.Beat 117.5~124這段的旋律音被省略掉有點奇怪，因為前一段Beat 94.5這邊是有音的，需要修改來跟前面做搭配。Beat 121~124這邊也是可以跟前面Beat 97.5這段做搭配。
+(Done)4.197、201這邊compound的結束時間跟後面副歌開頭重疊了，最好是提早兩個四分結束讓compound結束後的時間跟副歌開頭分開一點，按鍵數也要減少。
+
+

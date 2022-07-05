@@ -32,6 +32,8 @@ a movecamera position 189 1 0 0 -0.1 EaseOutSine
 a movecamera position 190 1 0 0 -0.1 EaseOutSine
 a movecamera position 191 6 0 0 0.2 EaseInSine
 
+a movecamera position 501.5 8.5 0 0 -2 EaseOutSine
+
 n short rb lb 5
 
 n long rc 9 12
@@ -42,54 +44,45 @@ n long rt 25 28
 n short rb 29
 n long lt 33 35
 
-n short lb rb 37
+n short rb 37
 n short rc 39
-n short lb rb 41
+n short lb 41
 n short lc 43
 
-n short lb rb 45
-n short rc 47
-n short lb rb 49
-n short lc 51
+n short rc 45
+n short rt 47
+n short lc 49
+n short lt 51
 
-n long lc 53 54
-n long lb 55 56
-n long rb 57 58
-n long rc 59 60
+n clong lc 53 54
+n clong lb 55 56
+n clong rb 57 58
+n clong rc 59 60
 
-n short rt 61
+n catch rt 61
 n catch rt 62
-n short lt 63
+n catch lt 63
 n catch lt 64
-n short rc 65
+n catch rc 65
 n catch rc 66
-n short lc 67
+n catch lc 67
 n catch lc 68
-n short lb rb 69
+n catch lb rb 69
 
 n short rb 77
-/n short rb 78
 n short rc 79
-/n short rc 80
 n short rt 81
-/n short rt 82
 n short rc 83
-/n short rc 84
 
 n short lb 85
-/n short lb 86
 n short lc 87
-/n short lc 88
 n short lt 89
-/n short lt 90
 n short lc 91
-/n short lc 92
 
 n long lb 93 96
 n long rb 97 100
 n long lc 101 104
 n long rb 105 107
-n short rc 108
 
 n long rt 109 112
 n long lc 113 116
@@ -107,8 +100,8 @@ n short rc 132
 
 n compound rt 133 137 6
 
-n short rb lb 141
-n short rb lb 142
+n short lb 141
+n short lb 142
 
 n catch lc 143
 n catch lc 143.5
@@ -120,8 +113,8 @@ n catch lc 147
 n catch lc 147.5
 n catch lc 148
 
-n short lb rb 149
-n short lb rb 150
+n short rb 149
+n short rb 150
 
 n catch rc 151
 n catch rc 151.5
@@ -133,8 +126,8 @@ n catch rc 155
 n catch rc 155.5
 n catch rc 156
 
-n short rb lb 157
-n short rb lb 158
+n short lb 157
+n short lb 158
 
 n catch lc 159
 n catch lc 159.5
@@ -145,8 +138,9 @@ n catch lb 162
 n catch lc 163
 n catch lc 163.5
 n catch lc 164
+ 
 
-n short lt 165
+n catch lt 165
 n catch lc 166
 n catch lb 167
 n catch rb 168
@@ -156,8 +150,8 @@ n catch rb 170
 n catch lb 171
 n catch lc 172
 
-n short rt lt 173
-n short rt lt 174
+n short lt 173
+n short lt 174
 
 n catch rc 175
 n catch rc 175.5
@@ -171,8 +165,8 @@ n catch rc 179
 n catch rc 179.5
 n catch rc 180
 
-n short lt rt 181
-n short lt rt 182
+n short rt 181
+n short rt 182
 
 n catch lc 183
 n catch lc 183.5
@@ -186,8 +180,8 @@ n catch lc 187
 n catch lc 187.5
 n catch lc 188
 
-n short rt lt 189
-n short rt lt 190
+n short lt 189
+n short lt 190
 
 n catch rc 191
 n catch rc 191.5
@@ -201,7 +195,7 @@ n catch rc 195
 n catch rc 195.5
 n catch rc 196
 
-n compound rt 197 204 12
+n compound rt 197 203 9
 
 n short lc 205
 n short lc 206
@@ -242,7 +236,7 @@ a movecamera angle 241 4 0 0 -5 EaseInOutSine
 a movecamera angle 245 4 0 0 -5 EaseInOutSine
 a movecamera angle 249 4 0 0 5 EaseInOutSine
 
-n short lb 237
+n catch lb 237
 n catch rb 237.5
 n catch lb 238
 n catch rb 238.5
@@ -255,7 +249,7 @@ n catch rb 241.5
 n catch lb 242
 n catch rb 242.5
 
-n short rb 245
+n catch rb 245
 n catch lb 245.5
 n catch rb 246
 n catch lb 246.5
@@ -271,7 +265,7 @@ n catch lb 250.5
 a movecamera angle 253 12 0 0 -60 EaseInOutSine
 a movecamera angle 265 8 0 0 60 EaseOutSine
 
-n short rc 253
+n catch rc 253
 n catch rb 254
 n catch lb 255
 n catch lc 256
@@ -293,26 +287,26 @@ n long rb 305 329
 a movecamera angle 305 16 0 0 60 EaseInOutSine
 a movecamera angle 321 14 0 0 -60 EaseInOutSine
 
-n short rb lb 333
+n short lb 333
 n short rc 335
 n short rt 337
 n short rc 339
 
-n short lb rb 341
+n short rb 341
 n short lc 343
 n short lt 345
 n short lc 347
 
-n short lb 349
+n catch lb 349
 n catch lb 350
-n short rb 351
+n catch rb 351
 n catch rb 352
-n short lc 353
+n catch lc 353
 n catch lc 354
-n short rc 355
+n catch rc 355
 n catch rc 356
 
-n compound lt 357 360 6
+n compound lt 357 361 6
 
 n long rc 365 371
 
@@ -359,13 +353,13 @@ n short lb 410
 n short lb 411
 
 
-n short lc 413
+n catch lc 413
 n catch lc 414
-n short lb 415
+n catch lb 415
 n catch lb 416
-n short rb 417
+n catch rb 417
 n catch rb 418
-n short rc lc 419
+n catch rc lc 419
 
 n compound rt 421 425 6
 
@@ -377,29 +371,30 @@ n short lc 439
 n short lc 440
 n long lt rb 441 443.5
 
-n short rt 445
+n catch rt 445
 n catch rt 446
-n short lb 447
+n catch lb 447
 n catch lb 448
-n short rc 449
+n catch rc 449
 n catch rc 450
-n short lc 451
+n catch lc 451
 n catch lc 452
 
-n long rc 453 454
-n long rb 455 456
-n long lb 457 458
-n long lc 459 460
+n clong rc 453 454
+n clong rb 455 456
+n clong lb 457 458
+n clong lc 459 460
 
 n short rt lt 461
 n short rt lt 462.5
 n short rc lc 465
 n short rc lc 466.5
-n short rb lb 469
-n short rb lb 470.5
 
-n long rb 473 474
-n long lb 475 476
+n long rb 469 470
+n long lb 471 472
+
+n long rc 473 474
+n long lc 475 476
 
 n short rt 477
 n short rt 478
@@ -416,7 +411,7 @@ n short rt 487
 n short rc 488
 
 n long rb 489 492
-a movecamera angle 493 8 0 0 -60 EaseInOutSine
+a movecamera angle 493 8 0 0 -60 EaseInOutSine 
 n catch rb 493
 /n catch rb 493.25
 n catch rb 493.5
@@ -447,7 +442,19 @@ n catch rb 499.5
 /n catch rb 499.75
 n catch rb 500
 /n catch rb 500.25
-
+n catch rb 500.5
 /n catch rb 500.75
 n catch rb lt 501
-n catch rb lt 501.5
+n clong rb lt 501.5 509
+
+Easy
+(Done)1.Beat 37~51全削弱成單鍵配置，333~347這段同理。
+(Done)2.Beat 53~60、453~460 這個配置放在catch配置的前後，long改成clong會比較好看/好接。
+(Done)3.Beat 61~69，349~356、413~419、445~452全改成catch。
+(Done)4.Beat 108刪除，前後都是採鼓點，這邊不用特別多個旋律音，而且也有點難打。
+(Done)5.Beat 141~164 雙鍵都削弱成單鍵，173~196同理。
+(Done)6.Beat 165、237、245、253改成Catch。
+(Done)7.Beat 197的coumpund結束時間縮短至203，並減少按鍵數，主要是想讓compound結束後的時間跟副歌開頭分開一點，跟medium更改的想法類似。
+(Done)8.Beat 357的coumpund結束時間延長至361。
+(Done)9.Beat 469、470.5這邊的鋼琴音跟前面3個8分為一組的規律不同，已經變成16分了，配置也要跟著變化。
+(Done)10.加上Beat 500.5的catch拍子，這邊鋼琴沒停catch卻斷掉有點奇怪。
