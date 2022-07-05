@@ -44,7 +44,7 @@ n catch lc 110
 n catch lb 114
 n catch rb 118
 n catch rc 122
-n long rt 124 127.5
+n clong rt 124 127.5
 n short lt 132
 n short lc 134
 n short lc 135
