@@ -23,23 +23,23 @@
         "ModificationDate": "2022-07-05 22:52:31.563375",
         "Size": 26802
     },
-    "Blue/chart.easy.txt": {
+    "blue/chart.easy.txt": {
         "ModificationDate": "2022-07-05 22:52:31.393062",
         "Size": 2322
     },
-    "Blue/level.json": {
+    "blue/level.json": {
         "ModificationDate": "2022-07-05 22:52:31.393757",
         "Size": 101
     },
-    "Blue/chart.hard.txt": {
+    "blue/chart.hard.txt": {
         "ModificationDate": "2022-07-05 22:52:31.393307",
         "Size": 19949
     },
-    "Blue/audio.ogg": {
+    "blue/audio.ogg": {
         "ModificationDate": "2022-07-05 22:52:31.392579",
         "Size": 3316807
     },
-    "Blue/chart.medium.txt": {
+    "blue/chart.medium.txt": {
         "ModificationDate": "2022-07-05 22:52:31.393548",
         "Size": 5798
     },
@@ -95,15 +95,15 @@
         "ModificationDate": "2022-07-05 23:00:26.571729",
         "Size": 4000
     },
-    "TimeOut/level.json": {
+    "timeOut/level.json": {
         "ModificationDate": "2022-07-05 22:52:31.639251",
         "Size": 127
     },
-    "TimeOut/chart.hard.txt": {
+    "timeOut/chart.hard.txt": {
         "ModificationDate": "2022-07-05 22:52:31.639031",
         "Size": 18006
     },
-    "TimeOut/audio.ogg": {
+    "timeOut/audio.ogg": {
         "ModificationDate": "2022-07-05 22:52:31.638583",
         "Size": 2241259
     },
@@ -119,47 +119,47 @@
         "ModificationDate": "2022-07-05 22:52:31.456430",
         "Size": 3056123
     },
-    "Mellifluous/chart.easy.txt": {
+    "mellifluous/chart.easy.txt": {
         "ModificationDate": "2022-07-05 22:52:31.517322",
         "Size": 1757
     },
-    "Mellifluous/level.json": {
+    "mellifluous/level.json": {
         "ModificationDate": "2022-07-05 22:52:31.517941",
         "Size": 110
     },
-    "Mellifluous/chart.hard.txt": {
+    "mellifluous/chart.hard.txt": {
         "ModificationDate": "2022-07-05 22:52:31.517532",
         "Size": 13566
     },
-    "Mellifluous/audio.ogg": {
+    "mellifluous/audio.ogg": {
         "ModificationDate": "2022-07-05 22:52:31.516892",
         "Size": 3030938
     },
-    "Mellifluous/MenuData.json": {
+    "mellifluous/MenuData.json": {
         "ModificationDate": "2022-07-05 22:52:31.502777",
         "Size": 331
     },
-    "Mellifluous/chart.medium.txt": {
+    "mellifluous/chart.medium.txt": {
         "ModificationDate": "2022-07-05 22:52:31.517720",
         "Size": 4410
     },
-    "Reeds/chart.easy.txt": {
+    "reeds/chart.easy.txt": {
         "ModificationDate": "2022-07-05 22:52:31.627082",
         "Size": 3549
     },
-    "Reeds/level.json": {
+    "reeds/level.json": {
         "ModificationDate": "2022-07-05 22:52:31.627815",
         "Size": 137
     },
-    "Reeds/chart.hard.txt": {
+    "reeds/chart.hard.txt": {
         "ModificationDate": "2022-07-05 22:52:31.627364",
         "Size": 9579
     },
-    "Reeds/audio.ogg": {
+    "reeds/audio.ogg": {
         "ModificationDate": "2022-07-05 22:52:31.626628",
         "Size": 3115271
     },
-    "Reeds/chart.medium.txt": {
+    "reeds/chart.medium.txt": {
         "ModificationDate": "2022-07-05 22:52:31.627621",
         "Size": 8264
     },
@@ -183,39 +183,39 @@
         "ModificationDate": "2022-07-05 22:52:31.592885",
         "Size": 3870
     },
-    "Freesia/level.json": {
+    "freesia/level.json": {
         "ModificationDate": "2022-07-05 22:52:31.472820",
         "Size": 100
     },
-    "Freesia/chart.hard.txt": {
+    "freesia/chart.hard.txt": {
         "ModificationDate": "2022-07-05 22:52:31.472247",
         "Size": 32926
     },
-    "Freesia/chart.hardprototype.txt": {
+    "freesia/chart.hardprototype.txt": {
         "ModificationDate": "2022-07-05 22:52:31.472581",
         "Size": 35974
     },
-    "Freesia/audio.ogg": {
+    "freesia/audio.ogg": {
         "ModificationDate": "2022-07-05 22:52:31.471768",
         "Size": 3022565
     },
-    "Ramune/chart.easy.txt": {
+    "ramune/chart.easy.txt": {
         "ModificationDate": "2022-07-05 22:52:31.610701",
         "Size": 2386
     },
-    "Ramune/level.json": {
+    "ramune/level.json": {
         "ModificationDate": "2022-07-05 22:52:31.611669",
         "Size": 99
     },
-    "Ramune/chart.hard.txt": {
+    "ramune/chart.hard.txt": {
         "ModificationDate": "2022-07-05 22:52:31.611045",
         "Size": 26467
     },
-    "Ramune/audio.ogg": {
+    "ramune/audio.ogg": {
         "ModificationDate": "2022-07-05 22:52:31.609916",
         "Size": 3436788
     },
-    "Ramune/chart.medium.txt": {
+    "ramune/chart.medium.txt": {
         "ModificationDate": "2022-07-05 22:52:31.611354",
         "Size": 12479
     },
@@ -231,23 +231,23 @@
         "ModificationDate": "2022-07-05 22:52:31.440212",
         "Size": 5418937
     },
-    "Depersonalization/chart.easy.txt": {
+    "depersonalization/chart.easy.txt": {
         "ModificationDate": "2022-07-05 23:01:44.867639",
         "Size": 8330
     },
-    "Depersonalization/level.json": {
+    "depersonalization/level.json": {
         "ModificationDate": "2022-07-05 22:52:31.411388",
         "Size": 141
     },
-    "Depersonalization/chart.hard.txt": {
-        "ModificationDate": "2022-07-05 23:01:56.211864",
+    "depersonalization/chart.hard.txt": {
+        "ModificationDate": "2022-07-05 23:11:58.537312",
         "Size": 82281
     },
-    "Depersonalization/audio.ogg": {
+    "depersonalization/audio.ogg": {
         "ModificationDate": "2022-07-05 22:52:31.410077",
         "Size": 3415395
     },
-    "Depersonalization/chart.medium.txt": {
+    "depersonalization/chart.medium.txt": {
         "ModificationDate": "2022-07-05 23:01:52.154143",
         "Size": 16391
     },
@@ -263,15 +263,15 @@
         "ModificationDate": "2022-07-05 22:52:31.376613",
         "Size": 2503602
     },
-    "Gravitizer/level.json": {
+    "gravitizer/level.json": {
         "ModificationDate": "2022-07-05 22:52:31.486764",
         "Size": 129
     },
-    "Gravitizer/chart.hexa.txt": {
+    "gravitizer/chart.hexa.txt": {
         "ModificationDate": "2022-07-05 22:52:31.486499",
         "Size": 41864
     },
-    "Gravitizer/audio.ogg": {
+    "gravitizer/audio.ogg": {
         "ModificationDate": "2022-07-05 22:52:31.486101",
         "Size": 2903227
     }
