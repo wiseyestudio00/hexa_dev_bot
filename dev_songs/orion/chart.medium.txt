@@ -233,11 +233,7 @@ n long lc 324 326
 n long lc 324 326
 a S_MoveStage Abs_Angle z 93 36 180 easeinoutquad
 a S_MoveStage Angle z 192 67 -180 easeinoutsine
-a S_MoveCamera Position z 262 4 -1 easeinoutsine
-a S_MoveCamera Position z 266 4 1 easeinoutsine
-a S_MoveCamera Position z 270 4 -1 easeinoutsine
-a S_MoveCamera Position z 274 4 1 easeinoutsine
-a S_MoveCamera Position z 278 4 -1 easeinoutsine
-a S_MoveCamera Position z 282 4 1 easeinoutsine
-a S_MoveCamera Position z 286 4 -1 easeinoutsine
-a S_MoveCamera Position z 290 4 1 easeinoutsine
+a S_MoveCamera Position z 262 8 -0.5 easeinoutsine
+a S_MoveCamera Position z 270 8 0.5 easeinoutsine
+a S_MoveCamera Position z 278 8 -0.5 easeinoutsine
+a S_MoveCamera Position z 286 8 0.5 easeinoutsine
