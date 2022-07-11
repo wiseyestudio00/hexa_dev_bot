@@ -227,8 +227,8 @@ a MoveCamera Position 80 3 0 0 -2 easeinoutsine
 a MoveCamera Position 83 3 0 0 2 easeinoutsine
 a MoveCamera Angle 86 13.5 0 0 -120 easeinoutsine
 a MoveCamera Angle 102 13.5 0 0 120 easeinoutsine
-a MoveCamera Position 115.5 2.5 0 0 -100 easeinsine
-a MoveCamera Angle 115.5 2.5 0 60 -180 easeinsine
+a MoveCamera Angle 115.75 2.25 0 60 -180 easeinsine
+a MoveCamera Position 115.75 2.25 0 0 -100 easeinsine
 a MoveCamera Abs_Position 118 0 0 0 -6.5 linear
 a MoveCamera Abs_Angle 118 0 0 0 0 linear
 a ChangeOpacity Trail lt 118 0 0 linear
