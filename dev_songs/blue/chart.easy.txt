@@ -39,24 +39,24 @@ n short rc 90
 n short lt 90
 n long rc 91 93
 n long lt 91 93
-n short rb 94
 n short lc 94
+n short rb 94
 n long lc 95 97
 n long rb 95 97
 n catch rc 98
 n catch lb 98
 n catch rc 99
 n catch lb 99
-n catch lb 99.5
 n catch rc 99.5
-n short lt 102
+n catch lb 99.5
 n short rc 102
+n short lt 102
 n long lt 103 105
 n long rc 103 105
 n short rt 106
 n short lc 106
-n long rt 107 109
 n long lc 107 109
+n long rt 107 109
 n short lb 110
 n short rc 110
 n long lb 111 113
@@ -65,15 +65,13 @@ n catch rb 114
 n catch lc 114
 n catch rb 115
 n catch lc 115
-n catch lc 115.5
 n catch rb 115.5
+n catch lc 115.5
 n long lt 120 121
 n long lt 122 123
 n short rt 124
-n catch lc 124.75
-n catch lc 125
-n catch lc 125.5
-n long rc 126.5 127
+n short lc 125
+n long rc 126 127
 n catch lb 128
 n catch lb 128.75
 n catch lb 129.5
@@ -89,7 +87,7 @@ n catch rb 141
 n catch rb 141.25
 n catch rb 141.5
 n catch rb 141.75
-n short rb 143
+n clong rb 142 143
 n catch lb 144
 n catch lb 144.75
 n catch lb 145.5
@@ -100,8 +98,8 @@ n short lc 152
 n short rc 152
 n short rt 168
 n short lc 168
-n long rt 169 171
 n long lc 169 171
+n long rt 169 171
 n short rc 172
 n short lt 172
 n long rc 173 175
@@ -112,14 +110,14 @@ n long rb 177 179
 n long lc 177 179
 n catch lb 180
 n catch rc 180
-n catch lb 180.75
 n catch rc 180.75
+n catch lb 180.75
 n catch rc 181.25
 n catch lb 181.25
 n catch rc 181.75
 n catch lb 181.75
-n short rc 184
 n short lt 184
+n short rc 184
 n long rc 185 187
 n long lt 185 187
 n short rt 188
@@ -134,8 +132,10 @@ n catch lc 196
 n catch rb 196
 n catch rb 197
 n catch lc 197
-n catch rb 197.5
 n catch lc 197.5
+n catch rb 197.5
 n short rt 200
-a MoveCamera Angle 152.25 7 0 0 20 linear
-a MoveCamera Angle 159.25 6.75 0 0 -20 linear
+a MoveCamera Angle 152 8 0 0 20 easeinoutsine
+a MoveCamera Angle 160 8 0 0 -20 easeinoutsine
+a MoveCamera Angle 200 8 0 0 20 easeinoutsine
+a MoveCamera Angle 208 8 0 0 -20 easeinoutsine
