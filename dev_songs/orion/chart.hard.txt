@@ -51,38 +51,38 @@ a S_MoveCamera Angle z 24 4 20 easeinoutsine
 a S_MoveCamera Angle z 28 4 -10 easeinoutsine
 section offset:14581 bpm:158
 n short rb 0
-n catch lt 1
+n catch lc 1
 n short rb 1
 n short rb 2
-n catch lt 3
+n catch lc 3
 n short rc 3
 n short rc 3.5
 n short rt 4.5
-n catch lt 5
 n short rt 5
+n catch lc 5
 n short rt 6
 n short rc 7
-n catch lt 7
+n catch lc 7
 n short rc 7.5
 n short rb 8
 n short rb 8.5
-n catch lc 9
+n catch lb 9
 n short rc 9
 n short rc 9.5
 n short rt 10
 n short rt 10.5
-n catch lc 11
+n catch lb 11
 n short lt 11
-n long lt 11.5 15
-n short lc 13
-n short lc 14
-n short lb 15
+n long lt 11.5 13
+n short lb 13
+n short lb 14
+n short lc 15
 n short lb 16
 n catch rt 17
 n short lb 17
 n short lb 18
-n short lc 19
 n catch rt 19
+n short lc 19
 n short lc 19.5
 n short lt 20.5
 n short lt 21
@@ -135,8 +135,8 @@ n short rb 52.5
 n short lc 53
 n short lb 53.5
 n short lb 54
-n catch lt 55
 n clong rt 55 62
+n catch lt 55
 n catch lt 55.5
 n catch lt 56
 n catch lc 57
@@ -243,8 +243,8 @@ n short lt 152
 n swipe In rb 153
 n swipe Out rb 153.5
 n short lt 155
-n swipe In lt 155.5
 n long rb 155.5 157
+n swipe In lt 155.5
 n short lc 157
 n long rc 157.5 159
 n swipe In lc 157.5
@@ -339,8 +339,8 @@ n short lb 236
 n short lc 237
 n short rb 238
 n short rc 239
-n short rb 240
 n short lb 240
+n short rb 240
 n short rc 241
 n short lc 241
 n short rt 242
@@ -456,45 +456,45 @@ a ChangeOpacity Trail rc 126 0.01 1 easeinoutsine
 a ChangeOpacity Trail lc 126.5 0.01 1 easeinoutsine
 a ChangeOpacity Trail rb 127 0.01 1 easeinoutsine
 a ChangeOpacity Trail lb 127.5 0.01 1 easeinoutsine
-a S_MoveTrail lc Abs_Position z 192 60 0 linear
-a S_MoveTrail rc Abs_Position y 192 60 0 linear
-a S_MoveTrail lb Abs_Angle z 192 60 60 linear
-a S_MoveTrail lt Abs_Angle y 192 60 0 linear
-a S_MoveTrail lt Abs_Position y 192 60 2.35 linear
-a S_MoveCamera Angle x 192 60 -30 linear
-a S_MoveTrail rt Abs_Angle z 192 60 420 linear
-a S_MoveTrail lt Abs_Position z 192 60 0 linear
-a S_MoveTrail lc Abs_Position x 192 60 -2.7 linear
-a S_MoveTrail rc Abs_Angle y 192 60 0 linear
-a S_MoveTrail rc Abs_Position z 192 60 0 linear
-a S_MoveTrail rt Abs_Angle y 192 60 0 linear
-a S_MoveTrail rb Abs_Angle x 192 60 0 linear
-a S_MoveTrail lc Abs_Angle x 192 60 0 linear
-a S_MoveTrail rt Abs_Position y 192 60 2.35 linear
-a S_MoveTrail lb Abs_Angle y 192 60 0 linear
-a S_MoveTrail rb Abs_Angle z 192 60 300 linear
 a S_MoveTrail lt Abs_Angle z 192 60 -60 linear
-a S_MoveTrail lb Abs_Position x 192 60 -1.35 linear
+a S_MoveTrail lt Abs_Position x 192 60 -1.35 linear
 a S_MoveTrail lt Abs_Angle x 192 60 0 linear
-a S_MoveTrail rb Abs_Position x 192 60 1.35 linear
+a S_MoveTrail rc Abs_Angle x 192 60 0 linear
+a S_MoveTrail lb Abs_Position x 192 60 -1.35 linear
 a S_MoveTrail rc Abs_Angle z 192 60 360 linear
 a S_MoveTrail rt Abs_Angle x 192 60 0 linear
 a S_MoveTrail lc Abs_Angle y 192 60 0 linear
 a S_MoveTrail lc Abs_Position y 192 60 0 linear
-a S_MoveTrail lt Abs_Position x 192 60 -1.35 linear
-a S_MoveTrail rb Abs_Angle y 192 60 0 linear
-a S_MoveTrail rc Abs_Angle x 192 60 0 linear
 a S_MoveTrail lb Abs_Position z 192 60 0 linear
-a S_MoveTrail rt Abs_Position x 192 60 1.35 linear
+a S_MoveTrail rb Abs_Angle y 192 60 0 linear
 a S_MoveTrail lc Abs_Angle z 192 60 0 linear
-a S_MoveTrail lb Abs_Position y 192 60 -2.35 linear
 a S_MoveTrail lb Abs_Angle x 192 60 0 linear
+a S_MoveTrail lb Abs_Position y 192 60 -2.35 linear
 a S_MoveTrail rb Abs_Position y 192 60 -2.35 linear
 a S_MoveCamera Position y 192 60 -7 linear
 a S_MoveTrail rb Abs_Position z 192 60 0 linear
 a S_MoveTrail rt Abs_Position z 192 60 0 linear
-a S_MoveCamera Position z 192 60 -2 linear
 a S_MoveTrail rc Abs_Position x 192 60 2.7 linear
+a S_MoveCamera Position z 192 60 -2 linear
+a S_MoveTrail lb Abs_Angle y 192 60 0 linear
+a S_MoveTrail lt Abs_Angle y 192 60 0 linear
+a S_MoveTrail rb Abs_Position x 192 60 1.35 linear
+a S_MoveCamera Angle x 192 60 -30 linear
+a S_MoveTrail rt Abs_Position x 192 60 1.35 linear
+a S_MoveTrail lt Abs_Position z 192 60 0 linear
+a S_MoveTrail lc Abs_Position z 192 60 0 linear
+a S_MoveTrail rc Abs_Position y 192 60 0 linear
+a S_MoveTrail lb Abs_Angle z 192 60 60 linear
+a S_MoveTrail rb Abs_Angle z 192 60 300 linear
+a S_MoveTrail lt Abs_Position y 192 60 2.35 linear
+a S_MoveTrail lc Abs_Position x 192 60 -2.7 linear
+a S_MoveTrail rt Abs_Angle z 192 60 420 linear
+a S_MoveTrail rc Abs_Position z 192 60 0 linear
+a S_MoveTrail rc Abs_Angle y 192 60 0 linear
+a S_MoveTrail rt Abs_Angle y 192 60 0 linear
+a S_MoveTrail rb Abs_Angle x 192 60 0 linear
+a S_MoveTrail lc Abs_Angle x 192 60 0 linear
+a S_MoveTrail rt Abs_Position y 192 60 2.35 linear
 a ChangeOpacity Trail lb 288 1 0 easeinoutsine
 a ChangeOpacity Trail rb 288 1 0 easeinoutsine
 a ChangeOpacity Trail rc 290 1 0 easeinoutsine
