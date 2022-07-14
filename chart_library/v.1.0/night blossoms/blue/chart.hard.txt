@@ -563,7 +563,6 @@ a S_MoveCamera Position x 103 0.01 0.05 linear
 a S_MoveCamera Position x 103.062 0.01 -0.05 linear
 a S_MoveCamera Position x 103.125 0.01 0.05 linear
 a S_MoveCamera Position x 103.187 0.01 -0.05 linear
-a S_MoveCamera Position x 103.375 0.01 0.05 linear
 a S_MoveCamera Position z 103.5 0.125 0.75 easeoutsine
 a S_MoveCamera Position z 103.625 1.375 -0.25 easeinsine
 a S_MoveCamera Position z 106 0.125 0.75 easeoutsine
