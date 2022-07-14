@@ -340,3 +340,4 @@
 2022-07-12 08:24:00.854317: Jmak 更新 Dev-Songs的 freesia
 2022-07-12 08:24:00.115142：Jmak 更新 chart-library v.1.0/core collection 1.0/freesia
 2022-07-14 20:23:49.006887: DarkM(闇靈) 更新 Dev-Songs的 blue
+2022-07-14 20:23:48.632762：DarkM(闇靈) 更新 chart-library v.1.0/night blossoms/blue
