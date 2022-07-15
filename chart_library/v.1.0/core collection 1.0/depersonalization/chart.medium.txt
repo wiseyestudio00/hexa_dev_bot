@@ -734,8 +734,8 @@ n short rt 419
 n short rt 419.5
 n short rt 420
 
-n compound rt 421 425 8
-n compound rc 421 425 8
+n compound rt 421 425 6
+n compound rc 421 425 6
 
 
 
@@ -940,6 +940,10 @@ n catch rt 499.25
 n catch rt 499.5
 n catch rt 499.75
 n catch rt 500
+
+n catch rt 500.25
+n catch rt 500.5
+
 
 n short lb 501
 n long lb 501.5 509
