@@ -344,3 +344,4 @@
 2022-07-14 20:51:07.551726: DarkM(闇靈) 更新 Dev-Songs的 blue
 2022-07-14 20:51:07.112715：DarkM(闇靈) 更新 chart-library v.1.0/night blossoms/blue
 2022-07-15 13:51:19.804214: nishida1217 更新 Dev-Songs的 depersonalization
+2022-07-15 13:51:19.364153：nishida1217 更新 chart-library v.1.0/core collection 1.0/depersonalization
