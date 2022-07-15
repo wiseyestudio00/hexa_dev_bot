@@ -98,7 +98,7 @@ n short rb 130
 n short rc 131
 n short rc 132
 
-n compound rt 133 137 6
+n compound rt 133 137 4
 
 n short lb 141
 n short lb 142
@@ -195,7 +195,7 @@ n catch rc 195
 n catch rc 195.5
 n catch rc 196
 
-n compound rt 197 203 9
+n compound rt 197 203 6
 
 n short lc 205
 n short lc 206
@@ -274,7 +274,7 @@ n catch rt 258
 n catch rc 259
 n catch rb 260
 
-n compound lb 261 265 6
+n compound lb 261 265 4
 
 
 n long rb 273 281
@@ -361,7 +361,7 @@ n catch rb 417
 n catch rb 418
 n catch rc lc 419
 
-n compound rt 421 425 6
+n compound rt 421 425 4
 
 n long lt 429 432
 n long rc 433 436
