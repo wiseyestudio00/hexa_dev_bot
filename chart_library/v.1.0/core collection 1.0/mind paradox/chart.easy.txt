@@ -132,6 +132,7 @@ n short lb 323
 n short rb 324
 n short rb 325
 n short lc 326
+n short lc 327
 n short rc 328
 n short rc 329
 n short lb 330
@@ -146,6 +147,7 @@ n short rb 339
 n short lb 340
 n short lb 341
 n short rc 342
+n short rc 343
 n short lc 344
 n short lc 345
 n short rb 346
