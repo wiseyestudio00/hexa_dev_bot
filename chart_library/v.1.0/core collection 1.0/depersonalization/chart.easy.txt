@@ -306,7 +306,7 @@ n catch lc 354
 n catch rc 355
 n catch rc 356
 
-n compound lt 357 361 6
+n compound lt 357 361 4
 
 n long rc 365 371
 
