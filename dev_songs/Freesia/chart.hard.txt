@@ -541,7 +541,7 @@ n catch lc 295
 n catch lc 295.5
 n short rc 295.75
 n swipe Out lb 296
-n catch rc 296
+n short rc 296
 n catch rc 296.5
 n catch rc 297
 n short lb 297
@@ -644,7 +644,7 @@ a MoveCamera Position 59.25 0.25 0 0 -0.125 easeinquad
 a MoveCamera Position 64 16 0 0 -2 easeinoutquad
 a S_MoveStage Abs_Angle z 64.25 14.75 360 easeoutquad
 a S_MoveCamera Abs_Position z 96 15 -5.95 easeinoutquad
-a S_MoveStage Abs_Angle z 128 30 -360 spring
+a S_MoveStage Abs_Angle z 128.25 29.75 -360 spring
 a MoveCamera Position 129.5 0.25 0 0 -0.125 easeinquad
 a MoveCamera Position 129.75 0.25 0 0 0.125 easeoutquart
 a MoveCamera Position 131 0.25 0 0 0.125 easeoutquart
