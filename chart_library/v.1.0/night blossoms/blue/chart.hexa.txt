@@ -529,30 +529,14 @@ n swipe In lc 215
 n swipe In rc 215
 a S_MoveCamera Angle z 0 16 180 linear
 a MoveCamera Position 0 3 0.33 0.33 0 easeinoutsine
-a MoveCamera Position 3 0.5 0 0 0.5 easeoutsine
-a MoveCamera Position 3.5 0.5 0 0 -0.5 easeinsine
 a MoveCamera Position 4 3 -0.33 -0.33 0 easeinoutsine
-a MoveCamera Position 7 0.5 0 0 0.5 easeoutsine
-a MoveCamera Position 7.5 0.5 0 0 -0.5 easeinsine
 a MoveCamera Position 8 3 0.33 -0.33 0 easeinoutsine
-a MoveCamera Position 11 0.5 0 0 0.5 easeoutsine
-a MoveCamera Position 11.5 0.5 0 0 -0.5 easeinsine
 a MoveCamera Position 12 3 -0.33 0.33 0 easeinoutsine
-a MoveCamera Position 15 0.5 0 0 0.5 easeoutsine
-a MoveCamera Position 15.5 0.5 0 0 -0.5 easeinsine
 a S_MoveCamera Angle z 16 16 180 linear
 a MoveCamera Position 16 3 0.33 0.33 0 easeinoutsine
-a MoveCamera Position 19 0.5 0 0 0.5 easeoutsine
-a MoveCamera Position 19.5 0.5 0 0 -0.5 easeinsine
 a MoveCamera Position 20 3 -0.33 -0.33 0 easeinoutsine
-a MoveCamera Position 23 0.5 0 0 0.5 easeoutsine
-a MoveCamera Position 23.5 0.5 0 0 -0.5 easeinsine
 a MoveCamera Position 24 3 0.33 -0.33 0 easeinoutsine
-a MoveCamera Position 27 0.5 0 0 0.5 easeoutsine
-a MoveCamera Position 27.5 0.5 0 0 -0.5 easeinsine
 a MoveCamera Position 28 3 -0.33 0.33 0 easeinoutsine
-a MoveCamera Position 31 0.5 0 0 0.5 easeoutsine
-a MoveCamera Position 31.5 0.5 0 0 -0.5 easeinsine
 a S_MoveTrail lt Position x 32 4 -8 easeinoutsine
 a S_MoveTrail lt Angle z 32 8 -60 easeoutsine
 a MoveCamera Position 32 0.5 0 0 0.5 easeoutback
@@ -773,12 +757,9 @@ a MoveCamera Angle 122.33 0.33 0 -2 0 easeoutsine
 a MoveCamera Angle 122.66 0.33 0 -2 0 easeoutsine
 a MoveCamera Angle 123 0.25 0 6 0 easeoutbounce
 a S_MoveCamera Angle z 123.5 2 -90 easeinoutsine
-a S_MoveCamera Position z 124 1.5 1 easeinoutsine
-a S_MoveCamera Position z 126 0.125 0.5 easeoutcubic
 a S_MoveCamera Position x 126 0.01 0.05 linear
 a S_MoveCamera Position x 126.062 0.01 -0.05 linear
 a S_MoveCamera Position x 126.125 0.01 0.05 linear
-a S_MoveCamera Position z 126.125 0.875 -0.5 easeoutcubic
 a S_MoveCamera Position x 126.187 0.01 -0.05 linear
 a S_MoveCamera Position x 126.25 0.01 0.05 linear
 a S_MoveCamera Position x 126.312 0.01 -0.05 linear
@@ -792,9 +773,6 @@ a S_MoveCamera Position x 126.75 0.01 0.05 linear
 a S_MoveCamera Position x 126.812 0.01 -0.05 linear
 a S_MoveCamera Position x 126.875 0.01 0.05 linear
 a S_MoveCamera Position x 126.937 0.01 -0.05 linear
-a S_MoveCamera Position z 127 0.25 -0.25 easeoutcubic
-a S_MoveCamera Position z 127.25 0.25 -0.25 easeoutcubic
-a S_MoveCamera Position z 127.5 0.5 -0.5 easeoutcubic
 a S_MoveCamera Position x 128 0.01 0.05 linear
 a MoveCamera Angle 128 0.5 -5 5 0 easeinoutsine
 a S_MoveCamera Position x 128.062 0.01 -0.05 linear
@@ -832,7 +810,6 @@ a S_MoveCamera Position x 130.562 0.01 -0.05 linear
 a S_MoveCamera Position x 130.625 0.01 0.05 linear
 a S_MoveCamera Position x 130.687 0.01 -0.05 linear
 a S_MoveCamera Position x 131 0.01 0.05 linear
-a S_MoveCamera Position z 131 0.5 1 easeoutsine
 a MoveCamera Angle 131 0.5 0 5 0 easeinoutsine
 a S_MoveCamera Position x 131.062 0.01 -0.05 linear
 a S_MoveCamera Position x 131.125 0.01 0.05 linear
@@ -856,7 +833,6 @@ a S_MoveTrail lt Position z 132.5 0.5 1 easeoutsine
 a S_MoveTrail rb Position z 132.667 0.5 1 easeoutsine
 a S_MoveTrail lc Position z 132.833 0.5 1 easeoutsine
 a S_MoveCamera Position x 133 0.01 0.05 linear
-a S_MoveCamera Position z 133 0.5 -1 easeoutsine
 a S_MoveCamera Position x 133.062 0.01 -0.05 linear
 a S_MoveCamera Position x 133.125 0.01 0.05 linear
 a S_MoveCamera Position x 133.187 0.01 -0.05 linear
@@ -872,11 +848,9 @@ a S_MoveCamera Position x 133.75 0.01 0.05 linear
 a S_MoveCamera Position x 133.812 0.01 -0.05 linear
 a S_MoveCamera Position x 133.875 0.01 0.05 linear
 a S_MoveCamera Position x 133.937 0.01 -0.05 linear
-a S_MoveCamera Position z 134 0.5 0.25 easeoutsine
 a S_MoveTrail rb Position z 134 0.25 -1 easeoutsine
 a S_MoveTrail lb Position z 134 0.25 -1 easeoutsine
 a S_MoveTrail lc Position z 134.75 0.25 -1 easeoutsine
-a S_MoveCamera Position z 134.75 0.5 0.25 easeoutsine
 a S_MoveTrail rc Position z 134.75 0.25 -1 easeoutsine
 a S_MoveTrail lt Position z 135.5 0.25 -1 easeoutsine
 a S_MoveTrail rt Position z 135.5 0.25 -1 easeoutsine
@@ -950,22 +924,9 @@ a S_MoveCamera Position x 139.75 0.01 0.05 linear
 a S_MoveCamera Position x 139.812 0.01 -0.05 linear
 a S_MoveCamera Position x 139.875 0.01 0.05 linear
 a S_MoveCamera Position x 139.937 0.01 -0.05 linear
-a S_MoveCamera Position z 140 0.125 -0.25 easeoutexpo
-a S_MoveCamera Position z 140.125 0.125 -0.25 easeoutexpo
-a S_MoveCamera Position z 140.25 0.125 -0.25 easeoutexpo
-a S_MoveCamera Position z 140.375 0.125 -0.25 easeoutexpo
-a S_MoveCamera Position z 140.5 0.25 -0.25 easeoutexpo
-a S_MoveCamera Position z 140.75 0.25 -0.25 easeoutexpo
-a S_MoveCamera Position z 141 0.125 0.5 easeoutcubic
-a S_MoveCamera Position z 141.25 0.125 0.5 easeoutcubic
-a S_MoveCamera Position z 141.5 0.125 0.5 easeoutcubic
-a S_MoveCamera Position z 141.75 0.125 0.5 easeoutcubic
 a S_MoveCamera Position x 142 0.01 0.05 linear
-a S_MoveCamera Position z 142 0.125 0.5 easeoutcubic
 a S_MoveCamera Position x 142.062 0.01 -0.05 linear
-a S_MoveCamera Position z 142.125 0.875 -0.5 easeoutcubic
 a S_MoveCamera Position x 142.125 0.01 0.05 linear
-a S_MoveCamera Position z 142.125 0.875 -0.5 easeoutcubic
 a S_MoveCamera Position x 142.187 0.01 -0.05 linear
 a S_MoveCamera Position x 142.25 0.01 0.05 linear
 a S_MoveCamera Position x 142.312 0.01 -0.05 linear
@@ -979,9 +940,6 @@ a S_MoveCamera Position x 142.75 0.01 0.05 linear
 a S_MoveCamera Position x 142.812 0.01 -0.05 linear
 a S_MoveCamera Position x 142.875 0.01 0.05 linear
 a S_MoveCamera Position x 142.937 0.01 -0.05 linear
-a S_MoveCamera Position z 143 0.25 -0.25 easeoutcubic
-a S_MoveCamera Position z 143.25 0.25 -0.25 easeoutcubic
-a S_MoveCamera Position z 143.5 0.5 -0.5 easeoutcubic
 a MoveCamera Angle 144 0.5 -5 5 0 easeinoutsine
 a S_MoveCamera Position x 144 0.01 0.05 linear
 a S_MoveCamera Position x 144.062 0.01 -0.05 linear
