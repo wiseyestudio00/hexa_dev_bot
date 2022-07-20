@@ -1,0 +1,494 @@
+section offset:914 bpm:180
+n long rc 0 1
+n long lb 2 3
+n long rt 4 5
+n long lb 6 7
+n long lc 8 9
+n long rb 10 11
+n long lt 12 13
+n long rb 14 15
+n long lt 16 17
+n long rc 18 19
+n long lc 20 21
+n long lb 22 23
+n long rt 24 25
+n long lc 26 27
+n long rc 28 29
+n long rb 30 31
+n short lc 32
+n short rc 32
+n short lc 40
+n short rc 40
+n short lc 40.5
+n short rc 40.5
+n short rc 48
+n short lc 48
+n short lc 48
+n short rc 56
+n short lc 56
+n short rc 56.5
+n short lc 56.5
+n long rt 60 63
+n long lt 60 63
+n short lb 64
+n short lb 65
+n short rb 66
+n short lb 67
+n short rb 68
+n short rb 69
+n short lb 70
+n short rb 70.5
+n short lb 71
+n short rb 72
+n short rb 73
+n short lb 74
+n short rb 75
+n short lb 76
+n short lb 77
+n short rb 78
+n short lb 78.5
+n short rb 79
+n short lb 80
+n short rc 80.5
+n short lc 81
+n short rb 81.5
+n long lt 82 83.5
+n short rb 84
+n short lc 84.5
+n short rc 85
+n short lb 85.5
+n long rt 86 87.5
+n short lb 88
+n short lb 88.5
+n short rb 89
+n short rb 89.5
+n long lc 90 92
+n long rc 90 92
+n short rb 96
+n short rc 97
+n short rt 98
+n short lt 99
+n short lb 100
+n short lc 101
+n short lt 102
+n short rt 103
+n short rb 104
+n short rc 105
+n short rt 106
+n short lt 107
+n short lt 112
+n short lc 113
+n short lb 114
+n short rb 115
+n short rt 116
+n short rc 117
+n short rb 118
+n short lb 119
+n short lt 120
+n short lc 121
+n short lb 122
+n short rb 123
+n short lc 128
+n short rt 128
+n short lb 129
+n short lb 130
+n short lb 131
+n short rc 132
+n short lt 132
+n short rb 133
+n short rb 134
+n short rb 135
+n short rt 136
+n short lc 136
+n short lb 137
+n short rb 138
+n short lb 139
+n short rc 140
+n short lt 140
+n short rb 141
+n short lb 142
+n short rb 143
+n short rt 144
+n short lc 144
+n short lb 145
+n short rb 146
+n short lb 147
+n short rc 148
+n short lt 148
+n short rb 149
+n short lb 150
+n short rb 151
+n short rt 152
+n short lc 152
+n short rb 153
+n short lt 154
+n short rc 154
+n short lb 155
+n short lb 160
+n short rc 161
+n catch lc 161.75
+n catch lc 162.5
+n short rc 163
+n clong lb 163.75 164.75
+n short rc 164.25
+n short rc 165
+n clong lt 165.75 166.75
+n short rc 166.25
+n short rc 167
+n short rb 168
+n short lc 169
+n catch rc 169.75
+n catch rc 170.5
+n short lc 171
+n clong rb 171.75 172.75
+n short lc 172.25
+n short lc 173
+n clong rt 173.75 174.75
+n short lc 174.25
+n short lc 175
+n short lt 176
+n short rc 177
+n catch lc 177.75
+n catch lc 178.5
+n short rc 179
+n clong lt 179.75 180.75
+n short rc 180.25
+n short rc 181
+n clong lb 181.75 182.75
+n short rc 182.25
+n short rc 183
+n short rb 184
+n short lb 184
+n short lb 185
+n catch rc 185.75
+n catch lc 185.75
+n catch lc 186.5
+n catch rc 186.5
+n short rb 187
+n long lb 188 188.5
+n long rb 189 189.5
+n long lc 190 190.5
+n long rc 191 191.5
+n long rt 192 196
+n long lt 192 196
+n long lc 200 204
+n long rc 200 204
+n short lb 208
+n long rc 208 212
+n catch lb 208.5
+n catch lb 209
+n catch lb 209.5
+n catch lb 210
+n catch lb 210.5
+n catch lb 211
+n catch lb 211.5
+n catch lb 212
+n catch lb 212.5
+n catch lb 213
+n catch lb 213.5
+n catch lb 214
+n catch lb 214.5
+n catch lb 214.75
+n catch lb 215.25
+n catch lb 215.5
+n long lc 216 220
+n short rb 216
+n catch rb 216.5
+n catch rb 217
+n catch rb 217.5
+n catch rb 218
+n catch rb 218.5
+n catch rb 218.75
+n catch rb 219.25
+n catch rb 219.5
+n catch rb 220
+n catch rb 220.25
+n catch rb 220.5
+n catch rb 220.75
+n catch rb 221
+n catch rb 221.25
+n catch rb 221.5
+n catch rb 221.75
+n catch rb 222
+n catch rb 222.25
+n catch rb 222.5
+n catch rb 222.75
+n catch rb 223
+n catch rb 223.25
+n catch rb 223.5
+n catch rb 223.75
+n swipe Out lt 224
+n catch rb 224
+n short rc 240
+n short rc 241
+n short rc 242
+n short rc 243
+n short lc 244
+n short lc 245
+n short lc 246
+n short lc 247
+n short rb 248
+n short rb 248.667
+n short rb 249.333
+n short lb 250
+n short lb 250.667
+n short lb 251.333
+n catch lc 252
+n catch rc 252
+n long lb 256 256.5
+n short rc 256
+n long lc 257 257.5
+n long rb 258 258.5
+n long rc 259 259.5
+n long lt 260 260.5
+n long rt 261 261.5
+n long rc 262 262.5
+n short lb 263
+n short rb 264
+n short lb 264
+n long rb 265 265.5
+n long lb 266 266.5
+n long lc 267 267.5
+n clong lb 268 268.5
+n clong rb 269 269.5
+n clong lc 270 270.5
+n clong lb 271 271.5
+n long rb 272 272.5
+n short lc 272
+n long rc 273 273.5
+n long lb 274 274.5
+n long lc 275 275.5
+n long rt 276 276.5
+n long lt 277 277.5
+n long lc 278 278.5
+n short rb 279
+n short lb 280
+n short rb 280
+n long lb 281 281.5
+n long rb 282 282.5
+n long rc 283 283.5
+n clong rb 284 284.5
+n clong lb 285 285.5
+n clong rc 286 286.5
+n clong rb 287 287.5
+n short lb 288
+n short lc 289
+n short rb 289
+n short rt 290
+n short rc 291
+n short lt 291
+n short lb 292
+n short lc 293
+n short rb 293
+n short rt 294
+n short lt 295
+n short rc 295
+n short lc 296
+n short rb 297
+n short lb 297
+n short rc 298
+n short lb 299
+n short rb 299
+n clong lc 300 300.5
+n clong lb 301 301.5
+n clong rb 302 302.5
+n clong rc 303 303.5
+n short rb 304
+n short rc 305
+n short lb 305
+n short lt 306
+n short rt 307
+n short lc 307
+n short rb 308
+n short rc 309
+n short lb 309
+n short lt 310
+n short lc 311
+n short rt 311
+n short rc 312
+n short lb 313
+n short rb 313
+n short lc 314
+n short lb 315
+n short rb 315
+n clong rc 316 316.5
+n clong rb 317 317.5
+n clong lb 318 318.5
+n clong lc 319 319.5
+n long rt 320 321
+n short lt 320
+n short lt 321
+n long rc 322 323
+n short lt 322
+n short lt 323
+n short lt 324
+n long rb 324 325
+n short lt 325
+n short lt 326
+n long lb 326 327.5
+n long lc 327 327.5
+n short lb 328
+n long rb 328 329
+n short lb 329
+n long rc 330 331.5
+n long rb 331 331.5
+n clong lc 332 332.5
+n clong lb 333 333.5
+n clong rb 334 334.5
+n clong rc 335 335.5
+n short rt 336
+n long lt 336 337
+n short rt 337
+n short rt 338
+n long lc 338 339
+n short rt 339
+n short rt 340
+n long lb 340 341
+n short rt 341
+n long rb 342 343.5
+n short rt 342
+n long rc 343 343.5
+n short rb 344
+n long lb 344 345
+n short rb 345
+n long lc 346 347.5
+n long lb 347 347.5
+n clong lc 348 348.5
+n clong lt 349 349.5
+n clong rt 350 350.5
+n clong rc 351 351.5
+n short rb 352
+n long lb 352 353
+n short rb 353
+n short rb 354
+n long lc 354 355
+n short rb 355
+n long lt 356 357
+n short rb 356
+n short rb 357
+n long rt 358 359.5
+n short rb 358
+n long rc 359 359.5
+n short rt 360
+n long lt 360 361
+n short rt 361
+n long lc 362 363.5
+n long lt 363 363.5
+n clong rc 364 364.5
+n clong rt 365 365.5
+n clong lt 366 366.5
+n clong lc 367 367.5
+n short lb 368
+n long rb 368 369
+n short lb 369
+n long rc 370 371
+n short lb 370
+n short lb 371
+n long rt 372 373
+n short lb 372
+n short lb 373
+n short lb 374
+n long lt 374 375.5
+n long lc 375 375.5
+n long rt 376 377
+n short lt 376
+n short lt 377
+n long rc 378 379.5
+n long rt 379 379.5
+n clong lb 380 380.5
+n clong lc 381 381.5
+n clong lt 382 382.5
+n clong rt 383 383.5
+n swipe Out lc 384
+n swipe Out rc 384
+n short rb 400
+n catch rb 400.5
+n short lc 401
+n catch lc 401.5
+n short rt 402
+n catch rt 402.5
+n catch rt 402.75
+n catch rt 403.25
+n catch rt 403.5
+n short lb 404
+n catch lb 404.5
+n short rc 405
+n catch rc 405.5
+n short lt 406
+n catch lt 406.5
+n catch lt 406.75
+n catch lt 407.25
+n catch lt 407.5
+n short rc 408
+n catch rc 408.25
+n catch rc 408.5
+n catch rc 408.75
+n catch rc 409
+n catch rc 409.25
+n catch rc 409.5
+n catch rc 409.75
+n short lc 410
+n catch lc 410.25
+n catch lc 410.5
+n catch lc 410.75
+n catch lc 411
+n catch lc 411.25
+n catch lc 411.5
+n catch lc 411.75
+n catch rt 412
+n catch lt 412.75
+n catch rt 413.5
+n catch lt 414.25
+n catch rc 415
+n catch lc 415.5
+a MoveCamera Position 32 0 0 0 2 easeinoutsine
+a MoveCamera Position 32.1 5.9 0 0 -2 easeinoutsine
+a MoveCamera Position 40.5 0 0 0 2 easeinoutsine
+a MoveCamera Position 40.6 5.4 0 0 -2 easeinoutsine
+a MoveCamera Position 48 0 0 0 2 easeinoutsine
+a MoveCamera Position 48.1 5.9 0 0 -2 easeinoutsine
+a MoveCamera Position 56.5 0 0 0 2 easeinoutsine
+a MoveCamera Position 56.6 3.3 0 0 -2 easeinoutsine
+a S_MoveCamera Abs_Position x 92 0 0 easeincubic
+a S_MoveCamera Abs_Position y 92 0 0 easeincubic
+a S_MoveCamera Abs_Position x 92 0 0 easeincubic
+a MoveCamera Abs_Angle 92 0 0 0 0 easeincubic
+a S_MoveCamera Abs_Position z 92 0 -6.2 easeincubic
+a S_MoveCamera Abs_Position y 92 0 0 easeincubic
+a MoveCamera Abs_Angle 92 0 0 0 0 easeincubic
+a S_MoveCamera Abs_Position z 92 0 -6.2 easeincubic
+a S_MoveCamera Angle z 92.01 2.99 360 easeoutquart
+a S_MoveCamera Angle z 108 2 60 easeoutcubic
+a S_MoveCamera Angle z 110 2 -60 easeoutcubic
+a S_MoveCamera Angle z 124 2 360 easeinoutquart
+a S_MoveCamera Angle z 156 3 360 easeoutquart
+a S_MoveCamera Position z 192 4 0.5 easeinoutsine
+a S_MoveCamera Position z 196 4 -0.5 easeinoutsine
+a S_MoveCamera Position z 200 4 0.5 easeinoutsine
+a S_MoveCamera Position z 204 4 -0.5 easeinoutsine
+a S_MoveCamera Position z 208 4 0.5 easeinoutsine
+a S_MoveCamera Position z 212 4 -0.5 easeinoutsine
+a S_MoveCamera Position z 216 4 0.5 easeinoutsine
+a S_MoveCamera Position z 220 4 -0.5 easeinoutsine
+a S_MoveCamera Position z 224.25 7 8 easeoutquad
+a S_MoveCamera Position z 232 8 -8 easeinoutsine
+a S_MoveCamera Position z 252 0.01 2 easeinoutsine
+a S_MoveCamera Position z 252.125 3 -2 easeinoutsine
+a S_MoveCamera Position z 384 16 -1 easeincubic
+a S_MoveCamera Position z 400 16 1 linear
+define StagePosition btsmall 1.35,2.35,100 0,0,240 -2.7,0,0 0,0,180 1.35,-2.35,100 0,0,120 -1.35,-2.35,100 0,0,60 2.7,0,0 0,0,0 -1.35,2.35,100 0,0,300
+define StagePosition nort 1.35,100,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
+define StagePosition norc 1.35,2.35,0 0,0,240 2.7,100,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
+define StagePosition norb 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-100,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
+define StagePosition nolb 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-100,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
+define StagePosition nolc 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -100,0,0 0,0,0 -1.35,2.35,0 0,0,300
+define StagePosition nolt 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,100,0 0,0,300
+define StagePosition movelc 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -4,0,0 0,10,0 -1.35,2.35,0 0,0,300
+define StagePosition moverc 1.35,2.35,0 0,0,240 4,0,0 0,-10,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
+define StagePosition movertlt 1.35,2.35,0 -10,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 -10,0,300
+define StagePosition moverblb 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 10,0,120 -1.35,-2.35,0 10,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
+define StagePosition movelcout2 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -100,0,9 0,30,0 -1.35,2.35,0 0,0,300
+define StagePosition movelcback1 1.35,2.35,0 0,0,240 2.7,0,0 0,0,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 40,0,9 0,30,0 -1.35,2.35,0 0,0,300
+define StagePosition movercout2 1.35,2.35,0 0,0,240 100,0,0 0,-30,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
+define StagePosition movercback1 1.35,2.35,0 0,0,240 -40,0,0 0,-30,180 1.35,-2.35,0 0,0,120 -1.35,-2.35,0 0,0,60 -2.7,0,0 0,0,0 -1.35,2.35,0 0,0,300
+define StagePosition rblbside 5.5,1.05,3 0,-4,180 4.3,-2,3 -2.8,-2.8,135 1.25,-3.3,3 -4,0,90 -1.25,-3.3,3 -4,0,90 -4.3,-2,3 -2.8,2.8,45 -5.5,1.05,3 0,4,360
