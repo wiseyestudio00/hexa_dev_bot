@@ -30,8 +30,8 @@ n short lc 40
 n swipe Out lc 40.5
 n swipe Out rc 40.5
 n short lc 48
-n short lc 48
 n short rc 48
+n short lc 48
 n short lc 56
 n short rc 56
 n swipe In rc 56.5
@@ -691,7 +691,7 @@ n short rb 412
 n short rc 412.75
 n short rt 413.5
 n short lt 414.25
-n short lt 414.75
+n short lt 415
 n short lc 415.5
 a MoveCamera Angle 32 6 0 0 3600 easeinoutquart
 a MoveCamera Position 32 0 0 0 2 easeinoutsine
@@ -774,10 +774,10 @@ a S_MoveCamera Abs_Position z 92 0 -6.2 easeincubic
 a S_MoveCamera Abs_Position y 92 0 0 easeincubic
 a S_MoveCamera Abs_Position x 92 0 0 easeincubic
 a MoveCamera Abs_Angle 92 0 0 0 0 easeincubic
+a MoveCamera Abs_Angle 92 0 0 0 0 easeincubic
 a S_MoveCamera Abs_Position x 92 0 0 easeincubic
 a S_MoveCamera Abs_Position z 92 0 -6.2 easeincubic
 a S_MoveCamera Abs_Position y 92 0 0 easeincubic
-a MoveCamera Abs_Angle 92 0 0 0 0 easeincubic
 a S_MoveCamera Angle z 92.01 2.99 360 easeoutcubic
 a S_MoveCamera Position z 95 0.8 0.5 easeoutsine
 a S_MoveCamera Position z 96 0 -0.5 easeinoutsine
@@ -813,8 +813,8 @@ a ChangeStage norc 109 0 easeoutsine
 a ChangeStage nort 109.25 0 easeoutsine
 a ChangeStage nolt 109.5 0 easeoutsine
 a ChangeStage classichexagon 109.75 0 easeoutsine
-a ChangeStage nort 110 0 easeoutsine
 a S_MoveCamera Angle z 110 2 -60 easeoutcubic
+a ChangeStage nort 110 0 easeoutsine
 a ChangeStage norc 110.25 0 easeoutsine
 a ChangeStage norb 110.5 0 easeoutsine
 a ChangeStage nolb 110.75 0 easeoutsine
@@ -960,25 +960,21 @@ a S_MoveCamera Position z 190 0 -0.5 easeinoutsine
 a S_MoveCamera Position z 190.1 0.9 0.5 easeinoutsine
 a S_MoveCamera Position z 191 0 -0.5 easeinoutsine
 a S_MoveCamera Position z 191.1 0.9 0.5 easeinoutsine
-a S_MoveCamera Position z 192 4 0.5 easeinoutsine
 a ChangeStage movelcout2 192 4 easeinquart
-a ChangeStage movelcback1 196 0 easeinsine
+a S_MoveCamera Position z 192 4 0.5 easeinoutsine
 a S_MoveCamera Position z 196 4 -0.5 easeinoutsine
 a ChangeStage classichexagon 196.01 2.99 easeoutquart
 a S_MoveCamera Position z 200 4 0.5 easeinoutsine
 a ChangeStage movercout2 200 4 easeinquart
-a ChangeStage movercback1 204 0 easeinsine
 a S_MoveCamera Position z 204 4 -0.5 easeinoutsine
 a ChangeStage classichexagon 204.01 2.99 easeoutquart
-a ChangeStage movelcout2 208 4 easeinquart
 a S_MoveCamera Position z 208 4 0.5 easeinoutsine
+a ChangeStage movelcout2 208 4 easeinquart
 a S_MoveCamera Position z 212 4 -0.5 easeinoutsine
-a ChangeStage movelcback1 212 0 easeinsine
 a ChangeStage classichexagon 212.01 2.99 easeoutquart
 a S_MoveCamera Position z 216 4 0.5 easeinoutsine
 a ChangeStage movercout2 216 4 easeinquart
 a S_MoveCamera Position z 220 4 -0.5 easeinoutsine
-a ChangeStage movercback1 220 0 easeinsine
 a ChangeStage classichexagon 220.01 2.99 easeoutquart
 a ChangeStage hide 224.3 7.5 easeoutsine
 a S_MoveCamera Position z 231 0 10 easeinoutsine
