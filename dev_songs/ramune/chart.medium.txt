@@ -434,8 +434,8 @@ n short rt 436
 n short lb 440
 n short lc 441.5
 n long rb 443 448
-a MoveCamera Angle 0 32 0 0 120 linear
-a MoveCamera Angle 32 32 0 0 -120 linear
+a MoveCamera Angle 0 32 0 0 120 easeinoutsine
+a MoveCamera Angle 32 32 0 0 -120 easeinoutsine
 a MoveCamera Position 124 4 0 0 1 easeinoutsine
 a MoveCamera Angle 124 4 10 0 0 easeinoutsine
 a MoveCamera Position 158 2 0 0 -1 easeinoutsine
