@@ -23,7 +23,6 @@ n short lc 40.5
 n short rc 40.5
 n short rc 48
 n short lc 48
-n short lc 48
 n short rc 56
 n short lc 56
 n short rc 56.5
