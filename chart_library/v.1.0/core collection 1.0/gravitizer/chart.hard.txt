@@ -29,7 +29,7 @@ n short rc 40
 n short lc 40
 n swipe Out lc 40.5
 n swipe Out rc 40.5
-n short lc 48
+
 n short rc 48
 n short lc 48
 n short lc 56
