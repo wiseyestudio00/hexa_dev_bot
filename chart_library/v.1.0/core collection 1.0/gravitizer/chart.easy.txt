@@ -13,9 +13,8 @@ n catch rc 40
 n catch lc 40
 n catch lc 40.5
 n catch rc 40.5
-n catch lc 48
 n catch rc 48
-n short lc 48
+n catch lc 48
 n catch rc 56
 n catch lc 56
 n catch rc 56.5
@@ -88,8 +87,6 @@ n short rc 181
 n short rc 183
 n short rb 184
 n short lb 185
-n catch lb 185.75
-n catch lb 186.5
 n short rb 187
 n long lb 188 189.5
 n long rb 190 191.5
@@ -101,7 +98,7 @@ n long rc 208 212
 n clong lb 208 215
 n clong rb 216 224
 n long lc 216 220
-n swipe Out lt 224
+n short lt 224
 n clong lb 232 240
 n short rc 240
 n short rc 242
