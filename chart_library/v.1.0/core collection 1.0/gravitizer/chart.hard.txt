@@ -1,27 +1,27 @@
 section offset:914 bpm:180
-n long lc 0 3.5
+n long lc 0 3
 n long rc 0 1
 n long lb 2 3
-n long rb 4 7.5
+n long rb 4 7
 n long lt 4 5
 n long lb 6 7
-n long rc 8 11.5
+n long rc 8 11
 n long lc 8 9
 n long rb 10 11
 n long rt 12 13
-n long lb 12 15.5
+n long lb 12 15
 n long rb 14 15
 n long lt 16 17
-n long rc 16 19.5
+n long rc 16 19
 n long lb 18 19
 n long lc 20 21
-n long rb 20 23.5
+n long rb 20 23
 n long lb 22 23
 n long rt 24 25
-n long lc 24 27.5
+n long lc 24 27
 n long rb 26 27
 n long rc 28 29
-n long lb 28 31.5
+n long lb 28 31
 n long rb 30 31
 n short rc 32
 n short lc 32
@@ -29,7 +29,6 @@ n short rc 40
 n short lc 40
 n swipe Out lc 40.5
 n swipe Out rc 40.5
-
 n short rc 48
 n short lc 48
 n short lc 56
