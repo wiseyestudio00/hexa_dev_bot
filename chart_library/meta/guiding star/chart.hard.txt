@@ -1,0 +1,86 @@
+section offset:-60000 bpm:60
+a CameraEffect ui arcade 0.1 0 0 linear
+a CameraEffect ui artefact_fade 0.2 0 0 linear
+a CameraEffect ui movienoise 0.2 0 0 linear
+a CameraEffect ui vignette 0.2 0 0 linear
+a MoveCamera Position 2 13 0 0 -2 easeinoutsine
+section offset:0 bpm:60000
+section offset:0 bpm:60000
+section offset:0 bpm:60000
+section offset:0 bpm:60000
+section offset:0 bpm:60000
+section offset:0 bpm:120
+n short lt 15
+n short lt 96
+a S_MoveCamera Position x 0 0 0 easeinoutsine
+a S_MoveCamera Position x 1 0 0 easeinoutsine
+a ChangeOpacity Trail lt 2 13 0 easeinoutsine
+a ChangeOpacity Trail lc 2 13 0 easeinoutsine
+a ChangeOpacity Trail lb 2 13 0 easeinoutsine
+a ChangeOpacity Trail rb 2 13 0 easeinoutsine
+a ChangeOpacity Trail rc 2 13 0 easeinoutsine
+a ChangeOpacity Trail rt 2 13 0 easeinoutsine
+a S_MoveCamera Position x 96 0 0 easeinoutsine
+section offset:57500 bpm:160
+n short rt 1
+n short rt 2
+n short rt 3
+n short rt 4
+n short rt 5
+n short rt 6
+n short rt 7
+n short rt 8
+n short rt 9
+n short rt 10
+n short rt 11
+n short rt 12
+n short rt 13
+n short rt 14
+n short rt 15
+n short rt 16
+n short rt 17
+n short rt 18
+n short rt 19
+n short rt 20
+n short rt 21
+n short rt 22
+n short rt 23
+n short rt 24
+n short rt 25
+n short rt 26
+n short rt 27
+n short rt 28
+n short rt 29
+n short rt 30
+n short lt 40
+section offset:114750 bpm:120
+n short rt 1
+n short rt 2
+n short rt 3
+n short rt 4
+n short rt 5
+n short rt 6
+n short rt 7
+n short rt 8
+n short rt 9
+n short rt 10
+n short rt 11
+n short rt 12
+n short rt 13
+n short rt 14
+n short rt 15
+n short rt 16
+n short rt 17
+n short rt 18
+n short rt 19
+n short rt 20
+n short rt 21
+n short rt 22
+n short rt 23
+n short rt 24
+n short rt 25
+n short rt 26
+n short rt 27
+n short rt 28
+n short rt 29
+n short rt 30
