@@ -5,54 +5,118 @@ a CameraEffect ui movienoise 0.2 0 0 linear
 a CameraEffect ui vignette 0.2 0 0 linear
 a MoveCamera Position 2 13 0 0 -2 easeinoutsine
 section offset:0 bpm:60000
-section offset:0 bpm:60000
-section offset:0 bpm:60000
-section offset:0 bpm:60000
-section offset:0 bpm:60000
 section offset:0 bpm:120
-n short lt 15
-n short lt 96
-a S_MoveCamera Position x 0 0 0 easeinoutsine
-a S_MoveCamera Position x 1 0 0 easeinoutsine
-a ChangeOpacity Trail lt 2 13 0 easeinoutsine
-a ChangeOpacity Trail lc 2 13 0 easeinoutsine
-a ChangeOpacity Trail lb 2 13 0 easeinoutsine
-a ChangeOpacity Trail rb 2 13 0 easeinoutsine
-a ChangeOpacity Trail rc 2 13 0 easeinoutsine
+n short lt 39
+n long rc 39 40
+n short lc 40
+n short rb 40.5
+n short rb 40.75
+n long lb 41.25 42
+n swipe Out rc 42
+n short rb 45
+n long lc 45 46
+n short rc 46
+n short lt 46.5
+n short lt 46.75
+n long rt 47.25 48
+n swipe Out lc 48
+n long rc 51 52
+n short lt 51
+n short lc 52
+n short rb 52.5
+n short rb 52.75
+n long lb 53.25 54
+n long rc 54 55
+n short lc 55
+n short rt 55.5
+n short rt 55.75
+n long lt 56.25 57
+n short rc 57
+n catch rc 57.25
+n catch rc 57.5
+n catch rc 57.75
+n catch rc 58
+n catch rc 58.25
+n catch rc 58.5
+n catch rc 58.75
+n catch rc 59
+n catch rc 60
+n long rt 63 69
+n long rb 69 75
+n long rt 75 81
+n long rb 81 87
+n long rt 87 93
+n long rb 93 99
+n long rt 99 105
+n short lt 112
+n short lt 113
+n short lt 113.5
+n short lt 113.75
+n short lt 114.25
+n short lt 114.75
 a ChangeOpacity Trail rt 2 13 0 easeinoutsine
-a S_MoveCamera Position x 96 0 0 easeinoutsine
+a ChangeOpacity Trail rc 2 13 0 easeinoutsine
+a MoveCamera Position 2 13 0 0 -3 easeinoutsine
+a ChangeOpacity Trail lb 2 13 0 easeinoutsine
+a ChangeOpacity Trail lc 2 13 0 easeinoutsine
+a ChangeOpacity Trail lt 2 13 0 easeinoutsine
+a ChangeOpacity Trail rb 2 13 0 easeinoutsine
+a MoveCamera Angle 15 5.7 0 0 360 spring
+a ChangeOpacity Trail lc 15 5 1 easeinoutsine
+a ChangeOpacity Trail rc 15 5 1 easeinoutsine
+a ChangeOpacity Trail rb 21 5 1 easeinoutsine
+a ChangeOpacity Trail lt 21 5 1 easeinoutsine
+a MoveCamera Angle 21 5.7 0 0 360 spring
+a ChangeOpacity Trail lb 27 5 1 easeinoutsine
+a MoveCamera Angle 27 5.7 0 0 360 spring
+a ChangeOpacity Trail rt 27 5 1 easeinoutsine
+a MoveCamera Position 33 5.7 0 0 3 easeinoutcirc
+a MoveCamera Position 39 0.2 0 0 0.4 linear
+a MoveCamera Position 39.2 0.2 0 0 -0.4 linear
+a MoveCamera Angle 42 2 0 0 180 easeinoutcubic
+a MoveCamera Position 42 0.2 0 0 0.4 linear
+a MoveCamera Position 42.2 0.2 0 0 -0.4 linear
+a MoveCamera Position 45 0.2 0 0 0.4 linear
+a MoveCamera Position 45.2 0.2 0 0 -0.4 linear
+a MoveCamera Angle 48 2 0 0 180 easeinoutcubic
+a MoveCamera Position 48 0.2 0 0 0.4 linear
+a MoveCamera Position 48.2 0.2 0 0 -0.4 linear
+a MoveCamera Position 51 0.2 0 0 0.4 linear
+a MoveCamera Position 51.2 0.2 0 0 -0.4 linear
+a MoveCamera Position 54 0.2 0 0 0.4 linear
+a MoveCamera Position 54.2 0.2 0 0 -0.4 linear
+a MoveCamera Angle 56.83 3 0 0 90 easeinoutsine
+a MoveCamera Position 57 1 0 0 0.9 easeinoutsine
+a ChangeStage 5disappearexceptrc 57.1 2.65 easeinsine
+a ChangeOpacity Trail rb 59.8 0 0 easeinoutsine
+a ChangeOpacity Trail rt 59.8 0 0 easeinoutsine
+a ChangeStage stage1 59.97 0 easeinoutsine
+a ChangeOpacity Trail rt 60.07 1.5 1 easeinoutsine
+a ChangeOpacity Trail rc 60.07 1.5 0 easeinoutsine
+a ChangeOpacity Trail rb 60.07 1.5 1 easeinoutsine
+a MoveCamera Position 60.17 2.4 0 0 2.6 easeinoutsine
+a ChangeOpacity Trail lc 105.1 2 0 easeinoutsine
+a ChangeOpacity Trail lb 105.1 2 0 easeinoutsine
+a ChangeOpacity Trail rc 105.1 2 0 easeinoutsine
+a ChangeOpacity Trail lt 105.1 2 0 easeinoutsine
+a ChangeOpacity Trail rt 105.1 2 0 easeinoutsine
+a ChangeOpacity Trail rb 105.1 2 0 easeinoutsine
+a ChangeStage classichexagon 107.5 0 easeinoutsine
+a MoveCamera Position 107.5 0 0 0 -3 easeinoutsine
+a MoveCamera Angle 107.5 0 0 0 -90 easeinoutsine
+a ChangeOpacity Trail rt 108 2 1 easeinoutsine
+a ChangeOpacity Trail rb 108 2 1 easeinoutsine
+a ChangeOpacity Trail rc 108 2 1 easeinoutsine
+a ChangeOpacity Trail lb 108 2 1 easeinoutsine
+a ChangeOpacity Trail lc 108 2 1 easeinoutsine
+a ChangeOpacity Trail lt 108 2 1 easeinoutsine
 section offset:57500 bpm:160
-n short rt 1
-n short rt 2
-n short rt 3
-n short rt 4
-n short rt 5
-n short rt 6
-n short rt 7
-n short rt 8
-n short rt 9
-n short rt 10
-n short rt 11
-n short rt 12
-n short rt 13
-n short rt 14
-n short rt 15
-n short rt 16
-n short rt 17
-n short rt 18
-n short rt 19
-n short rt 20
-n short rt 21
-n short rt 22
-n short rt 23
-n short rt 24
-n short rt 25
-n short rt 26
-n short rt 27
-n short rt 28
-n short rt 29
-n short rt 30
+n short lt 0
+n short lt 4
 n short lt 40
+a ChangeStage side_6 55 2 easeinoutsine
+a MoveCamera Position 55 3 0 0 3 easeinoutsine
+a MoveCamera Angle 57 4 0 0 360 easeinoutsine
 section offset:114750 bpm:120
 n short rt 1
 n short rt 2
@@ -84,3 +148,5 @@ n short rt 27
 n short rt 28
 n short rt 29
 n short rt 30
+define StagePosition 5disappearexceptrc -16.65,20.35,0 0,0,240 2.7,0,0 0,0,180 -16.65,-20.35,0 0,0,120 -20.35,-20.35,0 0,0,60 -20.7,0,0 0,0,0 -21.35,21.35,0 0,0,300
+define StagePosition stage1 2.35,4.35,1.5 -20,-40,210 2.7,0,1 0,0,180 2.35,-4.35,1.5 20,-40,150 100,-2.35,0 0,0,60 100,0,0 0,0,0 100,2.35,0 0,0,300

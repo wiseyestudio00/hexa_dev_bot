@@ -47,9 +47,17 @@
         "ModificationDate": "2022-07-11 17:18:42.835464",
         "Size": 7743
     },
+    "guiding star/level.json": {
+        "ModificationDate": "2022-07-31 03:31:20.012359",
+        "Size": 115
+    },
     "guiding star/chart.hard.txt": {
-        "ModificationDate": "2022-07-31 03:22:14.561307",
-        "Size": 1747
+        "ModificationDate": "2022-07-31 03:32:16.851149",
+        "Size": 4669
+    },
+    "guiding star/audio.ogg": {
+        "ModificationDate": "2022-07-31 03:31:17.791362",
+        "Size": 2965257
     },
     "journey's end/chart.easy.txt": {
         "ModificationDate": "2022-07-05 22:52:31.501901",
@@ -90,6 +98,14 @@
     "orion/chart.medium.txt": {
         "ModificationDate": "2022-07-12 00:52:28.494716",
         "Size": 3814
+    },
+    "love puzzle/level.json": {
+        "ModificationDate": "2022-07-31 03:27:09.822463",
+        "Size": 98
+    },
+    "love puzzle/audio.ogg": {
+        "ModificationDate": "2022-07-31 03:27:21.338408",
+        "Size": 9728453
     },
     "split-sole rewind/level.json": {
         "ModificationDate": "2022-07-31 02:53:38.505569",
