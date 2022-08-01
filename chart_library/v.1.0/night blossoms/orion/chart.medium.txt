@@ -207,30 +207,6 @@ n short rb 286
 n short lb 288
 n short lc 290
 n short lt 292
-n short rc 307
-n short rc 307
-n short rc 308
-n short rc 308
-n short lt 310
-n short lt 310
-n short lt 311
-n short lt 311
-n short lt 312
-n short lt 312
-n short rt 314
-n short rt 314
-n short rt 315
-n short rt 315
-n short rt 316
-n short rt 316
-n short rc 318
-n short rc 318
-n short rb 320
-n short rb 320
-n short lb 322
-n short lb 322
-n long lc 324 326
-n long lc 324 326
 a S_MoveStage Abs_Angle z 93 36 180 easeinoutquad
 a S_MoveStage Angle z 192 67 -180 easeinoutsine
 a S_MoveCamera Position z 262 8 -0.5 easeinoutsine
