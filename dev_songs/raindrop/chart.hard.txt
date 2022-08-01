@@ -2,7 +2,6 @@ section offset:-60000 bpm:60
 a S_MoveStage Angle z 0 0 -5 easeoutquad
 section offset:0 bpm:155
 n swipe In rb 0
-n short lt 0
 n long rc 0 3.25
 n catch rb 0.75
 n catch rb 1
