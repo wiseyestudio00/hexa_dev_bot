@@ -1,0 +1,1216 @@
+section offset:-60000 bpm:60
+a S_MoveStage Angle z 0 0 -5 easeoutquad
+section offset:0 bpm:155
+n swipe In rb 0
+n short lt 0
+n long rc 0 3.25
+n catch rb 0.75
+n catch rb 1
+n catch rb 1.25
+n catch lb 1.75
+n catch lb 2.25
+n catch lb 2.5
+n catch lc 2.75
+n catch lc 3
+n catch lc 3.25
+n swipe In lb 3.75
+n long lc 3.75 7.25
+n catch lb 4.75
+n catch lb 5
+n catch lb 5.25
+n catch rb 5.75
+n catch rb 6.25
+n catch rb 6.5
+n catch rc 6.75
+n catch rc 7
+n catch rc 7.25
+n swipe In rb 7.75
+n long rc 7.75 11.25
+n catch rb 8.75
+n catch rb 9
+n catch rb 9.25
+n catch lb 9.75
+n catch lc 10.25
+n catch lc 10.5
+n catch lc 10.75
+n catch lb 11.25
+n catch lb 11.5
+n catch lb 11.75
+n long rb 12 12.5
+n long rc 12 12.5
+n long rb 12.75 13.25
+n long lb 12.75 13.25
+n long lb 13.5 14
+n long lc 13.5 14
+n long rt 16 16.5
+n short lb 16.5
+n long rt 17 17.5
+n short lb 17.5
+n long rc 18 18.5
+n short lb 18.5
+n long rc 19 19.5
+n short lc 19.5
+n long rb 20 20.5
+n short lt 20.5
+n short lb 21
+n short lb 21.25
+n long rb 21.75 23
+n short lc 21.75
+n swipe Out rt 23
+n short rc 24
+n short lb 24
+n catch rb 24.5
+n catch lc 24.75
+n catch rb 25
+n catch lc 25.25
+n catch rb 25.5
+n short lb 26
+n short lt 26
+n catch lc 26.5
+n catch rb 26.75
+n catch lc 27
+n catch rb 27.25
+n catch lc 27.5
+n long rb 28 28.5
+n long rc 28 28.5
+n long lt 28.75 29.25
+n long lb 28.75 29.25
+n short rt 29.5
+n short lb 29.5
+n long lb 29.75 31
+n long rt 29.75 31
+n catch lc 32
+n catch lb 32.25
+n clong rb 32.5 33
+n long rt 33 33.5
+n long rc 33.75 34.25
+n short rb 34.5
+n short lb 35
+n short rc 35
+n short lb 35.5
+n catch rc 36
+n catch rb 36.25
+n clong lb 36.5 37
+n long lt 37 37.5
+n long lc 37.75 38.25
+n short lb 38.5
+n short rb 39
+n short lc 39
+n short rb 39.5
+n short lc 40
+n catch lb 40.25
+n catch rb 40.5
+n short rc 41
+n catch rb 41.25
+n catch lb 41.5
+n short lt 42
+n catch lc 42.25
+n catch lb 42.5
+n short rt 43
+n catch rc 43.25
+n catch rb 43.5
+n long lc 44 44.5
+n long lt 44 44.5
+n long lc 44.75 45.25
+n long lb 44.75 45.25
+n long rb 45.5 46
+n long lb 45.5 46
+n long rb 46.25 46.75
+n long rc 46.25 46.75
+n long rc 47 47.75
+n long rt 47 47.75
+n short rb 48
+n catch rb 48.25
+n catch rb 48.5
+n catch rb 48.75
+n catch rb 49
+n catch rb 49.25
+n catch rb 49.5
+n catch rb 49.75
+n catch rb 50
+n catch rc 50.25
+n catch rc 50.5
+n catch rc 50.75
+n catch rc 51
+n catch rc 51.25
+n catch rc 51.5
+n short lb 52
+n catch lb 52.25
+n catch lb 52.5
+n catch lb 52.75
+n catch lb 53
+n catch lb 53.25
+n catch lb 53.5
+n catch lc 53.75
+n catch lc 54
+n catch lc 54.25
+n catch lc 54.5
+n catch lc 54.75
+n catch lc 55
+n catch lc 55.25
+n catch lc 55.5
+n short rc 56
+n catch rc 56.25
+n catch rc 56.5
+n catch rc 56.75
+n catch rc 57
+n catch rc 57.25
+n catch rc 57.5
+n catch rc 57.75
+n catch rt 58
+n catch rt 58.25
+n catch rt 58.5
+n catch rc 58.75
+n catch rc 59
+n catch rc 59.25
+n catch rc 59.5
+n long rb 60 60.75
+n long lt 60 60.75
+n long rt 61 61.5
+n long lb 61 61.5
+n long rb 61.75 63
+n long lt 61.75 63
+n catch rc 64
+n catch rb 64.5
+n catch rc 65
+n clong rb 65.5 68
+n catch rc 68
+n catch lb 69.5
+n catch rb 70
+n catch lb 70.5
+n catch rb 71
+n catch rc 72
+n catch rb 73.5
+n clong lb 75 79
+n catch lc 79
+n catch lc 79.25
+n catch lc 79.5
+n catch lc 79.75
+n catch lc 80
+n catch rb 80.5
+n catch lb 81
+n catch rc 81.5
+n catch rb 82.5
+n catch lb 83
+n catch rb 83.5
+n catch lb 85.5
+n catch rb 86
+n catch rc 86.5
+n catch lt 87
+n catch rt 87.125
+n catch lc 87.5
+n clong lb 88 89.5
+n clong rb 89.5 90.5
+n catch lc 90.5
+n catch lb 91
+n catch rb 91.5
+n catch rc 92
+n catch lb 92.75
+n catch rb 93.5
+n clong lc 94 95
+n catch lb 95
+n long rc 96 99.5
+n catch rb 96.5
+n catch rb 96.75
+n catch lb 97.5
+n catch lb 97.75
+n catch lc 98.5
+n catch lc 98.75
+n catch lb 99.5
+n catch lb 99.75
+n long lc 100 103.5
+n catch lb 100.5
+n catch lb 100.75
+n catch rb 101.5
+n catch rb 101.75
+n catch rc 102.5
+n catch rc 102.75
+n short rb 103.5
+n long lb 104 107.5
+n catch rb 104.5
+n catch rb 104.75
+n catch lc 105.5
+n catch lc 105.75
+n catch rb 106.5
+n catch rb 106.75
+n catch rc 107.5
+n catch rc 107.75
+n long rb 108 111.5
+n catch lb 108.5
+n catch lb 108.75
+n catch rc 109.5
+n catch rc 109.75
+n catch lb 110.5
+n catch lb 110.75
+n short lc 111.5
+n swipe In lt 112
+n swipe In rb 112
+n short rb 115.5
+n short lt 115.5
+n swipe In rb 116
+n swipe In lt 116
+n swipe In rc 120
+n swipe In lc 120
+n swipe In rt 122
+n swipe In lb 122
+n swipe Out rb 124
+n swipe Out lt 124
+n swipe Out lc 125
+n swipe Out rc 125
+n swipe Out rt 126
+n swipe Out lb 126
+n catch rc 127
+n catch rc 127.25
+n catch rc 127.5
+n catch rc 127.75
+n short rt 128
+n short lb 128.5
+n short lc 128.75
+n short lb 129.25
+n short rb 129.25
+n short rc 129.75
+n short lt 130
+n short lb 130.25
+n short lc 130.5
+n short rc 131
+n short lb 131.25
+n short rb 131.5
+n short lb 132
+n swipe In lc 132.5
+n short lb 133
+n swipe In rb 133.5
+n short lb 134
+n swipe In lc 134.5
+n short lb 135
+n swipe In rb 135.5
+n short lc 136
+n short lb 136
+n short lt 136.5
+n short rt 136.75
+n short rt 137.25
+n short lb 137.5
+n short rc 137.75
+n short rb 138
+n swipe Out lb 138.5
+n short rb 139
+n swipe Out rc 139.5
+n short rb 140
+n short lb 140
+n short lc 140.5
+n short lc 140.75
+n short rt 141.25
+n short rt 141.5
+n swipe In lt 142
+n swipe In rb 143
+n short rb 144
+n short rc 144
+n short rt 144.5
+n short lb 144.75
+n catch lt 145.25
+n catch rt 145.5
+n catch rc 145.75
+n short lb 146
+n short rb 146
+n short lc 146.5
+n short rc 146.75
+n catch lt 147.25
+n catch lc 147.5
+n catch lb 147.75
+n catch rb 148
+n catch rb 148.25
+n catch rb 148.5
+n catch rb 148.75
+n catch rb 149
+n catch rc 149.25
+n catch rb 149.5
+n catch lb 149.75
+n catch rb 150
+n long lb 151 152
+n short rb 151.5
+n long rc 152 153
+n short lb 152.5
+n long lc 153 154
+n short lb 153.5
+n long rt 154 155
+n short rb 154.5
+n long lt 155 156
+n catch lc 155.5
+n catch lb 155.75
+n catch rb 156
+n long rc 157 157.5
+n short rt 157.5
+n long rt 157.75 159
+n short rc 158.5
+n short rb 159
+n short lb 159.5
+n short lc 160
+n short rb 160
+n short lc 160.5
+n short lb 160.75
+n short lt 161
+n short rb 161.5
+n short lb 161.75
+n short rc 162
+n short rt 162.5
+n short lt 163
+n short lc 163.5
+n long lb 164 165.5
+n short rb 165.5
+n short lb 165.75
+n long rc 166 168
+n catch rb 167
+n catch lb 167.25
+n catch lc 167.5
+n catch lt 167.75
+n clong rt 168 168.75
+n catch rc 168.75
+n short lt 169.5
+n short rb 169.5
+n clong lc 170 170.75
+n catch lt 170.75
+n short rt 171.5
+n short lb 171.5
+n long rc 172 173.5
+n short lb 173.5
+n short rb 173.75
+n long lc 174 176
+n catch lb 175
+n catch rb 175.25
+n catch rc 175.5
+n catch rt 175.75
+n catch lt 176
+n long rb 177 178
+n short lb 177.5
+n long lc 178 179
+n short lb 178.5
+n long rc 179 180
+n short rb 179.5
+n long lb 180 181
+n catch rb 180.75
+n short rc 181.25
+n short rb 181.5
+n short rt 181.75
+n long lb 182 184
+n catch rc 183.5
+n catch rt 183.75
+n clong lt 184 184.75
+n catch lc 184.75
+n short rt 185.5
+n short lb 185.5
+n clong rc 186 186.75
+n catch rt 186.75
+n short rb 187.5
+n short lt 187.5
+n swipe Out rc 188
+n catch rc 188.25
+n catch rc 188.5
+n catch rc 188.75
+n catch rc 189
+n catch rc 189.25
+n catch rc 189.5
+n catch rc 189.75
+n catch rc 190
+n catch rc 190.25
+n catch rc 190.5
+n catch rc 190.75
+n catch rc 191
+n catch rc 191.25
+n catch rc 191.5
+n catch rc 191.75
+n swipe In rc 192
+n catch lc 192
+n catch lc 192.25
+n catch lc 192.5
+n swipe In rc 192.75
+n catch lc 192.75
+n catch lc 193
+n catch lc 193.25
+n catch lc 193.5
+n catch lc 193.75
+n catch lc 194
+n catch lc 194.25
+n catch lc 194.5
+n swipe Out rb 194.5
+n catch lc 194.75
+n catch lc 195
+n catch lc 195.25
+n swipe Out rb 195.25
+n catch lc 195.5
+n catch lc 195.75
+n swipe In rb 196
+n catch lc 196
+n catch lc 196.25
+n catch lc 196.5
+n catch lc 196.75
+n catch lc 197
+n catch lc 197.25
+n catch lc 197.5
+n short lt 197.5
+n catch lc 197.75
+n catch lc 198
+n catch lc 198.25
+n swipe In rt 198.5
+n catch lc 198.5
+n catch lc 198.75
+n catch lc 199
+n swipe Out rt 199.25
+n catch lc 199.25
+n catch lc 199.5
+n catch lc 199.75
+n catch lc 200
+n swipe In rt 200
+n catch lc 200.25
+n catch lc 200.5
+n swipe Out rt 200.75
+n catch lc 200.75
+n catch lc 201
+n catch lc 201.25
+n catch lc 201.5
+n catch lc 201.75
+n catch lc 202
+n short lb 202.25
+n catch lc 202.25
+n catch lc 202.5
+n catch lc 202.75
+n catch lc 203
+n swipe Out rb 203.25
+n catch lc 203.25
+n catch lc 203.5
+n catch lc 203.75
+n swipe Out rb 204
+n catch lc 204
+n catch lc 204.25
+n catch lc 204.5
+n swipe In lb 204.75
+n catch lc 204.75
+n catch lc 205
+n catch lc 205.25
+n catch lc 205.5
+n swipe In lb 205.5
+n catch lc 205.75
+n catch lc 206
+n catch lc 206.25
+n swipe Out rb 206.25
+n catch lc 206.5
+n catch lc 206.75
+n catch lc 207
+n swipe Out rb 207
+n catch lc 207.25
+n catch lc 207.5
+n catch lc 207.75
+n catch lc 208
+n swipe In rt 208
+n catch lc 208.25
+n catch lc 208.5
+n catch lc 208.75
+n swipe Out rt 208.75
+n catch lc 209
+n catch lc 209.25
+n catch lc 209.5
+n catch lc 209.75
+n catch lc 210
+n swipe In lb 210
+n catch lc 210.25
+n catch lc 210.5
+n swipe Out lb 210.75
+n catch lc 210.75
+n catch lc 211
+n catch lc 211.25
+n catch lc 211.5
+n catch lc 211.75
+n swipe In lt 212
+n catch lc 212
+n catch lc 212.25
+n catch lc 212.5
+n catch lc 212.75
+n swipe Out lt 212.75
+n catch lc 213
+n catch lc 213.25
+n catch lc 213.5
+n catch lc 213.75
+n catch lc 214
+n swipe In rb 214
+n catch lc 214.25
+n catch lc 214.5
+n catch lc 214.75
+n swipe Out rb 214.75
+n catch lc 215
+n catch lc 215.25
+n catch lc 215.5
+n catch lc 215.75
+n catch lc 216
+n swipe In rc 216
+n catch lc 216.25
+n catch lc 216.5
+n swipe In rc 216.75
+n catch lc 216.75
+n catch lc 217
+n catch lc 217.25
+n swipe In rc 217.5
+n catch lc 217.5
+n catch lc 217.75
+n catch lc 218
+n catch lc 218.25
+n catch lc 218.5
+n swipe Out rc 218.5
+n catch lc 218.75
+n catch lc 219
+n swipe Out rc 219.25
+n catch lc 219.25
+n catch lc 219.5
+n catch lc 219.75
+n catch lc 220
+n swipe In lb 220
+n catch lc 220.25
+n catch lc 220.5
+n catch lc 220.75
+n swipe In lt 220.75
+n catch lc 221
+n catch lc 221.25
+n swipe In lb 221.5
+n catch lc 221.5
+n catch lc 221.75
+n catch lc 222
+n swipe In rt 222
+n catch lc 222.25
+n catch lc 222.5
+n swipe In rb 222.75
+n catch lc 222.75
+n catch lc 223
+n catch lc 223.25
+n swipe In rt 223.5
+n catch lc 223.5
+n catch lc 223.75
+n long rb 224 228
+n catch lc 224
+n short lb 226
+n long lc 228 232
+n short lb 230
+n short rb 232
+n short lb 232.5
+n short lc 233
+n short lt 233.5
+n short lb 234
+n short rb 234.5
+n short rc 235
+n short rt 235.5
+n long lt 236 237
+n long lc 237 238
+n long lb 238 239
+n swipe Out rb 239
+n swipe In rb 240
+n swipe In lt 240
+n short lb 241.5
+n short rt 241.5
+n short lb 241.75
+n short rt 241.75
+n short lb 242
+n short rt 242
+n short rc 245.5
+n short lc 245.5
+n short lc 245.75
+n short rc 245.75
+n short rc 246
+n short lc 246
+n short rb 249.5
+n short lt 249.5
+n short rb 249.75
+n short lt 249.75
+n short rb 250
+n long lt 250 252
+n catch rt 250.75
+n catch rc 251.5
+n clong rb 252 255
+n catch lb 253
+n catch lc 253.125
+n long lt 254 255
+n long rt 256 256.75
+n short lb 256
+n short rb 256.75
+n swipe In rc 257
+n short lb 257.5
+n short rb 258
+n long lt 258 258.75
+n short lb 258.75
+n swipe In lc 259
+n short rb 259.5
+n long rt 260 260.75
+n short lb 260
+n short rb 260.75
+n swipe In rc 261
+n long lb 261.5 262
+n swipe In rb 262
+n short rt 263
+n short rc 263.5
+n long lc 264 264.75
+n short rb 264
+n short lb 264.75
+n short rb 265.25
+n short lb 265.5
+n short lb 266
+n long rc 266 266.75
+n short rb 266.75
+n short lb 267.25
+n short rb 267.5
+n long rc 268 270
+n short rb 268
+n catch lc 268.5
+n catch lc 268.75
+n catch lb 269.25
+n catch lb 269.5
+n catch rb 270
+n clong lb 270.5 271
+n clong lc 271.25 271.75
+n short rc 272
+n long lt 272 272.75
+n short rc 272.75
+n swipe In lb 273
+n short rb 273.5
+n long rt 274 274.75
+n short lc 274
+n short lc 274.75
+n swipe In rb 275
+n short lb 275.5
+n short rc 276
+n long lt 276 276.75
+n short rc 276.75
+n swipe In lb 277
+n short rb 277.5
+n long rc 278 278.5
+n swipe Out lb 278
+n long lc 279 279.5
+n swipe Out rb 279
+n long lb 280 280.5
+n long rt 280 280.5
+n long lc 280.75 281.25
+n long rc 280.75 281.25
+n short lt 281.5
+n short rb 281.5
+n short lt 281.75
+n short rb 281.75
+n long lt 282 282.5
+n long rb 282 282.5
+n long rc 282.75 283.25
+n long lc 282.75 283.25
+n long lb 283.5 284
+n catch rt 283.875
+n catch rc 283.9375
+n clong rb 284 287
+n swipe Out lb 285
+n swipe Out lc 286
+n swipe Out lt 287
+n short lt 288
+n long lb 288 288.75
+n short rb 288.75
+n short lc 289
+n short rt 289.5
+n long rc 290 290.75
+n short lt 290
+n short rb 290.75
+n short rt 291
+n catch lc 291.5
+n catch lb 291.75
+n short rt 292
+n clong rb 292 292.75
+n swipe Out rc 292.75
+n short rt 293.5
+n long lt 294 294.75
+n short lb 294
+n swipe Out lc 294.75
+n short lb 295.5
+n short lb 295.75
+n long lb 296 296.75
+n long lt 296.75 297.5
+n short rc 297.5
+n long rt 298 298.75
+n long rb 298.75 299.5
+n short lc 299.5
+n swipe In lt 300
+n long rb 300.5 301
+n swipe In rt 301
+n long lb 301.5 302
+n swipe In rc 302
+n long lc 302.5 303
+n swipe In rb 303
+n swipe Out lb 304
+n swipe Out rc 304
+n short lb 305.5
+n short rb 305.75
+n long lb 306 306.75
+n long rc 306.75 307.5
+n short lt 307.5
+n short rb 308
+n short rc 308
+n short lb 308.5
+n short lc 309
+n short lt 309
+n short rt 309.5
+n short rc 310
+n short lc 310
+n short lb 311
+n short lc 311.5
+n short rb 312
+n short lt 312
+n short rc 312.5
+n short rt 312.75
+n short rt 313.25
+n short rb 313.5
+n short lb 314
+n short rt 314
+n short lc 314.5
+n short lt 314.75
+n short lt 315.25
+n short lb 315.5
+n catch rb 316
+n catch rb 316.25
+n catch rb 316.5
+n catch rb 316.75
+n catch rc 317
+n catch rb 317.25
+n catch lb 317.5
+n catch rb 317.75
+n catch rc 318
+n short lb 319
+n short lb 319.25
+n short rb 319.5
+n short lc 319.75
+n long rc 320 321.25
+n short rb 320.75
+n catch lb 321
+n catch lc 321.25
+n long rt 321.75 323.25
+n short rc 322.25
+n catch rb 322.5
+n catch lb 322.75
+n catch lc 323
+n catch lt 323.25
+n long lc 323.75 325.25
+n short lb 324.75
+n catch rb 325
+n catch rc 325.25
+n long lt 325.75 327.25
+n short lc 326.25
+n catch lb 326.5
+n catch rb 326.75
+n catch rc 327
+n catch rt 327.25
+n long rc 327.75 329.25
+n short rb 328.75
+n catch lb 329
+n catch lc 329.25
+n short rb 329.75
+n short lt 329.75
+n short lc 330.25
+n short lb 330.5
+n short lc 330.75
+n short rc 331.25
+n short rb 331.5
+n short rc 331.75
+n long lb 332 332.5
+n long rc 332.75 333.25
+n long rt 332.75 333.25
+n long lc 333.5 334.5
+n long lt 333.5 334.5
+n catch rb 334.75
+n catch rt 335.25
+n catch lb 335.25
+n short lc 336
+n short rb 336
+n short rc 336.5
+n short lb 336.75
+n short rb 337
+n short lc 337.25
+n long lb 337.5 338.5
+n short lt 338.25
+n short lt 338.5
+n short lb 338.75
+n short lc 339
+n short rb 339.25
+n short lb 339.5
+n short lb 339.75
+n long rc 340 340.75
+n long lc 341 341.5
+n long rb 341 341.5
+n long lb 341.75 343
+n short lt 341.75
+n swipe Out rt 343
+n short rc 344
+n short lt 344
+n short lc 344.5
+n short rt 344.75
+n short lb 345
+n short rt 345.25
+n short rb 345.5
+n short lc 346
+n short rt 346
+n short rc 346.5
+n short lt 346.75
+n short rb 347
+n short lt 347.25
+n short lb 347.5
+n short lc 348
+n short lc 348.25
+n short lb 348.5
+n short lb 348.75
+n short rb 349
+n short rb 349.25
+n short rc 349.5
+n short rc 349.75
+n catch rt 351
+n catch rt 351.125
+n catch rt 351.25
+n catch rt 351.375
+n catch rt 351.5
+n catch rt 351.625
+n catch rt 351.75
+n catch rt 351.875
+n swipe In rt 352
+n swipe Out rt 352.25
+n swipe In lt 352.75
+n swipe Out lt 353
+n swipe In rc 353.5
+n swipe Out rc 353.75
+n swipe In lc 354.25
+n swipe Out lc 354.5
+n swipe In rb 355
+n swipe In lb 355
+n swipe Out rb 355.25
+n swipe Out lb 355.25
+n swipe In rt 355.75
+n swipe In lt 355.75
+a S_MoveCamera Position y 0 2 -0.2 easeoutquad
+a S_MoveCamera Position y 2 2 0.2 easeinoutquad
+a S_MoveCamera Position y 4 2 -0.2 easeoutquad
+a S_MoveCamera Position y 6 2 0.2 easeinoutquad
+a S_MoveCamera Position y 8 2 -0.2 easeoutquad
+a S_MoveCamera Position y 10 2 0.2 easeinoutquad
+a S_MoveStage Angle z 0 3.5 10 easeoutquad
+a S_MoveStage Angle z 4 3.5 -10 easeoutquad
+a S_MoveStage Angle z 8 3.5 10 easeoutquad
+a S_MoveStage Angle z 12 0.5 -2.5 easeoutquad
+a S_MoveStage Angle z 12.75 0.5 -2.5 easeoutquad
+a S_MoveStage Angle z 13.5 0.25 -5 easeoutquad
+a S_MoveStage Position z 13.5 0 0.25 linear
+a S_MoveStage Position z 14 2 0.75 easeinquad
+a S_MoveStage Angle z 13.75 8.25 35 easeinoutquad
+a S_MoveStage Position z 23 0.25 0.2 easeoutquad
+a S_MoveStage Angle z 23 3 -15 easeinoutsine
+a S_MoveStage Angle z 26 2 10 easeinoutsine
+a S_MoveStage Angle z 28 4 -25 easeinoutquad
+a S_MoveStage Abs_Position z 28 4 0 easeinsine
+a S_MoveStage Position z 32 12 1.5 linear
+a S_MoveStage Angle z 32 0.25 1 easeoutquad
+a S_MoveStage Angle z 32.25 0.25 1 easeoutquad
+a S_MoveStage Angle z 32.5 0.25 1 easeoutquad
+a S_MoveStage Angle z 36 0.25 -1 easeoutquad
+a S_MoveStage Angle z 36.25 0.25 -1 easeoutquad
+a S_MoveStage Angle z 36.5 0.25 -1 easeoutquad
+a S_MoveStage Angle z 40 0.25 1 easeoutquad
+a S_MoveStage Angle z 40.25 0.25 1 easeoutquad
+a S_MoveStage Angle z 40.5 0.25 1 easeoutquad
+a S_MoveStage Angle z 41 0.25 -2 easeoutquad
+a S_MoveStage Angle z 41.25 0.25 -2 easeoutquad
+a S_MoveStage Angle z 41.5 0.25 -2 easeoutquad
+a S_MoveStage Angle z 42 0.25 2 easeoutquad
+a S_MoveStage Angle z 42.25 0.25 2 easeoutquad
+a S_MoveStage Angle z 42.5 0.25 2 easeoutquad
+a S_MoveStage Angle z 43 0.25 -2 easeoutquad
+a S_MoveStage Angle z 43.25 0.25 -2 easeoutquad
+a S_MoveStage Angle z 43.5 0.25 -2 easeoutquad
+a S_MoveStage Angle z 44 3 2 easeoutback
+a S_MoveStage Position z 44 0.75 -0.3 easeoutback
+a S_MoveStage Position z 44.75 0.75 -0.3 easeoutback
+a S_MoveStage Position z 45.5 0.75 -0.3 easeoutback
+a S_MoveStage Position z 46.25 0.75 -0.3 easeoutback
+a S_MoveStage Position z 47 0.75 -0.3 easeoutback
+a S_MoveStage Angle z 47 1 10 easeoutquad
+a S_MoveCamera Angle z 48 1 -4 easeoutsine
+a S_MoveCamera Angle z 49 1 4 easeinquad
+a S_MoveCamera Angle z 50 1 -4 easeoutsine
+a S_MoveCamera Angle z 51 1 4 easeinquad
+a S_MoveCamera Angle z 52 1 -4 easeoutsine
+a S_MoveCamera Angle z 53 1 4 easeinquad
+a S_MoveCamera Angle z 54 1 -4 easeoutsine
+a S_MoveCamera Angle z 55 1 4 easeinquad
+a S_MoveCamera Angle z 56 1 -4 easeoutsine
+a S_MoveCamera Angle z 57 1 4 easeinquad
+a S_MoveCamera Angle z 58 1 -4 easeoutsine
+a S_MoveCamera Angle z 59 1 4 easeinquad
+a S_MoveStage Angle z 48 2 -15 easeinoutsine
+a S_MoveStage Angle z 50 2 -15 easeinoutsine
+a S_MoveStage Angle z 52 2 -15 easeinoutsine
+a S_MoveStage Angle z 54 2 -15 easeinoutsine
+a S_MoveStage Angle z 56 2 -15 easeinoutsine
+a S_MoveStage Angle z 58 2 -15 easeinoutsine
+a S_MoveStage Angle z 60 1 5 easeoutsine
+a S_MoveStage Angle z 61 0.75 -5 easeoutsine
+a S_MoveStage Angle z 61.75 16.25 90 easeoutsine
+a S_MoveStage Position z 62 16 0.5 easeinoutsine
+a S_MoveStage Angle z 78 8 -15 easeinoutsine
+a S_MoveStage Abs_Position z 80 16 0 easeinsine
+a S_MoveStage Angle z 86 8 7.5 easeinoutsine
+a S_MoveStage Angle z 94 4 -1.5 easeinoutsine
+a S_MoveCamera Angle z 112 0.125 3 easeoutsine
+a S_MoveCamera Angle z 112.125 3.875 -3 easeinoutsine
+a S_MoveCamera Angle z 116 0.125 -3 easeoutsine
+a S_MoveCamera Angle z 116.125 3.875 3 easeinoutsine
+a S_MoveCamera Angle z 120 0.125 3 easeoutsine
+a S_MoveCamera Angle z 120.125 1.875 -3 easeinoutsine
+a S_MoveCamera Angle z 122 0.125 -3 easeoutsine
+a S_MoveCamera Angle z 122.125 1.875 3 easeinoutsine
+a S_MoveStage Angle z 112 4 -60 easeinoutsine
+a S_MoveStage Angle z 116 4 60 easeinoutsine
+a S_MoveStage Angle z 120 2 -30 easeinoutsine
+a S_MoveStage Angle z 122 2 30 easeinoutsine
+a S_MoveStage Angle z 124 1 7.5 easeoutsine
+a S_MoveStage Angle z 125 1 7.5 easeoutsine
+a S_MoveStage Angle z 126 2 15 easeoutsine
+a S_MoveStage Angle z 128 16 -60 easeinoutquad
+a S_MoveStage Position y 142 1 -0.25 easeoutquart
+a S_MoveStage Position y 143 1 0.25 easeoutquart
+a S_MoveCamera Angle x 142 1 1 easeoutquad
+a S_MoveCamera Angle x 143 1 -1 easeoutquad
+a S_MoveStage Angle z 144 16 60 easeinoutquad
+a S_MoveStage Angle z 160 16 -60 easeinoutquad
+a S_MoveStage Angle z 176 8 40 easeinquad
+a S_MoveStage Angle z 184 8 80 linear
+a S_MoveStage Position z 188 2 -1 easeoutquint
+a S_MoveStage Position z 190 2 1 easeinquad
+a S_MoveCamera Position y 188 2 1 easeoutquad
+a S_MoveCamera Position y 190 2 -1 easeinquad
+a S_MoveStage Angle x 188 2 5 easeoutquad
+a S_MoveStage Angle x 190 2 -5 easeinquad
+a S_MoveStage Position x 192 0.75 0 easeoutquart
+a S_MoveStage Position x 192.75 0.75 0 easeoutquart
+a S_MoveStage Position x 194.5 0.75 0.2 easeoutquart
+a S_MoveStage Position x 195.25 0.75 0.2 easeoutquart
+a S_MoveStage Position x 196.25 0.75 -0.2 easeoutquart
+a S_MoveStage Abs_Position x 197.5 0.75 0 easeoutquart
+a S_MoveStage Position x 198.5 0.75 0.2 easeoutquart
+a S_MoveStage Position x 199.25 0.75 -0.2 easeoutquart
+a S_MoveStage Position x 200 0.75 0.2 easeoutquart
+a S_MoveStage Position x 200.75 0.75 -0.2 easeoutquart
+a S_MoveStage Abs_Position x 202.25 0.75 0 easeoutquart
+a S_MoveStage Position x 203.25 0.75 0.2 easeoutquart
+a S_MoveStage Position x 204 0.75 0.2 easeoutquart
+a S_MoveStage Position x 204.75 0.75 -0.4 easeoutquart
+a S_MoveStage Position x 205.5 0.75 -0.4 easeoutquart
+a S_MoveStage Position x 206.25 0.75 0.2 easeoutquart
+a S_MoveStage Position x 207 0.75 0.2 easeoutquart
+a S_MoveStage Position x 208 0.75 0.2 easeoutquart
+a S_MoveStage Position x 208.75 0.75 -0.2 easeoutquart
+a S_MoveStage Position x 210 0.75 -0.2 easeoutquart
+a S_MoveStage Position x 210.75 0.75 0.2 easeoutquart
+a S_MoveStage Position x 212 0.75 0.2 easeoutquart
+a S_MoveStage Position x 212.75 0.75 -0.2 easeoutquart
+a S_MoveStage Position x 214 0.75 -0.2 easeoutquart
+a S_MoveStage Position x 214.75 0.75 0.2 easeoutquart
+a S_MoveStage Position x 216 0.75 0 easeoutquart
+a S_MoveStage Position x 216.75 0.75 0 easeoutquart
+a S_MoveStage Position x 217.5 0.75 0 easeoutquart
+a S_MoveStage Position x 218.5 0.75 0 easeoutquart
+a S_MoveStage Position x 219.25 0.75 0 easeoutquart
+a S_MoveStage Position x 220 0.75 -0.2 easeoutquart
+a S_MoveStage Position x 220.75 0.75 0.2 easeoutquart
+a S_MoveStage Position x 221.5 0.75 -0.2 easeoutquart
+a S_MoveStage Position x 222 0.75 0.2 easeoutquart
+a S_MoveStage Position x 222.75 0.75 -0.2 easeoutquart
+a S_MoveStage Position x 223.5 0.75 0.2 easeoutquart
+a S_MoveStage Position z 192 0.75 0.2 easeoutquart
+a S_MoveStage Position z 192.75 0.75 0.2 easeoutquart
+a S_MoveStage Position z 194.5 0.75 -0.2 easeoutquart
+a S_MoveStage Position z 195.25 0.75 -0.2 easeoutquart
+a S_MoveStage Position z 196.25 0.75 0.2 easeoutquart
+a S_MoveStage Position z 197.5 0.75 0 easeoutquart
+a S_MoveStage Position z 198.5 0.75 0.2 easeoutquart
+a S_MoveStage Position z 199.25 0.75 -0.2 easeoutquart
+a S_MoveStage Position z 200 0.75 0.2 easeoutquart
+a S_MoveStage Position z 200.75 0.75 -0.2 easeoutquart
+a S_MoveStage Abs_Position z 202.25 0.75 0 easeoutquart
+a S_MoveStage Position z 203.25 0.75 -0.2 easeoutquart
+a S_MoveStage Position z 204 0.75 -0.2 easeoutquart
+a S_MoveStage Position z 204.75 0.75 0.2 easeoutquart
+a S_MoveStage Position z 205.5 0.75 0.2 easeoutquart
+a S_MoveStage Position z 206.25 0.75 -0.2 easeoutquart
+a S_MoveStage Position z 207 0.75 -0.2 easeoutquart
+a S_MoveStage Position z 208 0.75 0.2 easeoutquart
+a S_MoveStage Position z 208.75 0.75 -0.2 easeoutquart
+a S_MoveStage Position z 210 0.75 0.2 easeoutquart
+a S_MoveStage Position z 210.75 0.75 -0.2 easeoutquart
+a S_MoveStage Position z 212 0.75 0.2 easeoutquart
+a S_MoveStage Position z 212.75 0.75 -0.2 easeoutquart
+a S_MoveStage Position z 214 0.75 0.2 easeoutquart
+a S_MoveStage Position z 214.75 0.75 -0.2 easeoutquart
+a S_MoveStage Position z 216 0.75 0.2 easeoutquart
+a S_MoveStage Position z 216.75 0.75 0.2 easeoutquart
+a S_MoveStage Position z 217.5 0.75 0.2 easeoutquart
+a S_MoveStage Position z 218.5 0.75 -0.2 easeoutquart
+a S_MoveStage Position z 219.25 0.75 -0.2 easeoutquart
+a S_MoveStage Position z 220 0.75 0.2 easeoutquart
+a S_MoveStage Position z 220.75 0.75 0.2 easeoutquart
+a S_MoveStage Position z 221.5 0.75 0.2 easeoutquart
+a S_MoveStage Position z 222 0.75 0.2 easeoutquart
+a S_MoveStage Position z 222.75 0.75 0.2 easeoutquart
+a S_MoveStage Position z 223.5 0.75 0.2 easeoutquart
+a S_MoveStage Abs_Position z 224 8 0 easeoutcubic
+a S_MoveCamera Angle z 224 16 90 easeinoutsine
+a S_MoveCamera Angle z 240 2 -15 easeoutsine
+a S_MoveCamera Angle z 242 4 30 easeinoutsine
+a S_MoveCamera Angle z 246 4 -30 easeinoutsine
+a S_MoveCamera Angle z 250 5 15 easeinoutsine
+a S_MoveStage Position z 239 1 -0.5 easeoutquint
+a S_MoveStage Position z 240 4 1.5 easeoutquad
+a S_MoveStage Abs_Position z 250 5 0 easeincubic
+a S_MoveCamera Angle z 285 1 10 easeoutquad
+a S_MoveCamera Angle z 286 1 10 easeoutquad
+a S_MoveCamera Angle z 287 1 10 easeoutquad
+a S_MoveCamera Angle z 304 4 -40 easeoutquad
+a S_MoveCamera Angle z 308 4 10 easeinoutsine
+a S_MoveStage Position z 333.75 0.25 0.25 easeoutquad
+a S_MoveStage Position z 334 4 0.75 easeoutquad
+a S_MoveStage Angle z 333.75 8.25 30 easeinoutquad
+a S_MoveStage Position z 343 0.25 0.2 easeoutquad
+a S_MoveStage Angle z 343 3 -15 easeinoutsine
+a S_MoveStage Angle z 346 2 10 easeinoutsine
+a S_MoveStage Angle z 348 4 -25 easeinoutquad
+a S_MoveCamera Position z 256 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 256.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 257 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 257.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 258 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 258.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 259 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 259.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 260 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 260.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 261 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 261.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 262 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 262.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 263 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 263.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 264 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 264.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 265 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 265.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 266 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 266.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 267 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 267.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 268 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 268.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 269 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 269.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 270 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 270.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 271 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 271.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 272 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 272.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 273 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 273.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 274 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 274.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 275 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 275.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 276 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 276.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 277 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 277.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 278 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 278.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 279 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 279.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 280 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 280.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 281 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 281.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 282 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 282.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 283 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 283.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 284 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 284.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 285 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 285.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 286 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 286.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 287 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 287.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 288 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 288.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 289 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 289.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 290 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 290.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 291 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 291.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 292 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 292.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 293 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 293.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 294 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 294.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 295 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 295.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 296 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 296.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 297 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 297.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 298 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 298.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 299 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 299.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 300 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 300.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 301 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 301.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 302 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 302.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 303 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 303.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 304 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 304.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 305 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 305.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 306 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 306.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 307 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 307.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 308 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 308.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 309 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 309.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 310 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 310.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 311 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 311.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 312 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 312.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 313 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 313.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 314 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 314.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 315 0.25 0.1 easeoutquad
+a S_MoveCamera Position z 315.25 0.75 -0.1 easeinsine
+a S_MoveCamera Position z 316 0.125 0.1 easeoutquad
+a S_MoveCamera Position z 316.25 0.125 0.1 easeoutquad
+a S_MoveCamera Position z 316.5 0.125 0.1 easeoutquad
+a S_MoveCamera Position z 316.75 0.125 0.1 easeoutquad
+a S_MoveCamera Position z 317 0.125 0.1 easeoutquad
+a S_MoveCamera Position z 317.25 0.125 0.1 easeoutquad
+a S_MoveCamera Position z 317.5 0.125 0.1 easeoutquad
+a S_MoveCamera Position z 317.75 0.125 0.1 easeoutquad
+a S_MoveCamera Position z 318 1 -0.8 easeinsine
+a S_MoveStage Abs_Position z 350 2 0 easeinsine
+a S_MoveStage Position z 352 0.25 0.2 easeoutquart
+a S_MoveStage Position z 352.25 0.5 -0.2 easeoutquart
+a S_MoveStage Position z 352.75 0.25 0.2 easeoutquart
+a S_MoveStage Position z 353 0.5 -0.2 easeoutquart
+a S_MoveStage Position z 353.5 0.25 0.2 easeoutquart
+a S_MoveStage Position z 353.75 0.5 -0.2 easeoutquart
+a S_MoveStage Position z 354.25 0.25 0.2 easeoutquart
+a S_MoveStage Position z 354.5 0.5 -0.2 easeoutquart
+a S_MoveStage Position z 355 0.25 0.2 easeoutquart
+a S_MoveStage Position z 355.25 0.5 -0.2 easeoutquart
+a S_MoveStage Position z 355.75 8 3 easeoutquart
