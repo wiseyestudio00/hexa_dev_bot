@@ -116,27 +116,3 @@ n short lb 280
 n short lb 284
 n short lb 288
 n short lb 292
-n short rc 307
-n short rc 307
-n short rc 308
-n short rc 308
-n short lt 310
-n short lt 310
-n short lt 311
-n short lt 311
-n short lt 312
-n short lt 312
-n short rt 314
-n short rt 314
-n short rt 315
-n short rt 315
-n short rt 316
-n short rt 316
-n short rc 318
-n short rc 318
-n short rb 320
-n short rb 320
-n short lb 322
-n short lb 322
-n long lc 324 326
-n long lc 324 326
