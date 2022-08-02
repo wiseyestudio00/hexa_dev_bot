@@ -11,6 +11,7 @@ section offset:0 bpm:60000
 section offset:0 bpm:60000
 section offset:0 bpm:60000
 section offset:0 bpm:60000
+section offset:0 bpm:60000
 section offset:0 bpm:120
 n short lt 39
 n long rc 39 40
@@ -337,11 +338,11 @@ n short rb 58
 n short rb 59
 n long rb 60 64
 n short rt 61
-n short rt 62
+n swipe In rt 62
 n short rt 63
 n long rt 64 67
 n short rb 65
-n short rb 66
+n swipe In rb 66
 n short rb 67
 n short rt 68
 n long rb 68 68.5
@@ -447,135 +448,135 @@ n short rb 111
 n short rt 111
 n swipe In rt 111.5
 n swipe Out rb 111.5
-n short rb 114
-n short rt 114
-n short rt 114.5
-n short rb 114.5
+n long rb 114 114.1
+n long rt 114 114.1
+n long rt 114.5 114.6
+n long rb 114.5 114.6
 n compound rb 115 115.1 1
-n catch rt 115
-n short rt 115.5
-n short rb 115.5
-n short rb 116
-n short rt 116
+n clong rt 115 115.1
+n long rt 115.5 115.6
+n long rb 115.5 115.6
+n long rb 116 116.1
+n long rt 116 116.1
 n compound rt 116.5 116.6 1
-n catch rb 116.5
-n short rb 117
-n short rt 117
-n short rt 117.5
-n short rb 117.5
+n clong rb 116.5 116.6
+n long rb 117 117.1
+n long rt 117 117.1
+n long rt 117.5 117.6
+n long rb 117.5 117.6
 n swipe In rt 118
 n swipe Out rb 118
-n short rt 118.5
-n short rb 118.5
-n short rb 119
-n short rt 119
+n long rt 118.5 118.6
+n long rb 118.5 118.6
+n long rb 119 119.1
+n long rt 119 119.1
 n swipe In rb 119.5
 n swipe Out rt 119.5
-n short rt 122
+n catch rt 122
 n short rb 122
-n catch rt 122.5
+n compound rt 122.5 122.6 1
 n catch rb 122.5
 n short rt 123
-n short rb 123
-n compound rt 123.5 123.6 1
-n compound rb 123.5 123.6 1
-n short rt 124
-n short rb 124
-n long rt 124.5 124.6
-n long rb 124.5 124.6
-n short rb 125
-n short rt 125
-n short rt 125.67
-n short rb 125.67
+n compound rb 123 123.1 1
+n catch rt 123.5
+n short rb 123.5
+n compound rt 124 124.1 1
+n catch rb 124
+n short rt 124.5
+n compound rb 124.5 124.6 1
+n swipe Out rb 125
+n swipe In rt 125
+n swipe Out rt 125.67
+n swipe In rb 125.67
 n short rb 126.33
 n short rt 126.33
-n short rb 126.66
-n short rt 126.66
+n compound rb 126.66 126.76 1
+n compound rt 126.66 126.76 1
 n short rt 126.99
 n short rb 126.99
-n short rb 127.32
-n short rt 127.32
+n compound rb 127.32 127.42 1
+n compound rt 127.32 127.42 1
 n short rb 127.65
 n short rt 127.65
-n short rb 130
-n short rt 130
+n clong rb 130 130.1
+n clong rt 130 130.1
 n short rb 130.66
-n short rt 130.66
-n short rt 131
-n short rb 131
+n compound rt 130.66 130.76 1
+n catch rt 131
+n catch rb 131
 n short rt 131.33
-n short rb 131.33
-n short rt 132
-n short rb 132
-n short rt 132.33
-n short rb 132.33
-n short rt 132.66
-n short rb 132.66
-n short rt 133.33
-n short rb 133.33
-n short rb 133.66
-n short rt 133.66
-n short rb 133.99
-n short rt 133.99
+n compound rb 131.33 131.43 1
+n swipe Out rt 132
+n swipe In rb 132
+n catch rt 132.33
+n catch rb 132.33
+n swipe In rt 132.66
+n swipe Out rb 132.66
+n swipe Out rt 133.33
+n swipe In rb 133.33
+n catch rb 133.66
+n clong rt 133.66 133.76
+n compound rb 133.99 134.09 1
+n compound rt 133.99 134.09 1
 n short rt 134.33
-n short rb 134.33
-n short rt 134.66
-n short rb 134.66
-n short rb 136.66
-n short rt 136.66
+n long rb 134.33 134.43
+n swipe In rt 134.66
+n swipe Out rb 134.66
+n swipe Out rb 136.66
+n swipe In rt 136.66
 n short rb 137.16
 n short rt 137.16
-n short rb 137.66
-n short rt 137.66
-n short rb 138.16
-n short rt 138.16
-n short rt 138.66
-n short rb 138.66
-n short rb 139.16
-n short rt 139.16
-n short rt 139.66
+n swipe In rb 137.66
+n swipe Out rt 137.66
+n clong rb 138.16 138.26
+n clong rt 138.16 138.26
+n long rt 138.66 138.76
+n long rb 138.66 138.76
+n compound rb 139.16 139.26 1
+n compound rt 139.16 139.26 1
+n catch rt 139.66
 n short rb 139.66
 n short rt 140
-n short rb 140
-n short rt 140.32
+n catch rb 140
+n catch rt 140.32
 n short rb 140.32
-n short rb 140.66
+n catch rb 140.66
 n short rt 140.66
 n short rb 140.99
-n short rt 140.99
+n catch rt 140.99
 n short rt 141.33
-n short rb 141.33
-n short rt 141.65
+n catch rb 141.33
+n catch rt 141.65
 n short rb 141.65
-n short rb 141.99
+n catch rb 141.99
 n short rt 141.99
-n short rt 142.33
+n catch rt 142.33
 n short rb 142.33
 n short rt 144.66
-n short rb 144.66
-n short rt 145
+n compound rb 144.66 144.76 1
+n compound rt 145 145.1 1
 n short rb 145
 n short rt 145.32
-n short rb 145.32
-n short rt 145.66
+n compound rb 145.32 145.42 1
+n compound rt 145.66 145.76 1
 n short rb 145.66
 n short rt 145.99
-n short rb 145.99
+n compound rb 145.99 146.09 1
 n short rb 146.33
-n short rt 146.33
+n compound rt 146.33 146.43 1
 n short rt 146.65
-n short rb 146.65
-n short rt 146.99
+n compound rb 146.65 146.75 1
+n compound rt 146.99 147.09 1
 n short rb 146.99
 n short rt 147.33
-n short rb 147.33
+n compound rb 147.33 147.43 1
 n short rb 147.65
-n short rt 147.65
-n short rb 147.99
+n compound rt 147.65 147.75 1
+n compound rb 147.99 148.09 1
 n short rt 147.99
 n short rb 148.33
-n short rt 148.33
-n short rb 148.66
+n compound rt 148.33 148.43 1
+n compound rb 148.66 148.76 1
 n short rt 148.66
 a ChangeOpacity Trail lt 0 1 0 easeinoutsine
 a ChangeOpacity Trail rb 0 1 0 easeinoutsine
@@ -700,13 +701,13 @@ a ChangeOpacity Trail lb 128 0 0.2 easeinoutsine
 a ChangeStage classichexagon 128 0 easeinoutsine
 a ChangeOpacity Trail rc 128 0 0.2 easeinoutsine
 a ChangeOpacity Trail rt 128 0 0.2 easeinoutsine
+a ChangeStage drop_6 128.1 0 easeinoutsine
+a ChangeOpacity Trail lc 128.1 0.9 1 easeinoutsine
+a ChangeOpacity Trail rb 128.1 0.9 1 easeinoutsine
 a ChangeOpacity Trail lb 128.1 0.9 1 easeinoutsine
 a ChangeOpacity Trail rc 128.1 0.9 1 easeinoutsine
-a ChangeOpacity Trail rb 128.1 0.9 1 easeinoutsine
-a ChangeOpacity Trail lc 128.1 0.9 1 easeinoutsine
-a ChangeOpacity Trail lt 128.1 0.9 1 easeinoutsine
 a ChangeOpacity Trail rt 128.1 0.9 1 easeinoutsine
-a ChangeStage drop_6 128.1 0 easeinoutsine
+a ChangeOpacity Trail lt 128.1 0.9 1 easeinoutsine
 a ChangeStage triangle 128.2 0 easeinoutsine
 a MoveCamera Angle 128.2 0 0 0 -90 easeinoutsine
 a ChangeStage classichexagon 128.3 0 easeinoutsine
@@ -769,14 +770,14 @@ a ChangeStage six 143.26 0 easeinoutsine
 a ChangeOpacity Trail rb 143.26 0.2 1 easeinoutsine
 a ChangeStage stage2 143.36 0 easeinoutsine
 a MoveCamera Angle 143.36 0 0 0 90 easeinoutsine
-a ChangeOpacity Trail rb 143.46 0.2 0.2 easeinoutsine
 a ChangeOpacity Trail lt 143.46 0.2 0.2 easeinoutsine
-a ChangeStage six 143.46 0 easeinoutsine
 a MoveCamera Angle 143.46 0 0 0 -90 easeinoutsine
-a ChangeOpacity Trail lb 143.46 0.2 0.2 easeinoutsine
-a ChangeOpacity Trail rt 143.46 0.2 0.2 easeinoutsine
+a ChangeOpacity Trail rb 143.46 0.2 0.2 easeinoutsine
+a ChangeStage six 143.46 0 easeinoutsine
 a ChangeOpacity Trail rc 143.46 0.2 0.2 easeinoutsine
 a ChangeOpacity Trail lc 143.46 0.2 0.2 easeinoutsine
+a ChangeOpacity Trail rt 143.46 0.2 0.2 easeinoutsine
+a ChangeOpacity Trail lb 143.46 0.2 0.2 easeinoutsine
 a MoveCamera Angle 143.56 0 0 0 90 easeinoutsine
 a MoveCamera Position 143.56 0 0 0 0.6 easeinoutsine
 a ChangeStage stage2 143.56 0 easeinoutsine
